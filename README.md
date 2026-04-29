@@ -1,14 +1,19 @@
 XQ2026
+
 https://raw.githubusercontent.com/tomus2025/XQ/refs/heads/main/XQ2026
 https://raw.githubusercontent.com/tomus2025/XQ/refs/heads/main/XQ-Clash
 
 QF2026
+
 https://raw.githubusercontent.com/tomus2025/XQ/refs/heads/main/QF2026
 https://raw.githubusercontent.com/tomus2025/XQ/refs/heads/main/QF-Clash
 
 XL2026
+
 https://raw.githubusercontent.com/tomus2025/XQ/refs/heads/main/XL2026
+
 https://github.com/tomus2025/XQ/blob/main/XL-Clash
+
 	https://gcore.jsdelivr.net/gh/qmqv/jd01/v201-1010.txt
 	https://github.cmliussss.net/https://raw.githubusercontent.com/qmqv/jd01/refs/heads/main/v201-1010.txt
 	https://gcore.jsdelivr.net/gh/qmqv/jd01/cla01-1010.yaml
@@ -43,29 +48,46 @@ https://github.com/tomus2025/XQ/blob/main/XL-Clash
 
 
 DL2026
+
 https://raw.githubusercontent.com/tomus2025/XQ/refs/heads/main/DL2026
 https://raw.githubusercontent.com/tomus2025/XQ/refs/heads/main/DL-Clash
 
 YU2026
+
 https://raw.githubusercontent.com/tomus2025/XQ/refs/heads/main/YD2026
 
 Cinetry2026
+
 https://raw.githubusercontent.com/tomus2025/XQ/refs/heads/main/Cinetry2026
 
 https://raw.githubusercontent.com/tomus2025/XQ/refs/heads/main/OK-HS
 
 
 小琳分享
+
 https://www.xlfa.top/jd/
 
 裤佬网站
+
 https://jsnzkpg.github.io/
-永久免费节点订阅		https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg
-永久免费IPTV订阅		https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1.m3u
-永久免费TVbox订阅	https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg2
-永久免费UZ影视订阅	https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg3
-永久免费Cinetry订阅	https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg4
-永久免费EchoTV订阅	https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg5
+
+永久免费节点订阅		
+https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg
+
+永久免费IPTV订阅		
+https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1.m3u
+
+永久免费TVbox订阅	
+https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg2
+
+永久免费UZ影视订阅	
+https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg3
+
+永久免费Cinetry订阅	
+https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg4
+
+永久免费EchoTV订阅	
+https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg5
 
 
 https://gongdian.top/tvbox/cinetry.txt
