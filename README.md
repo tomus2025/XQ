@@ -8,6 +8,10 @@ QF2026
 https://raw.githubusercontent.com/tomus2025/XQ/refs/heads/main/QF2026
 https://raw.githubusercontent.com/tomus2025/XQ/refs/heads/main/QF-Clash
 
+BJ2026
+
+https://raw.githubusercontent.com/tomus2025/XQ/refs/heads/main/BJ2026
+
 XL2026
 
 https://raw.githubusercontent.com/tomus2025/XQ/refs/heads/main/XL2026
