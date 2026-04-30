@@ -12,6 +12,11 @@ BJ2026
 
 https://raw.githubusercontent.com/tomus2025/XQ/refs/heads/main/BJ2026
 
+LH2026
+
+https://us1.zhuk.dpdns.org/YouTube/BVof30/v.txt
+https://us1.zhuk.dpdns.org/YouTube/BVof30/c.yaml
+
 XL2026
 
 https://raw.githubusercontent.com/tomus2025/XQ/refs/heads/main/XL2026
