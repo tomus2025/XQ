@@ -15,8 +15,10 @@ https://raw.githubusercontent.com/tomus2025/XQ/refs/heads/main/BJ2026
 LH2026
 
 https://us1.zhuk.dpdns.org/YouTube/aB7kL/v.txt
+https://us1.zhuk.dpdns.org/YouTube/bp4Rz/v.txt
 
 https://us1.zhuk.dpdns.org/YouTube/aB7kL/c.yaml
+https://us1.zhuk.dpdns.org/YouTube/bp4Rz/c.yaml
 
 XL2026
 
