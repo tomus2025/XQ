@@ -16,6 +16,9 @@ ME2026
 
 https://raw.githubusercontent.com/tomus2025/XQ/refs/heads/main/ME2026
 
+ME-Clash
+
+https://raw.githubusercontent.com/tomus2025/XQ/refs/heads/main/ME-Clash
 
 JC2026
 
