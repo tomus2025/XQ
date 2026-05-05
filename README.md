@@ -16,8 +16,6 @@ JC2026
 
 https://shz.al/bbNn
 
-https://shz.al/5JPN
-
 https://shz.al/Rp4a
 
 LH2026
