@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2026-05-03 11:38:34
+#  创建时间：2026-05-05 12:47:20
 #  模版：v2rayse默认模版
-#  节点数量：129
+#  节点数量：173
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -13,110 +13,72 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vless","name":"波兰YouTube@小青科学网20PL33","server":"45.141.215.51","port":30086,"uuid":"a5554072-0d6d-4b9a-93b1-9c8726fc2c0b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"grpc-opts":{"grpc-service-name":"gprc"},"servername":"gprc"}
-  - {"type":"vless","name":"波兰YouTube@小青科学网20PL27","server":"pl74.mechvpn.online","port":443,"uuid":"6d916d55-fead-4ff3-a3a9-83e175ea8ad7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"pl74.mechvpn.online","tls":true,"udp":true}
+  - {"type":"vless","name":"波兰YouTube@小青科学网20PL116","server":"pl74.mechvpn.online","port":443,"uuid":"6d916d55-fead-4ff3-a3a9-83e175ea8ad7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","tls":true,"udp":true}
+  - {"type":"vless","name":"英国YouTube@小青科学网20GB320","server":"130.78.218.82","port":443,"uuid":"b6ce8a51-19b9-4979-91ba-b4298c26d5fc","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"ukos.ksnodes.net","tls":true,"udp":true}
+  - {"type":"vmess","name":"YouTube@小青科学网_1","server":"82.198.246.250","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vless","name":"英国YouTube@小青科学网20GB240","server":"ukos.ksnodes.net","port":443,"uuid":"b6ce8a51-19b9-4979-91ba-b4298c26d5fc","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"ukos.ksnodes.net","tls":true,"udp":true}
+  - {"type":"vless","name":"瑞士YouTube@小青科学网20CH167","server":"138.124.9.190","port":16558,"uuid":"11348c0f-b646-446a-bad7-b2b39c6de767","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"gpuopen.com","tls":false,"udp":true}
+  - {"type":"vless","name":"🇵🇱波兰PL-203","server":"144.31.4.166","port":2053,"uuid":"f9d8aa07-589f-4da0-9cb0-fd8f2f0e4fa8","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"grpc-opts":{"grpc-service-name":"grpc"},"servername":"www.deepl.com"}
+  - {"type":"vless","name":"🇵🇱波兰PL-807","server":"144.31.5.23","port":9443,"uuid":"4649d681-7f26-4959-a3f2-02eb8866230f","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"yahoo.com","tls":false,"udp":true}
+  - {"type":"vmess","name":"美国(YouTube@小青科学网)_1","ws-opts":{"path":"/alvin9999.com","headers":{"host":"www.bing.com"}},"server":"2a14:7584:d0a2::a","port":"23456","uuid":"bd48e0ac-e90e-4451-a4f2-abf061cfb890","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"美国YouTube@小青科学网20US52","server":"141.193.213.60","port":443,"password":"7a67a0b5-87e9-4b69-a9b4-b48ebcc8358e","udp":true,"skip-cert-verify":true,"sni":"hfaw9h34.bpca2026.top","network":"ws","ws-opts":{"path":"/images","headers":{"host":"hfaw9h34.bpca2026.top"}}}
   - {"type":"vless","name":"芬兰YouTube@小青科学网20FI38","server":"144.31.90.75","port":9443,"uuid":"4649d681-7f26-4959-a3f2-02eb8866230f","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"yahoo.com","tls":false,"udp":true}
-  - {"type":"vmess","name":"🇩🇪德国02","server":"82.198.246.250","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vless","name":"意大利YouTube@小青科学网20IT203","server":"95.110.210.161","port":443,"uuid":"43488128-319e-f480-64ea-0acdc712e2a8","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"www.booking.com","tls":false,"udp":true}
-  - {"type":"vless","name":"波兰🇵🇱YouTube@小青科学网20PL166","server":"pl74.mechvpn.online","port":443,"uuid":"6d916d55-fead-4ff3-a3a9-83e175ea8ad7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"pl74.mechvpn.online","tls":true,"udp":true}
-  - {"type":"vless","name":"摩尔多瓦YouTube@小青科学网20MD194","server":"94.131.8.19","port":45448,"uuid":"96fcf8cc-535d-46c4-b8f9-76058df48e3b","skip-cert-verify":true,"network":"tcp","servername":"yahoo.com","tls":false,"udp":true}
-  - {"type":"vless","name":"荷兰YouTube@小青科学网20NL48","server":"95.85.248.67","port":30047,"uuid":"a5554072-0d6d-4b9a-93b1-9c8726fc2c0b","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"vless","name":"🇩🇪DE410|⬇️1MB/s","server":"159.195.82.187","port":9443,"uuid":"4649d681-7f26-4959-a3f2-02eb8866230f","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"yahoo.com","tls":false,"udp":true}
+  - {"type":"vless","name":"[IPv6]🇸🇪瑞典SE-191","server":"95.85.246.16.speed-storage.ru","port":573,"uuid":"832f76f8-fca3-4efa-80be-870e123ad764","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"grpc-opts":{"grpc-service-name":"/sequre/grpc/"},"servername":"95.85.246.16.speed-storage.ru"}
   - {"type":"vless","name":"VLESS-xhttp-Reality-Vision","server":"178.18.147.163","port":15530,"uuid":"ac121f97-544b-47b3-bf91-eca9c45db548","skip-cert-verify":true}
-  - {"type":"vless","name":"🇳🇱NL_35|1.3MB/s","server":"146.103.114.12","port":59001,"uuid":"4de9bd4f-8d80-4637-8bdb-9e987c8a79bc","skip-cert-verify":true,"network":"tcp","servername":"www.m.vk.ru","tls":false,"udp":true}
-  - {"type":"vless","name":"俄罗斯YouTube@小青科学网20RU116","server":"cl-ru-2.edgeflux.ru","port":52006,"uuid":"75807638-6f19-07d0-ae08-38492ee85c88","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision-udp443","servername":"cl-ru-2.edgeflux.ru","tls":true,"udp":true}
-  - {"type":"vmess","name":"🇺🇸美国US-218","server":"82.198.246.9","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"aes-128-gcm","network":"tcp"}
-  - {"type":"vmess","name":"🇺🇸美国US210","server":"82.198.246.37","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"aes-128-gcm","network":"tcp"}
-  - {"type":"vless","name":"德国YouTube@小青科学网20DE43","server":"159.195.82.187","port":9443,"uuid":"4649d681-7f26-4959-a3f2-02eb8866230f","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"yahoo.com","tls":false,"udp":true}
-  - {"type":"vless","name":"美国YouTube@小青科学网20US47","server":"69.84.182.13","port":443,"uuid":"4749475d-3a47-4175-a934-92e247127ed7","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"fr-1-fr-1.aiopen.sbs","ws-opts":{"path":"/gsjc/fr1","headers":{"host":"fr-1-fr-1.aiopen.sbs"}}}
+  - {"type":"vless","name":"波兰YouTube@小青科学网20PL27","server":"pl74.mechvpn.online","port":443,"uuid":"6d916d55-fead-4ff3-a3a9-83e175ea8ad7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"pl74.mechvpn.online","tls":true,"udp":true}
+  - {"type":"vless","name":"台湾+🇹🇼+YouTube@小青科学网88+TW+43","server":"125.227.219.98","port":6235,"uuid":"f6ddddaf-dfd6-4134-9dae-03b93b03d146","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"baidu.com","ws-opts":{"path":"/xxxxhttp","headers":{"host":"baidu.com"}}}
   - {"type":"vless","name":"🇹🇼TW020|⬇️12MB/s","server":"125.227.219.98","port":6235,"uuid":"f6ddddaf-dfd6-4134-9dae-03b93b03d146","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"baidu.com","ws-opts":{"path":"/xxxxhttp","headers":{"host":"baidu.com"}}}
-  - {"type":"trojan","name":"法国YouTube@小青科学网20FR31","server":"15.236.94.52","port":22222,"password":"telegram-id-privatevpns","udp":true,"skip-cert-verify":true,"sni":"trojan.burgerip.co.uk","network":"tcp"}
-  - {"type":"vmess","name":"德国","server":"82.198.246.250","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"美国(YouTube@小青科学网）_1","server":"82.198.246.233","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"GB_YouTube@小青科学网","server":"82.198.246.250","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vless","name":"波兰🇵🇱YouTube@小青科学网20PL166","server":"pl74.mechvpn.online","port":443,"uuid":"6d916d55-fead-4ff3-a3a9-83e175ea8ad7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"pl74.mechvpn.online","tls":true,"udp":true}
   - {"type":"vless","name":"US","server":"pl74.mechvpn.online","port":443,"uuid":"6d916d55-fead-4ff3-a3a9-83e175ea8ad7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"pl74.mechvpn.online","tls":true,"udp":true}
-  - {"type":"vless","name":"新加坡(YouTube@小青科学网）_1","server":"101.32.244.117","port":443,"uuid":"ce069292-c8bf-40dd-a6b1-87818a1e64e9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"ewgruiehoe.pages.dev","ws-opts":{"path":"/socks5://gogo:gogo@185.184.70.120:50088","headers":{"host":"ewgruiehoe.pages.dev"}}}
-  - {"type":"vmess","name":"荷兰YouTube@小青科学网_1","server":"95.85.248.68","port":"30082","uuid":"2437a36f-c8b4-45a7-9b19-d1d341f5979a","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vless","name":"🇳🇱NL_29|2.1MB/s","server":"83.147.255.75","port":443,"uuid":"37253a6a-2a9b-42bb-992c-b5f1b1ef1791","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"vruaz.mostserv.xyz","tls":false,"udp":true}
+  - {"type":"trojan","name":"美国(YouTube@小青科学网）_2","server":"777.cloudflare.182682.xyz","port":443,"password":"7a67a0b5-87e9-4b69-a9b4-b48ebcc8358e","udp":true,"skip-cert-verify":true,"sni":"px8r9i1b4k.bpusfaster2.top","network":"ws","ws-opts":{"path":"/images","headers":{"host":"goog0419.bpusfaster2.top"}}}
+  - {"type":"vless","name":"俄罗斯YouTube@小青科学网20RU116","server":"cl-ru-2.edgeflux.ru","port":52006,"uuid":"75807638-6f19-07d0-ae08-38492ee85c88","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision-udp443","servername":"cl-ru-2.edgeflux.ru","tls":true,"udp":true}
   - {"type":"vmess","name":"英国(YouTube@小青科学网）_1","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇬🇧英国V2CROSS.COM","server":"82.198.246.214","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"美国(YouTube@小青科学网）_1","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"YouTube@小青科学网_2","server":"82.198.246.250","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vless","name":"意大利YouTube@小青科学网20IT203","server":"95.110.210.161","port":443,"uuid":"43488128-319e-f480-64ea-0acdc712e2a8","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"www.booking.com","tls":false,"udp":true}
+  - {"type":"trojan","name":"美国(YouTube@小青科学网）_3","server":"csgo.com","port":443,"password":"7a67a0b5-87e9-4b69-a9b4-b48ebcc8358e","udp":true,"skip-cert-verify":true,"sni":"lx2hz55sqjviknho.bper2026.top","network":"ws","ws-opts":{"path":"/images","headers":{"host":"lx2hz55sqjviknho.bper2026.top"}}}
+  - {"type":"vmess","name":"德国🇩🇪YouTube@小青科学网_1","server":"82.198.246.37","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸美国US215","server":"82.198.246.214","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"英国(YouTube@小青科学网）_2","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"英国(YouTube@小青科学网）_3","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇺🇸美国US209","server":"82.198.246.233","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇺🇸US252|⬇️9MB/s","server":"82.198.246.214","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vless","name":"荷兰YouTube@小青科学网20NL102","server":"95.85.248.68","port":30086,"uuid":"a5554072-0d6d-4b9a-93b1-9c8726fc2c0b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"grpc-opts":{"grpc-service-name":"gprc"},"servername":"gprc"}
-  - {"type":"vmess","name":"美国(YouTube@小青科学网)","server":"82.198.246.9","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"美国(YouTube@小青科学网）_2","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"英国(YouTube@小青科学网）_4","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸美国US224","server":"82.198.246.214","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"aes-128-gcm","network":"tcp"}
+  - {"type":"vless","name":"USVLESS-73|free-nodes","server":"95.164.85.33","port":443,"uuid":"43488128-319e-f480-64ea-0acdc712e2a8","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"www.rakuten.co.jp","tls":false,"udp":true}
   - {"type":"vmess","name":"英国(YouTube@小青科学网）_5","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"英国(YouTube@小青科学网）_6","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"美国(YouTube@小青科学网）_4","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"美国(YouTube@小青科学网）_5","server":"104.19.173.68","port":443,"password":"7a67a0b5-87e9-4b69-a9b4-b48ebcc8358e","udp":true,"skip-cert-verify":true,"sni":"px8r9i1b4k.bpusfaster2.top","network":"ws","ws-opts":{"path":"/images","headers":{"host":"px8r9i1b4k.bpusfaster2.top"}}}
+  - {"type":"trojan","name":"美国(YouTube@小青科学网）_6","server":"sg083yt.cloudflare.182682.xyz","port":443,"password":"7a67a0b5-87e9-4b69-a9b4-b48ebcc8358e","udp":true,"skip-cert-verify":true,"sni":"31eacogyh9.bpsg2026.top","network":"ws","ws-opts":{"path":"/images","headers":{"host":"sgeofho04.bpsg2026.top"}}}
+  - {"type":"trojan","name":"美国(YouTube@小青科学网）_7","server":"666.cloudflare.182682.xyz","port":443,"password":"7a67a0b5-87e9-4b69-a9b4-b48ebcc8358e","udp":true,"skip-cert-verify":true,"sni":"0o3vr2n5k2.bpuk2026.top","network":"ws","ws-opts":{"path":"/images","headers":{"host":"ehofhoe.bpuk2026.top"}}}
+  - {"type":"vless","name":"🇬🇧英国GB-616","server":"79.141.171.133","port":443,"uuid":"4c3fe585-ac09-41df-b284-888818888188","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"apple.com","tls":false,"udp":true}
   - {"type":"vmess","name":"英国(YouTube@小青科学网）_7","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"荷兰YouTube@小青科学网_2","server":"95.85.248.67","port":"30082","uuid":"2437a36f-c8b4-45a7-9b19-d1d341f5979a","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇺🇸美国US215","server":"82.198.246.214","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"德国🇩🇪YouTube@小青科学网_1","server":"82.198.246.37","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vless","name":"俄罗斯YouTube@小青科学网20RU21","server":"212.41.8.216","port":52006,"uuid":"75807638-6f19-07d0-ae08-38492ee85c88","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision-udp443","tls":true,"udp":true}
-  - {"type":"vmess","name":"法国(YouTube@小青科学网）","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vless","name":"美国YouTube@小青科学网20US161","server":"132.226.147.10","port":443,"uuid":"4749475d-3a47-4175-a934-92e247127ed7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"musicstatus.tv.apple.com","tls":false,"udp":true}
-  - {"type":"vmess","name":"美国(YouTube@小青科学网）_3","server":"82.198.246.233","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"美国(YouTube@小青科学网）_4","server":"82.198.246.233","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"aes-128-gcm","network":"tcp"}
-  - {"type":"vmess","name":"美国(YouTube@小青科学网）_5","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vless","name":"新加坡YouTube@小青科学网20SG182","server":"101.32.244.117","port":443,"uuid":"ce069292-c8bf-40dd-a6b1-87818a1e64e9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"ewgruiehoe.pages.dev","ws-opts":{"path":"/socks5://gogo:gogo@185.184.70.120:50088","headers":{"host":"ewgruiehoe.pages.dev"}}}
-  - {"type":"vmess","name":"英国V2CROSS.COM_1","server":"82.198.246.37","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"英国(YouTube@小青科学网）_8","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"英国(YouTube@小青科学网）_9","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"英国(YouTube@小青科学网）_10","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇴🇲阿曼","server":"103.181.164.145","port":"54022","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vless","name":"波兰YouTube@小青科学网20PL123","server":"45.138.16.62","port":30086,"uuid":"a5554072-0d6d-4b9a-93b1-9c8726fc2c0b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"grpc-opts":{"grpc-service-name":"gprc"},"servername":"gprc"}
   - {"type":"vmess","name":"德国(YouTube@小青科学网）","server":"82.198.246.233","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vless","name":"美国YouTube@小青科学网20US104","server":"2.26.21.32","port":443,"uuid":"322ffd77-9adc-4e10-8302-a8bcc14555a0","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"gateway.icloud.com","tls":false,"udp":true}
-  - {"type":"vmess","name":"美国(YouTube@小青科学网）_6","server":"103.181.164.145","port":"51556","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"美国(YouTube@小青科学网）_7","server":"hl-freedom-1.undef.network","port":443,"password":"JaFKnqNcvnBT63t3rquidGsln","udp":true,"skip-cert-verify":true,"sni":"HL-FREEDOM-1.UNDEF.NETWORK","network":"ws","ws-opts":{"path":"/f2fc2a1f","headers":{"host":"hl-freedom-1.undef.network"}}}
-  - {"type":"trojan","name":"美国(YouTube@小青科学网）_8","server":"hl-freedom-1.undef.network","port":443,"password":"GZOof2R1ej4yML1NxajR2frGQ","udp":true,"skip-cert-verify":true,"sni":"HL-FREEDOM-1.UNDEF.NETWORK","network":"ws","ws-opts":{"path":"/f2fc2a1f"}}
-  - {"type":"trojan","name":"美国(YouTube@小青科学网）_9","server":"hl-freedom-1.undef.network","port":443,"password":"JaFKnqNcvnBT63t3rquidGsln","udp":true,"skip-cert-verify":true,"sni":"HL-FREEDOM-1.UNDEF.NETWORK","network":"ws","ws-opts":{"path":"/f2fc2a1f","headers":{"host":"HL-FREEDOM-1.UNDEF.NETWORK"}}}
-  - {"type":"vmess","name":"GB_YouTube@小青科学网","server":"82.198.246.250","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"TRTROJAN-48|free-nodes","server":"hl-freedom-1.undef.network","port":443,"password":"JaFKnqNcvnBT63t3rquidGsln","udp":true,"skip-cert-verify":true,"sni":"HL-FREEDOM-1.UNDEF.NETWORK","network":"tcp"}
-  - {"type":"vmess","name":"英国V2CROSS.COM_2","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇺🇸美国US224","server":"82.198.246.214","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"aes-128-gcm","network":"tcp"}
-  - {"type":"vmess","name":"德国🇩🇪YouTube@小青科学网_2","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"德国🇩🇪YouTube@小青科学网_3","server":"82.198.246.9","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vless","name":"俄罗斯YouTube@小青科学网20RU97","server":"109.120.191.171","port":443,"uuid":"b6ce8a51-19b9-4979-91ba-b4298c26d5fc","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"grpc-opts":{"grpc-service-name":"grpc-tunnel"},"servername":"api-no-cache.dropmefile.net"}
-  - {"type":"vless","name":"俄罗斯(YouTube@小青科学网）_1","server":"193.178.172.225","port":8443,"uuid":"6202b230-417c-4d8e-b624-0f71afa9c75d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sni.111000.dns.army","ws-opts":{"path":"/?ed=2560&https://t.me/WangCai2🇨🇳","headers":{"host":"sni.111000.dns.army"}}}
-  - {"type":"vless","name":"俄罗斯(YouTube@小青科学网）_2","server":"193.178.172.225","port":2053,"uuid":"6202b230-417c-4d8e-b624-0f71afa9c75d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sni.111000.dns.army","ws-opts":{"path":"/?ed=2560&https://t.me/WangCai2🇨🇳","headers":{"host":"sni.111000.dns.army"}}}
-  - {"type":"vless","name":"韩国(YouTube@小青科学网）","server":"49.238.238.146","port":2096,"uuid":"26524cce-d514-4014-a426-365fb266a14d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"snippet.danfeng.com.cfd","ws-opts":{"path":"/danfeng?ed=2560","headers":{"host":"snippet.danfeng.com.cfd"}}}
-  - {"type":"vless","name":"荷兰YouTube@小青科学网20NL138","server":"217.65.79.122","port":2053,"uuid":"6202b230-417c-4d8e-b624-0f71afa9c75d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sni.111000.dns.army","ws-opts":{"path":"/","headers":{"host":"sni.111000.dns.army"}}}
-  - {"type":"vless","name":"荷兰YouTube@小青科学网20NL164","server":"193.56.8.103","port":8443,"uuid":"6202b230-417c-4d8e-b624-0f71afa9c75d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sni.111000.dns.army","ws-opts":{"path":"/","headers":{"host":"sni.111000.dns.army"}}}
-  - {"type":"vless","name":"荷兰YouTube@小青科学网20NL171","server":"193.56.8.103","port":8443,"uuid":"6202b230-417c-4d8e-b624-0f71afa9c75d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sni.111000.dns.army","ws-opts":{"path":"/","headers":{"host":"sni.111000.dns.army"}}}
-  - {"type":"vless","name":"荷兰YouTube@小青科学网20NL222","server":"217.65.79.122","port":2053,"uuid":"6202b230-417c-4d8e-b624-0f71afa9c75d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sni.111000.dns.army","ws-opts":{"path":"/","headers":{"host":"sni.111000.dns.army"}}}
-  - {"type":"trojan","name":"荷兰YouTube@小青科学网20NL28","server":"hl-freedom-1.undef.network","port":443,"password":"GZOof2R1ej4yML1NxajR2frGQ","udp":true,"skip-cert-verify":true,"sni":"hl-freedom-1.undef.network","network":"tcp"}
-  - {"type":"vless","name":"荷兰YouTube@小青科学网20NL103","server":"193.178.172.225","port":8443,"uuid":"6202b230-417c-4d8e-b624-0f71afa9c75d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sni.111000.dns.army","ws-opts":{"path":"/?ed=2560","headers":{"host":"sni.111000.dns.army"}}}
-  - {"type":"trojan","name":"荷兰YouTube@小青科学网20NL34","server":"hl-freedom-1.undef.network","port":443,"password":"GZOof2R1ej4yML1NxajR2frGQ","udp":true,"skip-cert-verify":true,"sni":"HL-FREEDOM-1.UNDEF.NETWORK","network":"tcp"}
-  - {"type":"vless","name":"荷兰YouTube@小青科学网20NL51","server":"195.226.194.222","port":2053,"uuid":"6202b230-417c-4d8e-b624-0f71afa9c75d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sni.111000.dns.army","ws-opts":{"path":"/","headers":{"host":"sni.111000.dns.army"}}}
-  - {"type":"vless","name":"荷兰YouTube@小青科学网20NL87","server":"193.178.172.225","port":2053,"uuid":"6202b230-417c-4d8e-b624-0f71afa9c75d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sni.111000.dns.army","ws-opts":{"path":"/?https://t.me/WangCai2🇨🇳","headers":{"host":"sni.111000.dns.army"}}}
-  - {"type":"vless","name":"荷兰YouTube@小青科学网20NL92","server":"193.178.172.225","port":2053,"uuid":"6202b230-417c-4d8e-b624-0f71afa9c75d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sni.111000.dns.army","ws-opts":{"path":"/?ed=2560","headers":{"host":"sni.111000.dns.army"}}}
-  - {"type":"vless","name":"美国YouTube@小青科学网20US52","server":"38.207.191.145","port":48024,"uuid":"6202b230-417c-4d8e-b624-0f71afa9c75d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sni.111000.dns.army","ws-opts":{"path":"/?https://t.me/WangCai2🇨🇳","headers":{"host":"sni.111000.dns.army"}}}
-  - {"type":"vmess","name":"美国(YouTube@小青科学网）_10","server":"103.181.164.145","port":"54022","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vless","name":"美国(YouTube@小青科学网）_11","server":"69.164.245.25","port":443,"uuid":"981fca81-5be1-41f8-ac9b-d138e8109943","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"babayaga-6i7.pages.dev","ws-opts":{"path":"/?ed=2560&Telegram🇨🇳@WangCai2","headers":{"host":"babayaga-6i7.pages.dev"}}}
-  - {"type":"vmess","name":"美国(YouTube@小青科学网）_12","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"美国(YouTube@小青科学网）_13","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"美国(YouTube@小青科学网）_14","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"美国(YouTube@小青科学网）_15","server":"hl-freedom-1.undef.network","port":443,"password":"GZOof2R1ej4yML1NxajR2frGQ","udp":true,"skip-cert-verify":true,"sni":"HL-FREEDOM-1.UNDEF.NETWORK","network":"ws","ws-opts":{"path":"/f2fc2a1f","headers":{"host":"HL-FREEDOM-1.UNDEF.NETWORK"}}}
-  - {"type":"vless","name":"美国(YouTube@小青科学网）_16","server":"162.159.44.233","port":443,"uuid":"26524cce-d514-4014-a426-365fb266a14d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"snippet.danfeng.com.cfd","ws-opts":{"path":"/danfeng?ed=2560","headers":{"host":"snippet.danfeng.com.cfd"}}}
-  - {"type":"vless","name":"美国(YouTube@小青科学网）_17","server":"108.162.198.24","port":2096,"uuid":"26524cce-d514-4014-a426-365fb266a14d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"snippet.danfeng.com.cfd","ws-opts":{"path":"/danfeng?ed=2560","headers":{"host":"snippet.danfeng.com.cfd"}}}
-  - {"type":"vless","name":"美国(YouTube@小青科学网）_18","server":"84.17.37.19","port":8443,"uuid":"394f6981-a782-4779-9a85-e6cf22935d93","skip-cert-verify":true,"network":"tcp","servername":"hkg1.fromblancwithlove.com","tls":true,"udp":true}
-  - {"type":"vless","name":"日本(YouTube@小青科学网）","server":"8.216.121.234","port":51922,"uuid":"26524cce-d514-4014-a426-365fb266a14d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"snippet.danfeng.com.cfd","ws-opts":{"path":"/danfeng?ed=2560","headers":{"host":"snippet.danfeng.com.cfd"}}}
-  - {"type":"vless","name":"瑞典YouTube@小青科学网20SE10","server":"206.168.212.162","port":443,"uuid":"6202b230-417c-4d8e-b624-0f71afa9c75d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sni.111000.dns.army","ws-opts":{"path":"/?https://t.me/WangCai2🇨🇳","headers":{"host":"sni.111000.dns.army"}}}
-  - {"type":"vless","name":"台湾(YouTube@小青科学网）_1","server":"220.128.110.108","port":43,"uuid":"26524cce-d514-4014-a426-365fb266a14d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"snippet.danfeng.com.cfd","ws-opts":{"path":"/danfeng?ed=2560","headers":{"host":"snippet.danfeng.com.cfd"}}}
-  - {"type":"vless","name":"台湾(YouTube@小青科学网）_2","server":"60.248.139.106","port":32770,"uuid":"26524cce-d514-4014-a426-365fb266a14d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"snippet.danfeng.com.cfd","ws-opts":{"path":"/danfeng?ed=2560","headers":{"host":"snippet.danfeng.com.cfd"}}}
-  - {"type":"vless","name":"台湾+🇹🇼+YouTube@小青科学网88+TW+43","server":"125.227.219.98","port":6235,"uuid":"f6ddddaf-dfd6-4134-9dae-03b93b03d146","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"baidu.com","ws-opts":{"path":"/xxxxhttp","headers":{"host":"baidu.com"}}}
-  - {"type":"vless","name":"香港YouTube@小青科学网20HK44","server":"156.224.78.8","port":10001,"uuid":"9c79aceb-4649-44ea-9698-b5e9ecf6d6da","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"www.icloud.com","tls":false,"udp":true}
-  - {"type":"vmess","name":"香港(YouTube@小青科学网）","server":"103.181.164.145","port":"51556","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vless","name":"新加坡(YouTube@小青科学网）_2","server":"20.6.12.145","port":443,"uuid":"06b65903-406d-4a41-8463-6fd5c0ee7798","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sni.skylee4.cloudns.ch","ws-opts":{"path":"/proxyip=ProxyIP.CMLiussss.net","headers":{"host":"sni.skylee4.cloudns.ch"}}}
-  - {"type":"vless","name":"新加坡(YouTube@小青科学网）_3","server":"20.191.143.151","port":8080,"uuid":"26524cce-d514-4014-a426-365fb266a14d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"snippet.danfeng.com.cfd","ws-opts":{"path":"/danfeng?ed=2560","headers":{"host":"snippet.danfeng.com.cfd"}}}
-  - {"type":"vless","name":"意大利(YouTube@小青科学网）","server":"217.65.79.122","port":2053,"uuid":"6202b230-417c-4d8e-b624-0f71afa9c75d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sni.111000.dns.army","ws-opts":{"path":"/?ed=2560&https://t.me/WangCai2🇨🇳","headers":{"host":"sni.111000.dns.army"}}}
+  - {"type":"vless","name":"YouTube@小青科学网20267","server":"cf.tencentapp.cn","port":443,"uuid":"ce069292-c8bf-40dd-a6b1-87818a1e64e9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"tptpss.pages.dev","ws-opts":{"path":"/https://203.69.23.34:443","headers":{"host":"tptpss.pages.dev"}}}
+  - {"type":"trojan","name":"YouTube@小青科学网2058","server":"malaia.cloudflare.182682.xyz","port":443,"password":"7a67a0b5-87e9-4b69-a9b4-b48ebcc8358e","udp":true,"skip-cert-verify":true,"sni":"thank.bpmalai2026.top","network":"ws","ws-opts":{"path":"/images","headers":{"host":"thank.bpmalai2026.top"}}}
+  - {"type":"trojan","name":"美国(YouTube@小青科学网）_8","server":"999.cloudflare.182682.xyz","port":443,"password":"7a67a0b5-87e9-4b69-a9b4-b48ebcc8358e","udp":true,"skip-cert-verify":true,"sni":"px8r9i1b4k.bpusfaster2.top","network":"ws","ws-opts":{"path":"/images","headers":{"host":"goog0419.bpusfaster2.top"}}}
+  - {"type":"vless","name":"🇹🇼台湾-1188","server":"125.227.219.98","port":6235,"uuid":"f6ddddaf-dfd6-4134-9dae-03b93b03d146","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"baidu.com","ws-opts":{"path":"/xxxxhttp","headers":{"host":"baidu.com"}}}
+  - {"type":"vless","name":"美国(YouTube@小青科学网）_9","server":"pq-india1.09vpn.com","port":8443,"uuid":"05b544a4-d479-4ba4-8208-950bd4411453","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"pq-India1.09vpn.com","ws-opts":{"path":"/vless/","headers":{"host":"pq-India1.09vpn.com"}}}
+  - {"type":"trojan","name":"塞浦路斯YouTube@小青科学网20CY65","server":"csgo.com","port":443,"password":"7a67a0b5-87e9-4b69-a9b4-b48ebcc8358e","udp":true,"skip-cert-verify":true,"sni":"px8r9i1b4k.bpusfaster2.top","network":"ws","ws-opts":{"path":"/images","headers":{"host":"px8r9i1b4k.bpusfaster2.top"}}}
+  - {"type":"trojan","name":"美国(YouTube@小青科学网）_10","server":"888.cloudflare.182682.xyz","port":443,"password":"7a67a0b5-87e9-4b69-a9b4-b48ebcc8358e","udp":true,"skip-cert-verify":true,"sni":"px8r9i1b4k.bpusfaster2.top","network":"ws","ws-opts":{"path":"/images","headers":{"host":"px8r9i1b4k.bpusfaster2.top"}}}
+  - {"type":"vless","name":"🇷🇺俄罗斯RU-823","server":"95.213.184.3","port":52006,"uuid":"75807638-6f19-07d0-ae08-38492ee85c88","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","tls":true,"udp":true}
+  - {"type":"vmess","name":"英国(YouTube@小青科学网）_10","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"英国(YouTube@小青科学网）_11","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"美国(YouTube@小青科学网）_11","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"德国🇩🇪YouTube@小青科学网_2","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"英国(YouTube@小青科学网）_12","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"英国(YouTube@小青科学网）_13","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"英国(YouTube@小青科学网）_14","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸美国US-218","server":"82.198.246.9","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"aes-128-gcm","network":"tcp"}
+  - {"type":"vmess","name":"美国(YouTube@小青科学网)_2","server":"82.198.246.9","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"英国(YouTube@小青科学网）_15","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vless","name":"YouTube@小青科学网20283","server":"cf.tencentapp.cn","port":443,"uuid":"ce069292-c8bf-40dd-a6b1-87818a1e64e9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"tptpss.pages.dev","ws-opts":{"path":"/https://46.17.91.114:3000","headers":{"host":"tptpss.pages.dev"}}}
+  - {"type":"vmess","name":"🇯🇵日本JP纯净-669","http-opts":{"path":["/ABCDE"]},"server":"103.127.243.59","port":"56738","uuid":"5f49c80e-7770-4bd1-9c86-43c2068a3a26","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vmess","name":"🇬🇧英国V2CROSS.COM","server":"82.198.246.214","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vless","name":"德国YouTube@小青科学网20DE108","server":"132.243.224.167","port":443,"uuid":"e69d5f8a-2629-45ac-889b-981983209933","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"www.apple.com","tls":false,"udp":true}
+  - {"type":"vless","name":"🇷🇺俄罗斯RU-871","server":"178.72.182.35","port":52006,"uuid":"75807638-6f19-07d0-ae08-38492ee85c88","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision-udp443","servername":"cl-ru-2.edgeflux.ru","tls":true,"udp":true}
   - {"type":"vmess","name":"英国(YouTube@小青科学网）_16","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"英国(YouTube@小青科学网）_17","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"英国(YouTube@小青科学网）_18","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
@@ -128,130 +90,174 @@ proxies:
   - {"type":"vmess","name":"英国(YouTube@小青科学网）_24","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"英国(YouTube@小青科学网）_25","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"英国(YouTube@小青科学网）_26","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"YouTube@小青科学网20301","server":"cajeoha.cloudflare.182682.xyz","port":443,"password":"7a67a0b5-87e9-4b69-a9b4-b48ebcc8358e","udp":true,"skip-cert-verify":true,"sni":"hfaw9h34.bpca2026.top","network":"ws","ws-opts":{"path":"/images","headers":{"host":"hfaw9h34.bpca2026.top"}}}
+  - {"type":"vmess","name":"🇺🇸美国US209","server":"82.198.246.233","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"美国(YouTube@小青科学网）_12","server":"666.cloudflare.182682.xyz","port":443,"password":"7a67a0b5-87e9-4b69-a9b4-b48ebcc8358e","udp":true,"skip-cert-verify":true,"sni":"sgeofh22.bpsg2026.top","network":"ws","ws-opts":{"path":"/images","headers":{"host":"sgeofh22.bpsg2026.top"}}}
+  - {"type":"vless","name":"YouTube@小青科学网20277","server":"cf.tencentapp.cn","port":443,"uuid":"ce069292-c8bf-40dd-a6b1-87818a1e64e9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"tptpss.pages.dev","ws-opts":{"path":"/https://211.34.105.110:443","headers":{"host":"tptpss.pages.dev"}}}
+  - {"type":"vmess","name":"🇴🇲阿曼","server":"103.181.164.145","port":"54022","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"YouTube@小青科学网20328","server":"c321ajeoha.cloudflare.182682.xyz","port":443,"password":"7a67a0b5-87e9-4b69-a9b4-b48ebcc8358e","udp":true,"skip-cert-verify":true,"sni":"hfaw9h34.bpca2026.top","network":"ws","ws-opts":{"path":"/images","headers":{"host":"hfaw9h34.bpca2026.top"}}}
+  - {"type":"vless","name":"YouTube@小青科学网20255","server":"cf.tencentapp.cn","port":443,"uuid":"ce069292-c8bf-40dd-a6b1-87818a1e64e9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"tptpss.pages.dev","ws-opts":{"path":"/https://203.126.53.78:443","headers":{"host":"tptpss.pages.dev"}}}
+  - {"type":"vless","name":"香港YouTube@小青科学网20HK242","server":"42.98.174.58","port":8443,"uuid":"26524cce-d514-4014-a426-365fb266a14d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"xfxl35a.node-edge.gfw.hidns.co","ws-opts":{"path":"/danfeng?ed=2560fp=chrome","headers":{"host":"xfxl35a.node-edge.gfw.hidns.co"}}}
+  - {"type":"vless","name":"🇭🇰香港HK纯净-420","server":"rhciuib.synccut.de","port":443,"uuid":"cf5a8e10-758c-4564-87a4-a2eeecbd5ed4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"rhciuib.synccut.de","ws-opts":{"path":"/video_clip","headers":{"host":"rhciuib.synccut.de"}}}
+  - {"type":"vless","name":"新加坡YouTube@小青科学网20SG364","server":"158.178.242.195","port":56311,"uuid":"6202b230-417c-4d8e-b624-0f71afa9c75d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sni.111000.v6.rocks","ws-opts":{"path":"/?ed=2560&https://t.me/WangCai2🇨🇳","headers":{"host":"sni.111000.v6.rocks"}}}
+  - {"type":"trojan","name":"资源分享师","server":"166.62.106.253","port":443,"password":"8r%3C%5B9%27l6hAO%238ZQi","udp":true,"skip-cert-verify":true,"sni":"Koma-YT.PAGeS.Dev","network":"ws","ws-opts":{"path":"/trTelegram🇨🇳+@WangCai2","headers":{"host":"Koma-YT.PAGeS.Dev"}}}
+  - {"type":"vmess","name":"德国🇩🇪YouTube@小青科学网_3","server":"82.198.246.9","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"美国(YouTube@小青科学网）_13","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"英国(YouTube@小青科学网）_27","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"英国(YouTube@小青科学网）_28","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"英国(YouTube@小青科学网）_29","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"英国(YouTube@小青科学网）_30","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"英国(YouTube@小青科学网）_31","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"英国V2CROSS.COM_1","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"英国V2CROSS.COM_2","server":"82.198.246.37","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"英国(YouTube@小青科学网）_32","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸美国US210","server":"82.198.246.37","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"aes-128-gcm","network":"tcp"}
+  - {"type":"vless","name":"韩国YouTube@小青科学网20KR89","server":"211.197.101.56","port":30303,"uuid":"26524cce-d514-4014-a426-365fb266a14d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"xfxl35a.node-edge.gfw.hidns.co","ws-opts":{"path":"/danfeng","headers":{"host":"xfxl35a.node-edge.gfw.hidns.co"}}}
+  - {"type":"vmess","name":"🇩🇪德国02","server":"82.198.246.250","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸美国US-178","server":"82.198.246.9","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vless","name":"韩国YouTube@小青科学网20KR88","server":"115.22.181.7","port":10030,"uuid":"26524cce-d514-4014-a426-365fb266a14d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"xfxl35a.node-edge.gfw.hidns.co","ws-opts":{"path":"/danfeng","headers":{"host":"xfxl35a.node-edge.gfw.hidns.co"}}}
+  - {"type":"trojan","name":"YouTube@小青科学网2061","server":"111.cloudflare.182682.xyz","port":443,"password":"7a67a0b5-87e9-4b69-a9b4-b48ebcc8358e","udp":true,"skip-cert-verify":true,"sni":"px8r9i1b4k.bpusfaster2.top","network":"ws","ws-opts":{"path":"/images","headers":{"host":"px8r9i1b4k.bpusfaster2.top"}}}
+  - {"type":"vmess","name":"德国","server":"82.198.246.250","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vless","name":"新加坡(YouTube@小青科学网）_1","server":"188.209.141.114","port":56047,"uuid":"26524cce-d514-4014-a426-365fb266a14d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"snippet.gfw.qzz.io","ws-opts":{"path":"/danfeng","headers":{"host":"snippet.gfw.qzz.io"}}}
+  - {"type":"vmess","name":"🇺🇸US252|⬇️9MB/s","server":"82.198.246.214","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vless","name":"🇵🇱波兰PL-291","server":"45.138.16.62","port":30073,"uuid":"8f59feef-aab9-4e0b-924c-2a31bb8f446f","skip-cert-verify":true}
+  - {"type":"vless","name":"荷兰YouTube@小青科学网20NL159","server":"94.156.117.239","port":30086,"uuid":"8f59feef-aab9-4e0b-924c-2a31bb8f446f","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"grpc-opts":{"grpc-service-name":"gprc"},"servername":"gprc"}
+  - {"type":"vless","name":"荷兰YouTube@小青科学网20NL133","server":"77.110.102.197","port":443,"uuid":"6202b230-417c-4d8e-b624-0f71afa9c75d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sni.111000.v6.rocks","ws-opts":{"path":"/","headers":{"host":"sni.111000.v6.rocks"}}}
+  - {"type":"vless","name":"奥地利YouTube@小青科学网20AT139","server":"212.113.106.4","port":443,"uuid":"6202b230-417c-4d8e-b624-0f71afa9c75d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sni.111000.v6.rocks","ws-opts":{"path":"/","headers":{"host":"sni.111000.v6.rocks"}}}
+  - {"type":"vless","name":"俄罗斯YouTube@小青科学网20RU21","server":"212.41.8.216","port":52006,"uuid":"75807638-6f19-07d0-ae08-38492ee85c88","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision-udp443","tls":true,"udp":true}
+  - {"type":"vmess","name":"美国(YouTube@小青科学网）_14","server":"103.181.164.145","port":"51556","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vless","name":"芬兰YouTube@小青科学网20FI252","server":"144.31.19.131","port":443,"uuid":"6202b230-417c-4d8e-b624-0f71afa9c75d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sni.111000.v6.rocks","ws-opts":{"path":"/","headers":{"host":"sni.111000.v6.rocks"}}}
+  - {"type":"vless","name":"加拿大(YouTube@小青科学网）","server":"96.9.226.188","port":443,"uuid":"6202b230-417c-4d8e-b624-0f71afa9c75d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sni.111000.v6.rocks","ws-opts":{"path":"/?ed=2560&https://t.me/WangCai2🇨🇳","headers":{"host":"sni.111000.v6.rocks"}}}
+  - {"type":"vmess","name":"美国(YouTube@小青科学网）_15","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"英国(YouTube@小青科学网）_33","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"英国(YouTube@小青科学网）_34","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"英国(YouTube@小青科学网）_35","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"美国(YouTube@小青科学网）_16","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"英国(YouTube@小青科学网）_36","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"法国(YouTube@小青科学网）","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"英国(YouTube@小青科学网）_37","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"英国(YouTube@小青科学网）_38","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vless","name":"瑞士YouTube@小青科学网20CH280","server":"167.17.181.190","port":443,"uuid":"26524cce-d514-4014-a426-365fb266a14d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"xfxl35a.node-edge.gfw.hidns.co","ws-opts":{"path":"/danfeng?ed=2560fp=chrome","headers":{"host":"xfxl35a.node-edge.gfw.hidns.co"}}}
+  - {"type":"vless","name":"伊朗YouTube@小青科学网20IR137","server":"62.60.153.66","port":8443,"uuid":"6202b230-417c-4d8e-b624-0f71afa9c75d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sni.111000.v6.rocks","ws-opts":{"path":"/","headers":{"host":"sni.111000.v6.rocks"}}}
+  - {"type":"vless","name":"芬兰YouTube@小青科学网20FI145","server":"138.124.59.201","port":443,"uuid":"6202b230-417c-4d8e-b624-0f71afa9c75d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sni.111000.v6.rocks","ws-opts":{"path":"/?ed=2560&https://t.me/WangCai2🇨🇳","headers":{"host":"sni.111000.v6.rocks"}}}
+  - {"type":"trojan","name":"YouTube@小青科学网2041","server":"104.19.174.68","port":443,"password":"7a67a0b5-87e9-4b69-a9b4-b48ebcc8358e","udp":true,"skip-cert-verify":true,"sni":"px8r9i1b4k.bpusfaster2.top","network":"ws","ws-opts":{"path":"/images","headers":{"host":"px8r9i1b4k.bpusfaster2.top"}}}
+  - {"type":"vless","name":"拉脱维亚YouTube@小青科学网20LV245","server":"194.87.89.41","port":443,"uuid":"6202b230-417c-4d8e-b624-0f71afa9c75d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sni.111000.v6.rocks","ws-opts":{"path":"/","headers":{"host":"sni.111000.v6.rocks"}}}
+  - {"type":"vless","name":"韩国YouTube@小青科学网20KR178","server":"140.238.17.157","port":443,"uuid":"6202b230-417c-4d8e-b624-0f71afa9c75d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sni.111000.v6.rocks","ws-opts":{"path":"/?ed=2560&https://t.me/WangCai2🇨🇳","headers":{"host":"sni.111000.v6.rocks"}}}
+  - {"type":"vmess","name":"美国(YouTube@小青科学网）_17","server":"103.181.164.145","port":"54022","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vless","name":"韩国YouTube@小青科学网20KR155","server":"140.238.17.157","port":443,"uuid":"6202b230-417c-4d8e-b624-0f71afa9c75d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sni.111000.v6.rocks","ws-opts":{"path":"/","headers":{"host":"sni.111000.v6.rocks"}}}
+  - {"type":"vless","name":"日本YouTube@小青科学网20JP208","server":"150.230.214.172","port":16957,"uuid":"26524cce-d514-4014-a426-365fb266a14d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"ynwta9.api-edge.fgfw.qzz.io","ws-opts":{"path":"/danfeng?ed=2560fp=chrome","headers":{"host":"ynwta9.api-edge.fgfw.qzz.io"}}}
+  - {"type":"vless","name":"伊朗YouTube@小青科学网20IR127","server":"62.60.153.66","port":8443,"uuid":"6202b230-417c-4d8e-b624-0f71afa9c75d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sni.111000.v6.rocks","ws-opts":{"path":"/","headers":{"host":"sni.111000.v6.rocks"}}}
+  - {"type":"vless","name":"美国YouTube@小青科学网20US115","server":"144.31.82.35","port":443,"uuid":"6202b230-417c-4d8e-b624-0f71afa9c75d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sni.111000.v6.rocks","ws-opts":{"path":"/?ed=2560&https://t.me/WangCai2🇨🇳","headers":{"host":"sni.111000.v6.rocks"}}}
+  - {"type":"vless","name":"拉脱维亚YouTube@小青科学网20LV293","server":"194.87.89.41","port":443,"uuid":"6202b230-417c-4d8e-b624-0f71afa9c75d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sni.111000.v6.rocks","ws-opts":{"path":"/?ed=2560&https://t.me/WangCai2🇨🇳","headers":{"host":"sni.111000.v6.rocks"}}}
+  - {"type":"vless","name":"🇩🇪DE410|⬇️1MB/s","server":"159.195.82.187","port":9443,"uuid":"4649d681-7f26-4959-a3f2-02eb8866230f","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"yahoo.com","tls":false,"udp":true}
+  - {"type":"vless","name":"荷兰YouTube@小青科学网20NL193","server":"138.124.16.38","port":8443,"uuid":"6202b230-417c-4d8e-b624-0f71afa9c75d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sni.111000.v6.army","ws-opts":{"path":"/?https://t.me/WangCai2🇨🇳=","headers":{"host":"sni.111000.v6.army"}}}
+  - {"type":"vless","name":"德国YouTube@小青科学网20DE43","server":"159.195.82.187","port":9443,"uuid":"4649d681-7f26-4959-a3f2-02eb8866230f","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"yahoo.com","tls":false,"udp":true}
+  - {"type":"vless","name":"拉脱维亚YouTube@小青科学网20LV197","server":"169.40.1.34","port":443,"uuid":"6202b230-417c-4d8e-b624-0f71afa9c75d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sni.111000.v6.rocks","ws-opts":{"path":"/?ed=2560","headers":{"host":"sni.111000.v6.rocks"}}}
+  - {"type":"vless","name":"YouTube@小青科学网20247","server":"cf.tencentapp.cn","port":443,"uuid":"ce069292-c8bf-40dd-a6b1-87818a1e64e9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"tptpss.pages.dev","ws-opts":{"path":"/https://133.9.6.10:443","headers":{"host":"tptpss.pages.dev"}}}
+  - {"type":"vless","name":"新加坡YouTube@小青科学网20SG34","server":"134.209.106.237","port":443,"uuid":"26524cce-d514-4014-a426-365fb266a14d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"ynwta9.api-edge.fgfw.qzz.io","ws-opts":{"path":"/danfeng?ed=2560","headers":{"host":"ynwta9.api-edge.fgfw.qzz.io"}}}
+  - {"type":"trojan","name":"YouTube@小青科学网206","server":"jp9y3408.cloudflare.182682.xyz","port":443,"password":"7a67a0b5-87e9-4b69-a9b4-b48ebcc8358e","udp":true,"skip-cert-verify":true,"sni":"jes0jv78u1.jptimecsgo.xyz","network":"ws","ws-opts":{"path":"/images","headers":{"host":"jpefoaweho04.jptimecsgo.xyz"}}}
+  - {"type":"vless","name":"美国YouTube@小青科学网20US77","server":"vruaz.mostserv.xyz","port":443,"uuid":"37253a6a-2a9b-42bb-992c-b5f1b1ef1791","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"vruaz.mostserv.xyz","tls":false,"udp":true}
+  - {"type":"trojan","name":"美国(YouTube@小青科学网）_18","server":"hkeofhwo3.cloudflare.182682.xyz","port":443,"password":"7a67a0b5-87e9-4b69-a9b4-b48ebcc8358e","udp":true,"skip-cert-verify":true,"sni":"hkefowhe04.hktimecsgo.xyz","network":"ws","ws-opts":{"path":"/images","headers":{"host":"hkefowhe04.hktimecsgo.xyz"}}}
+  - {"type":"vless","name":"美国(YouTube@小青科学网）_19","server":"cf.tencentapp.cn","port":443,"uuid":"ce069292-c8bf-40dd-a6b1-87818a1e64e9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"tptpss.pages.dev","ws-opts":{"path":"/https://118.163.99.115:443","headers":{"host":"tptpss.pages.dev"}}}
+  - {"type":"vless","name":"美国(YouTube@小青科学网）_20","server":"cf.tencentapp.cn","port":443,"uuid":"ce069292-c8bf-40dd-a6b1-87818a1e64e9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"tptpss.pages.dev","ws-opts":{"path":"/https://91.227.97.113:443","headers":{"host":"tptpss.pages.dev"}}}
+  - {"type":"vless","name":"美国YouTube@小青科学网20US104","server":"2.26.21.32","port":443,"uuid":"322ffd77-9adc-4e10-8302-a8bcc14555a0","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"gateway.icloud.com","tls":false,"udp":true}
+  - {"type":"vless","name":"YouTube@小青科学网20265","server":"cf.tencentapp.cn","port":443,"uuid":"ce069292-c8bf-40dd-a6b1-87818a1e64e9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"tptpss.pages.dev","ws-opts":{"path":"/https://118.163.99.115:443","headers":{"host":"tptpss.pages.dev"}}}
+  - {"type":"trojan","name":"加拿大YouTube@小青科学网20CA168","server":"23.227.38.43","port":443,"password":"7a67a0b5-87e9-4b69-a9b4-b48ebcc8358e","udp":true,"skip-cert-verify":true,"sni":"0o3vr2n5k2.bpuk2026.top","network":"ws","ws-opts":{"path":"/images","headers":{"host":"ehofhoe.bpuk2026.top"}}}
+  - {"type":"vless","name":"🇷🇺俄罗斯RU-874","server":"cl-oth-1.edgeflux.ru","port":52006,"uuid":"75807638-6f19-0190-ae08-38492ee85c88","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision-udp443","servername":"cl-oth-1.edgeflux.ru","tls":true,"udp":true}
+  - {"type":"trojan","name":"YouTube@小青科学网2095","server":"555.cloudflare.182682.xyz","port":443,"password":"7a67a0b5-87e9-4b69-a9b4-b48ebcc8358e","udp":true,"skip-cert-verify":true,"sni":"px8r9i1b4k.bpusfaster2.top","network":"ws","ws-opts":{"path":"/images","headers":{"host":"px8r9i1b4k.bpusfaster2.top"}}}
+  - {"type":"vless","name":"美国(YouTube@小青科学网）_21","server":"103.91.219.252","port":443,"uuid":"26524cce-d514-4014-a426-365fb266a14d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"ynwta9.api-edge.fgfw.qzz.io","ws-opts":{"path":"/danfengfp=chrome","headers":{"host":"ynwta9.api-edge.fgfw.qzz.io"}}}
+  - {"type":"vless","name":"YouTube@小青科学网20344","server":"cf.tencentapp.cn","port":443,"uuid":"ce069292-c8bf-40dd-a6b1-87818a1e64e9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"tptpss.pages.dev","ws-opts":{"path":"/https://91.227.97.113:443","headers":{"host":"tptpss.pages.dev"}}}
+  - {"type":"trojan","name":"美国YouTube@小青科学网20US281","server":"141.193.213.107","port":443,"password":"7a67a0b5-87e9-4b69-a9b4-b48ebcc8358e","udp":true,"skip-cert-verify":true,"sni":"31eacogyh9.bpsg2026.top","network":"ws","ws-opts":{"path":"/images","headers":{"host":"sgeofho04.bpsg2026.top"}}}
+  - {"type":"vmess","name":"🇯🇵日本JP纯净-97","http-opts":{"path":["/ABCDE"]},"server":"103.127.243.49","port":"53224","uuid":"4f47e6cc-659d-4588-8155-21d2782f1b91","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vless","name":"YouTube@小青科学网20200","server":"cf.tencentapp.cn","port":443,"uuid":"ce069292-c8bf-40dd-a6b1-87818a1e64e9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"tptpss.pages.dev","ws-opts":{"path":"/https://193.25.2.239:443","headers":{"host":"tptpss.pages.dev"}}}
+  - {"type":"trojan","name":"美国YouTube@小青科学网20US56","server":"141.193.213.199","port":443,"password":"7a67a0b5-87e9-4b69-a9b4-b48ebcc8358e","udp":true,"skip-cert-verify":true,"sni":"0o3vr2n5k2.bpuk2026.top","network":"ws","ws-opts":{"path":"/images","headers":{"host":"ehofhoe.bpuk2026.top"}}}
+  - {"type":"vless","name":"韩国YouTube@小青科学网20KR170","server":"14.33.75.54","port":11032,"uuid":"26524cce-d514-4014-a426-365fb266a14d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"xfxl35a.node-edge.gfw.hidns.co","ws-opts":{"path":"/danfeng","headers":{"host":"xfxl35a.node-edge.gfw.hidns.co"}}}
+  - {"type":"vless","name":"韩国YouTube@小青科学网20KR120","server":"59.11.151.238","port":37020,"uuid":"26524cce-d514-4014-a426-365fb266a14d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"ynwta9.api-edge.fgfw.qzz.io","ws-opts":{"path":"/danfeng","headers":{"host":"ynwta9.api-edge.fgfw.qzz.io"}}}
+  - {"type":"vless","name":"新加坡(YouTube@小青科学网）_2","server":"20.6.12.145","port":443,"uuid":"06b65903-406d-4a41-8463-6fd5c0ee7798","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sni.skylee4.cloudns.ch","ws-opts":{"path":"/proxyip=ProxyIP.CMLiussss.net","headers":{"host":"sni.skylee4.cloudns.ch"}}}
+  - {"type":"vless","name":"韩国YouTube@小青科学网20KR171","server":"218.152.147.61","port":18790,"uuid":"26524cce-d514-4014-a426-365fb266a14d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"xfxl35a.node-edge.gfw.hidns.co","ws-opts":{"path":"/danfeng","headers":{"host":"xfxl35a.node-edge.gfw.hidns.co"}}}
+  - {"type":"vless","name":"西班牙(YouTube@小青科学网）","server":"95.182.98.152","port":8443,"uuid":"6202b230-417c-4d8e-b624-0f71afa9c75d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sni.111000.dns.army","ws-opts":{"path":"/?ed=2560&https://t.me/WangCai2🇨🇳","headers":{"host":"sni.111000.dns.army"}}}
+  - {"type":"vless","name":"🇮🇳印度IN-568","server":"2y4x8bb.synccut.de","port":443,"uuid":"cf5a8e10-758c-4564-87a4-a2eeecbd5ed4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"2y4x8bb.synccut.de","ws-opts":{"path":"/in","headers":{"host":"2y4x8bb.synccut.de"}}}
+  - {"type":"vless","name":"美国(YouTube@小青科学网）_22","server":"217.60.252.132","port":8443,"uuid":"6202b230-417c-4d8e-b624-0f71afa9c75d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sni.111000.dns.army","ws-opts":{"path":"/?ed=2560&https://t.me/WangCai2🇨🇳","headers":{"host":"sni.111000.dns.army"}}}
+  - {"type":"vmess","name":"香港(YouTube@小青科学网）","server":"103.181.164.145","port":"51556","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"美国(YouTube@小青科学网）_23","server":"82.198.246.233","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"aes-128-gcm","network":"tcp"}
+  - {"type":"vmess","name":"美国(YouTube@小青科学网）_24","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vless","name":"美国YouTube@小青科学网20US24","server":"65.75.220.114","port":443,"uuid":"26524cce-d514-4014-a426-365fb266a14d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"xfxl35a.node-edge.gfw.hidns.co","ws-opts":{"path":"/danfengfp=chrome","headers":{"host":"xfxl35a.node-edge.gfw.hidns.co"}}}
   - {"type":"vmess","name":"英国(YouTube@小青科学网）_39","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"英国(YouTube@小青科学网）_40","server":"82.198.246.97","port":"180","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vless","name":"瑞典YouTube@小青科学网20SE10","server":"206.168.212.162","port":443,"uuid":"6202b230-417c-4d8e-b624-0f71afa9c75d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sni.111000.dns.army","ws-opts":{"path":"/?https://t.me/WangCai2🇨🇳","headers":{"host":"sni.111000.dns.army"}}}
+  - {"type":"vless","name":"香港YouTube@小青科学网20HK44","server":"156.224.78.8","port":10001,"uuid":"9c79aceb-4649-44ea-9698-b5e9ecf6d6da","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"www.icloud.com","tls":false,"udp":true}
+  - {"type":"vless","name":"韩国YouTube@小青科学网20KR184","server":"121.179.212.16","port":10001,"uuid":"26524cce-d514-4014-a426-365fb266a14d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"xfxl35a.node-edge.gfw.hidns.co","ws-opts":{"path":"/danfeng?ed=2560fp=chrome","headers":{"host":"xfxl35a.node-edge.gfw.hidns.co"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 波兰YouTube@小青科学网20PL33
-      - 波兰YouTube@小青科学网20PL27
+      - 波兰YouTube@小青科学网20PL116
+      - 英国YouTube@小青科学网20GB320
+      - YouTube@小青科学网_1
+      - 英国YouTube@小青科学网20GB240
+      - 瑞士YouTube@小青科学网20CH167
+      - 🇵🇱波兰PL-203
+      - 🇵🇱波兰PL-807
+      - 美国(YouTube@小青科学网)_1
+      - 美国YouTube@小青科学网20US52
       - 芬兰YouTube@小青科学网20FI38
-      - 🇩🇪德国02
-      - 意大利YouTube@小青科学网20IT203
-      - 波兰🇵🇱YouTube@小青科学网20PL166
-      - 摩尔多瓦YouTube@小青科学网20MD194
-      - 荷兰YouTube@小青科学网20NL48
-      - 🇩🇪DE410|⬇️1MB/s
+      - '[IPv6]🇸🇪瑞典SE-191'
       - VLESS-xhttp-Reality-Vision
-      - 🇳🇱NL_35|1.3MB/s
-      - 俄罗斯YouTube@小青科学网20RU116
-      - 🇺🇸美国US-218
-      - 🇺🇸美国US210
-      - 德国YouTube@小青科学网20DE43
-      - 美国YouTube@小青科学网20US47
+      - 波兰YouTube@小青科学网20PL27
+      - 台湾+🇹🇼+YouTube@小青科学网88+TW+43
       - 🇹🇼TW020|⬇️12MB/s
-      - 法国YouTube@小青科学网20FR31
-      - 德国
-      - US
-      - 新加坡(YouTube@小青科学网）_1
-      - 荷兰YouTube@小青科学网_1
-      - 🇳🇱NL_29|2.1MB/s
-      - 英国(YouTube@小青科学网）_1
-      - 🇬🇧英国V2CROSS.COM
       - 美国(YouTube@小青科学网）_1
+      - GB_YouTube@小青科学网
+      - 波兰🇵🇱YouTube@小青科学网20PL166
+      - US
+      - 美国(YouTube@小青科学网）_2
+      - 俄罗斯YouTube@小青科学网20RU116
+      - 英国(YouTube@小青科学网）_1
+      - YouTube@小青科学网_2
+      - 意大利YouTube@小青科学网20IT203
+      - 美国(YouTube@小青科学网）_3
+      - 德国🇩🇪YouTube@小青科学网_1
+      - 🇺🇸美国US215
       - 英国(YouTube@小青科学网）_2
       - 英国(YouTube@小青科学网）_3
-      - 🇺🇸美国US209
-      - 🇺🇸US252|⬇️9MB/s
-      - 荷兰YouTube@小青科学网20NL102
-      - 美国(YouTube@小青科学网)
-      - 美国(YouTube@小青科学网）_2
       - 英国(YouTube@小青科学网）_4
+      - 🇺🇸美国US224
+      - USVLESS-73|free-nodes
       - 英国(YouTube@小青科学网）_5
       - 英国(YouTube@小青科学网）_6
-      - 英国(YouTube@小青科学网）_7
-      - 荷兰YouTube@小青科学网_2
-      - 🇺🇸美国US215
-      - 德国🇩🇪YouTube@小青科学网_1
-      - 俄罗斯YouTube@小青科学网20RU21
-      - 法国(YouTube@小青科学网）
-      - 美国YouTube@小青科学网20US161
-      - 美国(YouTube@小青科学网）_3
       - 美国(YouTube@小青科学网）_4
       - 美国(YouTube@小青科学网）_5
-      - 新加坡YouTube@小青科学网20SG182
-      - 英国V2CROSS.COM_1
-      - 英国(YouTube@小青科学网）_8
-      - 英国(YouTube@小青科学网）_9
-      - 英国(YouTube@小青科学网）_10
-      - 🇴🇲阿曼
-      - 波兰YouTube@小青科学网20PL123
-      - 德国(YouTube@小青科学网）
-      - 美国YouTube@小青科学网20US104
       - 美国(YouTube@小青科学网）_6
       - 美国(YouTube@小青科学网）_7
+      - 🇬🇧英国GB-616
+      - 英国(YouTube@小青科学网）_7
+      - 英国(YouTube@小青科学网）_8
+      - 英国(YouTube@小青科学网）_9
+      - 德国(YouTube@小青科学网）
+      - YouTube@小青科学网20267
+      - YouTube@小青科学网2058
       - 美国(YouTube@小青科学网）_8
+      - 🇹🇼台湾-1188
       - 美国(YouTube@小青科学网）_9
-      - GB_YouTube@小青科学网
-      - TRTROJAN-48|free-nodes
-      - 英国V2CROSS.COM_2
-      - 🇺🇸美国US224
-      - 德国🇩🇪YouTube@小青科学网_2
-      - 德国🇩🇪YouTube@小青科学网_3
-      - 俄罗斯YouTube@小青科学网20RU97
-      - 俄罗斯(YouTube@小青科学网）_1
-      - 俄罗斯(YouTube@小青科学网）_2
-      - 韩国(YouTube@小青科学网）
-      - 荷兰YouTube@小青科学网20NL138
-      - 荷兰YouTube@小青科学网20NL164
-      - 荷兰YouTube@小青科学网20NL171
-      - 荷兰YouTube@小青科学网20NL222
-      - 荷兰YouTube@小青科学网20NL28
-      - 荷兰YouTube@小青科学网20NL103
-      - 荷兰YouTube@小青科学网20NL34
-      - 荷兰YouTube@小青科学网20NL51
-      - 荷兰YouTube@小青科学网20NL87
-      - 荷兰YouTube@小青科学网20NL92
-      - 美国YouTube@小青科学网20US52
+      - 塞浦路斯YouTube@小青科学网20CY65
       - 美国(YouTube@小青科学网）_10
-      - 美国(YouTube@小青科学网）_11
-      - 美国(YouTube@小青科学网）_12
-      - 美国(YouTube@小青科学网）_13
-      - 美国(YouTube@小青科学网）_14
-      - 美国(YouTube@小青科学网）_15
-      - 美国(YouTube@小青科学网）_16
-      - 美国(YouTube@小青科学网）_17
-      - 美国(YouTube@小青科学网）_18
-      - 日本(YouTube@小青科学网）
-      - 瑞典YouTube@小青科学网20SE10
-      - 台湾(YouTube@小青科学网）_1
-      - 台湾(YouTube@小青科学网）_2
-      - 台湾+🇹🇼+YouTube@小青科学网88+TW+43
-      - 香港YouTube@小青科学网20HK44
-      - 香港(YouTube@小青科学网）
-      - 新加坡(YouTube@小青科学网）_2
-      - 新加坡(YouTube@小青科学网）_3
-      - 意大利(YouTube@小青科学网）
+      - 🇷🇺俄罗斯RU-823
+      - 英国(YouTube@小青科学网）_10
       - 英国(YouTube@小青科学网）_11
+      - 美国(YouTube@小青科学网）_11
+      - 德国🇩🇪YouTube@小青科学网_2
       - 英国(YouTube@小青科学网）_12
       - 英国(YouTube@小青科学网）_13
       - 英国(YouTube@小青科学网）_14
+      - 🇺🇸美国US-218
+      - 美国(YouTube@小青科学网)_2
       - 英国(YouTube@小青科学网）_15
+      - YouTube@小青科学网20283
+      - 🇯🇵日本JP纯净-669
+      - 🇬🇧英国V2CROSS.COM
+      - 德国YouTube@小青科学网20DE108
+      - 🇷🇺俄罗斯RU-871
       - 英国(YouTube@小青科学网）_16
       - 英国(YouTube@小青科学网）_17
       - 英国(YouTube@小青科学网）_18
@@ -263,130 +269,174 @@ proxy-groups:
       - 英国(YouTube@小青科学网）_24
       - 英国(YouTube@小青科学网）_25
       - 英国(YouTube@小青科学网）_26
+      - YouTube@小青科学网20301
+      - 🇺🇸美国US209
+      - 美国(YouTube@小青科学网）_12
+      - YouTube@小青科学网20277
+      - 🇴🇲阿曼
+      - YouTube@小青科学网20328
+      - YouTube@小青科学网20255
+      - 香港YouTube@小青科学网20HK242
+      - 🇭🇰香港HK纯净-420
+      - 新加坡YouTube@小青科学网20SG364
+      - 资源分享师
+      - 德国🇩🇪YouTube@小青科学网_3
+      - 美国(YouTube@小青科学网）_13
       - 英国(YouTube@小青科学网）_27
       - 英国(YouTube@小青科学网）_28
       - 英国(YouTube@小青科学网）_29
       - 英国(YouTube@小青科学网）_30
       - 英国(YouTube@小青科学网）_31
+      - 英国V2CROSS.COM_1
+      - 英国V2CROSS.COM_2
       - 英国(YouTube@小青科学网）_32
+      - 🇺🇸美国US210
+      - 韩国YouTube@小青科学网20KR89
+      - 🇩🇪德国02
+      - 🇺🇸美国US-178
+      - 韩国YouTube@小青科学网20KR88
+      - YouTube@小青科学网2061
+      - 德国
+      - 新加坡(YouTube@小青科学网）_1
+      - 🇺🇸US252|⬇️9MB/s
+      - 🇵🇱波兰PL-291
+      - 荷兰YouTube@小青科学网20NL159
+      - 荷兰YouTube@小青科学网20NL133
+      - 奥地利YouTube@小青科学网20AT139
+      - 俄罗斯YouTube@小青科学网20RU21
+      - 美国(YouTube@小青科学网）_14
+      - 芬兰YouTube@小青科学网20FI252
+      - 加拿大(YouTube@小青科学网）
+      - 美国(YouTube@小青科学网）_15
       - 英国(YouTube@小青科学网）_33
       - 英国(YouTube@小青科学网）_34
       - 英国(YouTube@小青科学网）_35
+      - 美国(YouTube@小青科学网）_16
       - 英国(YouTube@小青科学网）_36
+      - 法国(YouTube@小青科学网）
       - 英国(YouTube@小青科学网）_37
       - 英国(YouTube@小青科学网）_38
+      - 瑞士YouTube@小青科学网20CH280
+      - 伊朗YouTube@小青科学网20IR137
+      - 芬兰YouTube@小青科学网20FI145
+      - YouTube@小青科学网2041
+      - 拉脱维亚YouTube@小青科学网20LV245
+      - 韩国YouTube@小青科学网20KR178
+      - 美国(YouTube@小青科学网）_17
+      - 韩国YouTube@小青科学网20KR155
+      - 日本YouTube@小青科学网20JP208
+      - 伊朗YouTube@小青科学网20IR127
+      - 美国YouTube@小青科学网20US115
+      - 拉脱维亚YouTube@小青科学网20LV293
+      - 🇩🇪DE410|⬇️1MB/s
+      - 荷兰YouTube@小青科学网20NL193
+      - 德国YouTube@小青科学网20DE43
+      - 拉脱维亚YouTube@小青科学网20LV197
+      - YouTube@小青科学网20247
+      - 新加坡YouTube@小青科学网20SG34
+      - YouTube@小青科学网206
+      - 美国YouTube@小青科学网20US77
+      - 美国(YouTube@小青科学网）_18
+      - 美国(YouTube@小青科学网）_19
+      - 美国(YouTube@小青科学网）_20
+      - 美国YouTube@小青科学网20US104
+      - YouTube@小青科学网20265
+      - 加拿大YouTube@小青科学网20CA168
+      - 🇷🇺俄罗斯RU-874
+      - YouTube@小青科学网2095
+      - 美国(YouTube@小青科学网）_21
+      - YouTube@小青科学网20344
+      - 美国YouTube@小青科学网20US281
+      - 🇯🇵日本JP纯净-97
+      - YouTube@小青科学网20200
+      - 美国YouTube@小青科学网20US56
+      - 韩国YouTube@小青科学网20KR170
+      - 韩国YouTube@小青科学网20KR120
+      - 新加坡(YouTube@小青科学网）_2
+      - 韩国YouTube@小青科学网20KR171
+      - 西班牙(YouTube@小青科学网）
+      - 🇮🇳印度IN-568
+      - 美国(YouTube@小青科学网）_22
+      - 香港(YouTube@小青科学网）
+      - 美国(YouTube@小青科学网）_23
+      - 美国(YouTube@小青科学网）_24
+      - 美国YouTube@小青科学网20US24
       - 英国(YouTube@小青科学网）_39
-      - 英国(YouTube@小青科学网）_40
+      - 瑞典YouTube@小青科学网20SE10
+      - 香港YouTube@小青科学网20HK44
+      - 韩国YouTube@小青科学网20KR184
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 波兰YouTube@小青科学网20PL33
-      - 波兰YouTube@小青科学网20PL27
+      - 波兰YouTube@小青科学网20PL116
+      - 英国YouTube@小青科学网20GB320
+      - YouTube@小青科学网_1
+      - 英国YouTube@小青科学网20GB240
+      - 瑞士YouTube@小青科学网20CH167
+      - 🇵🇱波兰PL-203
+      - 🇵🇱波兰PL-807
+      - 美国(YouTube@小青科学网)_1
+      - 美国YouTube@小青科学网20US52
       - 芬兰YouTube@小青科学网20FI38
-      - 🇩🇪德国02
-      - 意大利YouTube@小青科学网20IT203
-      - 波兰🇵🇱YouTube@小青科学网20PL166
-      - 摩尔多瓦YouTube@小青科学网20MD194
-      - 荷兰YouTube@小青科学网20NL48
-      - 🇩🇪DE410|⬇️1MB/s
+      - '[IPv6]🇸🇪瑞典SE-191'
       - VLESS-xhttp-Reality-Vision
-      - 🇳🇱NL_35|1.3MB/s
-      - 俄罗斯YouTube@小青科学网20RU116
-      - 🇺🇸美国US-218
-      - 🇺🇸美国US210
-      - 德国YouTube@小青科学网20DE43
-      - 美国YouTube@小青科学网20US47
+      - 波兰YouTube@小青科学网20PL27
+      - 台湾+🇹🇼+YouTube@小青科学网88+TW+43
       - 🇹🇼TW020|⬇️12MB/s
-      - 法国YouTube@小青科学网20FR31
-      - 德国
-      - US
-      - 新加坡(YouTube@小青科学网）_1
-      - 荷兰YouTube@小青科学网_1
-      - 🇳🇱NL_29|2.1MB/s
-      - 英国(YouTube@小青科学网）_1
-      - 🇬🇧英国V2CROSS.COM
       - 美国(YouTube@小青科学网）_1
+      - GB_YouTube@小青科学网
+      - 波兰🇵🇱YouTube@小青科学网20PL166
+      - US
+      - 美国(YouTube@小青科学网）_2
+      - 俄罗斯YouTube@小青科学网20RU116
+      - 英国(YouTube@小青科学网）_1
+      - YouTube@小青科学网_2
+      - 意大利YouTube@小青科学网20IT203
+      - 美国(YouTube@小青科学网）_3
+      - 德国🇩🇪YouTube@小青科学网_1
+      - 🇺🇸美国US215
       - 英国(YouTube@小青科学网）_2
       - 英国(YouTube@小青科学网）_3
-      - 🇺🇸美国US209
-      - 🇺🇸US252|⬇️9MB/s
-      - 荷兰YouTube@小青科学网20NL102
-      - 美国(YouTube@小青科学网)
-      - 美国(YouTube@小青科学网）_2
       - 英国(YouTube@小青科学网）_4
+      - 🇺🇸美国US224
+      - USVLESS-73|free-nodes
       - 英国(YouTube@小青科学网）_5
       - 英国(YouTube@小青科学网）_6
-      - 英国(YouTube@小青科学网）_7
-      - 荷兰YouTube@小青科学网_2
-      - 🇺🇸美国US215
-      - 德国🇩🇪YouTube@小青科学网_1
-      - 俄罗斯YouTube@小青科学网20RU21
-      - 法国(YouTube@小青科学网）
-      - 美国YouTube@小青科学网20US161
-      - 美国(YouTube@小青科学网）_3
       - 美国(YouTube@小青科学网）_4
       - 美国(YouTube@小青科学网）_5
-      - 新加坡YouTube@小青科学网20SG182
-      - 英国V2CROSS.COM_1
-      - 英国(YouTube@小青科学网）_8
-      - 英国(YouTube@小青科学网）_9
-      - 英国(YouTube@小青科学网）_10
-      - 🇴🇲阿曼
-      - 波兰YouTube@小青科学网20PL123
-      - 德国(YouTube@小青科学网）
-      - 美国YouTube@小青科学网20US104
       - 美国(YouTube@小青科学网）_6
       - 美国(YouTube@小青科学网）_7
+      - 🇬🇧英国GB-616
+      - 英国(YouTube@小青科学网）_7
+      - 英国(YouTube@小青科学网）_8
+      - 英国(YouTube@小青科学网）_9
+      - 德国(YouTube@小青科学网）
+      - YouTube@小青科学网20267
+      - YouTube@小青科学网2058
       - 美国(YouTube@小青科学网）_8
+      - 🇹🇼台湾-1188
       - 美国(YouTube@小青科学网）_9
-      - GB_YouTube@小青科学网
-      - TRTROJAN-48|free-nodes
-      - 英国V2CROSS.COM_2
-      - 🇺🇸美国US224
-      - 德国🇩🇪YouTube@小青科学网_2
-      - 德国🇩🇪YouTube@小青科学网_3
-      - 俄罗斯YouTube@小青科学网20RU97
-      - 俄罗斯(YouTube@小青科学网）_1
-      - 俄罗斯(YouTube@小青科学网）_2
-      - 韩国(YouTube@小青科学网）
-      - 荷兰YouTube@小青科学网20NL138
-      - 荷兰YouTube@小青科学网20NL164
-      - 荷兰YouTube@小青科学网20NL171
-      - 荷兰YouTube@小青科学网20NL222
-      - 荷兰YouTube@小青科学网20NL28
-      - 荷兰YouTube@小青科学网20NL103
-      - 荷兰YouTube@小青科学网20NL34
-      - 荷兰YouTube@小青科学网20NL51
-      - 荷兰YouTube@小青科学网20NL87
-      - 荷兰YouTube@小青科学网20NL92
-      - 美国YouTube@小青科学网20US52
+      - 塞浦路斯YouTube@小青科学网20CY65
       - 美国(YouTube@小青科学网）_10
-      - 美国(YouTube@小青科学网）_11
-      - 美国(YouTube@小青科学网）_12
-      - 美国(YouTube@小青科学网）_13
-      - 美国(YouTube@小青科学网）_14
-      - 美国(YouTube@小青科学网）_15
-      - 美国(YouTube@小青科学网）_16
-      - 美国(YouTube@小青科学网）_17
-      - 美国(YouTube@小青科学网）_18
-      - 日本(YouTube@小青科学网）
-      - 瑞典YouTube@小青科学网20SE10
-      - 台湾(YouTube@小青科学网）_1
-      - 台湾(YouTube@小青科学网）_2
-      - 台湾+🇹🇼+YouTube@小青科学网88+TW+43
-      - 香港YouTube@小青科学网20HK44
-      - 香港(YouTube@小青科学网）
-      - 新加坡(YouTube@小青科学网）_2
-      - 新加坡(YouTube@小青科学网）_3
-      - 意大利(YouTube@小青科学网）
+      - 🇷🇺俄罗斯RU-823
+      - 英国(YouTube@小青科学网）_10
       - 英国(YouTube@小青科学网）_11
+      - 美国(YouTube@小青科学网）_11
+      - 德国🇩🇪YouTube@小青科学网_2
       - 英国(YouTube@小青科学网）_12
       - 英国(YouTube@小青科学网）_13
       - 英国(YouTube@小青科学网）_14
+      - 🇺🇸美国US-218
+      - 美国(YouTube@小青科学网)_2
       - 英国(YouTube@小青科学网）_15
+      - YouTube@小青科学网20283
+      - 🇯🇵日本JP纯净-669
+      - 🇬🇧英国V2CROSS.COM
+      - 德国YouTube@小青科学网20DE108
+      - 🇷🇺俄罗斯RU-871
       - 英国(YouTube@小青科学网）_16
       - 英国(YouTube@小青科学网）_17
       - 英国(YouTube@小青科学网）_18
@@ -398,130 +448,174 @@ proxy-groups:
       - 英国(YouTube@小青科学网）_24
       - 英国(YouTube@小青科学网）_25
       - 英国(YouTube@小青科学网）_26
+      - YouTube@小青科学网20301
+      - 🇺🇸美国US209
+      - 美国(YouTube@小青科学网）_12
+      - YouTube@小青科学网20277
+      - 🇴🇲阿曼
+      - YouTube@小青科学网20328
+      - YouTube@小青科学网20255
+      - 香港YouTube@小青科学网20HK242
+      - 🇭🇰香港HK纯净-420
+      - 新加坡YouTube@小青科学网20SG364
+      - 资源分享师
+      - 德国🇩🇪YouTube@小青科学网_3
+      - 美国(YouTube@小青科学网）_13
       - 英国(YouTube@小青科学网）_27
       - 英国(YouTube@小青科学网）_28
       - 英国(YouTube@小青科学网）_29
       - 英国(YouTube@小青科学网）_30
       - 英国(YouTube@小青科学网）_31
+      - 英国V2CROSS.COM_1
+      - 英国V2CROSS.COM_2
       - 英国(YouTube@小青科学网）_32
+      - 🇺🇸美国US210
+      - 韩国YouTube@小青科学网20KR89
+      - 🇩🇪德国02
+      - 🇺🇸美国US-178
+      - 韩国YouTube@小青科学网20KR88
+      - YouTube@小青科学网2061
+      - 德国
+      - 新加坡(YouTube@小青科学网）_1
+      - 🇺🇸US252|⬇️9MB/s
+      - 🇵🇱波兰PL-291
+      - 荷兰YouTube@小青科学网20NL159
+      - 荷兰YouTube@小青科学网20NL133
+      - 奥地利YouTube@小青科学网20AT139
+      - 俄罗斯YouTube@小青科学网20RU21
+      - 美国(YouTube@小青科学网）_14
+      - 芬兰YouTube@小青科学网20FI252
+      - 加拿大(YouTube@小青科学网）
+      - 美国(YouTube@小青科学网）_15
       - 英国(YouTube@小青科学网）_33
       - 英国(YouTube@小青科学网）_34
       - 英国(YouTube@小青科学网）_35
+      - 美国(YouTube@小青科学网）_16
       - 英国(YouTube@小青科学网）_36
+      - 法国(YouTube@小青科学网）
       - 英国(YouTube@小青科学网）_37
       - 英国(YouTube@小青科学网）_38
+      - 瑞士YouTube@小青科学网20CH280
+      - 伊朗YouTube@小青科学网20IR137
+      - 芬兰YouTube@小青科学网20FI145
+      - YouTube@小青科学网2041
+      - 拉脱维亚YouTube@小青科学网20LV245
+      - 韩国YouTube@小青科学网20KR178
+      - 美国(YouTube@小青科学网）_17
+      - 韩国YouTube@小青科学网20KR155
+      - 日本YouTube@小青科学网20JP208
+      - 伊朗YouTube@小青科学网20IR127
+      - 美国YouTube@小青科学网20US115
+      - 拉脱维亚YouTube@小青科学网20LV293
+      - 🇩🇪DE410|⬇️1MB/s
+      - 荷兰YouTube@小青科学网20NL193
+      - 德国YouTube@小青科学网20DE43
+      - 拉脱维亚YouTube@小青科学网20LV197
+      - YouTube@小青科学网20247
+      - 新加坡YouTube@小青科学网20SG34
+      - YouTube@小青科学网206
+      - 美国YouTube@小青科学网20US77
+      - 美国(YouTube@小青科学网）_18
+      - 美国(YouTube@小青科学网）_19
+      - 美国(YouTube@小青科学网）_20
+      - 美国YouTube@小青科学网20US104
+      - YouTube@小青科学网20265
+      - 加拿大YouTube@小青科学网20CA168
+      - 🇷🇺俄罗斯RU-874
+      - YouTube@小青科学网2095
+      - 美国(YouTube@小青科学网）_21
+      - YouTube@小青科学网20344
+      - 美国YouTube@小青科学网20US281
+      - 🇯🇵日本JP纯净-97
+      - YouTube@小青科学网20200
+      - 美国YouTube@小青科学网20US56
+      - 韩国YouTube@小青科学网20KR170
+      - 韩国YouTube@小青科学网20KR120
+      - 新加坡(YouTube@小青科学网）_2
+      - 韩国YouTube@小青科学网20KR171
+      - 西班牙(YouTube@小青科学网）
+      - 🇮🇳印度IN-568
+      - 美国(YouTube@小青科学网）_22
+      - 香港(YouTube@小青科学网）
+      - 美国(YouTube@小青科学网）_23
+      - 美国(YouTube@小青科学网）_24
+      - 美国YouTube@小青科学网20US24
       - 英国(YouTube@小青科学网）_39
-      - 英国(YouTube@小青科学网）_40
+      - 瑞典YouTube@小青科学网20SE10
+      - 香港YouTube@小青科学网20HK44
+      - 韩国YouTube@小青科学网20KR184
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 波兰YouTube@小青科学网20PL33
-      - 波兰YouTube@小青科学网20PL27
+      - 波兰YouTube@小青科学网20PL116
+      - 英国YouTube@小青科学网20GB320
+      - YouTube@小青科学网_1
+      - 英国YouTube@小青科学网20GB240
+      - 瑞士YouTube@小青科学网20CH167
+      - 🇵🇱波兰PL-203
+      - 🇵🇱波兰PL-807
+      - 美国(YouTube@小青科学网)_1
+      - 美国YouTube@小青科学网20US52
       - 芬兰YouTube@小青科学网20FI38
-      - 🇩🇪德国02
-      - 意大利YouTube@小青科学网20IT203
-      - 波兰🇵🇱YouTube@小青科学网20PL166
-      - 摩尔多瓦YouTube@小青科学网20MD194
-      - 荷兰YouTube@小青科学网20NL48
-      - 🇩🇪DE410|⬇️1MB/s
+      - '[IPv6]🇸🇪瑞典SE-191'
       - VLESS-xhttp-Reality-Vision
-      - 🇳🇱NL_35|1.3MB/s
-      - 俄罗斯YouTube@小青科学网20RU116
-      - 🇺🇸美国US-218
-      - 🇺🇸美国US210
-      - 德国YouTube@小青科学网20DE43
-      - 美国YouTube@小青科学网20US47
+      - 波兰YouTube@小青科学网20PL27
+      - 台湾+🇹🇼+YouTube@小青科学网88+TW+43
       - 🇹🇼TW020|⬇️12MB/s
-      - 法国YouTube@小青科学网20FR31
-      - 德国
-      - US
-      - 新加坡(YouTube@小青科学网）_1
-      - 荷兰YouTube@小青科学网_1
-      - 🇳🇱NL_29|2.1MB/s
-      - 英国(YouTube@小青科学网）_1
-      - 🇬🇧英国V2CROSS.COM
       - 美国(YouTube@小青科学网）_1
+      - GB_YouTube@小青科学网
+      - 波兰🇵🇱YouTube@小青科学网20PL166
+      - US
+      - 美国(YouTube@小青科学网）_2
+      - 俄罗斯YouTube@小青科学网20RU116
+      - 英国(YouTube@小青科学网）_1
+      - YouTube@小青科学网_2
+      - 意大利YouTube@小青科学网20IT203
+      - 美国(YouTube@小青科学网）_3
+      - 德国🇩🇪YouTube@小青科学网_1
+      - 🇺🇸美国US215
       - 英国(YouTube@小青科学网）_2
       - 英国(YouTube@小青科学网）_3
-      - 🇺🇸美国US209
-      - 🇺🇸US252|⬇️9MB/s
-      - 荷兰YouTube@小青科学网20NL102
-      - 美国(YouTube@小青科学网)
-      - 美国(YouTube@小青科学网）_2
       - 英国(YouTube@小青科学网）_4
+      - 🇺🇸美国US224
+      - USVLESS-73|free-nodes
       - 英国(YouTube@小青科学网）_5
       - 英国(YouTube@小青科学网）_6
-      - 英国(YouTube@小青科学网）_7
-      - 荷兰YouTube@小青科学网_2
-      - 🇺🇸美国US215
-      - 德国🇩🇪YouTube@小青科学网_1
-      - 俄罗斯YouTube@小青科学网20RU21
-      - 法国(YouTube@小青科学网）
-      - 美国YouTube@小青科学网20US161
-      - 美国(YouTube@小青科学网）_3
       - 美国(YouTube@小青科学网）_4
       - 美国(YouTube@小青科学网）_5
-      - 新加坡YouTube@小青科学网20SG182
-      - 英国V2CROSS.COM_1
-      - 英国(YouTube@小青科学网）_8
-      - 英国(YouTube@小青科学网）_9
-      - 英国(YouTube@小青科学网）_10
-      - 🇴🇲阿曼
-      - 波兰YouTube@小青科学网20PL123
-      - 德国(YouTube@小青科学网）
-      - 美国YouTube@小青科学网20US104
       - 美国(YouTube@小青科学网）_6
       - 美国(YouTube@小青科学网）_7
+      - 🇬🇧英国GB-616
+      - 英国(YouTube@小青科学网）_7
+      - 英国(YouTube@小青科学网）_8
+      - 英国(YouTube@小青科学网）_9
+      - 德国(YouTube@小青科学网）
+      - YouTube@小青科学网20267
+      - YouTube@小青科学网2058
       - 美国(YouTube@小青科学网）_8
+      - 🇹🇼台湾-1188
       - 美国(YouTube@小青科学网）_9
-      - GB_YouTube@小青科学网
-      - TRTROJAN-48|free-nodes
-      - 英国V2CROSS.COM_2
-      - 🇺🇸美国US224
-      - 德国🇩🇪YouTube@小青科学网_2
-      - 德国🇩🇪YouTube@小青科学网_3
-      - 俄罗斯YouTube@小青科学网20RU97
-      - 俄罗斯(YouTube@小青科学网）_1
-      - 俄罗斯(YouTube@小青科学网）_2
-      - 韩国(YouTube@小青科学网）
-      - 荷兰YouTube@小青科学网20NL138
-      - 荷兰YouTube@小青科学网20NL164
-      - 荷兰YouTube@小青科学网20NL171
-      - 荷兰YouTube@小青科学网20NL222
-      - 荷兰YouTube@小青科学网20NL28
-      - 荷兰YouTube@小青科学网20NL103
-      - 荷兰YouTube@小青科学网20NL34
-      - 荷兰YouTube@小青科学网20NL51
-      - 荷兰YouTube@小青科学网20NL87
-      - 荷兰YouTube@小青科学网20NL92
-      - 美国YouTube@小青科学网20US52
+      - 塞浦路斯YouTube@小青科学网20CY65
       - 美国(YouTube@小青科学网）_10
-      - 美国(YouTube@小青科学网）_11
-      - 美国(YouTube@小青科学网）_12
-      - 美国(YouTube@小青科学网）_13
-      - 美国(YouTube@小青科学网）_14
-      - 美国(YouTube@小青科学网）_15
-      - 美国(YouTube@小青科学网）_16
-      - 美国(YouTube@小青科学网）_17
-      - 美国(YouTube@小青科学网）_18
-      - 日本(YouTube@小青科学网）
-      - 瑞典YouTube@小青科学网20SE10
-      - 台湾(YouTube@小青科学网）_1
-      - 台湾(YouTube@小青科学网）_2
-      - 台湾+🇹🇼+YouTube@小青科学网88+TW+43
-      - 香港YouTube@小青科学网20HK44
-      - 香港(YouTube@小青科学网）
-      - 新加坡(YouTube@小青科学网）_2
-      - 新加坡(YouTube@小青科学网）_3
-      - 意大利(YouTube@小青科学网）
+      - 🇷🇺俄罗斯RU-823
+      - 英国(YouTube@小青科学网）_10
       - 英国(YouTube@小青科学网）_11
+      - 美国(YouTube@小青科学网）_11
+      - 德国🇩🇪YouTube@小青科学网_2
       - 英国(YouTube@小青科学网）_12
       - 英国(YouTube@小青科学网）_13
       - 英国(YouTube@小青科学网）_14
+      - 🇺🇸美国US-218
+      - 美国(YouTube@小青科学网)_2
       - 英国(YouTube@小青科学网）_15
+      - YouTube@小青科学网20283
+      - 🇯🇵日本JP纯净-669
+      - 🇬🇧英国V2CROSS.COM
+      - 德国YouTube@小青科学网20DE108
+      - 🇷🇺俄罗斯RU-871
       - 英国(YouTube@小青科学网）_16
       - 英国(YouTube@小青科学网）_17
       - 英国(YouTube@小青科学网）_18
@@ -533,129 +627,173 @@ proxy-groups:
       - 英国(YouTube@小青科学网）_24
       - 英国(YouTube@小青科学网）_25
       - 英国(YouTube@小青科学网）_26
+      - YouTube@小青科学网20301
+      - 🇺🇸美国US209
+      - 美国(YouTube@小青科学网）_12
+      - YouTube@小青科学网20277
+      - 🇴🇲阿曼
+      - YouTube@小青科学网20328
+      - YouTube@小青科学网20255
+      - 香港YouTube@小青科学网20HK242
+      - 🇭🇰香港HK纯净-420
+      - 新加坡YouTube@小青科学网20SG364
+      - 资源分享师
+      - 德国🇩🇪YouTube@小青科学网_3
+      - 美国(YouTube@小青科学网）_13
       - 英国(YouTube@小青科学网）_27
       - 英国(YouTube@小青科学网）_28
       - 英国(YouTube@小青科学网）_29
       - 英国(YouTube@小青科学网）_30
       - 英国(YouTube@小青科学网）_31
+      - 英国V2CROSS.COM_1
+      - 英国V2CROSS.COM_2
       - 英国(YouTube@小青科学网）_32
+      - 🇺🇸美国US210
+      - 韩国YouTube@小青科学网20KR89
+      - 🇩🇪德国02
+      - 🇺🇸美国US-178
+      - 韩国YouTube@小青科学网20KR88
+      - YouTube@小青科学网2061
+      - 德国
+      - 新加坡(YouTube@小青科学网）_1
+      - 🇺🇸US252|⬇️9MB/s
+      - 🇵🇱波兰PL-291
+      - 荷兰YouTube@小青科学网20NL159
+      - 荷兰YouTube@小青科学网20NL133
+      - 奥地利YouTube@小青科学网20AT139
+      - 俄罗斯YouTube@小青科学网20RU21
+      - 美国(YouTube@小青科学网）_14
+      - 芬兰YouTube@小青科学网20FI252
+      - 加拿大(YouTube@小青科学网）
+      - 美国(YouTube@小青科学网）_15
       - 英国(YouTube@小青科学网）_33
       - 英国(YouTube@小青科学网）_34
       - 英国(YouTube@小青科学网）_35
+      - 美国(YouTube@小青科学网）_16
       - 英国(YouTube@小青科学网）_36
+      - 法国(YouTube@小青科学网）
       - 英国(YouTube@小青科学网）_37
       - 英国(YouTube@小青科学网）_38
+      - 瑞士YouTube@小青科学网20CH280
+      - 伊朗YouTube@小青科学网20IR137
+      - 芬兰YouTube@小青科学网20FI145
+      - YouTube@小青科学网2041
+      - 拉脱维亚YouTube@小青科学网20LV245
+      - 韩国YouTube@小青科学网20KR178
+      - 美国(YouTube@小青科学网）_17
+      - 韩国YouTube@小青科学网20KR155
+      - 日本YouTube@小青科学网20JP208
+      - 伊朗YouTube@小青科学网20IR127
+      - 美国YouTube@小青科学网20US115
+      - 拉脱维亚YouTube@小青科学网20LV293
+      - 🇩🇪DE410|⬇️1MB/s
+      - 荷兰YouTube@小青科学网20NL193
+      - 德国YouTube@小青科学网20DE43
+      - 拉脱维亚YouTube@小青科学网20LV197
+      - YouTube@小青科学网20247
+      - 新加坡YouTube@小青科学网20SG34
+      - YouTube@小青科学网206
+      - 美国YouTube@小青科学网20US77
+      - 美国(YouTube@小青科学网）_18
+      - 美国(YouTube@小青科学网）_19
+      - 美国(YouTube@小青科学网）_20
+      - 美国YouTube@小青科学网20US104
+      - YouTube@小青科学网20265
+      - 加拿大YouTube@小青科学网20CA168
+      - 🇷🇺俄罗斯RU-874
+      - YouTube@小青科学网2095
+      - 美国(YouTube@小青科学网）_21
+      - YouTube@小青科学网20344
+      - 美国YouTube@小青科学网20US281
+      - 🇯🇵日本JP纯净-97
+      - YouTube@小青科学网20200
+      - 美国YouTube@小青科学网20US56
+      - 韩国YouTube@小青科学网20KR170
+      - 韩国YouTube@小青科学网20KR120
+      - 新加坡(YouTube@小青科学网）_2
+      - 韩国YouTube@小青科学网20KR171
+      - 西班牙(YouTube@小青科学网）
+      - 🇮🇳印度IN-568
+      - 美国(YouTube@小青科学网）_22
+      - 香港(YouTube@小青科学网）
+      - 美国(YouTube@小青科学网）_23
+      - 美国(YouTube@小青科学网）_24
+      - 美国YouTube@小青科学网20US24
       - 英国(YouTube@小青科学网）_39
-      - 英国(YouTube@小青科学网）_40
+      - 瑞典YouTube@小青科学网20SE10
+      - 香港YouTube@小青科学网20HK44
+      - 韩国YouTube@小青科学网20KR184
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 波兰YouTube@小青科学网20PL33
-      - 波兰YouTube@小青科学网20PL27
+      - 波兰YouTube@小青科学网20PL116
+      - 英国YouTube@小青科学网20GB320
+      - YouTube@小青科学网_1
+      - 英国YouTube@小青科学网20GB240
+      - 瑞士YouTube@小青科学网20CH167
+      - 🇵🇱波兰PL-203
+      - 🇵🇱波兰PL-807
+      - 美国(YouTube@小青科学网)_1
+      - 美国YouTube@小青科学网20US52
       - 芬兰YouTube@小青科学网20FI38
-      - 🇩🇪德国02
-      - 意大利YouTube@小青科学网20IT203
-      - 波兰🇵🇱YouTube@小青科学网20PL166
-      - 摩尔多瓦YouTube@小青科学网20MD194
-      - 荷兰YouTube@小青科学网20NL48
-      - 🇩🇪DE410|⬇️1MB/s
+      - '[IPv6]🇸🇪瑞典SE-191'
       - VLESS-xhttp-Reality-Vision
-      - 🇳🇱NL_35|1.3MB/s
-      - 俄罗斯YouTube@小青科学网20RU116
-      - 🇺🇸美国US-218
-      - 🇺🇸美国US210
-      - 德国YouTube@小青科学网20DE43
-      - 美国YouTube@小青科学网20US47
+      - 波兰YouTube@小青科学网20PL27
+      - 台湾+🇹🇼+YouTube@小青科学网88+TW+43
       - 🇹🇼TW020|⬇️12MB/s
-      - 法国YouTube@小青科学网20FR31
-      - 德国
-      - US
-      - 新加坡(YouTube@小青科学网）_1
-      - 荷兰YouTube@小青科学网_1
-      - 🇳🇱NL_29|2.1MB/s
-      - 英国(YouTube@小青科学网）_1
-      - 🇬🇧英国V2CROSS.COM
       - 美国(YouTube@小青科学网）_1
+      - GB_YouTube@小青科学网
+      - 波兰🇵🇱YouTube@小青科学网20PL166
+      - US
+      - 美国(YouTube@小青科学网）_2
+      - 俄罗斯YouTube@小青科学网20RU116
+      - 英国(YouTube@小青科学网）_1
+      - YouTube@小青科学网_2
+      - 意大利YouTube@小青科学网20IT203
+      - 美国(YouTube@小青科学网）_3
+      - 德国🇩🇪YouTube@小青科学网_1
+      - 🇺🇸美国US215
       - 英国(YouTube@小青科学网）_2
       - 英国(YouTube@小青科学网）_3
-      - 🇺🇸美国US209
-      - 🇺🇸US252|⬇️9MB/s
-      - 荷兰YouTube@小青科学网20NL102
-      - 美国(YouTube@小青科学网)
-      - 美国(YouTube@小青科学网）_2
       - 英国(YouTube@小青科学网）_4
+      - 🇺🇸美国US224
+      - USVLESS-73|free-nodes
       - 英国(YouTube@小青科学网）_5
       - 英国(YouTube@小青科学网）_6
-      - 英国(YouTube@小青科学网）_7
-      - 荷兰YouTube@小青科学网_2
-      - 🇺🇸美国US215
-      - 德国🇩🇪YouTube@小青科学网_1
-      - 俄罗斯YouTube@小青科学网20RU21
-      - 法国(YouTube@小青科学网）
-      - 美国YouTube@小青科学网20US161
-      - 美国(YouTube@小青科学网）_3
       - 美国(YouTube@小青科学网）_4
       - 美国(YouTube@小青科学网）_5
-      - 新加坡YouTube@小青科学网20SG182
-      - 英国V2CROSS.COM_1
-      - 英国(YouTube@小青科学网）_8
-      - 英国(YouTube@小青科学网）_9
-      - 英国(YouTube@小青科学网）_10
-      - 🇴🇲阿曼
-      - 波兰YouTube@小青科学网20PL123
-      - 德国(YouTube@小青科学网）
-      - 美国YouTube@小青科学网20US104
       - 美国(YouTube@小青科学网）_6
       - 美国(YouTube@小青科学网）_7
+      - 🇬🇧英国GB-616
+      - 英国(YouTube@小青科学网）_7
+      - 英国(YouTube@小青科学网）_8
+      - 英国(YouTube@小青科学网）_9
+      - 德国(YouTube@小青科学网）
+      - YouTube@小青科学网20267
+      - YouTube@小青科学网2058
       - 美国(YouTube@小青科学网）_8
+      - 🇹🇼台湾-1188
       - 美国(YouTube@小青科学网）_9
-      - GB_YouTube@小青科学网
-      - TRTROJAN-48|free-nodes
-      - 英国V2CROSS.COM_2
-      - 🇺🇸美国US224
-      - 德国🇩🇪YouTube@小青科学网_2
-      - 德国🇩🇪YouTube@小青科学网_3
-      - 俄罗斯YouTube@小青科学网20RU97
-      - 俄罗斯(YouTube@小青科学网）_1
-      - 俄罗斯(YouTube@小青科学网）_2
-      - 韩国(YouTube@小青科学网）
-      - 荷兰YouTube@小青科学网20NL138
-      - 荷兰YouTube@小青科学网20NL164
-      - 荷兰YouTube@小青科学网20NL171
-      - 荷兰YouTube@小青科学网20NL222
-      - 荷兰YouTube@小青科学网20NL28
-      - 荷兰YouTube@小青科学网20NL103
-      - 荷兰YouTube@小青科学网20NL34
-      - 荷兰YouTube@小青科学网20NL51
-      - 荷兰YouTube@小青科学网20NL87
-      - 荷兰YouTube@小青科学网20NL92
-      - 美国YouTube@小青科学网20US52
+      - 塞浦路斯YouTube@小青科学网20CY65
       - 美国(YouTube@小青科学网）_10
-      - 美国(YouTube@小青科学网）_11
-      - 美国(YouTube@小青科学网）_12
-      - 美国(YouTube@小青科学网）_13
-      - 美国(YouTube@小青科学网）_14
-      - 美国(YouTube@小青科学网）_15
-      - 美国(YouTube@小青科学网）_16
-      - 美国(YouTube@小青科学网）_17
-      - 美国(YouTube@小青科学网）_18
-      - 日本(YouTube@小青科学网）
-      - 瑞典YouTube@小青科学网20SE10
-      - 台湾(YouTube@小青科学网）_1
-      - 台湾(YouTube@小青科学网）_2
-      - 台湾+🇹🇼+YouTube@小青科学网88+TW+43
-      - 香港YouTube@小青科学网20HK44
-      - 香港(YouTube@小青科学网）
-      - 新加坡(YouTube@小青科学网）_2
-      - 新加坡(YouTube@小青科学网）_3
-      - 意大利(YouTube@小青科学网）
+      - 🇷🇺俄罗斯RU-823
+      - 英国(YouTube@小青科学网）_10
       - 英国(YouTube@小青科学网）_11
+      - 美国(YouTube@小青科学网）_11
+      - 德国🇩🇪YouTube@小青科学网_2
       - 英国(YouTube@小青科学网）_12
       - 英国(YouTube@小青科学网）_13
       - 英国(YouTube@小青科学网）_14
+      - 🇺🇸美国US-218
+      - 美国(YouTube@小青科学网)_2
       - 英国(YouTube@小青科学网）_15
+      - YouTube@小青科学网20283
+      - 🇯🇵日本JP纯净-669
+      - 🇬🇧英国V2CROSS.COM
+      - 德国YouTube@小青科学网20DE108
+      - 🇷🇺俄罗斯RU-871
       - 英国(YouTube@小青科学网）_16
       - 英国(YouTube@小青科学网）_17
       - 英国(YouTube@小青科学网）_18
@@ -667,129 +805,173 @@ proxy-groups:
       - 英国(YouTube@小青科学网）_24
       - 英国(YouTube@小青科学网）_25
       - 英国(YouTube@小青科学网）_26
+      - YouTube@小青科学网20301
+      - 🇺🇸美国US209
+      - 美国(YouTube@小青科学网）_12
+      - YouTube@小青科学网20277
+      - 🇴🇲阿曼
+      - YouTube@小青科学网20328
+      - YouTube@小青科学网20255
+      - 香港YouTube@小青科学网20HK242
+      - 🇭🇰香港HK纯净-420
+      - 新加坡YouTube@小青科学网20SG364
+      - 资源分享师
+      - 德国🇩🇪YouTube@小青科学网_3
+      - 美国(YouTube@小青科学网）_13
       - 英国(YouTube@小青科学网）_27
       - 英国(YouTube@小青科学网）_28
       - 英国(YouTube@小青科学网）_29
       - 英国(YouTube@小青科学网）_30
       - 英国(YouTube@小青科学网）_31
+      - 英国V2CROSS.COM_1
+      - 英国V2CROSS.COM_2
       - 英国(YouTube@小青科学网）_32
+      - 🇺🇸美国US210
+      - 韩国YouTube@小青科学网20KR89
+      - 🇩🇪德国02
+      - 🇺🇸美国US-178
+      - 韩国YouTube@小青科学网20KR88
+      - YouTube@小青科学网2061
+      - 德国
+      - 新加坡(YouTube@小青科学网）_1
+      - 🇺🇸US252|⬇️9MB/s
+      - 🇵🇱波兰PL-291
+      - 荷兰YouTube@小青科学网20NL159
+      - 荷兰YouTube@小青科学网20NL133
+      - 奥地利YouTube@小青科学网20AT139
+      - 俄罗斯YouTube@小青科学网20RU21
+      - 美国(YouTube@小青科学网）_14
+      - 芬兰YouTube@小青科学网20FI252
+      - 加拿大(YouTube@小青科学网）
+      - 美国(YouTube@小青科学网）_15
       - 英国(YouTube@小青科学网）_33
       - 英国(YouTube@小青科学网）_34
       - 英国(YouTube@小青科学网）_35
+      - 美国(YouTube@小青科学网）_16
       - 英国(YouTube@小青科学网）_36
+      - 法国(YouTube@小青科学网）
       - 英国(YouTube@小青科学网）_37
       - 英国(YouTube@小青科学网）_38
+      - 瑞士YouTube@小青科学网20CH280
+      - 伊朗YouTube@小青科学网20IR137
+      - 芬兰YouTube@小青科学网20FI145
+      - YouTube@小青科学网2041
+      - 拉脱维亚YouTube@小青科学网20LV245
+      - 韩国YouTube@小青科学网20KR178
+      - 美国(YouTube@小青科学网）_17
+      - 韩国YouTube@小青科学网20KR155
+      - 日本YouTube@小青科学网20JP208
+      - 伊朗YouTube@小青科学网20IR127
+      - 美国YouTube@小青科学网20US115
+      - 拉脱维亚YouTube@小青科学网20LV293
+      - 🇩🇪DE410|⬇️1MB/s
+      - 荷兰YouTube@小青科学网20NL193
+      - 德国YouTube@小青科学网20DE43
+      - 拉脱维亚YouTube@小青科学网20LV197
+      - YouTube@小青科学网20247
+      - 新加坡YouTube@小青科学网20SG34
+      - YouTube@小青科学网206
+      - 美国YouTube@小青科学网20US77
+      - 美国(YouTube@小青科学网）_18
+      - 美国(YouTube@小青科学网）_19
+      - 美国(YouTube@小青科学网）_20
+      - 美国YouTube@小青科学网20US104
+      - YouTube@小青科学网20265
+      - 加拿大YouTube@小青科学网20CA168
+      - 🇷🇺俄罗斯RU-874
+      - YouTube@小青科学网2095
+      - 美国(YouTube@小青科学网）_21
+      - YouTube@小青科学网20344
+      - 美国YouTube@小青科学网20US281
+      - 🇯🇵日本JP纯净-97
+      - YouTube@小青科学网20200
+      - 美国YouTube@小青科学网20US56
+      - 韩国YouTube@小青科学网20KR170
+      - 韩国YouTube@小青科学网20KR120
+      - 新加坡(YouTube@小青科学网）_2
+      - 韩国YouTube@小青科学网20KR171
+      - 西班牙(YouTube@小青科学网）
+      - 🇮🇳印度IN-568
+      - 美国(YouTube@小青科学网）_22
+      - 香港(YouTube@小青科学网）
+      - 美国(YouTube@小青科学网）_23
+      - 美国(YouTube@小青科学网）_24
+      - 美国YouTube@小青科学网20US24
       - 英国(YouTube@小青科学网）_39
-      - 英国(YouTube@小青科学网）_40
+      - 瑞典YouTube@小青科学网20SE10
+      - 香港YouTube@小青科学网20HK44
+      - 韩国YouTube@小青科学网20KR184
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 波兰YouTube@小青科学网20PL33
-      - 波兰YouTube@小青科学网20PL27
+      - 波兰YouTube@小青科学网20PL116
+      - 英国YouTube@小青科学网20GB320
+      - YouTube@小青科学网_1
+      - 英国YouTube@小青科学网20GB240
+      - 瑞士YouTube@小青科学网20CH167
+      - 🇵🇱波兰PL-203
+      - 🇵🇱波兰PL-807
+      - 美国(YouTube@小青科学网)_1
+      - 美国YouTube@小青科学网20US52
       - 芬兰YouTube@小青科学网20FI38
-      - 🇩🇪德国02
-      - 意大利YouTube@小青科学网20IT203
-      - 波兰🇵🇱YouTube@小青科学网20PL166
-      - 摩尔多瓦YouTube@小青科学网20MD194
-      - 荷兰YouTube@小青科学网20NL48
-      - 🇩🇪DE410|⬇️1MB/s
+      - '[IPv6]🇸🇪瑞典SE-191'
       - VLESS-xhttp-Reality-Vision
-      - 🇳🇱NL_35|1.3MB/s
-      - 俄罗斯YouTube@小青科学网20RU116
-      - 🇺🇸美国US-218
-      - 🇺🇸美国US210
-      - 德国YouTube@小青科学网20DE43
-      - 美国YouTube@小青科学网20US47
+      - 波兰YouTube@小青科学网20PL27
+      - 台湾+🇹🇼+YouTube@小青科学网88+TW+43
       - 🇹🇼TW020|⬇️12MB/s
-      - 法国YouTube@小青科学网20FR31
-      - 德国
-      - US
-      - 新加坡(YouTube@小青科学网）_1
-      - 荷兰YouTube@小青科学网_1
-      - 🇳🇱NL_29|2.1MB/s
-      - 英国(YouTube@小青科学网）_1
-      - 🇬🇧英国V2CROSS.COM
       - 美国(YouTube@小青科学网）_1
+      - GB_YouTube@小青科学网
+      - 波兰🇵🇱YouTube@小青科学网20PL166
+      - US
+      - 美国(YouTube@小青科学网）_2
+      - 俄罗斯YouTube@小青科学网20RU116
+      - 英国(YouTube@小青科学网）_1
+      - YouTube@小青科学网_2
+      - 意大利YouTube@小青科学网20IT203
+      - 美国(YouTube@小青科学网）_3
+      - 德国🇩🇪YouTube@小青科学网_1
+      - 🇺🇸美国US215
       - 英国(YouTube@小青科学网）_2
       - 英国(YouTube@小青科学网）_3
-      - 🇺🇸美国US209
-      - 🇺🇸US252|⬇️9MB/s
-      - 荷兰YouTube@小青科学网20NL102
-      - 美国(YouTube@小青科学网)
-      - 美国(YouTube@小青科学网）_2
       - 英国(YouTube@小青科学网）_4
+      - 🇺🇸美国US224
+      - USVLESS-73|free-nodes
       - 英国(YouTube@小青科学网）_5
       - 英国(YouTube@小青科学网）_6
-      - 英国(YouTube@小青科学网）_7
-      - 荷兰YouTube@小青科学网_2
-      - 🇺🇸美国US215
-      - 德国🇩🇪YouTube@小青科学网_1
-      - 俄罗斯YouTube@小青科学网20RU21
-      - 法国(YouTube@小青科学网）
-      - 美国YouTube@小青科学网20US161
-      - 美国(YouTube@小青科学网）_3
       - 美国(YouTube@小青科学网）_4
       - 美国(YouTube@小青科学网）_5
-      - 新加坡YouTube@小青科学网20SG182
-      - 英国V2CROSS.COM_1
-      - 英国(YouTube@小青科学网）_8
-      - 英国(YouTube@小青科学网）_9
-      - 英国(YouTube@小青科学网）_10
-      - 🇴🇲阿曼
-      - 波兰YouTube@小青科学网20PL123
-      - 德国(YouTube@小青科学网）
-      - 美国YouTube@小青科学网20US104
       - 美国(YouTube@小青科学网）_6
       - 美国(YouTube@小青科学网）_7
+      - 🇬🇧英国GB-616
+      - 英国(YouTube@小青科学网）_7
+      - 英国(YouTube@小青科学网）_8
+      - 英国(YouTube@小青科学网）_9
+      - 德国(YouTube@小青科学网）
+      - YouTube@小青科学网20267
+      - YouTube@小青科学网2058
       - 美国(YouTube@小青科学网）_8
+      - 🇹🇼台湾-1188
       - 美国(YouTube@小青科学网）_9
-      - GB_YouTube@小青科学网
-      - TRTROJAN-48|free-nodes
-      - 英国V2CROSS.COM_2
-      - 🇺🇸美国US224
-      - 德国🇩🇪YouTube@小青科学网_2
-      - 德国🇩🇪YouTube@小青科学网_3
-      - 俄罗斯YouTube@小青科学网20RU97
-      - 俄罗斯(YouTube@小青科学网）_1
-      - 俄罗斯(YouTube@小青科学网）_2
-      - 韩国(YouTube@小青科学网）
-      - 荷兰YouTube@小青科学网20NL138
-      - 荷兰YouTube@小青科学网20NL164
-      - 荷兰YouTube@小青科学网20NL171
-      - 荷兰YouTube@小青科学网20NL222
-      - 荷兰YouTube@小青科学网20NL28
-      - 荷兰YouTube@小青科学网20NL103
-      - 荷兰YouTube@小青科学网20NL34
-      - 荷兰YouTube@小青科学网20NL51
-      - 荷兰YouTube@小青科学网20NL87
-      - 荷兰YouTube@小青科学网20NL92
-      - 美国YouTube@小青科学网20US52
+      - 塞浦路斯YouTube@小青科学网20CY65
       - 美国(YouTube@小青科学网）_10
-      - 美国(YouTube@小青科学网）_11
-      - 美国(YouTube@小青科学网）_12
-      - 美国(YouTube@小青科学网）_13
-      - 美国(YouTube@小青科学网）_14
-      - 美国(YouTube@小青科学网）_15
-      - 美国(YouTube@小青科学网）_16
-      - 美国(YouTube@小青科学网）_17
-      - 美国(YouTube@小青科学网）_18
-      - 日本(YouTube@小青科学网）
-      - 瑞典YouTube@小青科学网20SE10
-      - 台湾(YouTube@小青科学网）_1
-      - 台湾(YouTube@小青科学网）_2
-      - 台湾+🇹🇼+YouTube@小青科学网88+TW+43
-      - 香港YouTube@小青科学网20HK44
-      - 香港(YouTube@小青科学网）
-      - 新加坡(YouTube@小青科学网）_2
-      - 新加坡(YouTube@小青科学网）_3
-      - 意大利(YouTube@小青科学网）
+      - 🇷🇺俄罗斯RU-823
+      - 英国(YouTube@小青科学网）_10
       - 英国(YouTube@小青科学网）_11
+      - 美国(YouTube@小青科学网）_11
+      - 德国🇩🇪YouTube@小青科学网_2
       - 英国(YouTube@小青科学网）_12
       - 英国(YouTube@小青科学网）_13
       - 英国(YouTube@小青科学网）_14
+      - 🇺🇸美国US-218
+      - 美国(YouTube@小青科学网)_2
       - 英国(YouTube@小青科学网）_15
+      - YouTube@小青科学网20283
+      - 🇯🇵日本JP纯净-669
+      - 🇬🇧英国V2CROSS.COM
+      - 德国YouTube@小青科学网20DE108
+      - 🇷🇺俄罗斯RU-871
       - 英国(YouTube@小青科学网）_16
       - 英国(YouTube@小青科学网）_17
       - 英国(YouTube@小青科学网）_18
@@ -801,129 +983,173 @@ proxy-groups:
       - 英国(YouTube@小青科学网）_24
       - 英国(YouTube@小青科学网）_25
       - 英国(YouTube@小青科学网）_26
+      - YouTube@小青科学网20301
+      - 🇺🇸美国US209
+      - 美国(YouTube@小青科学网）_12
+      - YouTube@小青科学网20277
+      - 🇴🇲阿曼
+      - YouTube@小青科学网20328
+      - YouTube@小青科学网20255
+      - 香港YouTube@小青科学网20HK242
+      - 🇭🇰香港HK纯净-420
+      - 新加坡YouTube@小青科学网20SG364
+      - 资源分享师
+      - 德国🇩🇪YouTube@小青科学网_3
+      - 美国(YouTube@小青科学网）_13
       - 英国(YouTube@小青科学网）_27
       - 英国(YouTube@小青科学网）_28
       - 英国(YouTube@小青科学网）_29
       - 英国(YouTube@小青科学网）_30
       - 英国(YouTube@小青科学网）_31
+      - 英国V2CROSS.COM_1
+      - 英国V2CROSS.COM_2
       - 英国(YouTube@小青科学网）_32
+      - 🇺🇸美国US210
+      - 韩国YouTube@小青科学网20KR89
+      - 🇩🇪德国02
+      - 🇺🇸美国US-178
+      - 韩国YouTube@小青科学网20KR88
+      - YouTube@小青科学网2061
+      - 德国
+      - 新加坡(YouTube@小青科学网）_1
+      - 🇺🇸US252|⬇️9MB/s
+      - 🇵🇱波兰PL-291
+      - 荷兰YouTube@小青科学网20NL159
+      - 荷兰YouTube@小青科学网20NL133
+      - 奥地利YouTube@小青科学网20AT139
+      - 俄罗斯YouTube@小青科学网20RU21
+      - 美国(YouTube@小青科学网）_14
+      - 芬兰YouTube@小青科学网20FI252
+      - 加拿大(YouTube@小青科学网）
+      - 美国(YouTube@小青科学网）_15
       - 英国(YouTube@小青科学网）_33
       - 英国(YouTube@小青科学网）_34
       - 英国(YouTube@小青科学网）_35
+      - 美国(YouTube@小青科学网）_16
       - 英国(YouTube@小青科学网）_36
+      - 法国(YouTube@小青科学网）
       - 英国(YouTube@小青科学网）_37
       - 英国(YouTube@小青科学网）_38
+      - 瑞士YouTube@小青科学网20CH280
+      - 伊朗YouTube@小青科学网20IR137
+      - 芬兰YouTube@小青科学网20FI145
+      - YouTube@小青科学网2041
+      - 拉脱维亚YouTube@小青科学网20LV245
+      - 韩国YouTube@小青科学网20KR178
+      - 美国(YouTube@小青科学网）_17
+      - 韩国YouTube@小青科学网20KR155
+      - 日本YouTube@小青科学网20JP208
+      - 伊朗YouTube@小青科学网20IR127
+      - 美国YouTube@小青科学网20US115
+      - 拉脱维亚YouTube@小青科学网20LV293
+      - 🇩🇪DE410|⬇️1MB/s
+      - 荷兰YouTube@小青科学网20NL193
+      - 德国YouTube@小青科学网20DE43
+      - 拉脱维亚YouTube@小青科学网20LV197
+      - YouTube@小青科学网20247
+      - 新加坡YouTube@小青科学网20SG34
+      - YouTube@小青科学网206
+      - 美国YouTube@小青科学网20US77
+      - 美国(YouTube@小青科学网）_18
+      - 美国(YouTube@小青科学网）_19
+      - 美国(YouTube@小青科学网）_20
+      - 美国YouTube@小青科学网20US104
+      - YouTube@小青科学网20265
+      - 加拿大YouTube@小青科学网20CA168
+      - 🇷🇺俄罗斯RU-874
+      - YouTube@小青科学网2095
+      - 美国(YouTube@小青科学网）_21
+      - YouTube@小青科学网20344
+      - 美国YouTube@小青科学网20US281
+      - 🇯🇵日本JP纯净-97
+      - YouTube@小青科学网20200
+      - 美国YouTube@小青科学网20US56
+      - 韩国YouTube@小青科学网20KR170
+      - 韩国YouTube@小青科学网20KR120
+      - 新加坡(YouTube@小青科学网）_2
+      - 韩国YouTube@小青科学网20KR171
+      - 西班牙(YouTube@小青科学网）
+      - 🇮🇳印度IN-568
+      - 美国(YouTube@小青科学网）_22
+      - 香港(YouTube@小青科学网）
+      - 美国(YouTube@小青科学网）_23
+      - 美国(YouTube@小青科学网）_24
+      - 美国YouTube@小青科学网20US24
       - 英国(YouTube@小青科学网）_39
-      - 英国(YouTube@小青科学网）_40
+      - 瑞典YouTube@小青科学网20SE10
+      - 香港YouTube@小青科学网20HK44
+      - 韩国YouTube@小青科学网20KR184
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 波兰YouTube@小青科学网20PL33
-      - 波兰YouTube@小青科学网20PL27
+      - 波兰YouTube@小青科学网20PL116
+      - 英国YouTube@小青科学网20GB320
+      - YouTube@小青科学网_1
+      - 英国YouTube@小青科学网20GB240
+      - 瑞士YouTube@小青科学网20CH167
+      - 🇵🇱波兰PL-203
+      - 🇵🇱波兰PL-807
+      - 美国(YouTube@小青科学网)_1
+      - 美国YouTube@小青科学网20US52
       - 芬兰YouTube@小青科学网20FI38
-      - 🇩🇪德国02
-      - 意大利YouTube@小青科学网20IT203
-      - 波兰🇵🇱YouTube@小青科学网20PL166
-      - 摩尔多瓦YouTube@小青科学网20MD194
-      - 荷兰YouTube@小青科学网20NL48
-      - 🇩🇪DE410|⬇️1MB/s
+      - '[IPv6]🇸🇪瑞典SE-191'
       - VLESS-xhttp-Reality-Vision
-      - 🇳🇱NL_35|1.3MB/s
-      - 俄罗斯YouTube@小青科学网20RU116
-      - 🇺🇸美国US-218
-      - 🇺🇸美国US210
-      - 德国YouTube@小青科学网20DE43
-      - 美国YouTube@小青科学网20US47
+      - 波兰YouTube@小青科学网20PL27
+      - 台湾+🇹🇼+YouTube@小青科学网88+TW+43
       - 🇹🇼TW020|⬇️12MB/s
-      - 法国YouTube@小青科学网20FR31
-      - 德国
-      - US
-      - 新加坡(YouTube@小青科学网）_1
-      - 荷兰YouTube@小青科学网_1
-      - 🇳🇱NL_29|2.1MB/s
-      - 英国(YouTube@小青科学网）_1
-      - 🇬🇧英国V2CROSS.COM
       - 美国(YouTube@小青科学网）_1
+      - GB_YouTube@小青科学网
+      - 波兰🇵🇱YouTube@小青科学网20PL166
+      - US
+      - 美国(YouTube@小青科学网）_2
+      - 俄罗斯YouTube@小青科学网20RU116
+      - 英国(YouTube@小青科学网）_1
+      - YouTube@小青科学网_2
+      - 意大利YouTube@小青科学网20IT203
+      - 美国(YouTube@小青科学网）_3
+      - 德国🇩🇪YouTube@小青科学网_1
+      - 🇺🇸美国US215
       - 英国(YouTube@小青科学网）_2
       - 英国(YouTube@小青科学网）_3
-      - 🇺🇸美国US209
-      - 🇺🇸US252|⬇️9MB/s
-      - 荷兰YouTube@小青科学网20NL102
-      - 美国(YouTube@小青科学网)
-      - 美国(YouTube@小青科学网）_2
       - 英国(YouTube@小青科学网）_4
+      - 🇺🇸美国US224
+      - USVLESS-73|free-nodes
       - 英国(YouTube@小青科学网）_5
       - 英国(YouTube@小青科学网）_6
-      - 英国(YouTube@小青科学网）_7
-      - 荷兰YouTube@小青科学网_2
-      - 🇺🇸美国US215
-      - 德国🇩🇪YouTube@小青科学网_1
-      - 俄罗斯YouTube@小青科学网20RU21
-      - 法国(YouTube@小青科学网）
-      - 美国YouTube@小青科学网20US161
-      - 美国(YouTube@小青科学网）_3
       - 美国(YouTube@小青科学网）_4
       - 美国(YouTube@小青科学网）_5
-      - 新加坡YouTube@小青科学网20SG182
-      - 英国V2CROSS.COM_1
-      - 英国(YouTube@小青科学网）_8
-      - 英国(YouTube@小青科学网）_9
-      - 英国(YouTube@小青科学网）_10
-      - 🇴🇲阿曼
-      - 波兰YouTube@小青科学网20PL123
-      - 德国(YouTube@小青科学网）
-      - 美国YouTube@小青科学网20US104
       - 美国(YouTube@小青科学网）_6
       - 美国(YouTube@小青科学网）_7
+      - 🇬🇧英国GB-616
+      - 英国(YouTube@小青科学网）_7
+      - 英国(YouTube@小青科学网）_8
+      - 英国(YouTube@小青科学网）_9
+      - 德国(YouTube@小青科学网）
+      - YouTube@小青科学网20267
+      - YouTube@小青科学网2058
       - 美国(YouTube@小青科学网）_8
+      - 🇹🇼台湾-1188
       - 美国(YouTube@小青科学网）_9
-      - GB_YouTube@小青科学网
-      - TRTROJAN-48|free-nodes
-      - 英国V2CROSS.COM_2
-      - 🇺🇸美国US224
-      - 德国🇩🇪YouTube@小青科学网_2
-      - 德国🇩🇪YouTube@小青科学网_3
-      - 俄罗斯YouTube@小青科学网20RU97
-      - 俄罗斯(YouTube@小青科学网）_1
-      - 俄罗斯(YouTube@小青科学网）_2
-      - 韩国(YouTube@小青科学网）
-      - 荷兰YouTube@小青科学网20NL138
-      - 荷兰YouTube@小青科学网20NL164
-      - 荷兰YouTube@小青科学网20NL171
-      - 荷兰YouTube@小青科学网20NL222
-      - 荷兰YouTube@小青科学网20NL28
-      - 荷兰YouTube@小青科学网20NL103
-      - 荷兰YouTube@小青科学网20NL34
-      - 荷兰YouTube@小青科学网20NL51
-      - 荷兰YouTube@小青科学网20NL87
-      - 荷兰YouTube@小青科学网20NL92
-      - 美国YouTube@小青科学网20US52
+      - 塞浦路斯YouTube@小青科学网20CY65
       - 美国(YouTube@小青科学网）_10
-      - 美国(YouTube@小青科学网）_11
-      - 美国(YouTube@小青科学网）_12
-      - 美国(YouTube@小青科学网）_13
-      - 美国(YouTube@小青科学网）_14
-      - 美国(YouTube@小青科学网）_15
-      - 美国(YouTube@小青科学网）_16
-      - 美国(YouTube@小青科学网）_17
-      - 美国(YouTube@小青科学网）_18
-      - 日本(YouTube@小青科学网）
-      - 瑞典YouTube@小青科学网20SE10
-      - 台湾(YouTube@小青科学网）_1
-      - 台湾(YouTube@小青科学网）_2
-      - 台湾+🇹🇼+YouTube@小青科学网88+TW+43
-      - 香港YouTube@小青科学网20HK44
-      - 香港(YouTube@小青科学网）
-      - 新加坡(YouTube@小青科学网）_2
-      - 新加坡(YouTube@小青科学网）_3
-      - 意大利(YouTube@小青科学网）
+      - 🇷🇺俄罗斯RU-823
+      - 英国(YouTube@小青科学网）_10
       - 英国(YouTube@小青科学网）_11
+      - 美国(YouTube@小青科学网）_11
+      - 德国🇩🇪YouTube@小青科学网_2
       - 英国(YouTube@小青科学网）_12
       - 英国(YouTube@小青科学网）_13
       - 英国(YouTube@小青科学网）_14
+      - 🇺🇸美国US-218
+      - 美国(YouTube@小青科学网)_2
       - 英国(YouTube@小青科学网）_15
+      - YouTube@小青科学网20283
+      - 🇯🇵日本JP纯净-669
+      - 🇬🇧英国V2CROSS.COM
+      - 德国YouTube@小青科学网20DE108
+      - 🇷🇺俄罗斯RU-871
       - 英国(YouTube@小青科学网）_16
       - 英国(YouTube@小青科学网）_17
       - 英国(YouTube@小青科学网）_18
@@ -935,20 +1161,102 @@ proxy-groups:
       - 英国(YouTube@小青科学网）_24
       - 英国(YouTube@小青科学网）_25
       - 英国(YouTube@小青科学网）_26
+      - YouTube@小青科学网20301
+      - 🇺🇸美国US209
+      - 美国(YouTube@小青科学网）_12
+      - YouTube@小青科学网20277
+      - 🇴🇲阿曼
+      - YouTube@小青科学网20328
+      - YouTube@小青科学网20255
+      - 香港YouTube@小青科学网20HK242
+      - 🇭🇰香港HK纯净-420
+      - 新加坡YouTube@小青科学网20SG364
+      - 资源分享师
+      - 德国🇩🇪YouTube@小青科学网_3
+      - 美国(YouTube@小青科学网）_13
       - 英国(YouTube@小青科学网）_27
       - 英国(YouTube@小青科学网）_28
       - 英国(YouTube@小青科学网）_29
       - 英国(YouTube@小青科学网）_30
       - 英国(YouTube@小青科学网）_31
+      - 英国V2CROSS.COM_1
+      - 英国V2CROSS.COM_2
       - 英国(YouTube@小青科学网）_32
+      - 🇺🇸美国US210
+      - 韩国YouTube@小青科学网20KR89
+      - 🇩🇪德国02
+      - 🇺🇸美国US-178
+      - 韩国YouTube@小青科学网20KR88
+      - YouTube@小青科学网2061
+      - 德国
+      - 新加坡(YouTube@小青科学网）_1
+      - 🇺🇸US252|⬇️9MB/s
+      - 🇵🇱波兰PL-291
+      - 荷兰YouTube@小青科学网20NL159
+      - 荷兰YouTube@小青科学网20NL133
+      - 奥地利YouTube@小青科学网20AT139
+      - 俄罗斯YouTube@小青科学网20RU21
+      - 美国(YouTube@小青科学网）_14
+      - 芬兰YouTube@小青科学网20FI252
+      - 加拿大(YouTube@小青科学网）
+      - 美国(YouTube@小青科学网）_15
       - 英国(YouTube@小青科学网）_33
       - 英国(YouTube@小青科学网）_34
       - 英国(YouTube@小青科学网）_35
+      - 美国(YouTube@小青科学网）_16
       - 英国(YouTube@小青科学网）_36
+      - 法国(YouTube@小青科学网）
       - 英国(YouTube@小青科学网）_37
       - 英国(YouTube@小青科学网）_38
+      - 瑞士YouTube@小青科学网20CH280
+      - 伊朗YouTube@小青科学网20IR137
+      - 芬兰YouTube@小青科学网20FI145
+      - YouTube@小青科学网2041
+      - 拉脱维亚YouTube@小青科学网20LV245
+      - 韩国YouTube@小青科学网20KR178
+      - 美国(YouTube@小青科学网）_17
+      - 韩国YouTube@小青科学网20KR155
+      - 日本YouTube@小青科学网20JP208
+      - 伊朗YouTube@小青科学网20IR127
+      - 美国YouTube@小青科学网20US115
+      - 拉脱维亚YouTube@小青科学网20LV293
+      - 🇩🇪DE410|⬇️1MB/s
+      - 荷兰YouTube@小青科学网20NL193
+      - 德国YouTube@小青科学网20DE43
+      - 拉脱维亚YouTube@小青科学网20LV197
+      - YouTube@小青科学网20247
+      - 新加坡YouTube@小青科学网20SG34
+      - YouTube@小青科学网206
+      - 美国YouTube@小青科学网20US77
+      - 美国(YouTube@小青科学网）_18
+      - 美国(YouTube@小青科学网）_19
+      - 美国(YouTube@小青科学网）_20
+      - 美国YouTube@小青科学网20US104
+      - YouTube@小青科学网20265
+      - 加拿大YouTube@小青科学网20CA168
+      - 🇷🇺俄罗斯RU-874
+      - YouTube@小青科学网2095
+      - 美国(YouTube@小青科学网）_21
+      - YouTube@小青科学网20344
+      - 美国YouTube@小青科学网20US281
+      - 🇯🇵日本JP纯净-97
+      - YouTube@小青科学网20200
+      - 美国YouTube@小青科学网20US56
+      - 韩国YouTube@小青科学网20KR170
+      - 韩国YouTube@小青科学网20KR120
+      - 新加坡(YouTube@小青科学网）_2
+      - 韩国YouTube@小青科学网20KR171
+      - 西班牙(YouTube@小青科学网）
+      - 🇮🇳印度IN-568
+      - 美国(YouTube@小青科学网）_22
+      - 香港(YouTube@小青科学网）
+      - 美国(YouTube@小青科学网）_23
+      - 美国(YouTube@小青科学网）_24
+      - 美国YouTube@小青科学网20US24
       - 英国(YouTube@小青科学网）_39
-      - 英国(YouTube@小青科学网）_40
+      - 瑞典YouTube@小青科学网20SE10
+      - 香港YouTube@小青科学网20HK44
+      - 韩国YouTube@小青科学网20KR184
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -971,110 +1279,72 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 波兰YouTube@小青科学网20PL33
-      - 波兰YouTube@小青科学网20PL27
+      - 波兰YouTube@小青科学网20PL116
+      - 英国YouTube@小青科学网20GB320
+      - YouTube@小青科学网_1
+      - 英国YouTube@小青科学网20GB240
+      - 瑞士YouTube@小青科学网20CH167
+      - 🇵🇱波兰PL-203
+      - 🇵🇱波兰PL-807
+      - 美国(YouTube@小青科学网)_1
+      - 美国YouTube@小青科学网20US52
       - 芬兰YouTube@小青科学网20FI38
-      - 🇩🇪德国02
-      - 意大利YouTube@小青科学网20IT203
-      - 波兰🇵🇱YouTube@小青科学网20PL166
-      - 摩尔多瓦YouTube@小青科学网20MD194
-      - 荷兰YouTube@小青科学网20NL48
-      - 🇩🇪DE410|⬇️1MB/s
+      - '[IPv6]🇸🇪瑞典SE-191'
       - VLESS-xhttp-Reality-Vision
-      - 🇳🇱NL_35|1.3MB/s
-      - 俄罗斯YouTube@小青科学网20RU116
-      - 🇺🇸美国US-218
-      - 🇺🇸美国US210
-      - 德国YouTube@小青科学网20DE43
-      - 美国YouTube@小青科学网20US47
+      - 波兰YouTube@小青科学网20PL27
+      - 台湾+🇹🇼+YouTube@小青科学网88+TW+43
       - 🇹🇼TW020|⬇️12MB/s
-      - 法国YouTube@小青科学网20FR31
-      - 德国
-      - US
-      - 新加坡(YouTube@小青科学网）_1
-      - 荷兰YouTube@小青科学网_1
-      - 🇳🇱NL_29|2.1MB/s
-      - 英国(YouTube@小青科学网）_1
-      - 🇬🇧英国V2CROSS.COM
       - 美国(YouTube@小青科学网）_1
+      - GB_YouTube@小青科学网
+      - 波兰🇵🇱YouTube@小青科学网20PL166
+      - US
+      - 美国(YouTube@小青科学网）_2
+      - 俄罗斯YouTube@小青科学网20RU116
+      - 英国(YouTube@小青科学网）_1
+      - YouTube@小青科学网_2
+      - 意大利YouTube@小青科学网20IT203
+      - 美国(YouTube@小青科学网）_3
+      - 德国🇩🇪YouTube@小青科学网_1
+      - 🇺🇸美国US215
       - 英国(YouTube@小青科学网）_2
       - 英国(YouTube@小青科学网）_3
-      - 🇺🇸美国US209
-      - 🇺🇸US252|⬇️9MB/s
-      - 荷兰YouTube@小青科学网20NL102
-      - 美国(YouTube@小青科学网)
-      - 美国(YouTube@小青科学网）_2
       - 英国(YouTube@小青科学网）_4
+      - 🇺🇸美国US224
+      - USVLESS-73|free-nodes
       - 英国(YouTube@小青科学网）_5
       - 英国(YouTube@小青科学网）_6
-      - 英国(YouTube@小青科学网）_7
-      - 荷兰YouTube@小青科学网_2
-      - 🇺🇸美国US215
-      - 德国🇩🇪YouTube@小青科学网_1
-      - 俄罗斯YouTube@小青科学网20RU21
-      - 法国(YouTube@小青科学网）
-      - 美国YouTube@小青科学网20US161
-      - 美国(YouTube@小青科学网）_3
       - 美国(YouTube@小青科学网）_4
       - 美国(YouTube@小青科学网）_5
-      - 新加坡YouTube@小青科学网20SG182
-      - 英国V2CROSS.COM_1
-      - 英国(YouTube@小青科学网）_8
-      - 英国(YouTube@小青科学网）_9
-      - 英国(YouTube@小青科学网）_10
-      - 🇴🇲阿曼
-      - 波兰YouTube@小青科学网20PL123
-      - 德国(YouTube@小青科学网）
-      - 美国YouTube@小青科学网20US104
       - 美国(YouTube@小青科学网）_6
       - 美国(YouTube@小青科学网）_7
+      - 🇬🇧英国GB-616
+      - 英国(YouTube@小青科学网）_7
+      - 英国(YouTube@小青科学网）_8
+      - 英国(YouTube@小青科学网）_9
+      - 德国(YouTube@小青科学网）
+      - YouTube@小青科学网20267
+      - YouTube@小青科学网2058
       - 美国(YouTube@小青科学网）_8
+      - 🇹🇼台湾-1188
       - 美国(YouTube@小青科学网）_9
-      - GB_YouTube@小青科学网
-      - TRTROJAN-48|free-nodes
-      - 英国V2CROSS.COM_2
-      - 🇺🇸美国US224
-      - 德国🇩🇪YouTube@小青科学网_2
-      - 德国🇩🇪YouTube@小青科学网_3
-      - 俄罗斯YouTube@小青科学网20RU97
-      - 俄罗斯(YouTube@小青科学网）_1
-      - 俄罗斯(YouTube@小青科学网）_2
-      - 韩国(YouTube@小青科学网）
-      - 荷兰YouTube@小青科学网20NL138
-      - 荷兰YouTube@小青科学网20NL164
-      - 荷兰YouTube@小青科学网20NL171
-      - 荷兰YouTube@小青科学网20NL222
-      - 荷兰YouTube@小青科学网20NL28
-      - 荷兰YouTube@小青科学网20NL103
-      - 荷兰YouTube@小青科学网20NL34
-      - 荷兰YouTube@小青科学网20NL51
-      - 荷兰YouTube@小青科学网20NL87
-      - 荷兰YouTube@小青科学网20NL92
-      - 美国YouTube@小青科学网20US52
+      - 塞浦路斯YouTube@小青科学网20CY65
       - 美国(YouTube@小青科学网）_10
-      - 美国(YouTube@小青科学网）_11
-      - 美国(YouTube@小青科学网）_12
-      - 美国(YouTube@小青科学网）_13
-      - 美国(YouTube@小青科学网）_14
-      - 美国(YouTube@小青科学网）_15
-      - 美国(YouTube@小青科学网）_16
-      - 美国(YouTube@小青科学网）_17
-      - 美国(YouTube@小青科学网）_18
-      - 日本(YouTube@小青科学网）
-      - 瑞典YouTube@小青科学网20SE10
-      - 台湾(YouTube@小青科学网）_1
-      - 台湾(YouTube@小青科学网）_2
-      - 台湾+🇹🇼+YouTube@小青科学网88+TW+43
-      - 香港YouTube@小青科学网20HK44
-      - 香港(YouTube@小青科学网）
-      - 新加坡(YouTube@小青科学网）_2
-      - 新加坡(YouTube@小青科学网）_3
-      - 意大利(YouTube@小青科学网）
+      - 🇷🇺俄罗斯RU-823
+      - 英国(YouTube@小青科学网）_10
       - 英国(YouTube@小青科学网）_11
+      - 美国(YouTube@小青科学网）_11
+      - 德国🇩🇪YouTube@小青科学网_2
       - 英国(YouTube@小青科学网）_12
       - 英国(YouTube@小青科学网）_13
       - 英国(YouTube@小青科学网）_14
+      - 🇺🇸美国US-218
+      - 美国(YouTube@小青科学网)_2
       - 英国(YouTube@小青科学网）_15
+      - YouTube@小青科学网20283
+      - 🇯🇵日本JP纯净-669
+      - 🇬🇧英国V2CROSS.COM
+      - 德国YouTube@小青科学网20DE108
+      - 🇷🇺俄罗斯RU-871
       - 英国(YouTube@小青科学网）_16
       - 英国(YouTube@小青科学网）_17
       - 英国(YouTube@小青科学网）_18
@@ -1086,20 +1356,102 @@ proxy-groups:
       - 英国(YouTube@小青科学网）_24
       - 英国(YouTube@小青科学网）_25
       - 英国(YouTube@小青科学网）_26
+      - YouTube@小青科学网20301
+      - 🇺🇸美国US209
+      - 美国(YouTube@小青科学网）_12
+      - YouTube@小青科学网20277
+      - 🇴🇲阿曼
+      - YouTube@小青科学网20328
+      - YouTube@小青科学网20255
+      - 香港YouTube@小青科学网20HK242
+      - 🇭🇰香港HK纯净-420
+      - 新加坡YouTube@小青科学网20SG364
+      - 资源分享师
+      - 德国🇩🇪YouTube@小青科学网_3
+      - 美国(YouTube@小青科学网）_13
       - 英国(YouTube@小青科学网）_27
       - 英国(YouTube@小青科学网）_28
       - 英国(YouTube@小青科学网）_29
       - 英国(YouTube@小青科学网）_30
       - 英国(YouTube@小青科学网）_31
+      - 英国V2CROSS.COM_1
+      - 英国V2CROSS.COM_2
       - 英国(YouTube@小青科学网）_32
+      - 🇺🇸美国US210
+      - 韩国YouTube@小青科学网20KR89
+      - 🇩🇪德国02
+      - 🇺🇸美国US-178
+      - 韩国YouTube@小青科学网20KR88
+      - YouTube@小青科学网2061
+      - 德国
+      - 新加坡(YouTube@小青科学网）_1
+      - 🇺🇸US252|⬇️9MB/s
+      - 🇵🇱波兰PL-291
+      - 荷兰YouTube@小青科学网20NL159
+      - 荷兰YouTube@小青科学网20NL133
+      - 奥地利YouTube@小青科学网20AT139
+      - 俄罗斯YouTube@小青科学网20RU21
+      - 美国(YouTube@小青科学网）_14
+      - 芬兰YouTube@小青科学网20FI252
+      - 加拿大(YouTube@小青科学网）
+      - 美国(YouTube@小青科学网）_15
       - 英国(YouTube@小青科学网）_33
       - 英国(YouTube@小青科学网）_34
       - 英国(YouTube@小青科学网）_35
+      - 美国(YouTube@小青科学网）_16
       - 英国(YouTube@小青科学网）_36
+      - 法国(YouTube@小青科学网）
       - 英国(YouTube@小青科学网）_37
       - 英国(YouTube@小青科学网）_38
+      - 瑞士YouTube@小青科学网20CH280
+      - 伊朗YouTube@小青科学网20IR137
+      - 芬兰YouTube@小青科学网20FI145
+      - YouTube@小青科学网2041
+      - 拉脱维亚YouTube@小青科学网20LV245
+      - 韩国YouTube@小青科学网20KR178
+      - 美国(YouTube@小青科学网）_17
+      - 韩国YouTube@小青科学网20KR155
+      - 日本YouTube@小青科学网20JP208
+      - 伊朗YouTube@小青科学网20IR127
+      - 美国YouTube@小青科学网20US115
+      - 拉脱维亚YouTube@小青科学网20LV293
+      - 🇩🇪DE410|⬇️1MB/s
+      - 荷兰YouTube@小青科学网20NL193
+      - 德国YouTube@小青科学网20DE43
+      - 拉脱维亚YouTube@小青科学网20LV197
+      - YouTube@小青科学网20247
+      - 新加坡YouTube@小青科学网20SG34
+      - YouTube@小青科学网206
+      - 美国YouTube@小青科学网20US77
+      - 美国(YouTube@小青科学网）_18
+      - 美国(YouTube@小青科学网）_19
+      - 美国(YouTube@小青科学网）_20
+      - 美国YouTube@小青科学网20US104
+      - YouTube@小青科学网20265
+      - 加拿大YouTube@小青科学网20CA168
+      - 🇷🇺俄罗斯RU-874
+      - YouTube@小青科学网2095
+      - 美国(YouTube@小青科学网）_21
+      - YouTube@小青科学网20344
+      - 美国YouTube@小青科学网20US281
+      - 🇯🇵日本JP纯净-97
+      - YouTube@小青科学网20200
+      - 美国YouTube@小青科学网20US56
+      - 韩国YouTube@小青科学网20KR170
+      - 韩国YouTube@小青科学网20KR120
+      - 新加坡(YouTube@小青科学网）_2
+      - 韩国YouTube@小青科学网20KR171
+      - 西班牙(YouTube@小青科学网）
+      - 🇮🇳印度IN-568
+      - 美国(YouTube@小青科学网）_22
+      - 香港(YouTube@小青科学网）
+      - 美国(YouTube@小青科学网）_23
+      - 美国(YouTube@小青科学网）_24
+      - 美国YouTube@小青科学网20US24
       - 英国(YouTube@小青科学网）_39
-      - 英国(YouTube@小青科学网）_40
+      - 瑞典YouTube@小青科学网20SE10
+      - 香港YouTube@小青科学网20HK44
+      - 韩国YouTube@小青科学网20KR184
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
