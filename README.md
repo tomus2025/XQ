@@ -15,6 +15,7 @@ https://raw.githubusercontent.com/tomus2025/XQ/refs/heads/main/BJ2026
 JC2026
 
 https://shz.al/bbNn
+
 https://shz.al/5JPN
 
 https://shz.al/Rp4a
