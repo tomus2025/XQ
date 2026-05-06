@@ -1,976 +1,117 @@
 proxies:
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EF\U0001F1F5JP_1|2.5MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 9e0f72bb-7ad6-4383-994a-497569a94d74
-    port: 6533
-    server: hkaws.ccwink.photos
-    skip-cert-verify: true
-    sni: jpdigital.ccwink.cc
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EF\U0001F1F5JP_2|3.9MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 9e0f72bb-7ad6-4383-994a-497569a94d74
-    port: 6533
-    server: jpaws.ccwink.photos
-    skip-cert-verify: true
-    sni: jpdigital.ccwink.cc
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F8\U0001F1ECSG_1|3.5MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 9e0f72bb-7ad6-4383-994a-497569a94d74
-    port: 52348
-    server: jpaws.ccwink.photos
-    skip-cert-verify: true
-    sni: sgdigital.ccwink.cc
-    type: hysteria2
-    up: ''
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_1|908KB/s"
-    network: tcp
-    port: 180
-    server: 82.198.246.250
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    xudp: true
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F3C1ZZ"
-    delay: 1797
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1FA\U0001F1F8US_2|757KB/s"
-    network: ws
-    port: 80
-    server: skk.moe
-    skip-cert-verify: true
-    type: vmess
-    uuid: 65b17c0b-0a52-4b54-9bc9-60e31397b841
-    ws-opts:
-      headers:
-        HOST: accklsj.bufu.us.ci
-        Host: skk.moe
-      path: /65b17c0b-0a52-4b54-9bc9-60e31397b841-vmess
-    servername: accklsj.bufu.us.ci
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F1E8\U0001F1F3CN"
-    delay: 1878
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1E9\U0001F1EADE_1|657KB/s"
-    network: tcp
-    port: 30833
-    server: v33.hdacd.com
-    skip-cert-verify: true
-    type: vmess
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    servername: v33.hdacd.com
-  - alpn:
-      - |
-        http/1.1
-    client-fingerprint: chrome
-    name: "\U0001F1F0\U0001F1F7KR_1|523KB/s"
-    network: ws
-    port: 13720
-    server: 59.31.107.42
-    tls: true
-    type: vless
-    udp: true
-    uuid: 26524cce-d514-4014-a426-365fb266a14d
-    ws-opts:
-      headers:
-        Host: akrip7.beta-edge.fgfw.indevs.in
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
-      path: /danfeng?ed=2560fp=firefox
-    xudp: true
-    servername: akrip7.beta-edge.fgfw.indevs.in
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_3|1.8MB/s"
-    network: ws
-    port: 8443
-    server: 95.181.173.131
-    tls: true
-    type: vless
-    udp: true
-    uuid: 26524cce-d514-4014-a426-365fb266a14d
-    ws-opts:
-      headers:
-        Host: fn2bkp6.data-relay.chinat.indevs.in
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/54.0.2840.99 Safari/537.36
-      path: /danfeng?ed=2560fp=chrome
-    xudp: true
-    servername: fn2bkp6.data-relay.chinat.indevs.in
-  - name: "\U0001F1F0\U0001F1F7KR_2|1.3MB/s"
-    password: ''
-    port: 1090
-    server: 121.169.46.116
-    skip-cert-verify: true
-    type: socks5
-    username: ''
-  - name: "\U0001F1EF\U0001F1F5JP_3|1.5MB/s"
-    network: ws
-    password: '8r<[9''l6hAO#8ZQi'
-    port: 8443
-    server: 140.83.34.214
-    skip-cert-verify: true
-    sni: Koma-YT.PAGeS.Dev
-    type: trojan
-    ws-opts:
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EASE_1|1.5MB/s"
-    network: ws
-    password: '8r<[9''l6hAO#8ZQi'
-    port: 8443
-    server: 16.16.45.85
-    skip-cert-verify: true
-    sni: Koma-YT.PAGeS.Dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.90 Safari/537.36
-      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
-  - name: "\U0001F1EF\U0001F1F5JP_4|2.1MB/s"
-    password: 5fc9c9aa-ea47-11ed-8397-f23c913c8d2b
-    port: 443
-    server: 330bc4a0-tdyf40-tijbf1-1nhp7.jp.oshuawei.com
-    tls: true
-    type: http
-    username: 5fc9c9aa-ea47-11ed-8397-f23c913c8d2b
-    sni: 330bc4a0-tdyf40-tijbf1-1nhp7.jp.oshuawei.com
-  - client-fingerprint: chrome
-    name: "\U0001F1F3\U0001F1F1NL_1|520KB/s"
-    network: ws
-    password: '8r<[9''l6hAO#8ZQi'
-    port: 2053
-    server: 31.15.17.129
-    skip-cert-verify: true
-    sni: Koma-YT.PAGeS.Dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/49.0.2623.112 Safari/537.36
-      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_2|513KB/s"
-    network: ws
-    password: '8r<[9''l6hAO#8ZQi'
-    port: 443
-    server: 83.147.254.168
-    skip-cert-verify: true
-    sni: Koma-YT.PAGeS.Dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.90 Safari/537.36
-      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
-  - delay: 922
-    name: "\U0001F1F8\U0001F1EASE_2|655KB/s"
-    network: ws
-    password: '8r<[9''l6hAO#8ZQi'
-    port: 8443
-    server: 45.153.187.209
-    skip-cert-verify: true
-    sni: Koma-YT.PAGeS.Dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
-  - name: "\U0001F1ED\U0001F1F0HK_2|1023KB/s"
-    password: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
-    port: 5228
-    server: ef3a7852-t9zts0-tcop2n-tl32.cm4.oshuawei.com
-    sni: ef3a7852-t9zts0-tcop2n-tl32.cm4.oshuawei.com
-    tls: true
-    type: http
-    username: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
-  - delay: 714
-    name: "\U0001F1ED\U0001F1F0HK_1|546KB/s"
-    network: ws
-    password: '8r<[9''l6hAO#8ZQi'
-    port: 443
-    server: 43.168.16.112
-    skip-cert-verify: true
-    sni: Koma-YT.PAGeS.Dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
-  - delay: 1065
-    name: "\U0001F1F8\U0001F1EASE_3|1014KB/s"
-    network: ws
-    password: '8r<[9''l6hAO#8ZQi'
-    port: 443
-    server: 185.188.181.55
-    skip-cert-verify: true
-    sni: Koma-YT.PAGeS.Dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
-  - delay: 1253
-    name: "\U0001F1E9\U0001F1EADE_3|907KB/s"
-    network: ws
-    password: '8r<[9''l6hAO#8ZQi'
-    port: 2087
-    server: 77.221.157.251
-    skip-cert-verify: true
-    sni: Koma-YT.PAGeS.Dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-      path: "/trTelegram\U0001F1E8\U0001F1F3+@WangCai2"
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_4|853KB/s"
-    network: ws
-    password: '8r<[9''l6hAO#8ZQi'
-    port: 8443
-    server: 144.31.65.234
-    skip-cert-verify: true
-    sni: Koma-YT.PAGeS.Dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/67.0.3396.99 Safari/537.36
-      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
-  - name: "\U0001F1ED\U0001F1F0HK_3|1.3MB/s"
-    password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-    port: 5228
-    server: ceac52dd-t9zts0-tnkuks-wujn.cm4.oshuawei.com
-    sni: ceac52dd-t9zts0-tnkuks-wujn.cm4.oshuawei.com
-    tls: true
-    type: http
-    username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-  - client-fingerprint: chrome
-    name: ❓Other_1|717KB/s
-    network: ws
-    password: '8r<[9''l6hAO#8ZQi'
-    port: 2053
-    server: 176.125.240.147
-    skip-cert-verify: true
-    sni: Koma-YT.PAGeS.Dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/49.0.2623.110 Safari/537.36
-      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
-  - client-fingerprint: chrome
-    name: ❓Other_2|1004KB/s
-    network: ws
-    password: '8r<[9''l6hAO#8ZQi'
-    port: 443
-    server: 138.124.81.204
-    skip-cert-verify: true
-    sni: Koma-YT.PAGeS.Dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
-          (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
-      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
-  - client-fingerprint: chrome
-    name: ❓Other_3|744KB/s
-    network: ws
-    password: '8r<[9''l6hAO#8ZQi'
-    port: 16301
-    server: 38.207.172.108
-    skip-cert-verify: true
-    sni: Koma-YT.PAGeS.Dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
-  - name: ❓Other_4|2.5MB/s
-    password: dcccacba-fa44-11ef-8400-f23c9164ca5d
-    port: 443
-    server: f5ab1a0a-temhs0-tf681f-1j6h0.jp.oshuawei.com
-    tls: true
-    type: http
-    username: dcccacba-fa44-11ef-8400-f23c9164ca5d
-    sni: f5ab1a0a-temhs0-tf681f-1j6h0.jp.oshuawei.com
-  - client-fingerprint: chrome
-    name: ❓Other_5|756KB/s
-    network: ws
-    password: '8r<[9''l6hAO#8ZQi'
-    port: 7005
-    server: 43.153.174.179
-    skip-cert-verify: true
-    sni: Koma-YT.PAGeS.Dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile
-          Safari/537.36
-      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
-  - client-fingerprint: chrome
-    ech-opts:
-      enable: true
-      query-server-name: encryptedsni.com
-    name: ❓Other_6|767KB/s
-    network: ws
-    port: 443
-    server: 23.91.96.14
-    skip-cert-verify: false
-    tfo: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 26524cce-d514-4014-a426-365fb266a14d
-    ws-opts:
-      headers:
-        Host: mug.support.gfw.hidns.co
-      path: /danfeng
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: mug.support.gfw.hidns.co
-  - name: ❓Other_7|874KB/s
-    network: ws
-    password: '8r<[9''l6hAO#8ZQi'
-    port: 443
-    server: 159.65.143.223
-    skip-cert-verify: true
-    sni: Koma-YT.PAGeS.Dev
-    type: trojan
-    ws-opts:
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
-  - alterId: 0
-    cipher: auto
-    client-fingerprint: chrome
-    encryption: none
-    name: ❓Other_8|2.2MB/s
-    network: ws
-    port: 443
-    server: 5.34.222.227
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 26524cce-d514-4014-a426-365fb266a14d
-    ws-opts:
-      headers:
-        Host: ynwta9.api-edge.fgfw.qzz.io
-      path: /danfengfp=chrome
-    servername: ynwta9.api-edge.fgfw.qzz.io
-  - client-fingerprint: chrome
-    ech-opts:
-      enable: true
-      query-server-name: encryptedsni.com
-    name: "\U0001F1ED\U0001F1F0HK_4|1.2MB/s"
-    network: ws
-    port: 443
-    server: 154.3.35.138
-    skip-cert-verify: false
-    tfo: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 26524cce-d514-4014-a426-365fb266a14d
-    ws-opts:
-      headers:
-        Host: mug.support.gfw.hidns.co
-      path: /danfeng
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: mug.support.gfw.hidns.co
-  - cipher: rc4-md5
-    name: ❓Other_9|605KB/s
-    password: 14fFPrbezE3HDZzsMOr6
-    port: 8080
-    server: 146.70.61.37
-    type: ss
-proxy-groups:
-  - name: "\U0001F680 节点选择"
-    type: select
-    proxies:
-      - ♻️ 自动选择
-      - "\U0001F1ED\U0001F1F0 香港节点"
-      - "\U0001F1E8\U0001F1F3 台湾节点"
-      - "\U0001F1F8\U0001F1EC 狮城节点"
-      - "\U0001F1EF\U0001F1F5 日本节点"
-      - "\U0001F1FA\U0001F1F2 美国节点"
-      - "\U0001F1F0\U0001F1F7 韩国节点"
-      - "\U0001F680 手动切换"
-      - DIRECT
-  - name: "\U0001F680 手动切换"
-    include-all: true
-    type: select
-  - name: ♻️ 自动选择
-    type: url-test
-    include-all: true
-    interval: 300
-    tolerance: 50
-  - name: "\U0001F4F2 电报消息"
-    type: select
-    proxies:
-      - "\U0001F680 节点选择"
-      - ♻️ 自动选择
-      - "\U0001F1F8\U0001F1EC 狮城节点"
-      - "\U0001F1ED\U0001F1F0 香港节点"
-      - "\U0001F1E8\U0001F1F3 台湾节点"
-      - "\U0001F1EF\U0001F1F5 日本节点"
-      - "\U0001F1FA\U0001F1F2 美国节点"
-      - "\U0001F1F0\U0001F1F7 韩国节点"
-      - "\U0001F680 手动切换"
-      - DIRECT
-  - name: "\U0001F4AC Ai平台"
-    type: select
-    proxies:
-      - "\U0001F680 节点选择"
-      - ♻️ 自动选择
-      - "\U0001F1F8\U0001F1EC 狮城节点"
-      - "\U0001F1ED\U0001F1F0 香港节点"
-      - "\U0001F1E8\U0001F1F3 台湾节点"
-      - "\U0001F1EF\U0001F1F5 日本节点"
-      - "\U0001F1FA\U0001F1F2 美国节点"
-      - "\U0001F1F0\U0001F1F7 韩国节点"
-      - "\U0001F680 手动切换"
-      - DIRECT
-  - name: "\U0001F4F9 油管视频"
-    type: select
-    proxies:
-      - "\U0001F680 节点选择"
-      - ♻️ 自动选择
-      - "\U0001F1F8\U0001F1EC 狮城节点"
-      - "\U0001F1ED\U0001F1F0 香港节点"
-      - "\U0001F1E8\U0001F1F3 台湾节点"
-      - "\U0001F1EF\U0001F1F5 日本节点"
-      - "\U0001F1FA\U0001F1F2 美国节点"
-      - "\U0001F1F0\U0001F1F7 韩国节点"
-      - "\U0001F680 手动切换"
-      - DIRECT
-  - name: "\U0001F3A5 奈飞视频"
-    type: select
-    proxies:
-      - "\U0001F680 节点选择"
-      - ♻️ 自动选择
-      - "\U0001F3A5 奈飞节点"
-      - "\U0001F1F8\U0001F1EC 狮城节点"
-      - "\U0001F1ED\U0001F1F0 香港节点"
-      - "\U0001F1E8\U0001F1F3 台湾节点"
-      - "\U0001F1EF\U0001F1F5 日本节点"
-      - "\U0001F1FA\U0001F1F2 美国节点"
-      - "\U0001F1F0\U0001F1F7 韩国节点"
-      - "\U0001F680 手动切换"
-      - DIRECT
-  - name: "\U0001F4FA 巴哈姆特"
-    type: select
-    proxies:
-      - "\U0001F1E8\U0001F1F3 台湾节点"
-      - "\U0001F680 节点选择"
-      - "\U0001F680 手动切换"
-      - DIRECT
-  - name: "\U0001F4FA 哔哩哔哩"
-    type: select
-    proxies:
-      - "\U0001F3AF 全球直连"
-      - "\U0001F1E8\U0001F1F3 台湾节点"
-      - "\U0001F1ED\U0001F1F0 香港节点"
-  - name: "\U0001F30D 国外媒体"
-    type: select
-    proxies:
-      - "\U0001F680 节点选择"
-      - ♻️ 自动选择
-      - "\U0001F1ED\U0001F1F0 香港节点"
-      - "\U0001F1E8\U0001F1F3 台湾节点"
-      - "\U0001F1F8\U0001F1EC 狮城节点"
-      - "\U0001F1EF\U0001F1F5 日本节点"
-      - "\U0001F1FA\U0001F1F2 美国节点"
-      - "\U0001F1F0\U0001F1F7 韩国节点"
-      - "\U0001F680 手动切换"
-      - DIRECT
-  - name: "\U0001F30F 国内媒体"
-    type: select
-    proxies:
-      - DIRECT
-      - "\U0001F1ED\U0001F1F0 香港节点"
-      - "\U0001F1E8\U0001F1F3 台湾节点"
-      - "\U0001F1F8\U0001F1EC 狮城节点"
-      - "\U0001F1EF\U0001F1F5 日本节点"
-      - "\U0001F680 手动切换"
-  - name: "\U0001F4E2 谷歌FCM"
-    type: select
-    proxies:
-      - DIRECT
-      - "\U0001F680 节点选择"
-      - "\U0001F1FA\U0001F1F2 美国节点"
-      - "\U0001F1ED\U0001F1F0 香港节点"
-      - "\U0001F1E8\U0001F1F3 台湾节点"
-      - "\U0001F1F8\U0001F1EC 狮城节点"
-      - "\U0001F1EF\U0001F1F5 日本节点"
-      - "\U0001F1F0\U0001F1F7 韩国节点"
-      - "\U0001F680 手动切换"
-  - name: Ⓜ️ 微软Bing
-    type: select
-    proxies:
-      - DIRECT
-      - "\U0001F680 节点选择"
-      - "\U0001F1FA\U0001F1F2 美国节点"
-      - "\U0001F1ED\U0001F1F0 香港节点"
-      - "\U0001F1E8\U0001F1F3 台湾节点"
-      - "\U0001F1F8\U0001F1EC 狮城节点"
-      - "\U0001F1EF\U0001F1F5 日本节点"
-      - "\U0001F1F0\U0001F1F7 韩国节点"
-      - "\U0001F680 手动切换"
-  - name: Ⓜ️ 微软云盘
-    type: select
-    proxies:
-      - DIRECT
-      - "\U0001F680 节点选择"
-      - "\U0001F1FA\U0001F1F2 美国节点"
-      - "\U0001F1ED\U0001F1F0 香港节点"
-      - "\U0001F1E8\U0001F1F3 台湾节点"
-      - "\U0001F1F8\U0001F1EC 狮城节点"
-      - "\U0001F1EF\U0001F1F5 日本节点"
-      - "\U0001F1F0\U0001F1F7 韩国节点"
-      - "\U0001F680 手动切换"
-  - name: Ⓜ️ 微软服务
-    type: select
-    proxies:
-      - "\U0001F680 节点选择"
-      - DIRECT
-      - "\U0001F1FA\U0001F1F2 美国节点"
-      - "\U0001F1ED\U0001F1F0 香港节点"
-      - "\U0001F1E8\U0001F1F3 台湾节点"
-      - "\U0001F1F8\U0001F1EC 狮城节点"
-      - "\U0001F1EF\U0001F1F5 日本节点"
-      - "\U0001F1F0\U0001F1F7 韩国节点"
-      - "\U0001F680 手动切换"
-  - name: "\U0001F34E 苹果服务"
-    type: select
-    proxies:
-      - DIRECT
-      - "\U0001F680 节点选择"
-      - "\U0001F1FA\U0001F1F2 美国节点"
-      - "\U0001F1ED\U0001F1F0 香港节点"
-      - "\U0001F1E8\U0001F1F3 台湾节点"
-      - "\U0001F1F8\U0001F1EC 狮城节点"
-      - "\U0001F1EF\U0001F1F5 日本节点"
-      - "\U0001F1F0\U0001F1F7 韩国节点"
-      - "\U0001F680 手动切换"
-  - name: "\U0001F3AE 游戏平台"
-    type: select
-    proxies:
-      - DIRECT
-      - "\U0001F680 节点选择"
-      - "\U0001F1FA\U0001F1F2 美国节点"
-      - "\U0001F1ED\U0001F1F0 香港节点"
-      - "\U0001F1E8\U0001F1F3 台湾节点"
-      - "\U0001F1F8\U0001F1EC 狮城节点"
-      - "\U0001F1EF\U0001F1F5 日本节点"
-      - "\U0001F1F0\U0001F1F7 韩国节点"
-      - "\U0001F680 手动切换"
-  - name: "\U0001F3B6 网易音乐"
-    type: select
-    include-all: true
-    filter: (?i)网易|音乐|NetEase|Music
-    proxies:
-      - DIRECT
-      - "\U0001F680 节点选择"
-      - ♻️ 自动选择
-  - name: "\U0001F3AF 全球直连"
-    type: select
-    proxies:
-      - DIRECT
-      - "\U0001F680 节点选择"
-      - ♻️ 自动选择
-  - name: "\U0001F6D1 广告拦截"
-    type: select
-    proxies:
-      - REJECT
-      - DIRECT
-  - name: "\U0001F343 应用净化"
-    type: select
-    proxies:
-      - REJECT
-      - DIRECT
-  - name: "\U0001F41F 漏网之鱼"
-    type: select
-    proxies:
-      - "\U0001F680 节点选择"
-      - ♻️ 自动选择
-      - DIRECT
-      - "\U0001F1ED\U0001F1F0 香港节点"
-      - "\U0001F1E8\U0001F1F3 台湾节点"
-      - "\U0001F1F8\U0001F1EC 狮城节点"
-      - "\U0001F1EF\U0001F1F5 日本节点"
-      - "\U0001F1FA\U0001F1F2 美国节点"
-      - "\U0001F1F0\U0001F1F7 韩国节点"
-      - "\U0001F680 手动切换"
-  - name: "\U0001F1ED\U0001F1F0 香港节点"
-    include-all: true
-    filter: (?i)港|HK|hk|Hong Kong|HongKong|hongkong
-    type: url-test
-    interval: 300
-    tolerance: 50
-  - name: "\U0001F1EF\U0001F1F5 日本节点"
-    include-all: true
-    filter: (?i)日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan
-    type: url-test
-    interval: 300
-    tolerance: 50
-  - name: "\U0001F1FA\U0001F1F2 美国节点"
-    include-all: true
-    filter: (?i)美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States
-    type: url-test
-    interval: 300
-    tolerance: 50
-  - name: "\U0001F1E8\U0001F1F3 台湾节点"
-    include-all: true
-    filter: (?i)台|新北|彰化|TW|Taiwan
-    type: url-test
-    interval: 300
-    tolerance: 50
-  - name: "\U0001F1F8\U0001F1EC 狮城节点"
-    include-all: true
-    filter: (?i)新加坡|坡|狮城|SG|Singapore
-    type: url-test
-    interval: 300
-    tolerance: 50
-  - name: "\U0001F1F0\U0001F1F7 韩国节点"
-    include-all: true
-    filter: (?i)KR|Korea|KOR|首尔|韩|韓
-    type: url-test
-    interval: 300
-    tolerance: 50
-  - name: "\U0001F3A5 奈飞节点"
-    include-all: true
-    filter: (?i)NF|奈飞|解锁|Netflix|NETFLIX|Media
-    type: select
-rule-providers:
-  LocalAreaNetwork:
-    url: >-
-      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/LocalAreaNetwork.list
-    path: ./ruleset/LocalAreaNetwork.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  UnBan:
-    url: 'https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/UnBan.list'
-    path: ./ruleset/UnBan.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  BanAD:
-    url: 'https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/BanAD.list'
-    path: ./ruleset/BanAD.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  BanProgramAD:
-    url: >-
-      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/BanProgramAD.list
-    path: ./ruleset/BanProgramAD.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  GoogleFCM:
-    url: >-
-      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/GoogleFCM.list
-    path: ./ruleset/GoogleFCM.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  GoogleCN:
-    url: >-
-      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/GoogleCN.list
-    path: ./ruleset/GoogleCN.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  SteamCN:
-    url: >-
-      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/SteamCN.list
-    path: ./ruleset/SteamCN.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  Bing:
-    url: 'https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Bing.list'
-    path: ./ruleset/Bing.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  OneDrive:
-    url: >-
-      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/OneDrive.list
-    path: ./ruleset/OneDrive.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  Microsoft:
-    url: >-
-      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Microsoft.list
-    path: ./ruleset/Microsoft.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  Apple:
-    url: 'https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Apple.list'
-    path: ./ruleset/Apple.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  Telegram:
-    url: >-
-      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Telegram.list
-    path: ./ruleset/Telegram.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  AI:
-    url: >-
-      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/AI.list
-    path: ./ruleset/AI.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  OpenAi:
-    url: >-
-      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/OpenAi.list
-    path: ./ruleset/OpenAi.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  NetEaseMusic:
-    url: >-
-      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/NetEaseMusic.list
-    path: ./ruleset/NetEaseMusic.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  Epic:
-    url: >-
-      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Epic.list
-    path: ./ruleset/Epic.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  Origin:
-    url: >-
-      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Origin.list
-    path: ./ruleset/Origin.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  Sony:
-    url: >-
-      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Sony.list
-    path: ./ruleset/Sony.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  Steam:
-    url: >-
-      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Steam.list
-    path: ./ruleset/Steam.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  Nintendo:
-    url: >-
-      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Nintendo.list
-    path: ./ruleset/Nintendo.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  YouTube:
-    url: >-
-      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/YouTube.list
-    path: ./ruleset/YouTube.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  Netflix:
-    url: >-
-      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Netflix.list
-    path: ./ruleset/Netflix.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  Bahamut:
-    url: >-
-      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Bahamut.list
-    path: ./ruleset/Bahamut.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  BilibiliHMT:
-    url: >-
-      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/BilibiliHMT.list
-    path: ./ruleset/BilibiliHMT.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  Bilibili:
-    url: >-
-      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Bilibili.list
-    path: ./ruleset/Bilibili.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  ChinaMedia:
-    url: >-
-      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaMedia.list
-    path: ./ruleset/ChinaMedia.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  ProxyMedia:
-    url: >-
-      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ProxyMedia.list
-    path: ./ruleset/ProxyMedia.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  ProxyGFWlist:
-    url: >-
-      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ProxyGFWlist.list
-    path: ./ruleset/ProxyGFWlist.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  ChinaDomain:
-    url: >-
-      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaDomain.list
-    path: ./ruleset/ChinaDomain.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  ChinaCompanyIp:
-    url: >-
-      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaCompanyIp.list
-    path: ./ruleset/ChinaCompanyIp.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  Download:
-    url: >-
-      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Download.list
-    path: ./ruleset/Download.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-rules:
-  - "PROCESS-NAME,subs-check.exe,\U0001F3AF 全球直连"
-  - "PROCESS-NAME,subs-check,\U0001F3AF 全球直连"
-  - "RULE-SET,LocalAreaNetwork,\U0001F3AF 全球直连"
-  - "RULE-SET,UnBan,\U0001F3AF 全球直连"
-  - "RULE-SET,BanAD,\U0001F6D1 广告拦截"
-  - "RULE-SET,BanProgramAD,\U0001F343 应用净化"
-  - "RULE-SET,GoogleFCM,\U0001F4E2 谷歌FCM"
-  - "RULE-SET,GoogleCN,\U0001F3AF 全球直连"
-  - "RULE-SET,SteamCN,\U0001F3AF 全球直连"
-  - 'RULE-SET,Bing,Ⓜ️ 微软Bing'
-  - 'RULE-SET,OneDrive,Ⓜ️ 微软云盘'
-  - 'RULE-SET,Microsoft,Ⓜ️ 微软服务'
-  - "RULE-SET,Apple,\U0001F34E 苹果服务"
-  - "RULE-SET,Telegram,\U0001F4F2 电报消息"
-  - "RULE-SET,AI,\U0001F4AC Ai平台"
-  - "RULE-SET,NetEaseMusic,\U0001F3B6 网易音乐"
-  - "RULE-SET,Epic,\U0001F3AE 游戏平台"
-  - "RULE-SET,Origin,\U0001F3AE 游戏平台"
-  - "RULE-SET,Sony,\U0001F3AE 游戏平台"
-  - "RULE-SET,Steam,\U0001F3AE 游戏平台"
-  - "RULE-SET,Nintendo,\U0001F3AE 游戏平台"
-  - "RULE-SET,YouTube,\U0001F4F9 油管视频"
-  - "RULE-SET,Netflix,\U0001F3A5 奈飞视频"
-  - "RULE-SET,Bahamut,\U0001F4FA 巴哈姆特"
-  - "RULE-SET,BilibiliHMT,\U0001F4FA 哔哩哔哩"
-  - "RULE-SET,Bilibili,\U0001F4FA 哔哩哔哩"
-  - "RULE-SET,ChinaMedia,\U0001F30F 国内媒体"
-  - "RULE-SET,ProxyMedia,\U0001F30D 国外媒体"
-  - "RULE-SET,ProxyGFWlist,\U0001F680 节点选择"
-  - "RULE-SET,ChinaDomain,\U0001F3AF 全球直连"
-  - "RULE-SET,ChinaCompanyIp,\U0001F3AF 全球直连"
-  - "RULE-SET,Download,\U0001F3AF 全球直连"
-  - "GEOIP,CN,\U0001F3AF 全球直连"
-  - "MATCH,\U0001F41F 漏网之鱼"
+    - name: "\U0001F1FA\U0001F1F8US_1|2.9MB/s"
+      password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+      port: 443
+      server: 3.139.104.42
+      skip-cert-verify: true
+      sni: vpn-us-003.fastervpn.world
+      tfo: false
+      type: hysteria2
+    - delay: 2020
+      name: "\U0001F1E9\U0001F1EADE_1|976KB/s"
+      network: ws
+      password: 8r<[9'l6hAO#8ZQi
+      port: 2053
+      server: 45.95.174.50
+      skip-cert-verify: true
+      sni: Koma-YT.PAGeS.Dev
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: Koma-YT.PAGeS.Dev
+        path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision-udp443-udp443
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1EF\U0001F1F5JP_1|2.6MB/s"
+      network: tcp
+      port: "443"
+      server: tokyo1.ap221.com
+      servername: tokyo.ap221.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3a54d818-82c2-49b8-b01a-e8f8e59d59c5
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1E9\U0001F1EADE_2|521KB/s"
+      network: ws
+      port: "443"
+      server: 138.124.32.78
+      servername: sni.latonyamadeline.ndjp.net
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      ws-opts:
+        headers:
+            Host: sni.latonyamadeline.ndjp.net
+            User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+        path: ""
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1E9\U0001F1EADE_3|1.4MB/s"
+      network: tcp
+      port: "7443"
+      reality-opts:
+        public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
+        short-id: be0ce047
+      server: 153.76.112.172
+      servername: chat.deepseek.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: b375b840-8ac0-4d37-98c0-44ab85fd7127
+      xudp: true
+    - name: "\U0001F1EF\U0001F1F5JP_2|1.0MB/s"
+      network: ws
+      password: 8r<[9'l6hAO#8ZQi
+      port: 443
+      server: 43.207.197.79
+      skip-cert-verify: true
+      sni: Koma-YT.PAGeS.Dev
+      tls: true
+      type: trojan
+      ws-opts:
+        headers:
+            Host: Koma-YT.PAGeS.Dev
+        path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_1|613KB/s"
+      network: ws
+      password: 8r<[9'l6hAO#8ZQi
+      port: 443
+      server: 129.212.232.171
+      skip-cert-verify: true
+      sni: Koma-YT.PAGeS.Dev
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+        path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
+    - delay: 2550
+      name: "\U0001F1EB\U0001F1EEFI_1|717KB/s"
+      network: ws
+      password: 8r<[9'l6hAO#8ZQi
+      port: 443
+      server: 185.221.163.129
+      skip-cert-verify: true
+      sni: Koma-YT.PAGeS.Dev
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: Koma-YT.PAGeS.Dev
+        path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
