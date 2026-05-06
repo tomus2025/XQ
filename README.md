@@ -24,7 +24,7 @@ JC2026
 
 https://shz.al/bbNn
 
-https://shz.al/Rp4a
+https://raw.githubusercontent.com/tomus2025/XQ/refs/heads/main/JC-Clash
 
 LH2026
 
