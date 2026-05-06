@@ -15,24 +15,17 @@ https://raw.githubusercontent.com/tomus2025/XQ/refs/heads/main/BJ2026
 ME2026
 
 https://raw.githubusercontent.com/tomus2025/XQ/refs/heads/main/ME2026
-
 https://raw.githubusercontent.com/tomus2025/XQ/refs/heads/main/ME-Clash
 
 JC2026
 
 https://raw.githubusercontent.com/tomus2025/XQ/refs/heads/main/JC2026
-
 https://raw.githubusercontent.com/tomus2025/XQ/refs/heads/main/JC-Clash
 
 LH2026
 
 https://raw.githubusercontent.com/tomus2025/XQ/refs/heads/main/LH2026
-
-https://us1.zhuk.dpdns.org/YouTube/bp4Rz/v.txt
-
-https://us1.zhuk.dpdns.org/YouTube/aB7kL/c.yaml
-
-https://us1.zhuk.dpdns.org/YouTube/bp4Rz/c.yaml
+https://raw.githubusercontent.com/tomus2025/XQ/refs/heads/main/LH-Clash
 
 XL2026
 
