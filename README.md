@@ -26,7 +26,7 @@ https://raw.githubusercontent.com/tomus2025/XQ/refs/heads/main/JC-Clash
 
 LH2026
 
-https://us1.zhuk.dpdns.org/YouTube/aB7kL/v.txt
+https://raw.githubusercontent.com/tomus2025/XQ/refs/heads/main/LH2026
 
 https://us1.zhuk.dpdns.org/YouTube/bp4Rz/v.txt
 
