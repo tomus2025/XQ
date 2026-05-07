@@ -5,643 +5,899 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 德国 youtube@独立思维 DE 101, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国 youtube@独立思维 DE 112, server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国 youtube@独立思维 DE 12, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国 youtube@独立思维 DE 146, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国 youtube@独立思维 DE 15, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国 youtube@独立思维 DE 179, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国 youtube@独立思维 DE 18, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国 youtube@独立思维 DE 180, server: 82.198.246.214, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国 youtube@独立思维 DE 181, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国 youtube@独立思维 DE 22, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国 youtube@独立思维 DE 232, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国 youtube@独立思维 DE 233, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国 youtube@独立思维 DE 236, server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国 youtube@独立思维 DE 237, server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国 youtube@独立思维 DE 260, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国 youtube@独立思维 DE 264, server: 82.198.246.214, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国 youtube@独立思维 DE 268, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国 youtube@独立思维 DE 27, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国 youtube@独立思维 DE 279, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国 youtube@独立思维 DE 314, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国 youtube@独立思维 DE 319, server: 82.198.246.214, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国 youtube@独立思维 DE 32, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国 youtube@独立思维 DE 324, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国 youtube@独立思维 DE 325, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国 youtube@独立思维 DE 326, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国 youtube@独立思维 DE 327, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国 youtube@独立思维 DE 329, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国 youtube@独立思维 DE 330, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国 youtube@独立思维 DE 332, server: 82.198.246.214, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国 youtube@独立思维 DE 346, server: 82.198.246.214, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国 youtube@独立思维 DE 35, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国 youtube@独立思维 DE 40, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国 youtube@独立思维 DE 44, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国 youtube@独立思维 DE 48, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国 youtube@独立思维 DE 51, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国 youtube@独立思维 DE 7, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国 youtube@独立思维 DE 70, server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国 youtube@独立思维 DE 72, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国 youtube@独立思维 DE 8, server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国 youtube@独立思维 DE 83, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国 youtube@独立思维 DE 84, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国 youtube@独立思维 DE 85, server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 法国 youtube@独立思维 FR 104, server: 15.188.230.176, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true, udp: true}
-  - {name: 法国 youtube@独立思维 FR 185, server: m.cnmjin.net, port: 16616, type: vmess, uuid: 1234fecf-772e-4f6e-8c8f-c0ee64eeef80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 08ade1bf1cf54e2e026946d0eeef4041.mobgslb.tbcache.com}, udp: true}
-  - {name: 法国 youtube@独立思维 FR 20, server: m.cnmjin.net, port: 16632, type: vmess, uuid: 1234fecf-772e-4f6e-8c8f-c0ee64eeef80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 08ade1bf1cf54e2e026946d0eeef4041.mobgslb.tbcache.com}, udp: true}
-  - {name: 法国 youtube@独立思维 FR 25, server: t.cnmjcn.cyou, port: 16617, type: vmess, uuid: 1234fecf-772e-4f6e-8c8f-c0ee64eeef80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 08ade1bf1cf54e2e026946d0eeef4041.mobgslb.tbcache.com}, udp: true}
-  - {name: 法国 youtube@独立思维 FR 37, server: t.cnmjcn.cyou, port: 16618, type: vmess, uuid: 1234fecf-772e-4f6e-8c8f-c0ee64eeef80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 08ade1bf1cf54e2e026946d0eeef4041.mobgslb.tbcache.com}, udp: true}
-  - {name: 加拿大 youtube@独立思维 CA 168, server: 23.227.38.43, port: 443, type: trojan, password: 7a67a0b5-87e9-4b69-a9b4-b48ebcc8358e, skip-cert-verify: true, udp: true}
-  - {name: 马来西亚 youtube@独立思维 MY 246, server: hk-zljh01.lilysi.bond, port: 25116, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dpcy26424, ws-headers: {Host: www.bilibili.com}, udp: true}
-  - {name: 马来西亚 youtube@独立思维 MY 347, server: u0-ukl1p.cy2511.world, port: 20012, type: trojan, password: 50d42e95-3f75-4bf4-8036-c74c5578e55b, sni: u0-ukl1p.cy2511.world, skip-cert-verify: true, udp: true}
-  - {name: 马来西亚 youtube@独立思维 MY 50, server: jp-zljh.lilysi.bond, port: 25117, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dpcyjp26424, ws-headers: {Host: www.microsoft.com}, udp: true}
-  - {name: 马来西亚 youtube@独立思维 MY 54, server: jp-zljh.lilysi.bond, port: 25117, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dpcyjp26424, ws-headers: {Host: www.microsoft.com}, udp: true}
-  - {name: 美国 youtube@独立思维 US 215, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: 美国 youtube@独立思维 US 281, server: 141.193.213.107, port: 443, type: trojan, password: 7a67a0b5-87e9-4b69-a9b4-b48ebcc8358e, skip-cert-verify: true, udp: true}
-  - {name: 美国 youtube@独立思维 US 313, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: 美国 youtube@独立思维 US 362, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: 美国 youtube@独立思维 US 52, server: 141.193.213.60, port: 443, type: trojan, password: 7a67a0b5-87e9-4b69-a9b4-b48ebcc8358e, skip-cert-verify: true, udp: true}
-  - {name: 美国 youtube@独立思维 US 56, server: 141.193.213.199, port: 443, type: trojan, password: 7a67a0b5-87e9-4b69-a9b4-b48ebcc8358e, skip-cert-verify: true, udp: true}
-  - {name: 美国 youtube@独立思维 US 78, server: us-xbvip.xiaobaivpn.icu, port: 28819, type: trojan, password: a42c949c-bfee-4606-9120-5c0284f9f243, sni: us-xbvip.xiaobaivpn.icu, skip-cert-verify: true, udp: true}
-  - {name: 美国 youtube@独立思维 US 82, server: us-xbvip.xiaobaivpn.icu, port: 28820, type: trojan, password: a42c949c-bfee-4606-9120-5c0284f9f243, sni: us-xbvip.xiaobaivpn.icu, skip-cert-verify: true, udp: true}
-  - {name: 美国 youtube@独立思维 US 91, server: us-xbvip.xiaobaivpn.icu, port: 28821, type: trojan, password: a42c949c-bfee-4606-9120-5c0284f9f243, sni: us-xbvip.xiaobaivpn.icu, skip-cert-verify: true, udp: true}
-  - {name: 日本 youtube@独立思维 JP 110, server: u0s.cylink.bond, port: 30044, type: trojan, password: 50d42e95-3f75-4bf4-8036-c74c5578e55b, sni: u0s.cylink.bond, skip-cert-verify: true, udp: true}
-  - {name: 日本 youtube@独立思维 JP 113, server: svip-jp.xiaobaivpn.icu, port: 28803, type: trojan, password: a42c949c-bfee-4606-9120-5c0284f9f243, sni: svip-jp.xiaobaivpn.icu, skip-cert-verify: true, udp: true}
-  - {name: 日本 youtube@独立思维 JP 13, server: 54.64.8.213, port: 38692, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
-  - {name: 日本 youtube@独立思维 JP 141, server: 13.231.182.84, port: 2511, type: trojan, password: ba62c023f9bce796ae334fecb20ef7cc, skip-cert-verify: true, udp: true}
-  - {name: 日本 youtube@独立思维 JP 151, server: kr-isp.cylink.bond, port: 16055, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /HK2025, ws-headers: {Host: www.bing.com}, udp: true}
-  - {name: 日本 youtube@独立思维 JP 158, server: ro0-kstc.cy2511.world, port: 28634, type: trojan, password: 50d42e95-3f75-4bf4-8036-c74c5578e55b, sni: ro0-kstc.cy2511.world, skip-cert-verify: true, udp: true}
-  - {name: 日本 youtube@独立思维 JP 189, server: kr-isp.cylink.bond, port: 16055, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /HK2025, ws-headers: {Host: www.bing.com}, udp: true}
-  - {name: 日本 youtube@独立思维 JP 19, server: 13.231.158.129, port: 63131, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
-  - {name: 日本 youtube@独立思维 JP 47, server: 13.231.251.168, port: 2074, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
-  - {name: 塞浦路斯 youtube@独立思维 CY 291, server: 45.12.146.179, port: 4443, type: trojan, password: strong-secret-pass-777, skip-cert-verify: true, udp: true}
-  - {name: 塞浦路斯 youtube@独立思维 CY 38, server: csgo.com, port: 443, type: trojan, password: 7a67a0b5-87e9-4b69-a9b4-b48ebcc8358e, sni: csgo.com, skip-cert-verify: true, udp: true}
-  - {name: 塞浦路斯 youtube@独立思维 CY 65, server: csgo.com, port: 443, type: trojan, password: 7a67a0b5-87e9-4b69-a9b4-b48ebcc8358e, sni: csgo.com, skip-cert-verify: true, udp: true}
-  - {name: 台湾 youtube@独立思维 TW 30, server: n8mrcg005964vnc.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, udp: true}
-  - {name: 台湾 youtube@独立思维 TW 366, server: r3mrcg007134n4g.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, udp: true}
-  - {name: 香港 youtube@独立思维 HK 14, server: 16.163.148.1, port: 4840, type: trojan, password: ba62c023f9bce796ae334fecb20ef7cc, skip-cert-verify: true, udp: true}
-  - {name: 香港 youtube@独立思维 HK 160, server: 18.163.28.173, port: 53018, type: trojan, password: ba62c023f9bce796ae334fecb20ef7cc, skip-cert-verify: true, udp: true}
-  - {name: 香港 youtube@独立思维 HK 34, server: 16.163.148.1, port: 8066, type: trojan, password: ba62c023f9bce796ae334fecb20ef7cc, skip-cert-verify: true, udp: true}
-  - {name: 香港 youtube@独立思维 HK 341, server: 103.181.164.145, port: 51556, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港 youtube@独立思维 HK 345, server: 103.181.164.145, port: 51556, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港 youtube@独立思维 HK 361, server: 103.181.164.145, port: 54022, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港 youtube@独立思维 HK 363, server: 103.181.164.145, port: 54022, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港 youtube@独立思维 HK 60, server: 16.163.148.1, port: 11541, type: trojan, password: ba62c023f9bce796ae334fecb20ef7cc, skip-cert-verify: true, udp: true}
-  - {name: 新加坡 youtube@独立思维 SG 219, server: svip-sg.xiaobaivpn.icu, port: 28813, type: trojan, password: a42c949c-bfee-4606-9120-5c0284f9f243, sni: svip-sg.xiaobaivpn.icu, skip-cert-verify: true, udp: true}
-  - {name: 新加坡 youtube@独立思维 SG 235, server: svip-sg.xiaobaivpn.icu, port: 28815, type: trojan, password: a42c949c-bfee-4606-9120-5c0284f9f243, sni: svip-sg.xiaobaivpn.icu, skip-cert-verify: true, udp: true}
-  - {name: 英国 youtube@独立思维 GB 143, server: 82.38.31.191, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true}
-  - {name: 英国 youtube@独立思维 GB 33, server: 82.38.31.190, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true}
-  - {name: 中国 youtube@独立思维 CN 107, server: pan2511.cylink.bond, port: 45502, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jp01-2025, ws-headers: {Host: www.bing.com}, udp: true}
-  - {name: 中国 youtube@独立思维 CN 129, server: pan2511.cylink.bond, port: 45503, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jp02-2025, ws-headers: {Host: www.bing.com}, udp: true}
-  - {name: 中国 youtube@独立思维 CN 36, server: pan2511.cylink.bond, port: 45503, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jp02-2025, ws-headers: {Host: www.bing.com}, udp: true}
-  - {name: youtube@独立思维 10, server: 888.cloudflare.182682.xyz, port: 443, type: trojan, password: 7a67a0b5-87e9-4b69-a9b4-b48ebcc8358e, sni: 888.cloudflare.182682.xyz, skip-cert-verify: true, udp: true}
-  - {name: youtube@独立思维 105, server: 777.cloudflare.182682.xyz, port: 443, type: trojan, password: 7a67a0b5-87e9-4b69-a9b4-b48ebcc8358e, sni: 777.cloudflare.182682.xyz, skip-cert-verify: true, udp: true}
-  - {name: youtube@独立思维 106, server: sakura.cylink.bond, port: 40528, type: trojan, password: 50d42e95-3f75-4bf4-8036-c74c5578e55b, sni: sakura.cylink.bond, skip-cert-verify: true, udp: true}
-  - {name: youtube@独立思维 109, server: hktro.cylink.bond, port: 33034, type: trojan, password: 50d42e95-3f75-4bf4-8036-c74c5578e55b, sni: hktro.cylink.bond, skip-cert-verify: true, udp: true}
-  - {name: youtube@独立思维 11, server: hkd.cylink.bond, port: 34489, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hy25915, ws-headers: {Host: www.youzan.com}, udp: true}
-  - {name: youtube@独立思维 114, server: flx0-hbcuko.cy2511.world, port: 28606, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fa26426, ws-headers: {Host: www.microsoft.com}, udp: true}
-  - {name: youtube@独立思维 128, server: hkd.cylink.bond, port: 34489, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hy25915, ws-headers: {Host: www.youzan.com}, udp: true}
-  - {name: youtube@独立思维 142, server: hkeofhwo3.cloudflare.182682.xyz, port: 443, type: trojan, password: 7a67a0b5-87e9-4b69-a9b4-b48ebcc8358e, sni: hkeofhwo3.cloudflare.182682.xyz, skip-cert-verify: true, udp: true}
-  - {name: youtube@独立思维 152, server: cy4.southeast.cy2511.world, port: 28630, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yn2026, ws-headers: {Host: www.bing.com}, udp: true}
-  - {name: youtube@独立思维 16, server: cyrb.lilysi.bond, port: 25119, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dpcyus26424, ws-headers: {Host: www.microsoft.com}, udp: true}
-  - {name: youtube@独立思维 163, server: flx0-hbcuko.cy2511.world, port: 28606, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fa26426, ws-headers: {Host: www.microsoft.com}, udp: true}
-  - {name: youtube@独立思维 172, server: hka.cylink.bond, port: 34486, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hy25915, ws-headers: {Host: www.youzan.com}, udp: true}
-  - {name: youtube@独立思维 173, server: cy4.southeast.cy2511.world, port: 28630, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yn2026, ws-headers: {Host: www.bing.com}, udp: true}
-  - {name: youtube@独立思维 188, server: hka.cylink.bond, port: 34486, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hy25915, ws-headers: {Host: www.youzan.com}, udp: true}
-  - {name: youtube@独立思维 203, server: us1-hbcuko.cy2511.world, port: 20400, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /usa25915, ws-headers: {Host: www.youzan.com}, udp: true}
-  - {name: youtube@独立思维 207, server: cy0-gdcmlp.cy2511.world, port: 28607, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sgnnc2599, ws-headers: {Host: www.bing.com}, udp: true}
-  - {name: youtube@独立思维 21, server: pineapple04.cylink.bond, port: 30032, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /aiwawan, ws-headers: {Host: www.microsoft.com}, udp: true}
-  - {name: youtube@独立思维 216, server: cyw-33.cy2511.world, port: 10053, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /HK2025, ws-headers: {Host: www.bing.com}, udp: true}
-  - {name: youtube@独立思维 226, server: cy2-dxyh.cy2511.world, port: 33038, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /HK2025, ws-headers: {Host: www.bing.com}, udp: true}
-  - {name: youtube@独立思维 227, server: hkg.cylink.bond, port: 34492, type: trojan, password: 50d42e95-3f75-4bf4-8036-c74c5578e55b, sni: hkg.cylink.bond, skip-cert-verify: true, udp: true}
-  - {name: youtube@独立思维 229, server: pineapple02.cylink.bond, port: 10052, type: trojan, password: 50d42e95-3f75-4bf4-8036-c74c5578e55b, sni: pineapple02.cylink.bond, skip-cert-verify: true, udp: true}
-  - {name: youtube@独立思维 23, server: hkg.cylink.bond, port: 34492, type: trojan, password: 50d42e95-3f75-4bf4-8036-c74c5578e55b, sni: hkg.cylink.bond, skip-cert-verify: true, udp: true}
-  - {name: youtube@独立思维 241, server: cy4.southeast.cy2511.world, port: 28623, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mama2599, ws-headers: {Host: www.bing.com}, udp: true}
-  - {name: youtube@独立思维 243, server: pineapple02.cylink.bond, port: 10052, type: trojan, password: 50d42e95-3f75-4bf4-8036-c74c5578e55b, sni: pineapple02.cylink.bond, skip-cert-verify: true, udp: true}
-  - {name: youtube@独立思维 253, server: pineapple03.cylink.bond, port: 30033, type: trojan, password: 50d42e95-3f75-4bf4-8036-c74c5578e55b, sni: pineapple03.cylink.bond, skip-cert-verify: true, udp: true}
-  - {name: youtube@独立思维 254, server: pineapple03.cylink.bond, port: 30033, type: trojan, password: 50d42e95-3f75-4bf4-8036-c74c5578e55b, sni: pineapple03.cylink.bond, skip-cert-verify: true, udp: true}
-  - {name: youtube@独立思维 257, server: pineapple01.cylink.bond, port: 10051, type: trojan, password: 50d42e95-3f75-4bf4-8036-c74c5578e55b, sni: pineapple01.cylink.bond, skip-cert-verify: true, udp: true}
-  - {name: youtube@独立思维 258, server: jpd.cylink.bond, port: 28621, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /HK2025, ws-headers: {Host: www.bing.com}, udp: true}
-  - {name: youtube@独立思维 26, server: 666.cloudflare.182682.xyz, port: 443, type: trojan, password: 7a67a0b5-87e9-4b69-a9b4-b48ebcc8358e, sni: 666.cloudflare.182682.xyz, skip-cert-verify: true, udp: true}
-  - {name: youtube@独立思维 262, server: cy1-hbcuko.cy2511.world, port: 28629, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /nokunkun, ws-headers: {Host: www.microsoft.com}, udp: true}
-  - {name: youtube@独立思维 266, server: cyw-33.cy2511.world, port: 10053, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /HK2025, ws-headers: {Host: www.bing.com}, udp: true}
-  - {name: youtube@独立思维 270, server: cy3-3w0l1.cy2511.world, port: 45415, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /HK2025, ws-headers: {Host: www.bing.com}, udp: true}
-  - {name: youtube@独立思维 271, server: cy1-gdcmlp.cy2511.world, port: 28620, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /aozhouda, ws-headers: {Host: www.microsoft.com}, udp: true}
-  - {name: youtube@独立思维 28, server: jpd.cylink.bond, port: 28621, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /HK2025, ws-headers: {Host: www.bing.com}, udp: true}
-  - {name: youtube@独立思维 290, server: hkc.cylink.bond, port: 34488, type: trojan, password: 50d42e95-3f75-4bf4-8036-c74c5578e55b, sni: hkc.cylink.bond, skip-cert-verify: true, udp: true}
-  - {name: youtube@独立思维 3, server: pineapple01.cylink.bond, port: 10051, type: trojan, password: 50d42e95-3f75-4bf4-8036-c74c5578e55b, sni: pineapple01.cylink.bond, skip-cert-verify: true, udp: true}
-  - {name: youtube@独立思维 301, server: cajeoha.cloudflare.182682.xyz, port: 443, type: trojan, password: 7a67a0b5-87e9-4b69-a9b4-b48ebcc8358e, sni: cajeoha.cloudflare.182682.xyz, skip-cert-verify: true, udp: true}
-  - {name: youtube@独立思维 302, server: cy4.southeast.cy2511.world, port: 28631, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /taitai2599, ws-headers: {Host: www.bing.com}, udp: true}
-  - {name: youtube@独立思维 305, server: cy2-dxyh.cy2511.world, port: 33038, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /HK2025, ws-headers: {Host: www.bing.com}, udp: true}
-  - {name: youtube@独立思维 31, server: jpp.cylink.bond, port: 45504, type: trojan, password: 50d42e95-3f75-4bf4-8036-c74c5578e55b, sni: jpp.cylink.bond, skip-cert-verify: true, udp: true}
-  - {name: youtube@独立思维 317, server: cy4.southeast.cy2511.world, port: 28623, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mama2599, ws-headers: {Host: www.bing.com}, udp: true}
-  - {name: youtube@独立思维 318, server: cy1-hbcuko.cy2511.world, port: 28629, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /nokunkun, ws-headers: {Host: www.microsoft.com}, udp: true}
-  - {name: youtube@独立思维 322, server: hkb.cylink.bond, port: 34487, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rock2599, ws-headers: {Host: www.youzan.com}, udp: true}
-  - {name: youtube@独立思维 323, server: ssg.cylink.bond, port: 45413, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sgg25917, ws-headers: {Host: www.bilibili.com}, udp: true}
-  - {name: youtube@独立思维 328, server: c321ajeoha.cloudflare.182682.xyz, port: 443, type: trojan, password: 7a67a0b5-87e9-4b69-a9b4-b48ebcc8358e, sni: c321ajeoha.cloudflare.182682.xyz, skip-cert-verify: true, udp: true}
-  - {name: youtube@独立思维 331, server: us1-hbcuko.cy2511.world, port: 20400, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /usa25915, ws-headers: {Host: www.youzan.com}, udp: true}
-  - {name: youtube@独立思维 41, server: 104.19.174.68, port: 443, type: trojan, password: 7a67a0b5-87e9-4b69-a9b4-b48ebcc8358e, skip-cert-verify: true, udp: true}
-  - {name: youtube@独立思维 42, server: 104.19.173.68, port: 443, type: trojan, password: 7a67a0b5-87e9-4b69-a9b4-b48ebcc8358e, skip-cert-verify: true, udp: true}
-  - {name: youtube@独立思维 43, server: cyrb.lilysi.bond, port: 25119, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dpcyus26424, ws-headers: {Host: www.microsoft.com}, udp: true}
-  - {name: youtube@独立思维 45, server: hkf.cylink.bond, port: 34491, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hkduo, ws-headers: {Host: www.bilibili.com}, udp: true}
-  - {name: youtube@独立思维 53, server: cy4.southeast.cy2511.world, port: 28633, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /HK2025, ws-headers: {Host: www.bing.com}, udp: true}
-  - {name: youtube@独立思维 55, server: hke.cylink.bond, port: 34490, type: trojan, password: 50d42e95-3f75-4bf4-8036-c74c5578e55b, sni: hke.cylink.bond, skip-cert-verify: true, udp: true}
-  - {name: youtube@独立思维 57, server: hkh.cylink.bond, port: 33035, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /HK2025, ws-headers: {Host: www.bing.com}, udp: true}
-  - {name: youtube@独立思维 58, server: malaia.cloudflare.182682.xyz, port: 443, type: trojan, password: 7a67a0b5-87e9-4b69-a9b4-b48ebcc8358e, sni: malaia.cloudflare.182682.xyz, skip-cert-verify: true, udp: true}
-  - {name: youtube@独立思维 6, server: jp9y3408.cloudflare.182682.xyz, port: 443, type: trojan, password: 7a67a0b5-87e9-4b69-a9b4-b48ebcc8358e, sni: jp9y3408.cloudflare.182682.xyz, skip-cert-verify: true, udp: true}
-  - {name: youtube@独立思维 61, server: 111.cloudflare.182682.xyz, port: 443, type: trojan, password: 7a67a0b5-87e9-4b69-a9b4-b48ebcc8358e, sni: 111.cloudflare.182682.xyz, skip-cert-verify: true, udp: true}
-  - {name: youtube@独立思维 66, server: 999.cloudflare.182682.xyz, port: 443, type: trojan, password: 7a67a0b5-87e9-4b69-a9b4-b48ebcc8358e, sni: 999.cloudflare.182682.xyz, skip-cert-verify: true, udp: true}
-  - {name: youtube@独立思维 68, server: hkh.cylink.bond, port: 33035, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /HK2025, ws-headers: {Host: www.bing.com}, udp: true}
-  - {name: youtube@独立思维 71, server: sg083yt.cloudflare.182682.xyz, port: 443, type: trojan, password: 7a67a0b5-87e9-4b69-a9b4-b48ebcc8358e, sni: sg083yt.cloudflare.182682.xyz, skip-cert-verify: true, udp: true}
-  - {name: youtube@独立思维 74, server: hkf.cylink.bond, port: 34491, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hkduo, ws-headers: {Host: www.bilibili.com}, udp: true}
-  - {name: youtube@独立思维 76, server: jpp.cylink.bond, port: 45504, type: trojan, password: 50d42e95-3f75-4bf4-8036-c74c5578e55b, sni: jpp.cylink.bond, skip-cert-verify: true, udp: true}
-  - {name: youtube@独立思维 80, server: hkc.cylink.bond, port: 34488, type: trojan, password: 50d42e95-3f75-4bf4-8036-c74c5578e55b, sni: hkc.cylink.bond, skip-cert-verify: true, udp: true}
-  - {name: youtube@独立思维 87, server: 666.cloudflare.182682.xyz, port: 443, type: trojan, password: 7a67a0b5-87e9-4b69-a9b4-b48ebcc8358e, sni: 666.cloudflare.182682.xyz, skip-cert-verify: true, udp: true}
-  - {name: youtube@独立思维 93, server: pineapple04.cylink.bond, port: 30032, type: vmess, uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /aiwawan, ws-headers: {Host: www.microsoft.com}, udp: true}
-  - {name: youtube@独立思维 95, server: 555.cloudflare.182682.xyz, port: 443, type: trojan, password: 7a67a0b5-87e9-4b69-a9b4-b48ebcc8358e, sni: 555.cloudflare.182682.xyz, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 2, server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 3, server: 103.181.164.145, port: 54022, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 4, server: yespaintstudio.rav-kraski.ru, port: 50824, type: trojan, password: 7aXwJPnpAJ, sni: yespaintstudio.rav-kraski.ru, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 5, server: yespaintstudio.rav-kraski.ru, port: 50824, type: trojan, password: 7aXwJPnpAJ, sni: yespaintstudio.rav-kraski.ru, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 6, server: 82.198.246.214, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 7, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 8, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 9, server: 82.198.246.214, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 10, server: 82.198.246.214, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 11, server: 82.198.246.214, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 12, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 13, server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 14, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 15, server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 16, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 17, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 18, server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 19, server: 103.181.164.145, port: 54022, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 20, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 120, server: malaia.cloudflare.182682.xyz, port: 443, type: trojan, password: 63752727-d49d-4975-a741-485ca9f4d995, sni: malaia.cloudflare.182682.xyz, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 120 2, server: malaia.cloudflare.182682.xyz, port: 443, type: trojan, password: 63752727-d49d-4975-a741-485ca9f4d995, sni: malaia.cloudflare.182682.xyz, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 122, server: 666.cloudflare.182682.xyz, port: 443, type: trojan, password: 63752727-d49d-4975-a741-485ca9f4d995, sni: 666.cloudflare.182682.xyz, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 122 2, server: 666.cloudflare.182682.xyz, port: 443, type: trojan, password: 63752727-d49d-4975-a741-485ca9f4d995, sni: 666.cloudflare.182682.xyz, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 124, server: 104.18.41.190, port: 443, type: trojan, password: 823cbccd-3a71-4248-ac3c-3c460de1552d, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 124 2, server: 104.18.41.190, port: 443, type: trojan, password: 823cbccd-3a71-4248-ac3c-3c460de1552d, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 125, server: 999.cloudflare.182682.xyz, port: 443, type: trojan, password: 63752727-d49d-4975-a741-485ca9f4d995, sni: 999.cloudflare.182682.xyz, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 125 2, server: 999.cloudflare.182682.xyz, port: 443, type: trojan, password: 63752727-d49d-4975-a741-485ca9f4d995, sni: 999.cloudflare.182682.xyz, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 126, server: sg083yt.cloudflare.182682.xyz, port: 443, type: trojan, password: 63752727-d49d-4975-a741-485ca9f4d995, sni: sg083yt.cloudflare.182682.xyz, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 126 2, server: sg083yt.cloudflare.182682.xyz, port: 443, type: trojan, password: 63752727-d49d-4975-a741-485ca9f4d995, sni: sg083yt.cloudflare.182682.xyz, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 128, server: 888.cloudflare.182682.xyz, port: 443, type: trojan, password: 63752727-d49d-4975-a741-485ca9f4d995, sni: 888.cloudflare.182682.xyz, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 128 2, server: 888.cloudflare.182682.xyz, port: 443, type: trojan, password: 63752727-d49d-4975-a741-485ca9f4d995, sni: 888.cloudflare.182682.xyz, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 132, server: c321ajeoha.cloudflare.182682.xyz, port: 443, type: trojan, password: 63752727-d49d-4975-a741-485ca9f4d995, sni: c321ajeoha.cloudflare.182682.xyz, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 132 2, server: c321ajeoha.cloudflare.182682.xyz, port: 443, type: trojan, password: 63752727-d49d-4975-a741-485ca9f4d995, sni: c321ajeoha.cloudflare.182682.xyz, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 133, server: 104.19.173.68, port: 443, type: trojan, password: 63752727-d49d-4975-a741-485ca9f4d995, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 133 2, server: 104.19.173.68, port: 443, type: trojan, password: 63752727-d49d-4975-a741-485ca9f4d995, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 134, server: 111.cloudflare.182682.xyz, port: 443, type: trojan, password: 63752727-d49d-4975-a741-485ca9f4d995, sni: 111.cloudflare.182682.xyz, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 134 2, server: 111.cloudflare.182682.xyz, port: 443, type: trojan, password: 63752727-d49d-4975-a741-485ca9f4d995, sni: 111.cloudflare.182682.xyz, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 135, server: 777.cloudflare.182682.xyz, port: 443, type: trojan, password: 63752727-d49d-4975-a741-485ca9f4d995, sni: 777.cloudflare.182682.xyz, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 135 2, server: 777.cloudflare.182682.xyz, port: 443, type: trojan, password: 63752727-d49d-4975-a741-485ca9f4d995, sni: 777.cloudflare.182682.xyz, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 136, server: 666.cloudflare.182682.xyz, port: 443, type: trojan, password: 63752727-d49d-4975-a741-485ca9f4d995, sni: 666.cloudflare.182682.xyz, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 136 2, server: 666.cloudflare.182682.xyz, port: 443, type: trojan, password: 63752727-d49d-4975-a741-485ca9f4d995, sni: 666.cloudflare.182682.xyz, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 140, server: hkeofhwo3.cloudflare.182682.xyz, port: 443, type: trojan, password: 63752727-d49d-4975-a741-485ca9f4d995, sni: hkeofhwo3.cloudflare.182682.xyz, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 140 2, server: hkeofhwo3.cloudflare.182682.xyz, port: 443, type: trojan, password: 63752727-d49d-4975-a741-485ca9f4d995, sni: hkeofhwo3.cloudflare.182682.xyz, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 146, server: 555.cloudflare.182682.xyz, port: 443, type: trojan, password: 63752727-d49d-4975-a741-485ca9f4d995, sni: 555.cloudflare.182682.xyz, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 146 2, server: 555.cloudflare.182682.xyz, port: 443, type: trojan, password: 63752727-d49d-4975-a741-485ca9f4d995, sni: 555.cloudflare.182682.xyz, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 157, server: cajeoha.cloudflare.182682.xyz, port: 443, type: trojan, password: 63752727-d49d-4975-a741-485ca9f4d995, sni: cajeoha.cloudflare.182682.xyz, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 157 2, server: cajeoha.cloudflare.182682.xyz, port: 443, type: trojan, password: 63752727-d49d-4975-a741-485ca9f4d995, sni: cajeoha.cloudflare.182682.xyz, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 161, server: jp9y3408.cloudflare.182682.xyz, port: 443, type: trojan, password: 63752727-d49d-4975-a741-485ca9f4d995, sni: jp9y3408.cloudflare.182682.xyz, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 161 2, server: jp9y3408.cloudflare.182682.xyz, port: 443, type: trojan, password: 63752727-d49d-4975-a741-485ca9f4d995, sni: jp9y3408.cloudflare.182682.xyz, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 173, server: bi23aogo.cloudflare.182682.xyz, port: 443, type: trojan, password: 63752727-d49d-4975-a741-485ca9f4d995, sni: bi23aogo.cloudflare.182682.xyz, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 173 2, server: bi23aogo.cloudflare.182682.xyz, port: 443, type: trojan, password: 63752727-d49d-4975-a741-485ca9f4d995, sni: bi23aogo.cloudflare.182682.xyz, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 177, server: 104.19.174.68, port: 443, type: trojan, password: 63752727-d49d-4975-a741-485ca9f4d995, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 177 2, server: 104.19.174.68, port: 443, type: trojan, password: 63752727-d49d-4975-a741-485ca9f4d995, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 217, server: 172.64.53.190, port: 443, type: trojan, password: 823cbccd-3a71-4248-ac3c-3c460de1552d, skip-cert-verify: true, udp: true}
+  - {name: youtube@独立思维 217 2, server: 172.64.53.190, port: 443, type: trojan, password: 823cbccd-3a71-4248-ac3c-3c460de1552d, skip-cert-verify: true, udp: true}
+  - {name: 独立思维, server: 217.60.248.94, port: 2053, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 2, server: 217.60.248.94, port: 2053, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: S独立思维, server: 164.52.2.98, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: S独立思维 2, server: 164.52.2.98, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 德国 youtube@独立思维 DE 27, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 德国 youtube@独立思维 DE 27 2, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 加拿大 youtube@独立思维 CA 123, server: 23.227.38.43, port: 443, type: trojan, password: 63752727-d49d-4975-a741-485ca9f4d995, skip-cert-verify: true, udp: true}
+  - {name: 加拿大 youtube@独立思维 CA 123 2, server: 23.227.38.43, port: 443, type: trojan, password: 63752727-d49d-4975-a741-485ca9f4d995, skip-cert-verify: true, udp: true}
+  - {name: 美国 youtube@独立思维 US 119, server: 141.193.213.60, port: 443, type: trojan, password: 63752727-d49d-4975-a741-485ca9f4d995, skip-cert-verify: true, udp: true}
+  - {name: 美国 youtube@独立思维 US 119 2, server: 141.193.213.60, port: 443, type: trojan, password: 63752727-d49d-4975-a741-485ca9f4d995, skip-cert-verify: true, udp: true}
+  - {name: 美国 youtube@独立思维 US 139, server: 141.193.213.107, port: 443, type: trojan, password: 63752727-d49d-4975-a741-485ca9f4d995, skip-cert-verify: true, udp: true}
+  - {name: 美国 youtube@独立思维 US 139 2, server: 141.193.213.107, port: 443, type: trojan, password: 63752727-d49d-4975-a741-485ca9f4d995, skip-cert-verify: true, udp: true}
+  - {name: 瑞典 youtube@独立思维 SE 129, server: yespaintstudio.rav-kraski.ru, port: 50824, type: trojan, password: 7aXwJPnpAJ, sni: yespaintstudio.rav-kraski.ru, skip-cert-verify: true, udp: true}
+  - {name: 瑞典 youtube@独立思维 SE 129 2, server: yespaintstudio.rav-kraski.ru, port: 50824, type: trojan, password: 7aXwJPnpAJ, sni: yespaintstudio.rav-kraski.ru, skip-cert-verify: true, udp: true}
+  - {name: 塞浦路斯 youtube@独立思维 CY 131, server: csgo.com, port: 443, type: trojan, password: 63752727-d49d-4975-a741-485ca9f4d995, sni: csgo.com, skip-cert-verify: true, udp: true}
+  - {name: 塞浦路斯 youtube@独立思维 CY 131 2, server: csgo.com, port: 443, type: trojan, password: 63752727-d49d-4975-a741-485ca9f4d995, sni: csgo.com, skip-cert-verify: true, udp: true}
+  - {name: 香港 youtube@独立思维 HK 33, server: 103.181.164.145, port: 51556, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 独立思维 3, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 独立思维 4, server: 45.66.129.38, port: 10949, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 5, server: 193.123.232.91, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 6, server: 45.66.129.38, port: 10949, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 7, server: 104.152.49.249, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 8, server: 193.123.232.91, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 9, server: 64.110.71.6, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 10, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 独立思维 11, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 独立思维 12, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 独立思维 13, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 独立思维 14, server: 103.181.164.145, port: 54022, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 独立思维 15, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 独立思维 16, server: 43.160.247.81, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 17, server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 独立思维 18, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 独立思维 19, server: 43.165.195.160, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 20, server: 194.233.67.84, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 21, server: 47.81.32.147, port: 27015, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 22, server: 46.8.226.108, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 23, server: 47.81.32.147, port: 27015, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 24, server: 154.16.183.190, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 25, server: 47.82.155.79, port: 2053, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 26, server: 47.82.155.79, port: 8443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 27, server: 46.250.251.180, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 28, server: 47.82.160.100, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 29, server: 212.192.15.182, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 30, server: 47.82.160.100, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 31, server: 47.82.155.79, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 32, server: 47.82.155.79, port: 8443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 33, server: 47.82.155.79, port: 2053, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 34, server: 47.82.155.79, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 35, server: 143.198.213.40, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 36, server: 149.28.142.169, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 37, server: 149.28.142.169, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 38, server: 212.192.15.182, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 39, server: 66.42.61.215, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 40, server: 161.248.254.27, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 41, server: 66.42.61.215, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 42, server: 193.122.108.223, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 43, server: 46.8.226.108, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 44, server: 217.60.248.94, port: 8443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 45, server: 217.60.248.94, port: 8443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 46, server: 64.110.71.6, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 47, server: 143.20.204.5, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 48, server: 217.60.248.3, port: 2053, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 49, server: 46.250.251.180, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 50, server: 217.60.248.3, port: 2053, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 51, server: 154.16.183.190, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 52, server: 143.20.204.5, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 53, server: 103.125.216.22, port: 8443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 54, server: 103.125.216.22, port: 8443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 55, server: 8.219.195.31, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 56, server: 132.145.91.181, port: 8443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 57, server: 160.251.209.140, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 58, server: 152.70.253.84, port: 8443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 59, server: 129.212.231.216, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 60, server: 132.145.91.181, port: 8443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 61, server: 152.70.253.84, port: 8443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 62, server: 129.212.233.197, port: 2053, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 63, server: 178.128.90.108, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 64, server: 165.22.104.36, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 65, server: 146.190.102.51, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 66, server: 157.245.159.88, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 67, server: 140.245.59.102, port: 8443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 68, server: 159.89.205.195, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 69, server: 159.65.143.223, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 70, server: 159.223.85.214, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 71, server: 129.212.233.197, port: 2053, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 72, server: 159.223.50.79, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 73, server: 178.128.97.53, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 74, server: 167.71.222.177, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 75, server: 140.245.62.90, port: 2096, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 76, server: 159.223.85.214, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 77, server: 152.42.169.132, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 78, server: 152.42.217.192, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 79, server: 64.176.38.23, port: 2083, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 80, server: 157.245.159.88, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 81, server: 167.71.221.62, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 82, server: 178.128.60.89, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 83, server: 129.212.232.171, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 84, server: 140.245.62.90, port: 2096, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 85, server: 165.22.104.36, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 86, server: 103.75.118.144, port: 2053, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 87, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 独立思维 88, server: 141.147.144.109, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 89, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 独立思维 90, server: 138.2.59.112, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 91, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 独立思维 92, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 独立思维 93, server: 172.66.42.200, port: 8443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 94, server: 126.220.82.161, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 95, server: 57.129.63.158, port: 2053, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 96, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 独立思维 97, server: 161.248.31.35, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 98, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 独立思维 99, server: 82.198.246.214, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 独立思维 100, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 独立思维 101, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 独立思维 102, server: 172.66.42.200, port: 8443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 103, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 独立思维 104, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 独立思维 105, server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 独立思维 106, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 独立思维 107, server: 140.83.50.165, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 108, server: 64.176.38.23, port: 2083, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 109, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 独立思维 110, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 独立思维 111, server: 82.198.246.214, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 独立思维 112, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 独立思维 113, server: 82.198.246.214, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 独立思维 114, server: 158.247.238.220, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 115, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 独立思维 116, server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 独立思维 117, server: 158.247.238.220, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 118, server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 独立思维 119, server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 独立思维 120, server: 103.181.164.145, port: 54022, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 独立思维 121, server: 82.198.246.214, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 独立思维 122, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 独立思维 123, server: 142.91.108.54, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 124, server: 82.198.246.214, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 独立思维 125, server: 82.198.246.214, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 独立思维 126, server: 103.181.164.145, port: 54022, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 独立思维 127, server: 57.129.63.158, port: 2053, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 128, server: 142.91.108.54, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 129, server: 57.129.47.47, port: 2053, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 130, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 独立思维 131, server: 43.165.195.160, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 132, server: 116.44.53.251, port: 20817, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 133, server: 194.87.10.77, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 134, server: 103.78.133.103, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 135, server: 43.134.174.114, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 136, server: 43.160.247.81, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 137, server: 150.109.11.223, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 138, server: 150.109.11.223, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 139, server: 172.232.226.233, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 140, server: 34.143.159.175, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 141, server: 68.64.178.42, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 142, server: 34.143.159.175, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 143, server: 139.162.61.34, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 144, server: r3mrcg0011499tl.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, udp: true}
+  - {name: 独立思维 145, server: r3mrcg0011499tl.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, udp: true}
+  - {name: 独立思维 146, server: 172.238.6.57, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 147, server: 68.64.178.42, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 独立思维 148, server: 172.238.6.57, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560", tls: true, mux: true, skip-cert-verify: true}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 德国 youtube@独立思维 DE 101
-      - 德国 youtube@独立思维 DE 112
-      - 德国 youtube@独立思维 DE 12
-      - 德国 youtube@独立思维 DE 146
-      - 德国 youtube@独立思维 DE 15
-      - 德国 youtube@独立思维 DE 179
-      - 德国 youtube@独立思维 DE 18
-      - 德国 youtube@独立思维 DE 180
-      - 德国 youtube@独立思维 DE 181
-      - 德国 youtube@独立思维 DE 22
-      - 德国 youtube@独立思维 DE 232
-      - 德国 youtube@独立思维 DE 233
-      - 德国 youtube@独立思维 DE 236
-      - 德国 youtube@独立思维 DE 237
-      - 德国 youtube@独立思维 DE 260
-      - 德国 youtube@独立思维 DE 264
-      - 德国 youtube@独立思维 DE 268
-      - 德国 youtube@独立思维 DE 27
-      - 德国 youtube@独立思维 DE 279
-      - 德国 youtube@独立思维 DE 314
-      - 德国 youtube@独立思维 DE 319
-      - 德国 youtube@独立思维 DE 32
-      - 德国 youtube@独立思维 DE 324
-      - 德国 youtube@独立思维 DE 325
-      - 德国 youtube@独立思维 DE 326
-      - 德国 youtube@独立思维 DE 327
-      - 德国 youtube@独立思维 DE 329
-      - 德国 youtube@独立思维 DE 330
-      - 德国 youtube@独立思维 DE 332
-      - 德国 youtube@独立思维 DE 346
-      - 德国 youtube@独立思维 DE 35
-      - 德国 youtube@独立思维 DE 40
-      - 德国 youtube@独立思维 DE 44
-      - 德国 youtube@独立思维 DE 48
-      - 德国 youtube@独立思维 DE 51
-      - 德国 youtube@独立思维 DE 7
-      - 德国 youtube@独立思维 DE 70
-      - 德国 youtube@独立思维 DE 72
-      - 德国 youtube@独立思维 DE 8
-      - 德国 youtube@独立思维 DE 83
-      - 德国 youtube@独立思维 DE 84
-      - 德国 youtube@独立思维 DE 85
-      - 法国 youtube@独立思维 FR 104
-      - 法国 youtube@独立思维 FR 185
-      - 法国 youtube@独立思维 FR 20
-      - 法国 youtube@独立思维 FR 25
-      - 法国 youtube@独立思维 FR 37
-      - 加拿大 youtube@独立思维 CA 168
-      - 马来西亚 youtube@独立思维 MY 246
-      - 马来西亚 youtube@独立思维 MY 347
-      - 马来西亚 youtube@独立思维 MY 50
-      - 马来西亚 youtube@独立思维 MY 54
-      - 美国 youtube@独立思维 US 215
-      - 美国 youtube@独立思维 US 281
-      - 美国 youtube@独立思维 US 313
-      - 美国 youtube@独立思维 US 362
-      - 美国 youtube@独立思维 US 52
-      - 美国 youtube@独立思维 US 56
-      - 美国 youtube@独立思维 US 78
-      - 美国 youtube@独立思维 US 82
-      - 美国 youtube@独立思维 US 91
-      - 日本 youtube@独立思维 JP 110
-      - 日本 youtube@独立思维 JP 113
-      - 日本 youtube@独立思维 JP 13
-      - 日本 youtube@独立思维 JP 141
-      - 日本 youtube@独立思维 JP 151
-      - 日本 youtube@独立思维 JP 158
-      - 日本 youtube@独立思维 JP 189
-      - 日本 youtube@独立思维 JP 19
-      - 日本 youtube@独立思维 JP 47
-      - 塞浦路斯 youtube@独立思维 CY 291
-      - 塞浦路斯 youtube@独立思维 CY 38
-      - 塞浦路斯 youtube@独立思维 CY 65
-      - 台湾 youtube@独立思维 TW 30
-      - 台湾 youtube@独立思维 TW 366
-      - 香港 youtube@独立思维 HK 14
-      - 香港 youtube@独立思维 HK 160
-      - 香港 youtube@独立思维 HK 34
-      - 香港 youtube@独立思维 HK 341
-      - 香港 youtube@独立思维 HK 345
-      - 香港 youtube@独立思维 HK 361
-      - 香港 youtube@独立思维 HK 363
-      - 香港 youtube@独立思维 HK 60
-      - 新加坡 youtube@独立思维 SG 219
-      - 新加坡 youtube@独立思维 SG 235
-      - 英国 youtube@独立思维 GB 143
-      - 英国 youtube@独立思维 GB 33
-      - 中国 youtube@独立思维 CN 107
-      - 中国 youtube@独立思维 CN 129
-      - 中国 youtube@独立思维 CN 36
-      - youtube@独立思维 10
-      - youtube@独立思维 105
-      - youtube@独立思维 106
-      - youtube@独立思维 109
-      - youtube@独立思维 11
-      - youtube@独立思维 114
-      - youtube@独立思维 128
-      - youtube@独立思维 142
-      - youtube@独立思维 152
-      - youtube@独立思维 16
-      - youtube@独立思维 163
-      - youtube@独立思维 172
-      - youtube@独立思维 173
-      - youtube@独立思维 188
-      - youtube@独立思维 203
-      - youtube@独立思维 207
-      - youtube@独立思维 21
-      - youtube@独立思维 216
-      - youtube@独立思维 226
-      - youtube@独立思维 227
-      - youtube@独立思维 229
-      - youtube@独立思维 23
-      - youtube@独立思维 241
-      - youtube@独立思维 243
-      - youtube@独立思维 253
-      - youtube@独立思维 254
-      - youtube@独立思维 257
-      - youtube@独立思维 258
-      - youtube@独立思维 26
-      - youtube@独立思维 262
-      - youtube@独立思维 266
-      - youtube@独立思维 270
-      - youtube@独立思维 271
-      - youtube@独立思维 28
-      - youtube@独立思维 290
+      - youtube@独立思维
+      - youtube@独立思维 2
       - youtube@独立思维 3
-      - youtube@独立思维 301
-      - youtube@独立思维 302
-      - youtube@独立思维 305
-      - youtube@独立思维 31
-      - youtube@独立思维 317
-      - youtube@独立思维 318
-      - youtube@独立思维 322
-      - youtube@独立思维 323
-      - youtube@独立思维 328
-      - youtube@独立思维 331
-      - youtube@独立思维 41
-      - youtube@独立思维 42
-      - youtube@独立思维 43
-      - youtube@独立思维 45
-      - youtube@独立思维 53
-      - youtube@独立思维 55
-      - youtube@独立思维 57
-      - youtube@独立思维 58
+      - youtube@独立思维 4
+      - youtube@独立思维 5
       - youtube@独立思维 6
-      - youtube@独立思维 61
-      - youtube@独立思维 66
-      - youtube@独立思维 68
-      - youtube@独立思维 71
-      - youtube@独立思维 74
-      - youtube@独立思维 76
-      - youtube@独立思维 80
-      - youtube@独立思维 87
-      - youtube@独立思维 93
-      - youtube@独立思维 95
+      - youtube@独立思维 7
+      - youtube@独立思维 8
+      - youtube@独立思维 9
+      - youtube@独立思维 10
+      - youtube@独立思维 11
+      - youtube@独立思维 12
+      - youtube@独立思维 13
+      - youtube@独立思维 14
+      - youtube@独立思维 15
+      - youtube@独立思维 16
+      - youtube@独立思维 17
+      - youtube@独立思维 18
+      - youtube@独立思维 19
+      - youtube@独立思维 20
+      - youtube@独立思维 120
+      - youtube@独立思维 120 2
+      - youtube@独立思维 122
+      - youtube@独立思维 122 2
+      - youtube@独立思维 124
+      - youtube@独立思维 124 2
+      - youtube@独立思维 125
+      - youtube@独立思维 125 2
+      - youtube@独立思维 126
+      - youtube@独立思维 126 2
+      - youtube@独立思维 128
+      - youtube@独立思维 128 2
+      - youtube@独立思维 132
+      - youtube@独立思维 132 2
+      - youtube@独立思维 133
+      - youtube@独立思维 133 2
+      - youtube@独立思维 134
+      - youtube@独立思维 134 2
+      - youtube@独立思维 135
+      - youtube@独立思维 135 2
+      - youtube@独立思维 136
+      - youtube@独立思维 136 2
+      - youtube@独立思维 140
+      - youtube@独立思维 140 2
+      - youtube@独立思维 146
+      - youtube@独立思维 146 2
+      - youtube@独立思维 157
+      - youtube@独立思维 157 2
+      - youtube@独立思维 161
+      - youtube@独立思维 161 2
+      - youtube@独立思维 173
+      - youtube@独立思维 173 2
+      - youtube@独立思维 177
+      - youtube@独立思维 177 2
+      - youtube@独立思维 217
+      - youtube@独立思维 217 2
+      - 独立思维
+      - 独立思维 2
+      - S独立思维
+      - S独立思维 2
+      - 德国 youtube@独立思维 DE 27
+      - 德国 youtube@独立思维 DE 27 2
+      - 加拿大 youtube@独立思维 CA 123
+      - 加拿大 youtube@独立思维 CA 123 2
+      - 美国 youtube@独立思维 US 119
+      - 美国 youtube@独立思维 US 119 2
+      - 美国 youtube@独立思维 US 139
+      - 美国 youtube@独立思维 US 139 2
+      - 瑞典 youtube@独立思维 SE 129
+      - 瑞典 youtube@独立思维 SE 129 2
+      - 塞浦路斯 youtube@独立思维 CY 131
+      - 塞浦路斯 youtube@独立思维 CY 131 2
+      - 香港 youtube@独立思维 HK 33
+      - 独立思维 3
+      - 独立思维 4
+      - 独立思维 5
+      - 独立思维 6
+      - 独立思维 7
+      - 独立思维 8
+      - 独立思维 9
+      - 独立思维 10
+      - 独立思维 11
+      - 独立思维 12
+      - 独立思维 13
+      - 独立思维 14
+      - 独立思维 15
+      - 独立思维 16
+      - 独立思维 17
+      - 独立思维 18
+      - 独立思维 19
+      - 独立思维 20
+      - 独立思维 21
+      - 独立思维 22
+      - 独立思维 23
+      - 独立思维 24
+      - 独立思维 25
+      - 独立思维 26
+      - 独立思维 27
+      - 独立思维 28
+      - 独立思维 29
+      - 独立思维 30
+      - 独立思维 31
+      - 独立思维 32
+      - 独立思维 33
+      - 独立思维 34
+      - 独立思维 35
+      - 独立思维 36
+      - 独立思维 37
+      - 独立思维 38
+      - 独立思维 39
+      - 独立思维 40
+      - 独立思维 41
+      - 独立思维 42
+      - 独立思维 43
+      - 独立思维 44
+      - 独立思维 45
+      - 独立思维 46
+      - 独立思维 47
+      - 独立思维 48
+      - 独立思维 49
+      - 独立思维 50
+      - 独立思维 51
+      - 独立思维 52
+      - 独立思维 53
+      - 独立思维 54
+      - 独立思维 55
+      - 独立思维 56
+      - 独立思维 57
+      - 独立思维 58
+      - 独立思维 59
+      - 独立思维 60
+      - 独立思维 61
+      - 独立思维 62
+      - 独立思维 63
+      - 独立思维 64
+      - 独立思维 65
+      - 独立思维 66
+      - 独立思维 67
+      - 独立思维 68
+      - 独立思维 69
+      - 独立思维 70
+      - 独立思维 71
+      - 独立思维 72
+      - 独立思维 73
+      - 独立思维 74
+      - 独立思维 75
+      - 独立思维 76
+      - 独立思维 77
+      - 独立思维 78
+      - 独立思维 79
+      - 独立思维 80
+      - 独立思维 81
+      - 独立思维 82
+      - 独立思维 83
+      - 独立思维 84
+      - 独立思维 85
+      - 独立思维 86
+      - 独立思维 87
+      - 独立思维 88
+      - 独立思维 89
+      - 独立思维 90
+      - 独立思维 91
+      - 独立思维 92
+      - 独立思维 93
+      - 独立思维 94
+      - 独立思维 95
+      - 独立思维 96
+      - 独立思维 97
+      - 独立思维 98
+      - 独立思维 99
+      - 独立思维 100
+      - 独立思维 101
+      - 独立思维 102
+      - 独立思维 103
+      - 独立思维 104
+      - 独立思维 105
+      - 独立思维 106
+      - 独立思维 107
+      - 独立思维 108
+      - 独立思维 109
+      - 独立思维 110
+      - 独立思维 111
+      - 独立思维 112
+      - 独立思维 113
+      - 独立思维 114
+      - 独立思维 115
+      - 独立思维 116
+      - 独立思维 117
+      - 独立思维 118
+      - 独立思维 119
+      - 独立思维 120
+      - 独立思维 121
+      - 独立思维 122
+      - 独立思维 123
+      - 独立思维 124
+      - 独立思维 125
+      - 独立思维 126
+      - 独立思维 127
+      - 独立思维 128
+      - 独立思维 129
+      - 独立思维 130
+      - 独立思维 131
+      - 独立思维 132
+      - 独立思维 133
+      - 独立思维 134
+      - 独立思维 135
+      - 独立思维 136
+      - 独立思维 137
+      - 独立思维 138
+      - 独立思维 139
+      - 独立思维 140
+      - 独立思维 141
+      - 独立思维 142
+      - 独立思维 143
+      - 独立思维 144
+      - 独立思维 145
+      - 独立思维 146
+      - 独立思维 147
+      - 独立思维 148
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 德国 youtube@独立思维 DE 101
-      - 德国 youtube@独立思维 DE 112
-      - 德国 youtube@独立思维 DE 12
-      - 德国 youtube@独立思维 DE 146
-      - 德国 youtube@独立思维 DE 15
-      - 德国 youtube@独立思维 DE 179
-      - 德国 youtube@独立思维 DE 18
-      - 德国 youtube@独立思维 DE 180
-      - 德国 youtube@独立思维 DE 181
-      - 德国 youtube@独立思维 DE 22
-      - 德国 youtube@独立思维 DE 232
-      - 德国 youtube@独立思维 DE 233
-      - 德国 youtube@独立思维 DE 236
-      - 德国 youtube@独立思维 DE 237
-      - 德国 youtube@独立思维 DE 260
-      - 德国 youtube@独立思维 DE 264
-      - 德国 youtube@独立思维 DE 268
-      - 德国 youtube@独立思维 DE 27
-      - 德国 youtube@独立思维 DE 279
-      - 德国 youtube@独立思维 DE 314
-      - 德国 youtube@独立思维 DE 319
-      - 德国 youtube@独立思维 DE 32
-      - 德国 youtube@独立思维 DE 324
-      - 德国 youtube@独立思维 DE 325
-      - 德国 youtube@独立思维 DE 326
-      - 德国 youtube@独立思维 DE 327
-      - 德国 youtube@独立思维 DE 329
-      - 德国 youtube@独立思维 DE 330
-      - 德国 youtube@独立思维 DE 332
-      - 德国 youtube@独立思维 DE 346
-      - 德国 youtube@独立思维 DE 35
-      - 德国 youtube@独立思维 DE 40
-      - 德国 youtube@独立思维 DE 44
-      - 德国 youtube@独立思维 DE 48
-      - 德国 youtube@独立思维 DE 51
-      - 德国 youtube@独立思维 DE 7
-      - 德国 youtube@独立思维 DE 70
-      - 德国 youtube@独立思维 DE 72
-      - 德国 youtube@独立思维 DE 8
-      - 德国 youtube@独立思维 DE 83
-      - 德国 youtube@独立思维 DE 84
-      - 德国 youtube@独立思维 DE 85
-      - 法国 youtube@独立思维 FR 104
-      - 法国 youtube@独立思维 FR 185
-      - 法国 youtube@独立思维 FR 20
-      - 法国 youtube@独立思维 FR 25
-      - 法国 youtube@独立思维 FR 37
-      - 加拿大 youtube@独立思维 CA 168
-      - 马来西亚 youtube@独立思维 MY 246
-      - 马来西亚 youtube@独立思维 MY 347
-      - 马来西亚 youtube@独立思维 MY 50
-      - 马来西亚 youtube@独立思维 MY 54
-      - 美国 youtube@独立思维 US 215
-      - 美国 youtube@独立思维 US 281
-      - 美国 youtube@独立思维 US 313
-      - 美国 youtube@独立思维 US 362
-      - 美国 youtube@独立思维 US 52
-      - 美国 youtube@独立思维 US 56
-      - 美国 youtube@独立思维 US 78
-      - 美国 youtube@独立思维 US 82
-      - 美国 youtube@独立思维 US 91
-      - 日本 youtube@独立思维 JP 110
-      - 日本 youtube@独立思维 JP 113
-      - 日本 youtube@独立思维 JP 13
-      - 日本 youtube@独立思维 JP 141
-      - 日本 youtube@独立思维 JP 151
-      - 日本 youtube@独立思维 JP 158
-      - 日本 youtube@独立思维 JP 189
-      - 日本 youtube@独立思维 JP 19
-      - 日本 youtube@独立思维 JP 47
-      - 塞浦路斯 youtube@独立思维 CY 291
-      - 塞浦路斯 youtube@独立思维 CY 38
-      - 塞浦路斯 youtube@独立思维 CY 65
-      - 台湾 youtube@独立思维 TW 30
-      - 台湾 youtube@独立思维 TW 366
-      - 香港 youtube@独立思维 HK 14
-      - 香港 youtube@独立思维 HK 160
-      - 香港 youtube@独立思维 HK 34
-      - 香港 youtube@独立思维 HK 341
-      - 香港 youtube@独立思维 HK 345
-      - 香港 youtube@独立思维 HK 361
-      - 香港 youtube@独立思维 HK 363
-      - 香港 youtube@独立思维 HK 60
-      - 新加坡 youtube@独立思维 SG 219
-      - 新加坡 youtube@独立思维 SG 235
-      - 英国 youtube@独立思维 GB 143
-      - 英国 youtube@独立思维 GB 33
-      - 中国 youtube@独立思维 CN 107
-      - 中国 youtube@独立思维 CN 129
-      - 中国 youtube@独立思维 CN 36
-      - youtube@独立思维 10
-      - youtube@独立思维 105
-      - youtube@独立思维 106
-      - youtube@独立思维 109
-      - youtube@独立思维 11
-      - youtube@独立思维 114
-      - youtube@独立思维 128
-      - youtube@独立思维 142
-      - youtube@独立思维 152
-      - youtube@独立思维 16
-      - youtube@独立思维 163
-      - youtube@独立思维 172
-      - youtube@独立思维 173
-      - youtube@独立思维 188
-      - youtube@独立思维 203
-      - youtube@独立思维 207
-      - youtube@独立思维 21
-      - youtube@独立思维 216
-      - youtube@独立思维 226
-      - youtube@独立思维 227
-      - youtube@独立思维 229
-      - youtube@独立思维 23
-      - youtube@独立思维 241
-      - youtube@独立思维 243
-      - youtube@独立思维 253
-      - youtube@独立思维 254
-      - youtube@独立思维 257
-      - youtube@独立思维 258
-      - youtube@独立思维 26
-      - youtube@独立思维 262
-      - youtube@独立思维 266
-      - youtube@独立思维 270
-      - youtube@独立思维 271
-      - youtube@独立思维 28
-      - youtube@独立思维 290
+      - youtube@独立思维
+      - youtube@独立思维 2
       - youtube@独立思维 3
-      - youtube@独立思维 301
-      - youtube@独立思维 302
-      - youtube@独立思维 305
-      - youtube@独立思维 31
-      - youtube@独立思维 317
-      - youtube@独立思维 318
-      - youtube@独立思维 322
-      - youtube@独立思维 323
-      - youtube@独立思维 328
-      - youtube@独立思维 331
-      - youtube@独立思维 41
-      - youtube@独立思维 42
-      - youtube@独立思维 43
-      - youtube@独立思维 45
-      - youtube@独立思维 53
-      - youtube@独立思维 55
-      - youtube@独立思维 57
-      - youtube@独立思维 58
+      - youtube@独立思维 4
+      - youtube@独立思维 5
       - youtube@独立思维 6
-      - youtube@独立思维 61
-      - youtube@独立思维 66
-      - youtube@独立思维 68
-      - youtube@独立思维 71
-      - youtube@独立思维 74
-      - youtube@独立思维 76
-      - youtube@独立思维 80
-      - youtube@独立思维 87
-      - youtube@独立思维 93
-      - youtube@独立思维 95
+      - youtube@独立思维 7
+      - youtube@独立思维 8
+      - youtube@独立思维 9
+      - youtube@独立思维 10
+      - youtube@独立思维 11
+      - youtube@独立思维 12
+      - youtube@独立思维 13
+      - youtube@独立思维 14
+      - youtube@独立思维 15
+      - youtube@独立思维 16
+      - youtube@独立思维 17
+      - youtube@独立思维 18
+      - youtube@独立思维 19
+      - youtube@独立思维 20
+      - youtube@独立思维 120
+      - youtube@独立思维 120 2
+      - youtube@独立思维 122
+      - youtube@独立思维 122 2
+      - youtube@独立思维 124
+      - youtube@独立思维 124 2
+      - youtube@独立思维 125
+      - youtube@独立思维 125 2
+      - youtube@独立思维 126
+      - youtube@独立思维 126 2
+      - youtube@独立思维 128
+      - youtube@独立思维 128 2
+      - youtube@独立思维 132
+      - youtube@独立思维 132 2
+      - youtube@独立思维 133
+      - youtube@独立思维 133 2
+      - youtube@独立思维 134
+      - youtube@独立思维 134 2
+      - youtube@独立思维 135
+      - youtube@独立思维 135 2
+      - youtube@独立思维 136
+      - youtube@独立思维 136 2
+      - youtube@独立思维 140
+      - youtube@独立思维 140 2
+      - youtube@独立思维 146
+      - youtube@独立思维 146 2
+      - youtube@独立思维 157
+      - youtube@独立思维 157 2
+      - youtube@独立思维 161
+      - youtube@独立思维 161 2
+      - youtube@独立思维 173
+      - youtube@独立思维 173 2
+      - youtube@独立思维 177
+      - youtube@独立思维 177 2
+      - youtube@独立思维 217
+      - youtube@独立思维 217 2
+      - 独立思维
+      - 独立思维 2
+      - S独立思维
+      - S独立思维 2
+      - 德国 youtube@独立思维 DE 27
+      - 德国 youtube@独立思维 DE 27 2
+      - 加拿大 youtube@独立思维 CA 123
+      - 加拿大 youtube@独立思维 CA 123 2
+      - 美国 youtube@独立思维 US 119
+      - 美国 youtube@独立思维 US 119 2
+      - 美国 youtube@独立思维 US 139
+      - 美国 youtube@独立思维 US 139 2
+      - 瑞典 youtube@独立思维 SE 129
+      - 瑞典 youtube@独立思维 SE 129 2
+      - 塞浦路斯 youtube@独立思维 CY 131
+      - 塞浦路斯 youtube@独立思维 CY 131 2
+      - 香港 youtube@独立思维 HK 33
+      - 独立思维 3
+      - 独立思维 4
+      - 独立思维 5
+      - 独立思维 6
+      - 独立思维 7
+      - 独立思维 8
+      - 独立思维 9
+      - 独立思维 10
+      - 独立思维 11
+      - 独立思维 12
+      - 独立思维 13
+      - 独立思维 14
+      - 独立思维 15
+      - 独立思维 16
+      - 独立思维 17
+      - 独立思维 18
+      - 独立思维 19
+      - 独立思维 20
+      - 独立思维 21
+      - 独立思维 22
+      - 独立思维 23
+      - 独立思维 24
+      - 独立思维 25
+      - 独立思维 26
+      - 独立思维 27
+      - 独立思维 28
+      - 独立思维 29
+      - 独立思维 30
+      - 独立思维 31
+      - 独立思维 32
+      - 独立思维 33
+      - 独立思维 34
+      - 独立思维 35
+      - 独立思维 36
+      - 独立思维 37
+      - 独立思维 38
+      - 独立思维 39
+      - 独立思维 40
+      - 独立思维 41
+      - 独立思维 42
+      - 独立思维 43
+      - 独立思维 44
+      - 独立思维 45
+      - 独立思维 46
+      - 独立思维 47
+      - 独立思维 48
+      - 独立思维 49
+      - 独立思维 50
+      - 独立思维 51
+      - 独立思维 52
+      - 独立思维 53
+      - 独立思维 54
+      - 独立思维 55
+      - 独立思维 56
+      - 独立思维 57
+      - 独立思维 58
+      - 独立思维 59
+      - 独立思维 60
+      - 独立思维 61
+      - 独立思维 62
+      - 独立思维 63
+      - 独立思维 64
+      - 独立思维 65
+      - 独立思维 66
+      - 独立思维 67
+      - 独立思维 68
+      - 独立思维 69
+      - 独立思维 70
+      - 独立思维 71
+      - 独立思维 72
+      - 独立思维 73
+      - 独立思维 74
+      - 独立思维 75
+      - 独立思维 76
+      - 独立思维 77
+      - 独立思维 78
+      - 独立思维 79
+      - 独立思维 80
+      - 独立思维 81
+      - 独立思维 82
+      - 独立思维 83
+      - 独立思维 84
+      - 独立思维 85
+      - 独立思维 86
+      - 独立思维 87
+      - 独立思维 88
+      - 独立思维 89
+      - 独立思维 90
+      - 独立思维 91
+      - 独立思维 92
+      - 独立思维 93
+      - 独立思维 94
+      - 独立思维 95
+      - 独立思维 96
+      - 独立思维 97
+      - 独立思维 98
+      - 独立思维 99
+      - 独立思维 100
+      - 独立思维 101
+      - 独立思维 102
+      - 独立思维 103
+      - 独立思维 104
+      - 独立思维 105
+      - 独立思维 106
+      - 独立思维 107
+      - 独立思维 108
+      - 独立思维 109
+      - 独立思维 110
+      - 独立思维 111
+      - 独立思维 112
+      - 独立思维 113
+      - 独立思维 114
+      - 独立思维 115
+      - 独立思维 116
+      - 独立思维 117
+      - 独立思维 118
+      - 独立思维 119
+      - 独立思维 120
+      - 独立思维 121
+      - 独立思维 122
+      - 独立思维 123
+      - 独立思维 124
+      - 独立思维 125
+      - 独立思维 126
+      - 独立思维 127
+      - 独立思维 128
+      - 独立思维 129
+      - 独立思维 130
+      - 独立思维 131
+      - 独立思维 132
+      - 独立思维 133
+      - 独立思维 134
+      - 独立思维 135
+      - 独立思维 136
+      - 独立思维 137
+      - 独立思维 138
+      - 独立思维 139
+      - 独立思维 140
+      - 独立思维 141
+      - 独立思维 142
+      - 独立思维 143
+      - 独立思维 144
+      - 独立思维 145
+      - 独立思维 146
+      - 独立思维 147
+      - 独立思维 148
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 德国 youtube@独立思维 DE 101
-      - 德国 youtube@独立思维 DE 112
-      - 德国 youtube@独立思维 DE 12
-      - 德国 youtube@独立思维 DE 146
-      - 德国 youtube@独立思维 DE 15
-      - 德国 youtube@独立思维 DE 179
-      - 德国 youtube@独立思维 DE 18
-      - 德国 youtube@独立思维 DE 180
-      - 德国 youtube@独立思维 DE 181
-      - 德国 youtube@独立思维 DE 22
-      - 德国 youtube@独立思维 DE 232
-      - 德国 youtube@独立思维 DE 233
-      - 德国 youtube@独立思维 DE 236
-      - 德国 youtube@独立思维 DE 237
-      - 德国 youtube@独立思维 DE 260
-      - 德国 youtube@独立思维 DE 264
-      - 德国 youtube@独立思维 DE 268
-      - 德国 youtube@独立思维 DE 27
-      - 德国 youtube@独立思维 DE 279
-      - 德国 youtube@独立思维 DE 314
-      - 德国 youtube@独立思维 DE 319
-      - 德国 youtube@独立思维 DE 32
-      - 德国 youtube@独立思维 DE 324
-      - 德国 youtube@独立思维 DE 325
-      - 德国 youtube@独立思维 DE 326
-      - 德国 youtube@独立思维 DE 327
-      - 德国 youtube@独立思维 DE 329
-      - 德国 youtube@独立思维 DE 330
-      - 德国 youtube@独立思维 DE 332
-      - 德国 youtube@独立思维 DE 346
-      - 德国 youtube@独立思维 DE 35
-      - 德国 youtube@独立思维 DE 40
-      - 德国 youtube@独立思维 DE 44
-      - 德国 youtube@独立思维 DE 48
-      - 德国 youtube@独立思维 DE 51
-      - 德国 youtube@独立思维 DE 7
-      - 德国 youtube@独立思维 DE 70
-      - 德国 youtube@独立思维 DE 72
-      - 德国 youtube@独立思维 DE 8
-      - 德国 youtube@独立思维 DE 83
-      - 德国 youtube@独立思维 DE 84
-      - 德国 youtube@独立思维 DE 85
-      - 法国 youtube@独立思维 FR 104
-      - 法国 youtube@独立思维 FR 185
-      - 法国 youtube@独立思维 FR 20
-      - 法国 youtube@独立思维 FR 25
-      - 法国 youtube@独立思维 FR 37
-      - 加拿大 youtube@独立思维 CA 168
-      - 马来西亚 youtube@独立思维 MY 246
-      - 马来西亚 youtube@独立思维 MY 347
-      - 马来西亚 youtube@独立思维 MY 50
-      - 马来西亚 youtube@独立思维 MY 54
-      - 美国 youtube@独立思维 US 215
-      - 美国 youtube@独立思维 US 281
-      - 美国 youtube@独立思维 US 313
-      - 美国 youtube@独立思维 US 362
-      - 美国 youtube@独立思维 US 52
-      - 美国 youtube@独立思维 US 56
-      - 美国 youtube@独立思维 US 78
-      - 美国 youtube@独立思维 US 82
-      - 美国 youtube@独立思维 US 91
-      - 日本 youtube@独立思维 JP 110
-      - 日本 youtube@独立思维 JP 113
-      - 日本 youtube@独立思维 JP 13
-      - 日本 youtube@独立思维 JP 141
-      - 日本 youtube@独立思维 JP 151
-      - 日本 youtube@独立思维 JP 158
-      - 日本 youtube@独立思维 JP 189
-      - 日本 youtube@独立思维 JP 19
-      - 日本 youtube@独立思维 JP 47
-      - 塞浦路斯 youtube@独立思维 CY 291
-      - 塞浦路斯 youtube@独立思维 CY 38
-      - 塞浦路斯 youtube@独立思维 CY 65
-      - 台湾 youtube@独立思维 TW 30
-      - 台湾 youtube@独立思维 TW 366
-      - 香港 youtube@独立思维 HK 14
-      - 香港 youtube@独立思维 HK 160
-      - 香港 youtube@独立思维 HK 34
-      - 香港 youtube@独立思维 HK 341
-      - 香港 youtube@独立思维 HK 345
-      - 香港 youtube@独立思维 HK 361
-      - 香港 youtube@独立思维 HK 363
-      - 香港 youtube@独立思维 HK 60
-      - 新加坡 youtube@独立思维 SG 219
-      - 新加坡 youtube@独立思维 SG 235
-      - 英国 youtube@独立思维 GB 143
-      - 英国 youtube@独立思维 GB 33
-      - 中国 youtube@独立思维 CN 107
-      - 中国 youtube@独立思维 CN 129
-      - 中国 youtube@独立思维 CN 36
-      - youtube@独立思维 10
-      - youtube@独立思维 105
-      - youtube@独立思维 106
-      - youtube@独立思维 109
-      - youtube@独立思维 11
-      - youtube@独立思维 114
-      - youtube@独立思维 128
-      - youtube@独立思维 142
-      - youtube@独立思维 152
-      - youtube@独立思维 16
-      - youtube@独立思维 163
-      - youtube@独立思维 172
-      - youtube@独立思维 173
-      - youtube@独立思维 188
-      - youtube@独立思维 203
-      - youtube@独立思维 207
-      - youtube@独立思维 21
-      - youtube@独立思维 216
-      - youtube@独立思维 226
-      - youtube@独立思维 227
-      - youtube@独立思维 229
-      - youtube@独立思维 23
-      - youtube@独立思维 241
-      - youtube@独立思维 243
-      - youtube@独立思维 253
-      - youtube@独立思维 254
-      - youtube@独立思维 257
-      - youtube@独立思维 258
-      - youtube@独立思维 26
-      - youtube@独立思维 262
-      - youtube@独立思维 266
-      - youtube@独立思维 270
-      - youtube@独立思维 271
-      - youtube@独立思维 28
-      - youtube@独立思维 290
+      - youtube@独立思维
+      - youtube@独立思维 2
       - youtube@独立思维 3
-      - youtube@独立思维 301
-      - youtube@独立思维 302
-      - youtube@独立思维 305
-      - youtube@独立思维 31
-      - youtube@独立思维 317
-      - youtube@独立思维 318
-      - youtube@独立思维 322
-      - youtube@独立思维 323
-      - youtube@独立思维 328
-      - youtube@独立思维 331
-      - youtube@独立思维 41
-      - youtube@独立思维 42
-      - youtube@独立思维 43
-      - youtube@独立思维 45
-      - youtube@独立思维 53
-      - youtube@独立思维 55
-      - youtube@独立思维 57
-      - youtube@独立思维 58
+      - youtube@独立思维 4
+      - youtube@独立思维 5
       - youtube@独立思维 6
-      - youtube@独立思维 61
-      - youtube@独立思维 66
-      - youtube@独立思维 68
-      - youtube@独立思维 71
-      - youtube@独立思维 74
-      - youtube@独立思维 76
-      - youtube@独立思维 80
-      - youtube@独立思维 87
-      - youtube@独立思维 93
-      - youtube@独立思维 95
+      - youtube@独立思维 7
+      - youtube@独立思维 8
+      - youtube@独立思维 9
+      - youtube@独立思维 10
+      - youtube@独立思维 11
+      - youtube@独立思维 12
+      - youtube@独立思维 13
+      - youtube@独立思维 14
+      - youtube@独立思维 15
+      - youtube@独立思维 16
+      - youtube@独立思维 17
+      - youtube@独立思维 18
+      - youtube@独立思维 19
+      - youtube@独立思维 20
+      - youtube@独立思维 120
+      - youtube@独立思维 120 2
+      - youtube@独立思维 122
+      - youtube@独立思维 122 2
+      - youtube@独立思维 124
+      - youtube@独立思维 124 2
+      - youtube@独立思维 125
+      - youtube@独立思维 125 2
+      - youtube@独立思维 126
+      - youtube@独立思维 126 2
+      - youtube@独立思维 128
+      - youtube@独立思维 128 2
+      - youtube@独立思维 132
+      - youtube@独立思维 132 2
+      - youtube@独立思维 133
+      - youtube@独立思维 133 2
+      - youtube@独立思维 134
+      - youtube@独立思维 134 2
+      - youtube@独立思维 135
+      - youtube@独立思维 135 2
+      - youtube@独立思维 136
+      - youtube@独立思维 136 2
+      - youtube@独立思维 140
+      - youtube@独立思维 140 2
+      - youtube@独立思维 146
+      - youtube@独立思维 146 2
+      - youtube@独立思维 157
+      - youtube@独立思维 157 2
+      - youtube@独立思维 161
+      - youtube@独立思维 161 2
+      - youtube@独立思维 173
+      - youtube@独立思维 173 2
+      - youtube@独立思维 177
+      - youtube@独立思维 177 2
+      - youtube@独立思维 217
+      - youtube@独立思维 217 2
+      - 独立思维
+      - 独立思维 2
+      - S独立思维
+      - S独立思维 2
+      - 德国 youtube@独立思维 DE 27
+      - 德国 youtube@独立思维 DE 27 2
+      - 加拿大 youtube@独立思维 CA 123
+      - 加拿大 youtube@独立思维 CA 123 2
+      - 美国 youtube@独立思维 US 119
+      - 美国 youtube@独立思维 US 119 2
+      - 美国 youtube@独立思维 US 139
+      - 美国 youtube@独立思维 US 139 2
+      - 瑞典 youtube@独立思维 SE 129
+      - 瑞典 youtube@独立思维 SE 129 2
+      - 塞浦路斯 youtube@独立思维 CY 131
+      - 塞浦路斯 youtube@独立思维 CY 131 2
+      - 香港 youtube@独立思维 HK 33
+      - 独立思维 3
+      - 独立思维 4
+      - 独立思维 5
+      - 独立思维 6
+      - 独立思维 7
+      - 独立思维 8
+      - 独立思维 9
+      - 独立思维 10
+      - 独立思维 11
+      - 独立思维 12
+      - 独立思维 13
+      - 独立思维 14
+      - 独立思维 15
+      - 独立思维 16
+      - 独立思维 17
+      - 独立思维 18
+      - 独立思维 19
+      - 独立思维 20
+      - 独立思维 21
+      - 独立思维 22
+      - 独立思维 23
+      - 独立思维 24
+      - 独立思维 25
+      - 独立思维 26
+      - 独立思维 27
+      - 独立思维 28
+      - 独立思维 29
+      - 独立思维 30
+      - 独立思维 31
+      - 独立思维 32
+      - 独立思维 33
+      - 独立思维 34
+      - 独立思维 35
+      - 独立思维 36
+      - 独立思维 37
+      - 独立思维 38
+      - 独立思维 39
+      - 独立思维 40
+      - 独立思维 41
+      - 独立思维 42
+      - 独立思维 43
+      - 独立思维 44
+      - 独立思维 45
+      - 独立思维 46
+      - 独立思维 47
+      - 独立思维 48
+      - 独立思维 49
+      - 独立思维 50
+      - 独立思维 51
+      - 独立思维 52
+      - 独立思维 53
+      - 独立思维 54
+      - 独立思维 55
+      - 独立思维 56
+      - 独立思维 57
+      - 独立思维 58
+      - 独立思维 59
+      - 独立思维 60
+      - 独立思维 61
+      - 独立思维 62
+      - 独立思维 63
+      - 独立思维 64
+      - 独立思维 65
+      - 独立思维 66
+      - 独立思维 67
+      - 独立思维 68
+      - 独立思维 69
+      - 独立思维 70
+      - 独立思维 71
+      - 独立思维 72
+      - 独立思维 73
+      - 独立思维 74
+      - 独立思维 75
+      - 独立思维 76
+      - 独立思维 77
+      - 独立思维 78
+      - 独立思维 79
+      - 独立思维 80
+      - 独立思维 81
+      - 独立思维 82
+      - 独立思维 83
+      - 独立思维 84
+      - 独立思维 85
+      - 独立思维 86
+      - 独立思维 87
+      - 独立思维 88
+      - 独立思维 89
+      - 独立思维 90
+      - 独立思维 91
+      - 独立思维 92
+      - 独立思维 93
+      - 独立思维 94
+      - 独立思维 95
+      - 独立思维 96
+      - 独立思维 97
+      - 独立思维 98
+      - 独立思维 99
+      - 独立思维 100
+      - 独立思维 101
+      - 独立思维 102
+      - 独立思维 103
+      - 独立思维 104
+      - 独立思维 105
+      - 独立思维 106
+      - 独立思维 107
+      - 独立思维 108
+      - 独立思维 109
+      - 独立思维 110
+      - 独立思维 111
+      - 独立思维 112
+      - 独立思维 113
+      - 独立思维 114
+      - 独立思维 115
+      - 独立思维 116
+      - 独立思维 117
+      - 独立思维 118
+      - 独立思维 119
+      - 独立思维 120
+      - 独立思维 121
+      - 独立思维 122
+      - 独立思维 123
+      - 独立思维 124
+      - 独立思维 125
+      - 独立思维 126
+      - 独立思维 127
+      - 独立思维 128
+      - 独立思维 129
+      - 独立思维 130
+      - 独立思维 131
+      - 独立思维 132
+      - 独立思维 133
+      - 独立思维 134
+      - 独立思维 135
+      - 独立思维 136
+      - 独立思维 137
+      - 独立思维 138
+      - 独立思维 139
+      - 独立思维 140
+      - 独立思维 141
+      - 独立思维 142
+      - 独立思维 143
+      - 独立思维 144
+      - 独立思维 145
+      - 独立思维 146
+      - 独立思维 147
+      - 独立思维 148
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -660,657 +916,904 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 德国 youtube@独立思维 DE 101
-      - 德国 youtube@独立思维 DE 112
-      - 德国 youtube@独立思维 DE 12
-      - 德国 youtube@独立思维 DE 146
-      - 德国 youtube@独立思维 DE 15
-      - 德国 youtube@独立思维 DE 179
-      - 德国 youtube@独立思维 DE 18
-      - 德国 youtube@独立思维 DE 180
-      - 德国 youtube@独立思维 DE 181
-      - 德国 youtube@独立思维 DE 22
-      - 德国 youtube@独立思维 DE 232
-      - 德国 youtube@独立思维 DE 233
-      - 德国 youtube@独立思维 DE 236
-      - 德国 youtube@独立思维 DE 237
-      - 德国 youtube@独立思维 DE 260
-      - 德国 youtube@独立思维 DE 264
-      - 德国 youtube@独立思维 DE 268
-      - 德国 youtube@独立思维 DE 27
-      - 德国 youtube@独立思维 DE 279
-      - 德国 youtube@独立思维 DE 314
-      - 德国 youtube@独立思维 DE 319
-      - 德国 youtube@独立思维 DE 32
-      - 德国 youtube@独立思维 DE 324
-      - 德国 youtube@独立思维 DE 325
-      - 德国 youtube@独立思维 DE 326
-      - 德国 youtube@独立思维 DE 327
-      - 德国 youtube@独立思维 DE 329
-      - 德国 youtube@独立思维 DE 330
-      - 德国 youtube@独立思维 DE 332
-      - 德国 youtube@独立思维 DE 346
-      - 德国 youtube@独立思维 DE 35
-      - 德国 youtube@独立思维 DE 40
-      - 德国 youtube@独立思维 DE 44
-      - 德国 youtube@独立思维 DE 48
-      - 德国 youtube@独立思维 DE 51
-      - 德国 youtube@独立思维 DE 7
-      - 德国 youtube@独立思维 DE 70
-      - 德国 youtube@独立思维 DE 72
-      - 德国 youtube@独立思维 DE 8
-      - 德国 youtube@独立思维 DE 83
-      - 德国 youtube@独立思维 DE 84
-      - 德国 youtube@独立思维 DE 85
-      - 法国 youtube@独立思维 FR 104
-      - 法国 youtube@独立思维 FR 185
-      - 法国 youtube@独立思维 FR 20
-      - 法国 youtube@独立思维 FR 25
-      - 法国 youtube@独立思维 FR 37
-      - 加拿大 youtube@独立思维 CA 168
-      - 马来西亚 youtube@独立思维 MY 246
-      - 马来西亚 youtube@独立思维 MY 347
-      - 马来西亚 youtube@独立思维 MY 50
-      - 马来西亚 youtube@独立思维 MY 54
-      - 美国 youtube@独立思维 US 215
-      - 美国 youtube@独立思维 US 281
-      - 美国 youtube@独立思维 US 313
-      - 美国 youtube@独立思维 US 362
-      - 美国 youtube@独立思维 US 52
-      - 美国 youtube@独立思维 US 56
-      - 美国 youtube@独立思维 US 78
-      - 美国 youtube@独立思维 US 82
-      - 美国 youtube@独立思维 US 91
-      - 日本 youtube@独立思维 JP 110
-      - 日本 youtube@独立思维 JP 113
-      - 日本 youtube@独立思维 JP 13
-      - 日本 youtube@独立思维 JP 141
-      - 日本 youtube@独立思维 JP 151
-      - 日本 youtube@独立思维 JP 158
-      - 日本 youtube@独立思维 JP 189
-      - 日本 youtube@独立思维 JP 19
-      - 日本 youtube@独立思维 JP 47
-      - 塞浦路斯 youtube@独立思维 CY 291
-      - 塞浦路斯 youtube@独立思维 CY 38
-      - 塞浦路斯 youtube@独立思维 CY 65
-      - 台湾 youtube@独立思维 TW 30
-      - 台湾 youtube@独立思维 TW 366
-      - 香港 youtube@独立思维 HK 14
-      - 香港 youtube@独立思维 HK 160
-      - 香港 youtube@独立思维 HK 34
-      - 香港 youtube@独立思维 HK 341
-      - 香港 youtube@独立思维 HK 345
-      - 香港 youtube@独立思维 HK 361
-      - 香港 youtube@独立思维 HK 363
-      - 香港 youtube@独立思维 HK 60
-      - 新加坡 youtube@独立思维 SG 219
-      - 新加坡 youtube@独立思维 SG 235
-      - 英国 youtube@独立思维 GB 143
-      - 英国 youtube@独立思维 GB 33
-      - 中国 youtube@独立思维 CN 107
-      - 中国 youtube@独立思维 CN 129
-      - 中国 youtube@独立思维 CN 36
-      - youtube@独立思维 10
-      - youtube@独立思维 105
-      - youtube@独立思维 106
-      - youtube@独立思维 109
-      - youtube@独立思维 11
-      - youtube@独立思维 114
-      - youtube@独立思维 128
-      - youtube@独立思维 142
-      - youtube@独立思维 152
-      - youtube@独立思维 16
-      - youtube@独立思维 163
-      - youtube@独立思维 172
-      - youtube@独立思维 173
-      - youtube@独立思维 188
-      - youtube@独立思维 203
-      - youtube@独立思维 207
-      - youtube@独立思维 21
-      - youtube@独立思维 216
-      - youtube@独立思维 226
-      - youtube@独立思维 227
-      - youtube@独立思维 229
-      - youtube@独立思维 23
-      - youtube@独立思维 241
-      - youtube@独立思维 243
-      - youtube@独立思维 253
-      - youtube@独立思维 254
-      - youtube@独立思维 257
-      - youtube@独立思维 258
-      - youtube@独立思维 26
-      - youtube@独立思维 262
-      - youtube@独立思维 266
-      - youtube@独立思维 270
-      - youtube@独立思维 271
-      - youtube@独立思维 28
-      - youtube@独立思维 290
+      - youtube@独立思维
+      - youtube@独立思维 2
       - youtube@独立思维 3
-      - youtube@独立思维 301
-      - youtube@独立思维 302
-      - youtube@独立思维 305
-      - youtube@独立思维 31
-      - youtube@独立思维 317
-      - youtube@独立思维 318
-      - youtube@独立思维 322
-      - youtube@独立思维 323
-      - youtube@独立思维 328
-      - youtube@独立思维 331
-      - youtube@独立思维 41
-      - youtube@独立思维 42
-      - youtube@独立思维 43
-      - youtube@独立思维 45
-      - youtube@独立思维 53
-      - youtube@独立思维 55
-      - youtube@独立思维 57
-      - youtube@独立思维 58
+      - youtube@独立思维 4
+      - youtube@独立思维 5
       - youtube@独立思维 6
-      - youtube@独立思维 61
-      - youtube@独立思维 66
-      - youtube@独立思维 68
-      - youtube@独立思维 71
-      - youtube@独立思维 74
-      - youtube@独立思维 76
-      - youtube@独立思维 80
-      - youtube@独立思维 87
-      - youtube@独立思维 93
-      - youtube@独立思维 95
+      - youtube@独立思维 7
+      - youtube@独立思维 8
+      - youtube@独立思维 9
+      - youtube@独立思维 10
+      - youtube@独立思维 11
+      - youtube@独立思维 12
+      - youtube@独立思维 13
+      - youtube@独立思维 14
+      - youtube@独立思维 15
+      - youtube@独立思维 16
+      - youtube@独立思维 17
+      - youtube@独立思维 18
+      - youtube@独立思维 19
+      - youtube@独立思维 20
+      - youtube@独立思维 120
+      - youtube@独立思维 120 2
+      - youtube@独立思维 122
+      - youtube@独立思维 122 2
+      - youtube@独立思维 124
+      - youtube@独立思维 124 2
+      - youtube@独立思维 125
+      - youtube@独立思维 125 2
+      - youtube@独立思维 126
+      - youtube@独立思维 126 2
+      - youtube@独立思维 128
+      - youtube@独立思维 128 2
+      - youtube@独立思维 132
+      - youtube@独立思维 132 2
+      - youtube@独立思维 133
+      - youtube@独立思维 133 2
+      - youtube@独立思维 134
+      - youtube@独立思维 134 2
+      - youtube@独立思维 135
+      - youtube@独立思维 135 2
+      - youtube@独立思维 136
+      - youtube@独立思维 136 2
+      - youtube@独立思维 140
+      - youtube@独立思维 140 2
+      - youtube@独立思维 146
+      - youtube@独立思维 146 2
+      - youtube@独立思维 157
+      - youtube@独立思维 157 2
+      - youtube@独立思维 161
+      - youtube@独立思维 161 2
+      - youtube@独立思维 173
+      - youtube@独立思维 173 2
+      - youtube@独立思维 177
+      - youtube@独立思维 177 2
+      - youtube@独立思维 217
+      - youtube@独立思维 217 2
+      - 独立思维
+      - 独立思维 2
+      - S独立思维
+      - S独立思维 2
+      - 德国 youtube@独立思维 DE 27
+      - 德国 youtube@独立思维 DE 27 2
+      - 加拿大 youtube@独立思维 CA 123
+      - 加拿大 youtube@独立思维 CA 123 2
+      - 美国 youtube@独立思维 US 119
+      - 美国 youtube@独立思维 US 119 2
+      - 美国 youtube@独立思维 US 139
+      - 美国 youtube@独立思维 US 139 2
+      - 瑞典 youtube@独立思维 SE 129
+      - 瑞典 youtube@独立思维 SE 129 2
+      - 塞浦路斯 youtube@独立思维 CY 131
+      - 塞浦路斯 youtube@独立思维 CY 131 2
+      - 香港 youtube@独立思维 HK 33
+      - 独立思维 3
+      - 独立思维 4
+      - 独立思维 5
+      - 独立思维 6
+      - 独立思维 7
+      - 独立思维 8
+      - 独立思维 9
+      - 独立思维 10
+      - 独立思维 11
+      - 独立思维 12
+      - 独立思维 13
+      - 独立思维 14
+      - 独立思维 15
+      - 独立思维 16
+      - 独立思维 17
+      - 独立思维 18
+      - 独立思维 19
+      - 独立思维 20
+      - 独立思维 21
+      - 独立思维 22
+      - 独立思维 23
+      - 独立思维 24
+      - 独立思维 25
+      - 独立思维 26
+      - 独立思维 27
+      - 独立思维 28
+      - 独立思维 29
+      - 独立思维 30
+      - 独立思维 31
+      - 独立思维 32
+      - 独立思维 33
+      - 独立思维 34
+      - 独立思维 35
+      - 独立思维 36
+      - 独立思维 37
+      - 独立思维 38
+      - 独立思维 39
+      - 独立思维 40
+      - 独立思维 41
+      - 独立思维 42
+      - 独立思维 43
+      - 独立思维 44
+      - 独立思维 45
+      - 独立思维 46
+      - 独立思维 47
+      - 独立思维 48
+      - 独立思维 49
+      - 独立思维 50
+      - 独立思维 51
+      - 独立思维 52
+      - 独立思维 53
+      - 独立思维 54
+      - 独立思维 55
+      - 独立思维 56
+      - 独立思维 57
+      - 独立思维 58
+      - 独立思维 59
+      - 独立思维 60
+      - 独立思维 61
+      - 独立思维 62
+      - 独立思维 63
+      - 独立思维 64
+      - 独立思维 65
+      - 独立思维 66
+      - 独立思维 67
+      - 独立思维 68
+      - 独立思维 69
+      - 独立思维 70
+      - 独立思维 71
+      - 独立思维 72
+      - 独立思维 73
+      - 独立思维 74
+      - 独立思维 75
+      - 独立思维 76
+      - 独立思维 77
+      - 独立思维 78
+      - 独立思维 79
+      - 独立思维 80
+      - 独立思维 81
+      - 独立思维 82
+      - 独立思维 83
+      - 独立思维 84
+      - 独立思维 85
+      - 独立思维 86
+      - 独立思维 87
+      - 独立思维 88
+      - 独立思维 89
+      - 独立思维 90
+      - 独立思维 91
+      - 独立思维 92
+      - 独立思维 93
+      - 独立思维 94
+      - 独立思维 95
+      - 独立思维 96
+      - 独立思维 97
+      - 独立思维 98
+      - 独立思维 99
+      - 独立思维 100
+      - 独立思维 101
+      - 独立思维 102
+      - 独立思维 103
+      - 独立思维 104
+      - 独立思维 105
+      - 独立思维 106
+      - 独立思维 107
+      - 独立思维 108
+      - 独立思维 109
+      - 独立思维 110
+      - 独立思维 111
+      - 独立思维 112
+      - 独立思维 113
+      - 独立思维 114
+      - 独立思维 115
+      - 独立思维 116
+      - 独立思维 117
+      - 独立思维 118
+      - 独立思维 119
+      - 独立思维 120
+      - 独立思维 121
+      - 独立思维 122
+      - 独立思维 123
+      - 独立思维 124
+      - 独立思维 125
+      - 独立思维 126
+      - 独立思维 127
+      - 独立思维 128
+      - 独立思维 129
+      - 独立思维 130
+      - 独立思维 131
+      - 独立思维 132
+      - 独立思维 133
+      - 独立思维 134
+      - 独立思维 135
+      - 独立思维 136
+      - 独立思维 137
+      - 独立思维 138
+      - 独立思维 139
+      - 独立思维 140
+      - 独立思维 141
+      - 独立思维 142
+      - 独立思维 143
+      - 独立思维 144
+      - 独立思维 145
+      - 独立思维 146
+      - 独立思维 147
+      - 独立思维 148
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 台湾 youtube@独立思维 TW 30
-      - 台湾 youtube@独立思维 TW 366
-      - 香港 youtube@独立思维 HK 14
-      - 香港 youtube@独立思维 HK 160
-      - 香港 youtube@独立思维 HK 34
-      - 香港 youtube@独立思维 HK 341
-      - 香港 youtube@独立思维 HK 345
-      - 香港 youtube@独立思维 HK 361
-      - 香港 youtube@独立思维 HK 363
-      - 香港 youtube@独立思维 HK 60
+      - 香港 youtube@独立思维 HK 33
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 德国 youtube@独立思维 DE 101
-      - 德国 youtube@独立思维 DE 112
-      - 德国 youtube@独立思维 DE 12
-      - 德国 youtube@独立思维 DE 146
-      - 德国 youtube@独立思维 DE 15
-      - 德国 youtube@独立思维 DE 179
-      - 德国 youtube@独立思维 DE 18
-      - 德国 youtube@独立思维 DE 180
-      - 德国 youtube@独立思维 DE 181
-      - 德国 youtube@独立思维 DE 22
-      - 德国 youtube@独立思维 DE 232
-      - 德国 youtube@独立思维 DE 233
-      - 德国 youtube@独立思维 DE 236
-      - 德国 youtube@独立思维 DE 237
-      - 德国 youtube@独立思维 DE 260
-      - 德国 youtube@独立思维 DE 264
-      - 德国 youtube@独立思维 DE 268
-      - 德国 youtube@独立思维 DE 27
-      - 德国 youtube@独立思维 DE 279
-      - 德国 youtube@独立思维 DE 314
-      - 德国 youtube@独立思维 DE 319
-      - 德国 youtube@独立思维 DE 32
-      - 德国 youtube@独立思维 DE 324
-      - 德国 youtube@独立思维 DE 325
-      - 德国 youtube@独立思维 DE 326
-      - 德国 youtube@独立思维 DE 327
-      - 德国 youtube@独立思维 DE 329
-      - 德国 youtube@独立思维 DE 330
-      - 德国 youtube@独立思维 DE 332
-      - 德国 youtube@独立思维 DE 346
-      - 德国 youtube@独立思维 DE 35
-      - 德国 youtube@独立思维 DE 40
-      - 德国 youtube@独立思维 DE 44
-      - 德国 youtube@独立思维 DE 48
-      - 德国 youtube@独立思维 DE 51
-      - 德国 youtube@独立思维 DE 7
-      - 德国 youtube@独立思维 DE 70
-      - 德国 youtube@独立思维 DE 72
-      - 德国 youtube@独立思维 DE 8
-      - 德国 youtube@独立思维 DE 83
-      - 德国 youtube@独立思维 DE 84
-      - 德国 youtube@独立思维 DE 85
-      - 法国 youtube@独立思维 FR 104
-      - 法国 youtube@独立思维 FR 185
-      - 法国 youtube@独立思维 FR 20
-      - 法国 youtube@独立思维 FR 25
-      - 法国 youtube@独立思维 FR 37
-      - 加拿大 youtube@独立思维 CA 168
-      - 马来西亚 youtube@独立思维 MY 246
-      - 马来西亚 youtube@独立思维 MY 347
-      - 马来西亚 youtube@独立思维 MY 50
-      - 马来西亚 youtube@独立思维 MY 54
-      - 美国 youtube@独立思维 US 215
-      - 美国 youtube@独立思维 US 281
-      - 美国 youtube@独立思维 US 313
-      - 美国 youtube@独立思维 US 362
-      - 美国 youtube@独立思维 US 52
-      - 美国 youtube@独立思维 US 56
-      - 美国 youtube@独立思维 US 78
-      - 美国 youtube@独立思维 US 82
-      - 美国 youtube@独立思维 US 91
-      - 日本 youtube@独立思维 JP 110
-      - 日本 youtube@独立思维 JP 113
-      - 日本 youtube@独立思维 JP 13
-      - 日本 youtube@独立思维 JP 141
-      - 日本 youtube@独立思维 JP 151
-      - 日本 youtube@独立思维 JP 158
-      - 日本 youtube@独立思维 JP 189
-      - 日本 youtube@独立思维 JP 19
-      - 日本 youtube@独立思维 JP 47
-      - 塞浦路斯 youtube@独立思维 CY 291
-      - 塞浦路斯 youtube@独立思维 CY 38
-      - 塞浦路斯 youtube@独立思维 CY 65
-      - 台湾 youtube@独立思维 TW 30
-      - 台湾 youtube@独立思维 TW 366
-      - 香港 youtube@独立思维 HK 14
-      - 香港 youtube@独立思维 HK 160
-      - 香港 youtube@独立思维 HK 34
-      - 香港 youtube@独立思维 HK 341
-      - 香港 youtube@独立思维 HK 345
-      - 香港 youtube@独立思维 HK 361
-      - 香港 youtube@独立思维 HK 363
-      - 香港 youtube@独立思维 HK 60
-      - 新加坡 youtube@独立思维 SG 219
-      - 新加坡 youtube@独立思维 SG 235
-      - 英国 youtube@独立思维 GB 143
-      - 英国 youtube@独立思维 GB 33
-      - 中国 youtube@独立思维 CN 107
-      - 中国 youtube@独立思维 CN 129
-      - 中国 youtube@独立思维 CN 36
-      - youtube@独立思维 10
-      - youtube@独立思维 105
-      - youtube@独立思维 106
-      - youtube@独立思维 109
-      - youtube@独立思维 11
-      - youtube@独立思维 114
-      - youtube@独立思维 128
-      - youtube@独立思维 142
-      - youtube@独立思维 152
-      - youtube@独立思维 16
-      - youtube@独立思维 163
-      - youtube@独立思维 172
-      - youtube@独立思维 173
-      - youtube@独立思维 188
-      - youtube@独立思维 203
-      - youtube@独立思维 207
-      - youtube@独立思维 21
-      - youtube@独立思维 216
-      - youtube@独立思维 226
-      - youtube@独立思维 227
-      - youtube@独立思维 229
-      - youtube@独立思维 23
-      - youtube@独立思维 241
-      - youtube@独立思维 243
-      - youtube@独立思维 253
-      - youtube@独立思维 254
-      - youtube@独立思维 257
-      - youtube@独立思维 258
-      - youtube@独立思维 26
-      - youtube@独立思维 262
-      - youtube@独立思维 266
-      - youtube@独立思维 270
-      - youtube@独立思维 271
-      - youtube@独立思维 28
-      - youtube@独立思维 290
+      - youtube@独立思维
+      - youtube@独立思维 2
       - youtube@独立思维 3
-      - youtube@独立思维 301
-      - youtube@独立思维 302
-      - youtube@独立思维 305
-      - youtube@独立思维 31
-      - youtube@独立思维 317
-      - youtube@独立思维 318
-      - youtube@独立思维 322
-      - youtube@独立思维 323
-      - youtube@独立思维 328
-      - youtube@独立思维 331
-      - youtube@独立思维 41
-      - youtube@独立思维 42
-      - youtube@独立思维 43
-      - youtube@独立思维 45
-      - youtube@独立思维 53
-      - youtube@独立思维 55
-      - youtube@独立思维 57
-      - youtube@独立思维 58
+      - youtube@独立思维 4
+      - youtube@独立思维 5
       - youtube@独立思维 6
-      - youtube@独立思维 61
-      - youtube@独立思维 66
-      - youtube@独立思维 68
-      - youtube@独立思维 71
-      - youtube@独立思维 74
-      - youtube@独立思维 76
-      - youtube@独立思维 80
-      - youtube@独立思维 87
-      - youtube@独立思维 93
-      - youtube@独立思维 95
+      - youtube@独立思维 7
+      - youtube@独立思维 8
+      - youtube@独立思维 9
+      - youtube@独立思维 10
+      - youtube@独立思维 11
+      - youtube@独立思维 12
+      - youtube@独立思维 13
+      - youtube@独立思维 14
+      - youtube@独立思维 15
+      - youtube@独立思维 16
+      - youtube@独立思维 17
+      - youtube@独立思维 18
+      - youtube@独立思维 19
+      - youtube@独立思维 20
+      - youtube@独立思维 120
+      - youtube@独立思维 120 2
+      - youtube@独立思维 122
+      - youtube@独立思维 122 2
+      - youtube@独立思维 124
+      - youtube@独立思维 124 2
+      - youtube@独立思维 125
+      - youtube@独立思维 125 2
+      - youtube@独立思维 126
+      - youtube@独立思维 126 2
+      - youtube@独立思维 128
+      - youtube@独立思维 128 2
+      - youtube@独立思维 132
+      - youtube@独立思维 132 2
+      - youtube@独立思维 133
+      - youtube@独立思维 133 2
+      - youtube@独立思维 134
+      - youtube@独立思维 134 2
+      - youtube@独立思维 135
+      - youtube@独立思维 135 2
+      - youtube@独立思维 136
+      - youtube@独立思维 136 2
+      - youtube@独立思维 140
+      - youtube@独立思维 140 2
+      - youtube@独立思维 146
+      - youtube@独立思维 146 2
+      - youtube@独立思维 157
+      - youtube@独立思维 157 2
+      - youtube@独立思维 161
+      - youtube@独立思维 161 2
+      - youtube@独立思维 173
+      - youtube@独立思维 173 2
+      - youtube@独立思维 177
+      - youtube@独立思维 177 2
+      - youtube@独立思维 217
+      - youtube@独立思维 217 2
+      - 独立思维
+      - 独立思维 2
+      - S独立思维
+      - S独立思维 2
+      - 德国 youtube@独立思维 DE 27
+      - 德国 youtube@独立思维 DE 27 2
+      - 加拿大 youtube@独立思维 CA 123
+      - 加拿大 youtube@独立思维 CA 123 2
+      - 美国 youtube@独立思维 US 119
+      - 美国 youtube@独立思维 US 119 2
+      - 美国 youtube@独立思维 US 139
+      - 美国 youtube@独立思维 US 139 2
+      - 瑞典 youtube@独立思维 SE 129
+      - 瑞典 youtube@独立思维 SE 129 2
+      - 塞浦路斯 youtube@独立思维 CY 131
+      - 塞浦路斯 youtube@独立思维 CY 131 2
+      - 香港 youtube@独立思维 HK 33
+      - 独立思维 3
+      - 独立思维 4
+      - 独立思维 5
+      - 独立思维 6
+      - 独立思维 7
+      - 独立思维 8
+      - 独立思维 9
+      - 独立思维 10
+      - 独立思维 11
+      - 独立思维 12
+      - 独立思维 13
+      - 独立思维 14
+      - 独立思维 15
+      - 独立思维 16
+      - 独立思维 17
+      - 独立思维 18
+      - 独立思维 19
+      - 独立思维 20
+      - 独立思维 21
+      - 独立思维 22
+      - 独立思维 23
+      - 独立思维 24
+      - 独立思维 25
+      - 独立思维 26
+      - 独立思维 27
+      - 独立思维 28
+      - 独立思维 29
+      - 独立思维 30
+      - 独立思维 31
+      - 独立思维 32
+      - 独立思维 33
+      - 独立思维 34
+      - 独立思维 35
+      - 独立思维 36
+      - 独立思维 37
+      - 独立思维 38
+      - 独立思维 39
+      - 独立思维 40
+      - 独立思维 41
+      - 独立思维 42
+      - 独立思维 43
+      - 独立思维 44
+      - 独立思维 45
+      - 独立思维 46
+      - 独立思维 47
+      - 独立思维 48
+      - 独立思维 49
+      - 独立思维 50
+      - 独立思维 51
+      - 独立思维 52
+      - 独立思维 53
+      - 独立思维 54
+      - 独立思维 55
+      - 独立思维 56
+      - 独立思维 57
+      - 独立思维 58
+      - 独立思维 59
+      - 独立思维 60
+      - 独立思维 61
+      - 独立思维 62
+      - 独立思维 63
+      - 独立思维 64
+      - 独立思维 65
+      - 独立思维 66
+      - 独立思维 67
+      - 独立思维 68
+      - 独立思维 69
+      - 独立思维 70
+      - 独立思维 71
+      - 独立思维 72
+      - 独立思维 73
+      - 独立思维 74
+      - 独立思维 75
+      - 独立思维 76
+      - 独立思维 77
+      - 独立思维 78
+      - 独立思维 79
+      - 独立思维 80
+      - 独立思维 81
+      - 独立思维 82
+      - 独立思维 83
+      - 独立思维 84
+      - 独立思维 85
+      - 独立思维 86
+      - 独立思维 87
+      - 独立思维 88
+      - 独立思维 89
+      - 独立思维 90
+      - 独立思维 91
+      - 独立思维 92
+      - 独立思维 93
+      - 独立思维 94
+      - 独立思维 95
+      - 独立思维 96
+      - 独立思维 97
+      - 独立思维 98
+      - 独立思维 99
+      - 独立思维 100
+      - 独立思维 101
+      - 独立思维 102
+      - 独立思维 103
+      - 独立思维 104
+      - 独立思维 105
+      - 独立思维 106
+      - 独立思维 107
+      - 独立思维 108
+      - 独立思维 109
+      - 独立思维 110
+      - 独立思维 111
+      - 独立思维 112
+      - 独立思维 113
+      - 独立思维 114
+      - 独立思维 115
+      - 独立思维 116
+      - 独立思维 117
+      - 独立思维 118
+      - 独立思维 119
+      - 独立思维 120
+      - 独立思维 121
+      - 独立思维 122
+      - 独立思维 123
+      - 独立思维 124
+      - 独立思维 125
+      - 独立思维 126
+      - 独立思维 127
+      - 独立思维 128
+      - 独立思维 129
+      - 独立思维 130
+      - 独立思维 131
+      - 独立思维 132
+      - 独立思维 133
+      - 独立思维 134
+      - 独立思维 135
+      - 独立思维 136
+      - 独立思维 137
+      - 独立思维 138
+      - 独立思维 139
+      - 独立思维 140
+      - 独立思维 141
+      - 独立思维 142
+      - 独立思维 143
+      - 独立思维 144
+      - 独立思维 145
+      - 独立思维 146
+      - 独立思维 147
+      - 独立思维 148
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 德国 youtube@独立思维 DE 101
-      - 德国 youtube@独立思维 DE 112
-      - 德国 youtube@独立思维 DE 12
-      - 德国 youtube@独立思维 DE 146
-      - 德国 youtube@独立思维 DE 15
-      - 德国 youtube@独立思维 DE 179
-      - 德国 youtube@独立思维 DE 18
-      - 德国 youtube@独立思维 DE 180
-      - 德国 youtube@独立思维 DE 181
-      - 德国 youtube@独立思维 DE 22
-      - 德国 youtube@独立思维 DE 232
-      - 德国 youtube@独立思维 DE 233
-      - 德国 youtube@独立思维 DE 236
-      - 德国 youtube@独立思维 DE 237
-      - 德国 youtube@独立思维 DE 260
-      - 德国 youtube@独立思维 DE 264
-      - 德国 youtube@独立思维 DE 268
-      - 德国 youtube@独立思维 DE 27
-      - 德国 youtube@独立思维 DE 279
-      - 德国 youtube@独立思维 DE 314
-      - 德国 youtube@独立思维 DE 319
-      - 德国 youtube@独立思维 DE 32
-      - 德国 youtube@独立思维 DE 324
-      - 德国 youtube@独立思维 DE 325
-      - 德国 youtube@独立思维 DE 326
-      - 德国 youtube@独立思维 DE 327
-      - 德国 youtube@独立思维 DE 329
-      - 德国 youtube@独立思维 DE 330
-      - 德国 youtube@独立思维 DE 332
-      - 德国 youtube@独立思维 DE 346
-      - 德国 youtube@独立思维 DE 35
-      - 德国 youtube@独立思维 DE 40
-      - 德国 youtube@独立思维 DE 44
-      - 德国 youtube@独立思维 DE 48
-      - 德国 youtube@独立思维 DE 51
-      - 德国 youtube@独立思维 DE 7
-      - 德国 youtube@独立思维 DE 70
-      - 德国 youtube@独立思维 DE 72
-      - 德国 youtube@独立思维 DE 8
-      - 德国 youtube@独立思维 DE 83
-      - 德国 youtube@独立思维 DE 84
-      - 德国 youtube@独立思维 DE 85
-      - 法国 youtube@独立思维 FR 104
-      - 法国 youtube@独立思维 FR 185
-      - 法国 youtube@独立思维 FR 20
-      - 法国 youtube@独立思维 FR 25
-      - 法国 youtube@独立思维 FR 37
-      - 加拿大 youtube@独立思维 CA 168
-      - 马来西亚 youtube@独立思维 MY 246
-      - 马来西亚 youtube@独立思维 MY 347
-      - 马来西亚 youtube@独立思维 MY 50
-      - 马来西亚 youtube@独立思维 MY 54
-      - 美国 youtube@独立思维 US 215
-      - 美国 youtube@独立思维 US 281
-      - 美国 youtube@独立思维 US 313
-      - 美国 youtube@独立思维 US 362
-      - 美国 youtube@独立思维 US 52
-      - 美国 youtube@独立思维 US 56
-      - 美国 youtube@独立思维 US 78
-      - 美国 youtube@独立思维 US 82
-      - 美国 youtube@独立思维 US 91
-      - 日本 youtube@独立思维 JP 110
-      - 日本 youtube@独立思维 JP 113
-      - 日本 youtube@独立思维 JP 13
-      - 日本 youtube@独立思维 JP 141
-      - 日本 youtube@独立思维 JP 151
-      - 日本 youtube@独立思维 JP 158
-      - 日本 youtube@独立思维 JP 189
-      - 日本 youtube@独立思维 JP 19
-      - 日本 youtube@独立思维 JP 47
-      - 塞浦路斯 youtube@独立思维 CY 291
-      - 塞浦路斯 youtube@独立思维 CY 38
-      - 塞浦路斯 youtube@独立思维 CY 65
-      - 台湾 youtube@独立思维 TW 30
-      - 台湾 youtube@独立思维 TW 366
-      - 香港 youtube@独立思维 HK 14
-      - 香港 youtube@独立思维 HK 160
-      - 香港 youtube@独立思维 HK 34
-      - 香港 youtube@独立思维 HK 341
-      - 香港 youtube@独立思维 HK 345
-      - 香港 youtube@独立思维 HK 361
-      - 香港 youtube@独立思维 HK 363
-      - 香港 youtube@独立思维 HK 60
-      - 新加坡 youtube@独立思维 SG 219
-      - 新加坡 youtube@独立思维 SG 235
-      - 英国 youtube@独立思维 GB 143
-      - 英国 youtube@独立思维 GB 33
-      - 中国 youtube@独立思维 CN 107
-      - 中国 youtube@独立思维 CN 129
-      - 中国 youtube@独立思维 CN 36
-      - youtube@独立思维 10
-      - youtube@独立思维 105
-      - youtube@独立思维 106
-      - youtube@独立思维 109
-      - youtube@独立思维 11
-      - youtube@独立思维 114
-      - youtube@独立思维 128
-      - youtube@独立思维 142
-      - youtube@独立思维 152
-      - youtube@独立思维 16
-      - youtube@独立思维 163
-      - youtube@独立思维 172
-      - youtube@独立思维 173
-      - youtube@独立思维 188
-      - youtube@独立思维 203
-      - youtube@独立思维 207
-      - youtube@独立思维 21
-      - youtube@独立思维 216
-      - youtube@独立思维 226
-      - youtube@独立思维 227
-      - youtube@独立思维 229
-      - youtube@独立思维 23
-      - youtube@独立思维 241
-      - youtube@独立思维 243
-      - youtube@独立思维 253
-      - youtube@独立思维 254
-      - youtube@独立思维 257
-      - youtube@独立思维 258
-      - youtube@独立思维 26
-      - youtube@独立思维 262
-      - youtube@独立思维 266
-      - youtube@独立思维 270
-      - youtube@独立思维 271
-      - youtube@独立思维 28
-      - youtube@独立思维 290
+      - youtube@独立思维
+      - youtube@独立思维 2
       - youtube@独立思维 3
-      - youtube@独立思维 301
-      - youtube@独立思维 302
-      - youtube@独立思维 305
-      - youtube@独立思维 31
-      - youtube@独立思维 317
-      - youtube@独立思维 318
-      - youtube@独立思维 322
-      - youtube@独立思维 323
-      - youtube@独立思维 328
-      - youtube@独立思维 331
-      - youtube@独立思维 41
-      - youtube@独立思维 42
-      - youtube@独立思维 43
-      - youtube@独立思维 45
-      - youtube@独立思维 53
-      - youtube@独立思维 55
-      - youtube@独立思维 57
-      - youtube@独立思维 58
+      - youtube@独立思维 4
+      - youtube@独立思维 5
       - youtube@独立思维 6
-      - youtube@独立思维 61
-      - youtube@独立思维 66
-      - youtube@独立思维 68
-      - youtube@独立思维 71
-      - youtube@独立思维 74
-      - youtube@独立思维 76
-      - youtube@独立思维 80
-      - youtube@独立思维 87
-      - youtube@独立思维 93
-      - youtube@独立思维 95
+      - youtube@独立思维 7
+      - youtube@独立思维 8
+      - youtube@独立思维 9
+      - youtube@独立思维 10
+      - youtube@独立思维 11
+      - youtube@独立思维 12
+      - youtube@独立思维 13
+      - youtube@独立思维 14
+      - youtube@独立思维 15
+      - youtube@独立思维 16
+      - youtube@独立思维 17
+      - youtube@独立思维 18
+      - youtube@独立思维 19
+      - youtube@独立思维 20
+      - youtube@独立思维 120
+      - youtube@独立思维 120 2
+      - youtube@独立思维 122
+      - youtube@独立思维 122 2
+      - youtube@独立思维 124
+      - youtube@独立思维 124 2
+      - youtube@独立思维 125
+      - youtube@独立思维 125 2
+      - youtube@独立思维 126
+      - youtube@独立思维 126 2
+      - youtube@独立思维 128
+      - youtube@独立思维 128 2
+      - youtube@独立思维 132
+      - youtube@独立思维 132 2
+      - youtube@独立思维 133
+      - youtube@独立思维 133 2
+      - youtube@独立思维 134
+      - youtube@独立思维 134 2
+      - youtube@独立思维 135
+      - youtube@独立思维 135 2
+      - youtube@独立思维 136
+      - youtube@独立思维 136 2
+      - youtube@独立思维 140
+      - youtube@独立思维 140 2
+      - youtube@独立思维 146
+      - youtube@独立思维 146 2
+      - youtube@独立思维 157
+      - youtube@独立思维 157 2
+      - youtube@独立思维 161
+      - youtube@独立思维 161 2
+      - youtube@独立思维 173
+      - youtube@独立思维 173 2
+      - youtube@独立思维 177
+      - youtube@独立思维 177 2
+      - youtube@独立思维 217
+      - youtube@独立思维 217 2
+      - 独立思维
+      - 独立思维 2
+      - S独立思维
+      - S独立思维 2
+      - 德国 youtube@独立思维 DE 27
+      - 德国 youtube@独立思维 DE 27 2
+      - 加拿大 youtube@独立思维 CA 123
+      - 加拿大 youtube@独立思维 CA 123 2
+      - 美国 youtube@独立思维 US 119
+      - 美国 youtube@独立思维 US 119 2
+      - 美国 youtube@独立思维 US 139
+      - 美国 youtube@独立思维 US 139 2
+      - 瑞典 youtube@独立思维 SE 129
+      - 瑞典 youtube@独立思维 SE 129 2
+      - 塞浦路斯 youtube@独立思维 CY 131
+      - 塞浦路斯 youtube@独立思维 CY 131 2
+      - 香港 youtube@独立思维 HK 33
+      - 独立思维 3
+      - 独立思维 4
+      - 独立思维 5
+      - 独立思维 6
+      - 独立思维 7
+      - 独立思维 8
+      - 独立思维 9
+      - 独立思维 10
+      - 独立思维 11
+      - 独立思维 12
+      - 独立思维 13
+      - 独立思维 14
+      - 独立思维 15
+      - 独立思维 16
+      - 独立思维 17
+      - 独立思维 18
+      - 独立思维 19
+      - 独立思维 20
+      - 独立思维 21
+      - 独立思维 22
+      - 独立思维 23
+      - 独立思维 24
+      - 独立思维 25
+      - 独立思维 26
+      - 独立思维 27
+      - 独立思维 28
+      - 独立思维 29
+      - 独立思维 30
+      - 独立思维 31
+      - 独立思维 32
+      - 独立思维 33
+      - 独立思维 34
+      - 独立思维 35
+      - 独立思维 36
+      - 独立思维 37
+      - 独立思维 38
+      - 独立思维 39
+      - 独立思维 40
+      - 独立思维 41
+      - 独立思维 42
+      - 独立思维 43
+      - 独立思维 44
+      - 独立思维 45
+      - 独立思维 46
+      - 独立思维 47
+      - 独立思维 48
+      - 独立思维 49
+      - 独立思维 50
+      - 独立思维 51
+      - 独立思维 52
+      - 独立思维 53
+      - 独立思维 54
+      - 独立思维 55
+      - 独立思维 56
+      - 独立思维 57
+      - 独立思维 58
+      - 独立思维 59
+      - 独立思维 60
+      - 独立思维 61
+      - 独立思维 62
+      - 独立思维 63
+      - 独立思维 64
+      - 独立思维 65
+      - 独立思维 66
+      - 独立思维 67
+      - 独立思维 68
+      - 独立思维 69
+      - 独立思维 70
+      - 独立思维 71
+      - 独立思维 72
+      - 独立思维 73
+      - 独立思维 74
+      - 独立思维 75
+      - 独立思维 76
+      - 独立思维 77
+      - 独立思维 78
+      - 独立思维 79
+      - 独立思维 80
+      - 独立思维 81
+      - 独立思维 82
+      - 独立思维 83
+      - 独立思维 84
+      - 独立思维 85
+      - 独立思维 86
+      - 独立思维 87
+      - 独立思维 88
+      - 独立思维 89
+      - 独立思维 90
+      - 独立思维 91
+      - 独立思维 92
+      - 独立思维 93
+      - 独立思维 94
+      - 独立思维 95
+      - 独立思维 96
+      - 独立思维 97
+      - 独立思维 98
+      - 独立思维 99
+      - 独立思维 100
+      - 独立思维 101
+      - 独立思维 102
+      - 独立思维 103
+      - 独立思维 104
+      - 独立思维 105
+      - 独立思维 106
+      - 独立思维 107
+      - 独立思维 108
+      - 独立思维 109
+      - 独立思维 110
+      - 独立思维 111
+      - 独立思维 112
+      - 独立思维 113
+      - 独立思维 114
+      - 独立思维 115
+      - 独立思维 116
+      - 独立思维 117
+      - 独立思维 118
+      - 独立思维 119
+      - 独立思维 120
+      - 独立思维 121
+      - 独立思维 122
+      - 独立思维 123
+      - 独立思维 124
+      - 独立思维 125
+      - 独立思维 126
+      - 独立思维 127
+      - 独立思维 128
+      - 独立思维 129
+      - 独立思维 130
+      - 独立思维 131
+      - 独立思维 132
+      - 独立思维 133
+      - 独立思维 134
+      - 独立思维 135
+      - 独立思维 136
+      - 独立思维 137
+      - 独立思维 138
+      - 独立思维 139
+      - 独立思维 140
+      - 独立思维 141
+      - 独立思维 142
+      - 独立思维 143
+      - 独立思维 144
+      - 独立思维 145
+      - 独立思维 146
+      - 独立思维 147
+      - 独立思维 148
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 德国 youtube@独立思维 DE 101
-      - 德国 youtube@独立思维 DE 112
-      - 德国 youtube@独立思维 DE 12
-      - 德国 youtube@独立思维 DE 146
-      - 德国 youtube@独立思维 DE 15
-      - 德国 youtube@独立思维 DE 179
-      - 德国 youtube@独立思维 DE 18
-      - 德国 youtube@独立思维 DE 180
-      - 德国 youtube@独立思维 DE 181
-      - 德国 youtube@独立思维 DE 22
-      - 德国 youtube@独立思维 DE 232
-      - 德国 youtube@独立思维 DE 233
-      - 德国 youtube@独立思维 DE 236
-      - 德国 youtube@独立思维 DE 237
-      - 德国 youtube@独立思维 DE 260
-      - 德国 youtube@独立思维 DE 264
-      - 德国 youtube@独立思维 DE 268
-      - 德国 youtube@独立思维 DE 27
-      - 德国 youtube@独立思维 DE 279
-      - 德国 youtube@独立思维 DE 314
-      - 德国 youtube@独立思维 DE 319
-      - 德国 youtube@独立思维 DE 32
-      - 德国 youtube@独立思维 DE 324
-      - 德国 youtube@独立思维 DE 325
-      - 德国 youtube@独立思维 DE 326
-      - 德国 youtube@独立思维 DE 327
-      - 德国 youtube@独立思维 DE 329
-      - 德国 youtube@独立思维 DE 330
-      - 德国 youtube@独立思维 DE 332
-      - 德国 youtube@独立思维 DE 346
-      - 德国 youtube@独立思维 DE 35
-      - 德国 youtube@独立思维 DE 40
-      - 德国 youtube@独立思维 DE 44
-      - 德国 youtube@独立思维 DE 48
-      - 德国 youtube@独立思维 DE 51
-      - 德国 youtube@独立思维 DE 7
-      - 德国 youtube@独立思维 DE 70
-      - 德国 youtube@独立思维 DE 72
-      - 德国 youtube@独立思维 DE 8
-      - 德国 youtube@独立思维 DE 83
-      - 德国 youtube@独立思维 DE 84
-      - 德国 youtube@独立思维 DE 85
-      - 法国 youtube@独立思维 FR 104
-      - 法国 youtube@独立思维 FR 185
-      - 法国 youtube@独立思维 FR 20
-      - 法国 youtube@独立思维 FR 25
-      - 法国 youtube@独立思维 FR 37
-      - 加拿大 youtube@独立思维 CA 168
-      - 马来西亚 youtube@独立思维 MY 246
-      - 马来西亚 youtube@独立思维 MY 347
-      - 马来西亚 youtube@独立思维 MY 50
-      - 马来西亚 youtube@独立思维 MY 54
-      - 美国 youtube@独立思维 US 215
-      - 美国 youtube@独立思维 US 281
-      - 美国 youtube@独立思维 US 313
-      - 美国 youtube@独立思维 US 362
-      - 美国 youtube@独立思维 US 52
-      - 美国 youtube@独立思维 US 56
-      - 美国 youtube@独立思维 US 78
-      - 美国 youtube@独立思维 US 82
-      - 美国 youtube@独立思维 US 91
-      - 日本 youtube@独立思维 JP 110
-      - 日本 youtube@独立思维 JP 113
-      - 日本 youtube@独立思维 JP 13
-      - 日本 youtube@独立思维 JP 141
-      - 日本 youtube@独立思维 JP 151
-      - 日本 youtube@独立思维 JP 158
-      - 日本 youtube@独立思维 JP 189
-      - 日本 youtube@独立思维 JP 19
-      - 日本 youtube@独立思维 JP 47
-      - 塞浦路斯 youtube@独立思维 CY 291
-      - 塞浦路斯 youtube@独立思维 CY 38
-      - 塞浦路斯 youtube@独立思维 CY 65
-      - 台湾 youtube@独立思维 TW 30
-      - 台湾 youtube@独立思维 TW 366
-      - 香港 youtube@独立思维 HK 14
-      - 香港 youtube@独立思维 HK 160
-      - 香港 youtube@独立思维 HK 34
-      - 香港 youtube@独立思维 HK 341
-      - 香港 youtube@独立思维 HK 345
-      - 香港 youtube@独立思维 HK 361
-      - 香港 youtube@独立思维 HK 363
-      - 香港 youtube@独立思维 HK 60
-      - 新加坡 youtube@独立思维 SG 219
-      - 新加坡 youtube@独立思维 SG 235
-      - 英国 youtube@独立思维 GB 143
-      - 英国 youtube@独立思维 GB 33
-      - 中国 youtube@独立思维 CN 107
-      - 中国 youtube@独立思维 CN 129
-      - 中国 youtube@独立思维 CN 36
-      - youtube@独立思维 10
-      - youtube@独立思维 105
-      - youtube@独立思维 106
-      - youtube@独立思维 109
-      - youtube@独立思维 11
-      - youtube@独立思维 114
-      - youtube@独立思维 128
-      - youtube@独立思维 142
-      - youtube@独立思维 152
-      - youtube@独立思维 16
-      - youtube@独立思维 163
-      - youtube@独立思维 172
-      - youtube@独立思维 173
-      - youtube@独立思维 188
-      - youtube@独立思维 203
-      - youtube@独立思维 207
-      - youtube@独立思维 21
-      - youtube@独立思维 216
-      - youtube@独立思维 226
-      - youtube@独立思维 227
-      - youtube@独立思维 229
-      - youtube@独立思维 23
-      - youtube@独立思维 241
-      - youtube@独立思维 243
-      - youtube@独立思维 253
-      - youtube@独立思维 254
-      - youtube@独立思维 257
-      - youtube@独立思维 258
-      - youtube@独立思维 26
-      - youtube@独立思维 262
-      - youtube@独立思维 266
-      - youtube@独立思维 270
-      - youtube@独立思维 271
-      - youtube@独立思维 28
-      - youtube@独立思维 290
+      - youtube@独立思维
+      - youtube@独立思维 2
       - youtube@独立思维 3
-      - youtube@独立思维 301
-      - youtube@独立思维 302
-      - youtube@独立思维 305
-      - youtube@独立思维 31
-      - youtube@独立思维 317
-      - youtube@独立思维 318
-      - youtube@独立思维 322
-      - youtube@独立思维 323
-      - youtube@独立思维 328
-      - youtube@独立思维 331
-      - youtube@独立思维 41
-      - youtube@独立思维 42
-      - youtube@独立思维 43
-      - youtube@独立思维 45
-      - youtube@独立思维 53
-      - youtube@独立思维 55
-      - youtube@独立思维 57
-      - youtube@独立思维 58
+      - youtube@独立思维 4
+      - youtube@独立思维 5
       - youtube@独立思维 6
-      - youtube@独立思维 61
-      - youtube@独立思维 66
-      - youtube@独立思维 68
-      - youtube@独立思维 71
-      - youtube@独立思维 74
-      - youtube@独立思维 76
-      - youtube@独立思维 80
-      - youtube@独立思维 87
-      - youtube@独立思维 93
-      - youtube@独立思维 95
+      - youtube@独立思维 7
+      - youtube@独立思维 8
+      - youtube@独立思维 9
+      - youtube@独立思维 10
+      - youtube@独立思维 11
+      - youtube@独立思维 12
+      - youtube@独立思维 13
+      - youtube@独立思维 14
+      - youtube@独立思维 15
+      - youtube@独立思维 16
+      - youtube@独立思维 17
+      - youtube@独立思维 18
+      - youtube@独立思维 19
+      - youtube@独立思维 20
+      - youtube@独立思维 120
+      - youtube@独立思维 120 2
+      - youtube@独立思维 122
+      - youtube@独立思维 122 2
+      - youtube@独立思维 124
+      - youtube@独立思维 124 2
+      - youtube@独立思维 125
+      - youtube@独立思维 125 2
+      - youtube@独立思维 126
+      - youtube@独立思维 126 2
+      - youtube@独立思维 128
+      - youtube@独立思维 128 2
+      - youtube@独立思维 132
+      - youtube@独立思维 132 2
+      - youtube@独立思维 133
+      - youtube@独立思维 133 2
+      - youtube@独立思维 134
+      - youtube@独立思维 134 2
+      - youtube@独立思维 135
+      - youtube@独立思维 135 2
+      - youtube@独立思维 136
+      - youtube@独立思维 136 2
+      - youtube@独立思维 140
+      - youtube@独立思维 140 2
+      - youtube@独立思维 146
+      - youtube@独立思维 146 2
+      - youtube@独立思维 157
+      - youtube@独立思维 157 2
+      - youtube@独立思维 161
+      - youtube@独立思维 161 2
+      - youtube@独立思维 173
+      - youtube@独立思维 173 2
+      - youtube@独立思维 177
+      - youtube@独立思维 177 2
+      - youtube@独立思维 217
+      - youtube@独立思维 217 2
+      - 独立思维
+      - 独立思维 2
+      - S独立思维
+      - S独立思维 2
+      - 德国 youtube@独立思维 DE 27
+      - 德国 youtube@独立思维 DE 27 2
+      - 加拿大 youtube@独立思维 CA 123
+      - 加拿大 youtube@独立思维 CA 123 2
+      - 美国 youtube@独立思维 US 119
+      - 美国 youtube@独立思维 US 119 2
+      - 美国 youtube@独立思维 US 139
+      - 美国 youtube@独立思维 US 139 2
+      - 瑞典 youtube@独立思维 SE 129
+      - 瑞典 youtube@独立思维 SE 129 2
+      - 塞浦路斯 youtube@独立思维 CY 131
+      - 塞浦路斯 youtube@独立思维 CY 131 2
+      - 香港 youtube@独立思维 HK 33
+      - 独立思维 3
+      - 独立思维 4
+      - 独立思维 5
+      - 独立思维 6
+      - 独立思维 7
+      - 独立思维 8
+      - 独立思维 9
+      - 独立思维 10
+      - 独立思维 11
+      - 独立思维 12
+      - 独立思维 13
+      - 独立思维 14
+      - 独立思维 15
+      - 独立思维 16
+      - 独立思维 17
+      - 独立思维 18
+      - 独立思维 19
+      - 独立思维 20
+      - 独立思维 21
+      - 独立思维 22
+      - 独立思维 23
+      - 独立思维 24
+      - 独立思维 25
+      - 独立思维 26
+      - 独立思维 27
+      - 独立思维 28
+      - 独立思维 29
+      - 独立思维 30
+      - 独立思维 31
+      - 独立思维 32
+      - 独立思维 33
+      - 独立思维 34
+      - 独立思维 35
+      - 独立思维 36
+      - 独立思维 37
+      - 独立思维 38
+      - 独立思维 39
+      - 独立思维 40
+      - 独立思维 41
+      - 独立思维 42
+      - 独立思维 43
+      - 独立思维 44
+      - 独立思维 45
+      - 独立思维 46
+      - 独立思维 47
+      - 独立思维 48
+      - 独立思维 49
+      - 独立思维 50
+      - 独立思维 51
+      - 独立思维 52
+      - 独立思维 53
+      - 独立思维 54
+      - 独立思维 55
+      - 独立思维 56
+      - 独立思维 57
+      - 独立思维 58
+      - 独立思维 59
+      - 独立思维 60
+      - 独立思维 61
+      - 独立思维 62
+      - 独立思维 63
+      - 独立思维 64
+      - 独立思维 65
+      - 独立思维 66
+      - 独立思维 67
+      - 独立思维 68
+      - 独立思维 69
+      - 独立思维 70
+      - 独立思维 71
+      - 独立思维 72
+      - 独立思维 73
+      - 独立思维 74
+      - 独立思维 75
+      - 独立思维 76
+      - 独立思维 77
+      - 独立思维 78
+      - 独立思维 79
+      - 独立思维 80
+      - 独立思维 81
+      - 独立思维 82
+      - 独立思维 83
+      - 独立思维 84
+      - 独立思维 85
+      - 独立思维 86
+      - 独立思维 87
+      - 独立思维 88
+      - 独立思维 89
+      - 独立思维 90
+      - 独立思维 91
+      - 独立思维 92
+      - 独立思维 93
+      - 独立思维 94
+      - 独立思维 95
+      - 独立思维 96
+      - 独立思维 97
+      - 独立思维 98
+      - 独立思维 99
+      - 独立思维 100
+      - 独立思维 101
+      - 独立思维 102
+      - 独立思维 103
+      - 独立思维 104
+      - 独立思维 105
+      - 独立思维 106
+      - 独立思维 107
+      - 独立思维 108
+      - 独立思维 109
+      - 独立思维 110
+      - 独立思维 111
+      - 独立思维 112
+      - 独立思维 113
+      - 独立思维 114
+      - 独立思维 115
+      - 独立思维 116
+      - 独立思维 117
+      - 独立思维 118
+      - 独立思维 119
+      - 独立思维 120
+      - 独立思维 121
+      - 独立思维 122
+      - 独立思维 123
+      - 独立思维 124
+      - 独立思维 125
+      - 独立思维 126
+      - 独立思维 127
+      - 独立思维 128
+      - 独立思维 129
+      - 独立思维 130
+      - 独立思维 131
+      - 独立思维 132
+      - 独立思维 133
+      - 独立思维 134
+      - 独立思维 135
+      - 独立思维 136
+      - 独立思维 137
+      - 独立思维 138
+      - 独立思维 139
+      - 独立思维 140
+      - 独立思维 141
+      - 独立思维 142
+      - 独立思维 143
+      - 独立思维 144
+      - 独立思维 145
+      - 独立思维 146
+      - 独立思维 147
+      - 独立思维 148
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1326,161 +1829,225 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 德国 youtube@独立思维 DE 101
-      - 德国 youtube@独立思维 DE 112
-      - 德国 youtube@独立思维 DE 12
-      - 德国 youtube@独立思维 DE 146
-      - 德国 youtube@独立思维 DE 15
-      - 德国 youtube@独立思维 DE 179
-      - 德国 youtube@独立思维 DE 18
-      - 德国 youtube@独立思维 DE 180
-      - 德国 youtube@独立思维 DE 181
-      - 德国 youtube@独立思维 DE 22
-      - 德国 youtube@独立思维 DE 232
-      - 德国 youtube@独立思维 DE 233
-      - 德国 youtube@独立思维 DE 236
-      - 德国 youtube@独立思维 DE 237
-      - 德国 youtube@独立思维 DE 260
-      - 德国 youtube@独立思维 DE 264
-      - 德国 youtube@独立思维 DE 268
-      - 德国 youtube@独立思维 DE 27
-      - 德国 youtube@独立思维 DE 279
-      - 德国 youtube@独立思维 DE 314
-      - 德国 youtube@独立思维 DE 319
-      - 德国 youtube@独立思维 DE 32
-      - 德国 youtube@独立思维 DE 324
-      - 德国 youtube@独立思维 DE 325
-      - 德国 youtube@独立思维 DE 326
-      - 德国 youtube@独立思维 DE 327
-      - 德国 youtube@独立思维 DE 329
-      - 德国 youtube@独立思维 DE 330
-      - 德国 youtube@独立思维 DE 332
-      - 德国 youtube@独立思维 DE 346
-      - 德国 youtube@独立思维 DE 35
-      - 德国 youtube@独立思维 DE 40
-      - 德国 youtube@独立思维 DE 44
-      - 德国 youtube@独立思维 DE 48
-      - 德国 youtube@独立思维 DE 51
-      - 德国 youtube@独立思维 DE 7
-      - 德国 youtube@独立思维 DE 70
-      - 德国 youtube@独立思维 DE 72
-      - 德国 youtube@独立思维 DE 8
-      - 德国 youtube@独立思维 DE 83
-      - 德国 youtube@独立思维 DE 84
-      - 德国 youtube@独立思维 DE 85
-      - 法国 youtube@独立思维 FR 104
-      - 法国 youtube@独立思维 FR 185
-      - 法国 youtube@独立思维 FR 20
-      - 法国 youtube@独立思维 FR 25
-      - 法国 youtube@独立思维 FR 37
-      - 加拿大 youtube@独立思维 CA 168
-      - 马来西亚 youtube@独立思维 MY 246
-      - 马来西亚 youtube@独立思维 MY 347
-      - 马来西亚 youtube@独立思维 MY 50
-      - 马来西亚 youtube@独立思维 MY 54
-      - 美国 youtube@独立思维 US 215
-      - 美国 youtube@独立思维 US 281
-      - 美国 youtube@独立思维 US 313
-      - 美国 youtube@独立思维 US 362
-      - 美国 youtube@独立思维 US 52
-      - 美国 youtube@独立思维 US 56
-      - 美国 youtube@独立思维 US 78
-      - 美国 youtube@独立思维 US 82
-      - 美国 youtube@独立思维 US 91
-      - 日本 youtube@独立思维 JP 110
-      - 日本 youtube@独立思维 JP 113
-      - 日本 youtube@独立思维 JP 13
-      - 日本 youtube@独立思维 JP 141
-      - 日本 youtube@独立思维 JP 151
-      - 日本 youtube@独立思维 JP 158
-      - 日本 youtube@独立思维 JP 189
-      - 日本 youtube@独立思维 JP 19
-      - 日本 youtube@独立思维 JP 47
-      - 塞浦路斯 youtube@独立思维 CY 291
-      - 塞浦路斯 youtube@独立思维 CY 38
-      - 塞浦路斯 youtube@独立思维 CY 65
-      - 台湾 youtube@独立思维 TW 30
-      - 台湾 youtube@独立思维 TW 366
-      - 香港 youtube@独立思维 HK 14
-      - 香港 youtube@独立思维 HK 160
-      - 香港 youtube@独立思维 HK 34
-      - 香港 youtube@独立思维 HK 341
-      - 香港 youtube@独立思维 HK 345
-      - 香港 youtube@独立思维 HK 361
-      - 香港 youtube@独立思维 HK 363
-      - 香港 youtube@独立思维 HK 60
-      - 新加坡 youtube@独立思维 SG 219
-      - 新加坡 youtube@独立思维 SG 235
-      - 英国 youtube@独立思维 GB 143
-      - 英国 youtube@独立思维 GB 33
-      - 中国 youtube@独立思维 CN 107
-      - 中国 youtube@独立思维 CN 129
-      - 中国 youtube@独立思维 CN 36
-      - youtube@独立思维 10
-      - youtube@独立思维 105
-      - youtube@独立思维 106
-      - youtube@独立思维 109
-      - youtube@独立思维 11
-      - youtube@独立思维 114
-      - youtube@独立思维 128
-      - youtube@独立思维 142
-      - youtube@独立思维 152
-      - youtube@独立思维 16
-      - youtube@独立思维 163
-      - youtube@独立思维 172
-      - youtube@独立思维 173
-      - youtube@独立思维 188
-      - youtube@独立思维 203
-      - youtube@独立思维 207
-      - youtube@独立思维 21
-      - youtube@独立思维 216
-      - youtube@独立思维 226
-      - youtube@独立思维 227
-      - youtube@独立思维 229
-      - youtube@独立思维 23
-      - youtube@独立思维 241
-      - youtube@独立思维 243
-      - youtube@独立思维 253
-      - youtube@独立思维 254
-      - youtube@独立思维 257
-      - youtube@独立思维 258
-      - youtube@独立思维 26
-      - youtube@独立思维 262
-      - youtube@独立思维 266
-      - youtube@独立思维 270
-      - youtube@独立思维 271
-      - youtube@独立思维 28
-      - youtube@独立思维 290
+      - youtube@独立思维
+      - youtube@独立思维 2
       - youtube@独立思维 3
-      - youtube@独立思维 301
-      - youtube@独立思维 302
-      - youtube@独立思维 305
-      - youtube@独立思维 31
-      - youtube@独立思维 317
-      - youtube@独立思维 318
-      - youtube@独立思维 322
-      - youtube@独立思维 323
-      - youtube@独立思维 328
-      - youtube@独立思维 331
-      - youtube@独立思维 41
-      - youtube@独立思维 42
-      - youtube@独立思维 43
-      - youtube@独立思维 45
-      - youtube@独立思维 53
-      - youtube@独立思维 55
-      - youtube@独立思维 57
-      - youtube@独立思维 58
+      - youtube@独立思维 4
+      - youtube@独立思维 5
       - youtube@独立思维 6
-      - youtube@独立思维 61
-      - youtube@独立思维 66
-      - youtube@独立思维 68
-      - youtube@独立思维 71
-      - youtube@独立思维 74
-      - youtube@独立思维 76
-      - youtube@独立思维 80
-      - youtube@独立思维 87
-      - youtube@独立思维 93
-      - youtube@独立思维 95
+      - youtube@独立思维 7
+      - youtube@独立思维 8
+      - youtube@独立思维 9
+      - youtube@独立思维 10
+      - youtube@独立思维 11
+      - youtube@独立思维 12
+      - youtube@独立思维 13
+      - youtube@独立思维 14
+      - youtube@独立思维 15
+      - youtube@独立思维 16
+      - youtube@独立思维 17
+      - youtube@独立思维 18
+      - youtube@独立思维 19
+      - youtube@独立思维 20
+      - youtube@独立思维 120
+      - youtube@独立思维 120 2
+      - youtube@独立思维 122
+      - youtube@独立思维 122 2
+      - youtube@独立思维 124
+      - youtube@独立思维 124 2
+      - youtube@独立思维 125
+      - youtube@独立思维 125 2
+      - youtube@独立思维 126
+      - youtube@独立思维 126 2
+      - youtube@独立思维 128
+      - youtube@独立思维 128 2
+      - youtube@独立思维 132
+      - youtube@独立思维 132 2
+      - youtube@独立思维 133
+      - youtube@独立思维 133 2
+      - youtube@独立思维 134
+      - youtube@独立思维 134 2
+      - youtube@独立思维 135
+      - youtube@独立思维 135 2
+      - youtube@独立思维 136
+      - youtube@独立思维 136 2
+      - youtube@独立思维 140
+      - youtube@独立思维 140 2
+      - youtube@独立思维 146
+      - youtube@独立思维 146 2
+      - youtube@独立思维 157
+      - youtube@独立思维 157 2
+      - youtube@独立思维 161
+      - youtube@独立思维 161 2
+      - youtube@独立思维 173
+      - youtube@独立思维 173 2
+      - youtube@独立思维 177
+      - youtube@独立思维 177 2
+      - youtube@独立思维 217
+      - youtube@独立思维 217 2
+      - 独立思维
+      - 独立思维 2
+      - S独立思维
+      - S独立思维 2
+      - 德国 youtube@独立思维 DE 27
+      - 德国 youtube@独立思维 DE 27 2
+      - 加拿大 youtube@独立思维 CA 123
+      - 加拿大 youtube@独立思维 CA 123 2
+      - 美国 youtube@独立思维 US 119
+      - 美国 youtube@独立思维 US 119 2
+      - 美国 youtube@独立思维 US 139
+      - 美国 youtube@独立思维 US 139 2
+      - 瑞典 youtube@独立思维 SE 129
+      - 瑞典 youtube@独立思维 SE 129 2
+      - 塞浦路斯 youtube@独立思维 CY 131
+      - 塞浦路斯 youtube@独立思维 CY 131 2
+      - 香港 youtube@独立思维 HK 33
+      - 独立思维 3
+      - 独立思维 4
+      - 独立思维 5
+      - 独立思维 6
+      - 独立思维 7
+      - 独立思维 8
+      - 独立思维 9
+      - 独立思维 10
+      - 独立思维 11
+      - 独立思维 12
+      - 独立思维 13
+      - 独立思维 14
+      - 独立思维 15
+      - 独立思维 16
+      - 独立思维 17
+      - 独立思维 18
+      - 独立思维 19
+      - 独立思维 20
+      - 独立思维 21
+      - 独立思维 22
+      - 独立思维 23
+      - 独立思维 24
+      - 独立思维 25
+      - 独立思维 26
+      - 独立思维 27
+      - 独立思维 28
+      - 独立思维 29
+      - 独立思维 30
+      - 独立思维 31
+      - 独立思维 32
+      - 独立思维 33
+      - 独立思维 34
+      - 独立思维 35
+      - 独立思维 36
+      - 独立思维 37
+      - 独立思维 38
+      - 独立思维 39
+      - 独立思维 40
+      - 独立思维 41
+      - 独立思维 42
+      - 独立思维 43
+      - 独立思维 44
+      - 独立思维 45
+      - 独立思维 46
+      - 独立思维 47
+      - 独立思维 48
+      - 独立思维 49
+      - 独立思维 50
+      - 独立思维 51
+      - 独立思维 52
+      - 独立思维 53
+      - 独立思维 54
+      - 独立思维 55
+      - 独立思维 56
+      - 独立思维 57
+      - 独立思维 58
+      - 独立思维 59
+      - 独立思维 60
+      - 独立思维 61
+      - 独立思维 62
+      - 独立思维 63
+      - 独立思维 64
+      - 独立思维 65
+      - 独立思维 66
+      - 独立思维 67
+      - 独立思维 68
+      - 独立思维 69
+      - 独立思维 70
+      - 独立思维 71
+      - 独立思维 72
+      - 独立思维 73
+      - 独立思维 74
+      - 独立思维 75
+      - 独立思维 76
+      - 独立思维 77
+      - 独立思维 78
+      - 独立思维 79
+      - 独立思维 80
+      - 独立思维 81
+      - 独立思维 82
+      - 独立思维 83
+      - 独立思维 84
+      - 独立思维 85
+      - 独立思维 86
+      - 独立思维 87
+      - 独立思维 88
+      - 独立思维 89
+      - 独立思维 90
+      - 独立思维 91
+      - 独立思维 92
+      - 独立思维 93
+      - 独立思维 94
+      - 独立思维 95
+      - 独立思维 96
+      - 独立思维 97
+      - 独立思维 98
+      - 独立思维 99
+      - 独立思维 100
+      - 独立思维 101
+      - 独立思维 102
+      - 独立思维 103
+      - 独立思维 104
+      - 独立思维 105
+      - 独立思维 106
+      - 独立思维 107
+      - 独立思维 108
+      - 独立思维 109
+      - 独立思维 110
+      - 独立思维 111
+      - 独立思维 112
+      - 独立思维 113
+      - 独立思维 114
+      - 独立思维 115
+      - 独立思维 116
+      - 独立思维 117
+      - 独立思维 118
+      - 独立思维 119
+      - 独立思维 120
+      - 独立思维 121
+      - 独立思维 122
+      - 独立思维 123
+      - 独立思维 124
+      - 独立思维 125
+      - 独立思维 126
+      - 独立思维 127
+      - 独立思维 128
+      - 独立思维 129
+      - 独立思维 130
+      - 独立思维 131
+      - 独立思维 132
+      - 独立思维 133
+      - 独立思维 134
+      - 独立思维 135
+      - 独立思维 136
+      - 独立思维 137
+      - 独立思维 138
+      - 独立思维 139
+      - 独立思维 140
+      - 独立思维 141
+      - 独立思维 142
+      - 独立思维 143
+      - 独立思维 144
+      - 独立思维 145
+      - 独立思维 146
+      - 独立思维 147
+      - 独立思维 148
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
