@@ -17,43 +17,371 @@ dns:
     - https://dns.alidns.com/dns-query
     - https://doh.pub/dns-query
 proxies:
-  - name: 美国-youtube@独立思维 13
-    type: vless
-    server: 104.19.58.118
-    port: 443
-    uuid: fadab0a4-861d-4ebf-89ac-c9b34aef631a
-    network: ws
-    servername: us1-us1.aiopen.sbs
+  - name: 新加坡-youtube@独立思维 12
+    type: trojan
+    server: 95.40.114.115
+    port: 4840
+    password: f6d3aa07a52dbcedcb4731029e2fb6ae
+    sni: www.nintendogames.net
+    skip-cert-verify: true
     tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /kbjc/us1
-      headers:
-        Host: us1-us1.aiopen.sbs
     udp: true
-  - name: 荷兰-youtube@独立思维 08
-    type: vless
-    server: 144.31.157.163
+  - name: 日本-youtube@独立思维 08
+    type: trojan
+    server: 16.163.29.124
+    port: 11541
+    password: f6d3aa07a52dbcedcb4731029e2fb6ae
+    sni: www.nintendogames.net
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 新加坡-youtube@独立思维 16
+    type: trojan
+    server: 35.78.121.219
+    port: 39756
+    password: BxceQaOe
+    sni: 35.78.121.219
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 塞舌尔-youtube@独立思维 01
+    type: trojan
+    server: 45.130.125.76
     port: 443
-    uuid: ae8ddd8e-00af-48e5-bd57-05074a1bbffb
-    servername: www.deepl.com
+    password: mitivpn
+    sni: www.app-cloud.ir
+    alpn:
+      - http/1.1
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /?ed=2048
+    udp: true
+  - name: 美国-youtube@独立思维 23
+    type: trojan
+    server: 52.69.114.14
+    port: 2663
+    password: f6d3aa07a52dbcedcb4731029e2fb6ae
+    sni: 52.69.114.14
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 香港-youtube@独立思维 06
+    type: vless
+    server: hkt1.xn--9kqp42aims.top
+    port: 20417
+    uuid: ba9b25bf-0def-4c82-8e3f-1310aa0d1969
+    servername: buylite.music.apple.com
     tls: true
     flow: xtls-rprx-vision
-    client-fingerprint: chrome
+    client-fingerprint: edge
     reality-opts:
-      public-key: ZHEMPjSWslk6_qD2JNQzd5enUPz8nY9mYRRuM6NkZmU
-      short-id: 0123456789abcdef
+      public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI
+      short-id: 4b070735
+    udp: true
+  - name: 香港-youtube@独立思维 16
+    type: trojan
+    server: 52.69.114.14
+    port: 2008
+    password: f6d3aa07a52dbcedcb4731029e2fb6ae
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+    tls: true
+    udp: true
+  - name: 新加坡-youtube@独立思维 13
+    type: trojan
+    server: 95.40.114.115
+    port: 4840
+    password: f6d3aa07a52dbcedcb4731029e2fb6ae
+    sni: www.nintendogames.net
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 香港-youtube@独立思维 04
+    type: vless
+    server: hkt1.xn--9kqp42aims.top
+    port: 20417
+    uuid: ba9b25bf-0def-4c82-8e3f-1310aa0d1969
+    servername: buylite.music.apple.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: edge
+    reality-opts:
+      public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI
+      short-id: 4b070735
     udp: true
   - name: 香港-youtube@独立思维 05
     type: vless
-    server: cl-ru-tw.fastaichat.ru
-    port: 52006
-    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
-    servername: cl-ru-tw.fastaichat.ru
+    server: hkt1.xn--9kqp42aims.top
+    port: 20417
+    uuid: ba9b25bf-0def-4c82-8e3f-1310aa0d1969
+    servername: buylite.music.apple.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: edge
+    reality-opts:
+      public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI
+      short-id: 4b070735
+    udp: true
+  - name: 新加坡-youtube@独立思维 15
+    type: trojan
+    server: 95.40.114.115
+    port: 4840
+    password: f6d3aa07a52dbcedcb4731029e2fb6ae
+    sni: 95.40.114.115
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 美国-youtube@独立思维 14
+    type: trojan
+    server: 95.40.114.115
+    port: 2663
+    password: f6d3aa07a52dbcedcb4731029e2fb6ae
+    sni: www.nintendogames.net
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 美国-youtube@独立思维 11
+    type: trojan
+    server: 95.40.114.115
+    port: 2663
+    password: f6d3aa07a52dbcedcb4731029e2fb6ae
+    sni: www.nintendogames.net
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 香港-youtube@独立思维 19
+    type: trojan
+    server: 54.168.196.137
+    port: 4327
+    password: BxceQaOe
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 日本-youtube@独立思维 10
+    type: trojan
+    server: 16.163.29.124
+    port: 8066
+    password: f6d3aa07a52dbcedcb4731029e2fb6ae
+    sni: www.nintendogames.net
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 新加坡-youtube@独立思维 20
+    type: trojan
+    server: 16.163.29.124
+    port: 3842
+    password: f6d3aa07a52dbcedcb4731029e2fb6ae
+    sni: 16.163.29.124
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 日本-youtube@独立思维 11
+    type: trojan
+    server: 16.163.29.124
+    port: 11541
+    password: f6d3aa07a52dbcedcb4731029e2fb6ae
+    sni: www.nintendogames.net
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 日本-youtube@独立思维 09
+    type: trojan
+    server: 16.163.29.124
+    port: 11541
+    password: f6d3aa07a52dbcedcb4731029e2fb6ae
+    sni: 16.163.29.124
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 香港-youtube@独立思维 20
+    type: trojan
+    server: 54.168.196.137
+    port: 4327
+    password: BxceQaOe
+    sni: 54.168.196.137
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 新加坡-youtube@独立思维 18
+    type: trojan
+    server: 16.163.29.124
+    port: 3842
+    password: f6d3aa07a52dbcedcb4731029e2fb6ae
+    sni: www.nintendogames.net
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 日本-youtube@独立思维 07
+    type: trojan
+    server: 16.163.29.124
+    port: 8066
+    password: f6d3aa07a52dbcedcb4731029e2fb6ae
+    sni: www.nintendogames.net
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 日本-youtube@独立思维 12
+    type: trojan
+    server: 16.163.29.124
+    port: 8066
+    password: f6d3aa07a52dbcedcb4731029e2fb6ae
+    sni: 16.163.29.124
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 日本-youtube@独立思维 02
+    type: anytls
+    server: 45.192.197.62
+    port: 8443
+    password: ba9b25bf-0def-4c82-8e3f-1310aa0d1969
+    sni: gw.alicdn.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+    client-fingerprint: chrome
+  - name: 新加坡-youtube@独立思维 14
+    type: trojan
+    server: 35.78.121.219
+    port: 39756
+    password: BxceQaOe
+    sni: t.me%2Fripaojiedian
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 美国-youtube@独立思维 27
+    type: trojan
+    server: 52.69.114.14
+    port: 2663
+    password: f6d3aa07a52dbcedcb4731029e2fb6ae
+    sni: www.nintendogames.net
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 加拿大-youtube@独立思维 03
+    type: vless
+    server: npmjs.com
+    port: 2096
+    uuid: 6c3852b6-138f-4235-bc75-0ad96f82cca7
+    network: ws
+    servername: 6956646388cdb23c971b4ec6.mmdbay.site
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /metrics
+      headers:
+        Host: 6956646388cdb23c971b4ec6.mmdbay.site
+    udp: true
+  - name: 加拿大-youtube@独立思维 06
+    type: trojan
+    server: 104.18.20.213
+    port: 443
+    password: mitivpn
+    sni: www.app-cloud.ir
+    alpn:
+      - http/1.1
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /?ed=2048
+    udp: true
+  - name: 新加坡-youtube@独立思维 17
+    type: trojan
+    server: 35.78.121.219
+    port: 39756
+    password: BxceQaOe
+    sni: t.me%2Fripaojiedian
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 新加坡-youtube@独立思维 19
+    type: trojan
+    server: 16.163.29.124
+    port: 3842
+    password: f6d3aa07a52dbcedcb4731029e2fb6ae
+    sni: www.nintendogames.net
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 香港-youtube@独立思维 17
+    type: trojan
+    server: 54.168.196.137
+    port: 4327
+    password: BxceQaOe
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 加拿大-youtube@独立思维 03_1
+    type: vless
+    server: npmjs.com
+    port: 2096
+    uuid: 6c3852b6-138f-4235-bc75-0ad96f82cca7
+    network: ws
+    servername: 6956646388cdb23c971b4ec6.mmdbay.site
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /metrics
+      headers:
+        Host: 6956646388cdb23c971b4ec6.mmdbay.site
+    udp: true
+  - name: 日本-youtube@独立思维 03
+    type: vmess
+    server: dotu-jpv1.kunlun03dns.com
+    port: 11122
+    uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 印尼-youtube@独立思维 02
+    type: vless
+    server: gzrefad01.odxxplay.com
+    port: 23765
+    uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
+    servername: gb1.fun88linkvn.com
     tls: true
     client-fingerprint: chrome
     udp: true
-  - name: 美国-youtube@独立思维 08
+  - name: 香港-youtube@独立思维 18
+    type: trojan
+    server: 52.69.114.14
+    port: 2008
+    password: f6d3aa07a52dbcedcb4731029e2fb6ae
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+    tls: true
+    udp: true
+  - name: 荷兰-youtube@独立思维 04
+    type: vless
+    server: 85.234.65.21
+    port: 443
+    uuid: 8711e97a-63cc-47f5-b1ab-b9280b82ac2e
+    servername: www.sony.com
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: JVvNP8J16POftTcKdIPtpeX6mHLqq44jFisU1ftAuEo
+      short-id: 2c
+    udp: true
+  - name: 德国-youtube@独立思维 01
+    type: vless
+    server: 66.81.247.104
+    port: 443
+    uuid: 58225ed2-9017-4204-8852-1b5cc1311fb8
+    encryption: mlkem768x25519plus.native.0rtt.bgqmvppyqaHyHPHZXMTlM49okx_O5AWML7IZkg1UZSs
+    network: http
+    servername: 1-cloudflare.lapis-lazuli.tech
+    tls: true
+    client-fingerprint: chrome
+    http-opts:
+      path:
+        - /c544c1d5248bf014e3a8
+    udp: true
+  - name: 美国-youtube@独立思维 30
     type: vmess
     server: 82.198.246.37
     port: 180
@@ -63,770 +391,302 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: 日本-youtube@独立思维 05
-    type: ss
-    server: 176.97.70.51
-    port: 8443
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 美国-youtube@独立思维 18
+  - name: 美国-youtube@独立思维 19
     type: vmess
-    server: 82.198.246.9
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    server: 45.63.7.19
+    port: 49632
+    uuid: 05f2bbe3-f29a-480f-ebfb-0deebb80741d
     alterId: 0
-    cipher: aes-128-gcm
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /05f2bbe3-f29a-480f-ebfb-0deebb80741d
+      headers:
+        Host: 45.63.7.19
+    udp: true
+  - name: 美国-youtube@独立思维 05
+    type: vless
+    server: npmjs.com
+    port: 2096
+    uuid: 6c3852b6-138f-4235-bc75-0ad96f82cca7
+    network: ws
+    servername: 6956646388cdb23c971b4ec6.mmdbay.site
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /metrics
+      headers:
+        Host: 6956646388cdb23c971b4ec6.mmdbay.site
+    udp: true
+  - name: 俄罗斯-youtube@独立思维 01
+    type: vless
+    server: 78.41.110.238
+    port: 443
+    uuid: 9ebab373-19fe-4535-aa95-4e348ea300f1
+    network: ws
+    servername: s28315.cdn.ngenix.net
+    tls: true
+    ws-opts:
+      path: /ws
+      headers:
+        Host: s28315.cdn.ngenix.net
+    udp: true
+  - name: 德国-youtube@独立思维 01_1
+    type: vless
+    server: 66.81.247.104
+    port: 443
+    uuid: 58225ed2-9017-4204-8852-1b5cc1311fb8
+    encryption: mlkem768x25519plus.native.0rtt.bgqmvppyqaHyHPHZXMTlM49okx_O5AWML7IZkg1UZSs
+    network: http
+    servername: 1-cloudflare.lapis-lazuli.tech
+    tls: true
+    client-fingerprint: chrome
+    http-opts:
+      path:
+        - /c544c1d5248bf014e3a8
+    udp: true
+  - name: 美国-youtube@独立思维 07
+    type: trojan
+    server: 95.40.114.115
+    port: 2663
+    password: f6d3aa07a52dbcedcb4731029e2fb6ae
+    sni: 95.40.114.115
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 印尼-youtube@独立思维 01
+    type: vless
+    server: 147.139.133.182
+    port: 443
+    uuid: 7eaea5bb-9129-42f5-98ca-23a73ebaa989
+    network: ws
+    servername: 147.139.133.182
+    tls: false
+    client-fingerprint: chrome
+    ws-opts:
+      path: /ws-bf6bb2499d21
+      headers:
+        Host: 147.139.133.182
+    udp: true
+  - name: 英国-youtube@独立思维 01
+    type: ss
+    server: 134.209.177.114
+    port: 22277
+    cipher: 2022-blake3-aes-256-gcm
+    password: YVSX9nL1XNZUoIXL8PPkaYiV7sRXiKKiy2EwbRoCUoA=:LunFfjjIR2gF8aXIDNdWs2WQbg1rd6euOJ4a/jME05I=
+    udp: true
+  - name: 印尼-youtube@独立思维 01_1
+    type: vless
+    server: 147.139.133.182
+    port: 443
+    uuid: 7eaea5bb-9129-42f5-98ca-23a73ebaa989
+    network: ws
+    servername: 147.139.133.182
+    tls: false
+    client-fingerprint: chrome
+    ws-opts:
+      path: /ws-bf6bb2499d21
+      headers:
+        Host: 147.139.133.182
+    udp: true
+  - name: 香港-youtube@独立思维 07
+    type: vmess
+    server: dotu-usv1.kunlun03dns.com
+    port: 11128
+    uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+    alterId: 0
+    cipher: auto
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: 俄罗斯-youtube@独立思维 04
+  - name: 瑞典-youtube@独立思维 03
     type: vless
-    server: cl-de-2.edgeflux.ru
-    port: 52006
-    uuid: 75807638-6f19-01f4-ae08-38492ee85c88
-    servername: cl-de-2.edgeflux.ru
-    tls: true
-    flow: xtls-rprx-vision
-    udp: true
-  - name: 美国-youtube@独立思维 49
-    type: vless
-    server: 144.31.207.111
-    port: 443
-    uuid: 2001daf3-5c56-4bef-8ea6-8dd0493c5a4c
-    servername: www.deepl.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: ZHEMPjSWslk6_qD2JNQzd5enUPz8nY9mYRRuM6NkZmU
-      short-id: 1a
-    udp: true
-  - name: 新加坡-youtube@独立思维 04
-    type: hysteria2
-    server: 13.212.116.135
-    port: 443
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    sni: https://t.me/WangCai2🇨🇳
-    skip-cert-verify: true
-    udp: true
-  - name: 韩国-youtube@独立思维 151
-    type: ss
-    server: 210.99.72.52
-    port: 29090
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 日本-youtube@独立思维 02
-    type: hysteria2
-    server: 54.250.218.42
-    port: 443
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    sni: https://t.me/WangCai2🇨🇳
-    skip-cert-verify: true
-    udp: true
-  - name: 立陶宛-youtube@独立思维 02
-    type: vless
-    server: vltch.mostserv.xyz
-    port: 443
-    uuid: 37253a6a-2a9b-42bb-992c-b5f1b1ef1791
-    servername: vltch.mostserv.xyz
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 3WzSgL8uXA3vE3IHrfdBpJmOO4MYrsWpczDSY_jJRjI
-      short-id: 226509f017e4c36d
-    udp: true
-  - name: 日本-youtube@独立思维 01
-    type: hysteria2
-    server: 54.250.65.230
-    port: 443
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    sni: https://t.me/WangCai2🇨🇳
-    skip-cert-verify: true
-    udp: true
-  - name: 新加坡-youtube@独立思维 05
-    type: hysteria2
-    server: 13.212.202.17
-    port: 443
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    sni: https://t.me/WangCai2🇨🇳
-    skip-cert-verify: true
-    udp: true
-  - name: 韩国-youtube@独立思维 154
-    type: ss
-    server: 221.163.41.210
-    port: 29876
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 韩国-youtube@独立思维 121
-    type: ss
-    server: 125.138.95.125
-    port: 10000
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 韩国-youtube@独立思维 21
-    type: ss
-    server: 218.150.34.228
-    port: 10912
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 韩国-youtube@独立思维 37
-    type: ss
-    server: 118.36.233.194
-    port: 18000
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 荷兰-youtube@独立思维 10
-    type: vless
-    server: 141.11.197.127
-    port: 55269
-    uuid: 231e88bb-3a39-4f26-848e-908f83070283
-    servername: vk.ru
+    server: 176.126.84.225
+    port: 16607
+    uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
+    servername: se1.fun88linkvn.com
     tls: true
     client-fingerprint: chrome
-    reality-opts:
-      public-key: i1e3hqslC-n7XGp72HmDKU7ZuRk72pHbzujbNaYF-0s
-      short-id: 8f
     udp: true
-  - name: 韩国-youtube@独立思维 74
-    type: ss
-    server: 121.153.34.206
-    port: 29999
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 韩国-youtube@独立思维 53
-    type: ss
-    server: 59.8.153.65
-    port: 30303
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 香港-youtube@独立思维 06
+  - name: 俄罗斯-youtube@独立思维 05
     type: vless
-    server: cl-ru-tw.fastaichat.ru
-    port: 52006
-    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
-    servername: cl-ru-tw.fastaichat.ru
-    tls: true
-    flow: xtls-rprx-vision
-    udp: true
-  - name: 韩国-youtube@独立思维 150
-    type: ss
-    server: 112.184.13.229
-    port: 10911
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 韩国-youtube@独立思维 139
-    type: ss
-    server: 183.99.227.24
-    port: 35342
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 韩国-youtube@独立思维 71
-    type: ss
-    server: 221.168.105.228
-    port: 11371
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 韩国-youtube@独立思维 146
-    type: ss
-    server: 121.179.212.16
-    port: 28080
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 韩国-youtube@独立思维 73
-    type: ss
-    server: 183.99.58.243
-    port: 10909
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 韩国-youtube@独立思维 16
-    type: ss
-    server: 59.11.33.164
-    port: 16923
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 韩国-youtube@独立思维 10
-    type: ss
-    server: 222.104.226.216
-    port: 12000
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 韩国-youtube@独立思维 85
-    type: ss
-    server: 175.215.188.34
-    port: 26214
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 韩国-youtube@独立思维 149
-    type: ss
-    server: 106.245.187.246
-    port: 34973
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 韩国-youtube@独立思维 25
-    type: ss
-    server: 59.3.62.210
-    port: 10332
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 新加坡-youtube@独立思维 15
-    type: ss
-    server: 152.42.169.132
+    server: 85.234.114.53
     port: 443
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 韩国-youtube@独立思维 141
-    type: ss
-    server: 49.142.200.31
-    port: 28017
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 韩国-youtube@独立思维 179
-    type: ss
-    server: 116.44.147.152
-    port: 22085
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 新加坡-youtube@独立思维 14
-    type: ss
-    server: 159.89.207.154
-    port: 443
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 韩国-youtube@独立思维 182
-    type: ss
-    server: 59.2.63.17
-    port: 10088
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 印度-youtube@独立思维 01
-    type: ss
-    server: 20.235.105.146
-    port: 443
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 韩国-youtube@独立思维 106
-    type: ss
-    server: 211.199.27.72
-    port: 10002
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 美国-youtube@独立思维 50
-    type: vless
-    server: r1.mizulina.top
-    port: 22231
     uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
     servername: r1.mizulina.top
     tls: true
+    flow: xtls-rprx-vision
     client-fingerprint: edge
     udp: true
-  - name: 德国-youtube@独立思维 01
+  - name: 法国-youtube@独立思维 01
     type: vless
-    server: 159.195.82.187
-    port: 9443
-    uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
+    server: 194.226.169.36
+    port: 443
+    uuid: 4706d9c3-eec0-4666-9d84-e608a200e872
     servername: yahoo.com
     tls: true
-    flow: xtls-rprx-vision
     client-fingerprint: chrome
     reality-opts:
-      public-key: wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg
-      short-id: 2344766a270a6298
+      public-key: i4Mx_tDND0Xxac3WyA7HgT9rvXdZlXpm5m1EGiQF-Uk
+      short-id: b8aa
     udp: true
-  - name: 韩国-youtube@独立思维 207
-    type: ss
-    server: 152.70.253.84
-    port: 8443
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 韩国-youtube@独立思维 01
-    type: ss
-    server: 222.113.253.35
-    port: 14147
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 美国-youtube@独立思维 54
+  - name: 芬兰-youtube@独立思维 04
     type: vless
-    server: r1.mizulina.top
-    port: 22231
-    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-    servername: r1.mizulina.top
-    tls: true
-    client-fingerprint: chrome
+    server: downlod.musicribvar.com
+    port: 45029
+    uuid: 01ef96b4-e7ec-4218-8ffe-a59e1cdfd836
+    tls: false
     udp: true
-  - name: 韩国-youtube@独立思维 12
-    type: ss
-    server: 220.79.9.247
-    port: 26027
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 美国-youtube@独立思维 44
+  - name: 荷兰-youtube@独立思维 02
     type: vless
-    server: r1.mizulina.top
-    port: 22231
-    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-    servername: r1.mizulina.top
+    server: nl-tx.sbrf-cdn342.ru
+    port: 443
+    uuid: 01ea3b87-b7b1-4aef-b24a-9c43fbd3b26f
+    servername: sub.sbrf-cdn342.ru
     tls: true
     flow: xtls-rprx-vision
     udp: true
-  - name: 韩国-youtube@独立思维 180
-    type: ss
-    server: 114.207.99.233
-    port: 11434
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 芬兰-youtube@独立思维 01
-    type: vless
-    server: 195.209.82.149
+  - name: 新加坡-youtube@独立思维 07
+    type: trojan
+    server: 5.180.78.22
     port: 443
-    uuid: 5a478129-3e7e-Fade-99d7-95e1da14fbdc
-    network: ws
-    servername: s28233.cdn.ngenix.net
-    tls: true
-    client-fingerprint: qq
-    ws-opts:
-      path: /
-      headers:
-        Host: s28233.cdn.ngenix.net
-    udp: true
-  - name: 韩国-youtube@独立思维 136
-    type: ss
-    server: 222.113.18.214
-    port: 11310
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 新加坡-youtube@独立思维 02
-    type: hysteria2
-    server: 13.212.141.33
-    port: 443
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    sni: https://t.me/WangCai2🇨🇳
+    password: d30ab83dbde4480082048fb315bedebd
+    sni: 5.180.78.22
     skip-cert-verify: true
-    udp: true
-  - name: 韩国-youtube@独立思维 80
-    type: ss
-    server: 221.150.96.18
-    port: 10162
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 韩国-youtube@独立思维 168
-    type: ss
-    server: 222.113.18.214
-    port: 37215
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 美国-youtube@独立思维 41
-    type: vless
-    server: 209.166.46.195
-    port: 443
-    uuid: 73c16ed4-d111-4434-8b24-0dfe112a0813
-    servername: www.microsoft.com
     tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: wIFJUBk4GRYT8Oim0-cPDwlGaTHh3kUYP2tOlKz1xlc
-      short-id: 9f4380a6
     udp: true
-  - name: 韩国-youtube@独立思维 75
-    type: ss
-    server: 59.3.62.210
-    port: 32677
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 韩国-youtube@独立思维 99
-    type: ss
-    server: 115.21.105.223
-    port: 10443
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 韩国-youtube@独立思维 09
-    type: ss
-    server: 222.117.215.112
-    port: 11965
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 韩国-youtube@独立思维 98
-    type: ss
-    server: 121.178.83.161
-    port: 10909
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 韩国-youtube@独立思维 64
-    type: ss
-    server: 211.194.210.183
-    port: 30047
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 韩国-youtube@独立思维 89
-    type: ss
-    server: 125.136.152.137
-    port: 10002
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 美国-youtube@独立思维 47
+  - name: 俄罗斯-youtube@独立思维 02
     type: vless
-    server: r1.mizulina.top
-    port: 22231
+    server: 85.234.114.53
+    port: 443
     uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
     servername: r1.mizulina.top
     tls: true
     flow: xtls-rprx-vision
     client-fingerprint: edge
     udp: true
-  - name: 荷兰-youtube@独立思维 05
+  - name: 西班牙-youtube@独立思维 01
+    type: ss
+    server: 145.249.109.13
+    port: 4917
+    cipher: chacha20-ietf-poly1305
+    password: 7DoWqLxD5CMubpT1tzIyWX
+    udp: true
+  - name: 加拿大-youtube@独立思维 02
     type: vless
-    server: 31.130.129.33
-    port: 443
-    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-    network: ws
-    servername: 3-2ll.pages.dev
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
+    server: 151.101.1.57
+    port: 80
+    uuid: InternetAzadRobot
+    network: http
+    tls: false
+    http-opts:
+      path:
+        - /login
       headers:
-        Host: 3-2ll.pages.dev
+        Host:
+          - shangulin.global.ssl.fastly.net
     udp: true
-  - name: 韩国-youtube@独立思维风格化
-    type: trojan
-    server: 152.53.200.163
-    port: 8443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳+@WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 美国-youtube@独立思维 15
+  - name: 韩国-youtube@独立思维 08
     type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    server: dotu-krv1.kunlun03dns.com
+    port: 11144
+    uuid: 6b989fce-172e-37a6-b324-3922008b17f9
     alterId: 0
-    cipher: aes-128-gcm
+    cipher: auto
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: 韩国-youtube@独立思维
+  - name: 奥地利-youtube@独立思维 01
+    type: vless
+    server: 45.91.94.121
+    port: 16606
+    uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
+    servername: at1.fun88linkvn.com
+    tls: true
+    client-fingerprint: chrome
+    udp: true
+  - name: 美国-youtube@独立思维 21
+    type: vmess
+    server: dotu-usv1.kunlun03dns.com
+    port: 11127
+    uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 爱沙尼亚-youtube@独立思维 01
+    type: vless
+    server: 185.194.53.224
+    port: 16605
+    uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
+    servername: ee1.fun88linkvn.com
+    tls: true
+    client-fingerprint: chrome
+    udp: true
+  - name: 新加坡-youtube@独立思维 08
     type: trojan
-    server: 185.31.200.184
-    port: 2053
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
+    server: 5.180.78.22
+    port: 443
+    password: d30ab83dbde4480082048fb315bedebd
+    sni: 5.180.78.22
     skip-cert-verify: true
     tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
     udp: true
-  - name: 韩国-youtube@独立思维规划局给
+  - name: 韩国-youtube@独立思维 09
+    type: vmess
+    server: dotu-krv1.kunlun03dns.com
+    port: 11143
+    uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 美国-youtube@独立思维 24
+    type: vmess
+    server: dotu-usv1.kunlun03dns.com
+    port: 11128
+    uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 香港-youtube@独立思维 13
+    type: vmess
+    server: dotu-krv1.kunlun03dns.com
+    port: 11144
+    uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 德国-youtube@独立思维 03
+    type: vless
+    server: 138.124.115.134
+    port: 28561
+    uuid: bdc0ccb5-3a2a-4793-8a9b-35b577dcdd7d
+    servername: yahoo.com
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: Oeqvti84_ZY-qSA3sQv4F7mc7-9eOwxw3oXDVtSOaRg
+      short-id: 538dbb66ff
+    udp: true
+  - name: 美国-youtube@独立思维 26
     type: trojan
-    server: 152.53.200.164
-    port: 8443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
+    server: 52.69.114.14
+    port: 2663
+    password: f6d3aa07a52dbcedcb4731029e2fb6ae
+    sni: www.nintendogames.net
     skip-cert-verify: true
     tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
     udp: true
-  - name: 韩国-youtube@独立思维 46
-    type: ss
-    server: 121.172.210.22
-    port: 18790
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 美国-youtube@独立思维 09
-    type: ss
-    server: www.gov.se
-    port: 443
-    cipher: none
-    password: c88b2c46-14c3-4ad8-9157-d9b4c5631450
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: cfp.freen2.de5.net
-      path: /c88b2c46-14c3-4ad8-9157-d9b4c5631450/?ed\=2560
-    udp: true
-  - name: 新加坡-youtube@独立思维 20
-    type: ss
-    server: 47.82.155.79
-    port: 2053
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: youtube@独立思维vvvv
-    type: trojan
-    server: 138.124.81.204
-    port: 443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 新加坡-youtube@独立思维 18
-    type: ss
-    server: 164.52.2.98
-    port: 443
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 美国-youtube@独立思维 53
+  - name: 香港-youtube@独立思维 06_1
     type: vmess
     server: 103.181.164.145
     port: 51556
@@ -836,17 +696,7 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: 英国-youtube@独立思维 01
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: 英国-youtube@独立思维 32
+  - name: 德国-youtube@独立思维 06
     type: vmess
     server: 82.198.246.37
     port: 180
@@ -856,46 +706,199 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: 俄罗斯-youtube@独立思维 06
-    type: vless
-    server: s28233.cdn.ngenix.net
-    port: 443
-    uuid: c3f112fc-1041-Fade-b85c-5ed478daeeb9
-    network: ws
-    servername: s28233.cdn.ngenix.net
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: s28233.cdn.ngenix.net
+  - name: 香港-youtube@独立思维 05_1
+    type: vmess
+    server: dotu-usv1.kunlun03dns.com
+    port: 11130
+    uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
     udp: true
-  - name: 荷兰-youtube@独立思维 06
+  - name: 台湾-youtube@独立思维 04
+    type: vmess
+    server: dotu-twv1.kunlun03dns.com
+    port: 11114
+    uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 马来-youtube@独立思维 01
     type: vless
-    server: 31.130.128.197
-    port: 443
-    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-    network: ws
-    servername: 2-eox.pages.dev
+    server: gzrefad01.odxxplay.com
+    port: 52877
+    uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
+    servername: vn1.fun88linkvn.com
     tls: true
     client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: 2-eox.pages.dev
     udp: true
-  - name: 韩国-youtube@独立思维 41
-    type: ss
-    server: 210.99.119.3
-    port: 30019
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
+  - name: 香港-youtube@独立思维 21
+    type: vmess
+    server: dotu-twv1.kunlun03dns.com
+    port: 11113
+    uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
     udp: true
-  - name: 英国-youtube@独立思维 24
+  - name: 瑞典-youtube@独立思维 01
+    type: vless
+    server: swe-8t.freeonline.pro
+    port: 443
+    uuid: 980231fb-4372-5c81-b696-20aa34d33af0
+    servername: www.microsoft.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 978-Yxgtd3AWTVfiXEQqCstdwrT1qgsgleGPIRGQDl8
+      short-id: bdac121c7debdaba
+    udp: true
+  - name: 英国-youtube@独立思维 02
+    type: vless
+    server: 85.234.114.53
+    port: 22231
+    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+    servername: r1.mizulina.top
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: edge
+    udp: true
+  - name: 马来-youtube@独立思维 02
+    type: vless
+    server: gzrefad01.odxxplay.com
+    port: 60340
+    uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
+    servername: in1.fun88linkvn.com
+    tls: true
+    client-fingerprint: chrome
+    udp: true
+  - name: 韩国-youtube@独立思维 06
+    type: vmess
+    server: dotu-krv1.kunlun03dns.com
+    port: 11146
+    uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 香港-youtube@独立思维 12
+    type: vmess
+    server: dotu-krv1.kunlun03dns.com
+    port: 11143
+    uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 香港-youtube@独立思维 22
+    type: vmess
+    server: dotu-twv1.kunlun03dns.com
+    port: 11114
+    uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 台湾-youtube@独立思维 02
+    type: vmess
+    server: dotu-twv1.kunlun03dns.com
+    port: 11111
+    uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 台湾-youtube@独立思维 03
+    type: vmess
+    server: dotu-twv1.kunlun03dns.com
+    port: 11113
+    uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 德国-youtube@独立思维 02
+    type: vless
+    server: 5.178.101.149
+    port: 443
+    uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
+    servername: sub.sbrf-cdn342.ru
+    tls: true
+    client-fingerprint: qq
+    udp: true
+  - name: 美国-youtube@独立思维 18
+    type: vmess
+    server: dotu-usv1.kunlun03dns.com
+    port: 11130
+    uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 香港-youtube@独立思维 09
+    type: vmess
+    server: dotu-usv1.kunlun03dns.com
+    port: 11127
+    uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 台湾-youtube@独立思维 05
+    type: vmess
+    server: dotu-twv1.kunlun03dns.com
+    port: 11112
+    uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 俄罗斯-youtube@独立思维 10
+    type: vless
+    server: 85.234.114.53
+    port: 443
+    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+    servername: r1.mizulina.top
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: edge
+    udp: true
+  - name: 荷兰-youtube@独立思维 05
+    type: vless
+    server: 85.234.65.21
+    port: 443
+    uuid: 8711e97a-63cc-47f5-b1ab-b9280b82ac2e
+    servername: www.sony.com
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: JVvNP8J16POftTcKdIPtpeX6mHLqq44jFisU1ftAuEo
+      short-id: 2c
+    udp: true
+  - name: 香港-youtube@独立思维 14
+    type: vmess
+    server: dotu-twv1.kunlun03dns.com
+    port: 11111
+    uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 英国-youtube@独立思维 07
     type: vmess
     server: 82.198.246.214
     port: 180
@@ -905,9 +908,174 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: 英国-youtube@独立思维 31
+  - name: 新加坡-youtube@独立思维 09
     type: vmess
-    server: 82.198.246.9
+    server: dotu-sgv1.kunlun03dns.com
+    port: 11135
+    uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 加拿大-youtube@独立思维 04
+    type: vless
+    server: speedtest.net
+    port: 80
+    uuid: 384e0806-fcee-4f92-b671-bfc6a4794148
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+      headers:
+        Host: oijji.global.ssl.fastly.net
+    udp: true
+  - name: 荷兰-youtube@独立思维 01
+    type: vless
+    server: 95.179.134.159
+    port: 80
+    uuid: 8de0eac3-73c5-4d81-a26b-8816d4e827f1
+    tls: false
+    udp: true
+  - name: 土耳其-youtube@独立思维 01
+    type: vless
+    server: 38.182.116.73
+    port: 16603
+    uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
+    servername: tr1.fun88linkvn.com
+    tls: true
+    client-fingerprint: chrome
+    udp: true
+  - name: 土耳其-youtube@独立思维 02
+    type: vless
+    server: 91.206.71.50
+    port: 8880
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    tls: false
+    ws-opts:
+      path: /?https://t.me/YouTube@小青科学网🇨🇳
+      headers:
+        Host: vms.lifetime15.workers.dev
+    udp: true
+  - name: 加拿大-youtube@独立思维 01
+    type: vless
+    server: 104.17.121.71
+    port: 443
+    uuid: e234245f-b66e-4eef-b8cb-6298500221ba
+    network: http
+    servername: panel-free.emergency-service.org
+    tls: true
+    client-fingerprint: chrome
+    http-opts:
+      path:
+        - /
+      headers:
+        Host:
+          - panel-free.emergency-service.org
+    udp: true
+  - name: 日本-youtube@独立思维 04
+    type: vmess
+    server: dotu-jpv1.kunlun03dns.com
+    port: 11120
+    uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 新加坡-youtube@独立思维 05
+    type: vmess
+    server: dotu-sgv1.kunlun03dns.com
+    port: 11136
+    uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 韩国-youtube@独立思维 07
+    type: vmess
+    server: dotu-krv1.kunlun03dns.com
+    port: 11145
+    uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 香港-youtube@独立思维 10
+    type: vmess
+    server: dotu-jpv1.kunlun03dns.com
+    port: 11122
+    uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 香港-youtube@独立思维 11
+    type: vmess
+    server: dotu-jpv1.kunlun03dns.com
+    port: 11120
+    uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 俄罗斯-youtube@独立思维 11
+    type: vless
+    server: 185.139.214.151
+    port: 443
+    uuid: 9270ef77-592f-11f1-98cc-54db13ea7d40
+    servername: cloudcdn-m9-15.cdn.yandex.net
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: randomized
+    reality-opts:
+      public-key: APwi9yR-ezZtFU6xj2a3SBoXvEoWOoiRuZSit0N9xWI
+    udp: true
+  - name: 日本-youtube@独立思维 06
+    type: vmess
+    server: dotu-jpv1.kunlun03dns.com
+    port: 11121
+    uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 新加坡-youtube@独立思维 10
+    type: vmess
+    server: dotu-sgv1.kunlun03dns.com
+    port: 11137
+    uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 新加坡-youtube@独立思维 11
+    type: vmess
+    server: dotu-sgv1.kunlun03dns.com
+    port: 11138
+    uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 美国-youtube@独立思维 12
+    type: ss
+    server: tinkered-pennies-puppies.freesocks.work
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: hbGrpfvNrJsUmKmPbR3iY2
+    udp: true
+  - name: 美国-youtube@独立思维 38
+    type: vmess
+    server: 82.198.246.37
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -915,9 +1083,113 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: 英国-youtube@独立思维 36
+  - name: 香港-youtube@独立思维 15
     type: vmess
-    server: 82.198.246.233
+    server: dotu-twv1.kunlun03dns.com
+    port: 11112
+    uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 香港-youtube@独立思维 23
+    type: vmess
+    server: dotu-jpv1.kunlun03dns.com
+    port: 11119
+    uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 香港-youtube@独立思维 24
+    type: vmess
+    server: dotu-jpv1.kunlun03dns.com
+    port: 11121
+    uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 法国-youtube@独立思维 01_1
+    type: vless
+    server: 194.226.169.36
+    port: 443
+    uuid: 4706d9c3-eec0-4666-9d84-e608a200e872
+    servername: yahoo.com
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: i4Mx_tDND0Xxac3WyA7HgT9rvXdZlXpm5m1EGiQF-Uk
+      short-id: b8aa
+    udp: true
+  - name: 法国-youtube@独立思维 02
+    type: vless
+    server: 194.226.169.36
+    port: 443
+    uuid: fae3277c-0541-4ae9-bbbb-8247453ea652
+    servername: yahoo.com
+    tls: true
+    reality-opts:
+      public-key: i4Mx_tDND0Xxac3WyA7HgT9rvXdZlXpm5m1EGiQF-Uk
+      short-id: b8aa
+    udp: true
+  - name: 法国-youtube@独立思维 03
+    type: vless
+    server: 185.171.202.76
+    port: 42652
+    uuid: Arshiacomplus
+    network: http
+    servername: yahoo.com
+    tls: true
+    client-fingerprint: firefox
+    http-opts:
+      path:
+        - /skkwkqknsjejejwj
+      headers:
+        Host:
+          - omm.kotlet.org
+    udp: true
+  - name: 芬兰-youtube@独立思维 03
+    type: ss
+    server: 195.133.2.2
+    port: 34898
+    cipher: chacha20-ietf-poly1305
+    password: sbJZP5jEcWVgNfVG6sH76z
+    udp: true
+  - name: 瑞士-youtube@独立思维 01
+    type: vless
+    server: karo-vpn.xyz
+    port: 80
+    uuid: 1c9deda0-a2f2-4a4a-8c2e-3aa8cfea6599
+    servername: www.intel.com
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: s_VX47Z2RTwIxbrK5ljoKIXyr5qS5tV7RNwIaiVhTUw
+      short-id: "69"
+    udp: true
+  - name: 美国-youtube@独立思维 13
+    type: ss
+    server: 79.141.163.21
+    port: 4668
+    cipher: chacha20-ietf-poly1305
+    password: 4LwjNxZEaMDsT26xKjcNmo
+    udp: true
+  - name: 美国-youtube@独立思维 16
+    type: trojan
+    server: 43.206.155.159
+    port: 2702
+    password: BxceQaOe
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 美国-youtube@独立思维 36
+    type: vmess
+    server: 82.198.246.214
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -925,163 +1197,150 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: 香港-youtube@独立思维 03
+  - name: 瑞典-youtube@独立思维 02
     type: vless
-    server: 83.229.121.78
-    port: 8443
-    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+    server: 194.238.57.104
+    port: 443
+    uuid: 8046e3a1-83a7-4155-86e4-374153fe66f3
+    servername: www.icloud.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 56RJlIcxwncUs5m9QSfd3waHxm6vJFBKso5IkMSsyCA
+      short-id: 5d
+    udp: true
+  - name: 俄罗斯-youtube@独立思维 04
+    type: vless
+    server: 85.234.114.53
+    port: 443
+    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+    servername: r1.mizulina.top
+    tls: true
+    client-fingerprint: edge
+    udp: true
+  - name: 俄罗斯-youtube@独立思维 06
+    type: vless
+    server: 85.234.114.53
+    port: 22231
+    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+    servername: r1.mizulina.top
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: edge
+    udp: true
+  - name: 俄罗斯-youtube@独立思维 07
+    type: vless
+    server: r1.mizulina.top
+    port: 22231
+    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+    servername: r1.mizulina.top
+    tls: true
+    client-fingerprint: edge
+    udp: true
+  - name: 法国-youtube@独立思维 04
+    type: vless
+    server: 185.171.202.76
+    port: 42652
+    uuid: 4e783787-4de7-51de-ae32-01ce7203b838
+    network: http
+    servername: yahoo.com
+    tls: true
+    client-fingerprint: firefox
+    http-opts:
+      path:
+        - /skkwkqknsjejejwj
+      headers:
+        Host:
+          - omm.kotlet.org
+    udp: true
+  - name: 芬兰-youtube@独立思维 01
+    type: ss
+    server: 109.107.182.229
+    port: 51544
+    cipher: chacha20-ietf-poly1305
+    password: pMZgtJEakEyHUSpe8a16ec
+    udp: true
+  - name: 以色列-youtube@独立思维 01
+    type: ss
+    server: us1.ssobfs.site
+    port: 8388
+    cipher: chacha20-ietf-poly1305
+    password: ZjI3M
+    udp: true
+  - name: 斯洛文尼亚-youtube@独立思维 01
+    type: ss
+    server: 45.83.130.97
+    port: 53292
+    cipher: chacha20-ietf-poly1305
+    password: hfSE3thwAQqvSIac5xLpUD
+    udp: true
+  - name: 俄罗斯-youtube@独立思维 08
+    type: vless
+    server: r1.mizulina.top
+    port: 22231
+    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+    servername: r1.mizulina.top
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: edge
+    udp: true
+  - name: 美国-youtube@独立思维 11_1
+    type: vless
+    server: npmjs.com
+    port: 2096
+    uuid: 6c3852b6-138f-4235-bc75-0ad96f82cca7
     network: ws
-    servername: 1-jk1.pages.dev
+    servername: 6956646388cdb23c971b4ec6.mmdbay.site
     tls: true
     client-fingerprint: chrome
     ws-opts:
-      path: /
+      path: /metrics
       headers:
-        Host: 1-jk1.pages.dev
+        Host: 6956646388cdb23c971b4ec6.mmdbay.site
     udp: true
-  - name: 香港-youtube@独立思维 07
-    type: trojan
-    server: 68.64.182.39
+  - name: 俄罗斯-youtube@独立思维 03
+    type: vless
+    server: 85.234.114.53
     port: 443
-    password: GKHWMe2R4qwNcNxu6l3KMkdd
-    sni: vpn1.rnmcnm.com
+    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+    servername: r1.mizulina.top
+    tls: true
+    client-fingerprint: edge
+    udp: true
+  - name: 荷兰-youtube@独立思维 02_1
+    type: vless
+    server: 85.234.65.21
+    port: 443
+    uuid: 8711e97a-63cc-47f5-b1ab-b9280b82ac2e
+    servername: www.sony.com
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: JVvNP8J16POftTcKdIPtpeX6mHLqq44jFisU1ftAuEo
+      short-id: 2c
+    udp: true
+  - name: 新加坡-youtube@独立思维 03
+    type: vless
+    server: 47.82.177.57
+    port: 24974
+    uuid: ae5d04a6-59ad-4bcd-b45c-9512f4df8c6a
+    tls: false
+    udp: true
+  - name: 新加坡-youtube@独立思维 04
+    type: vmess
+    server: gtm-sg-cc54q7d1q01.365cloud0285.com
+    port: 6004
+    uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+    alterId: 0
+    cipher: auto
+    tls: false
     skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /trj-ws
-      headers:
-        Host: vpn1.rnmcnm.com
     udp: true
-  - name: 日本-youtube@独立思维 03
+  - name: 韩国-youtube@独立思维 01
     type: vless
-    server: 84.247.153.71
-    port: 443
-    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-    network: ws
-    servername: 1-aym.pages.dev
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: 1-aym.pages.dev
-    udp: true
-  - name: 日本-youtube@独立思维 07
-    type: trojan
-    server: 219.103.68.164
-    port: 20770
-    password: GKHWMe2R4qwNcNxu6l3KMkdd
-    sni: vpn1.rnmcnm.com
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trj-ws
-      headers:
-        Host: vpn1.rnmcnm.com
-    udp: true
-  - name: 韩国-youtube@独立思维 35
-    type: ss
-    server: 175.199.174.127
-    port: 20201
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 韩国-youtube@独立思维 97
-    type: ss
-    server: 118.40.112.188
-    port: 22222
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 韩国-youtube@独立思维 123
-    type: ss
-    server: 211.230.64.93
-    port: 26257
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 韩国-youtube@独立思维 211
-    type: trojan
-    server: 222.98.185.243
-    port: 37215
-    password: GKHWMe2R4qwNcNxu6l3KMkdd
-    sni: vpn1.rnmcnm.com
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trj-ws
-      headers:
-        Host: vpn1.rnmcnm.com
-    udp: true
-  - name: 韩国-youtube@独立思维 215
-    type: trojan
-    server: 211.225.164.199
-    port: 22335
-    password: GKHWMe2R4qwNcNxu6l3KMkdd
-    sni: vpn1.rnmcnm.com
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trj-ws
-      headers:
-        Host: vpn1.rnmcnm.com
-    udp: true
-  - name: 韩国-youtube@独立思维 217
-    type: trojan
-    server: 106.245.187.246
-    port: 34973
-    password: GKHWMe2R4qwNcNxu6l3KMkdd
-    sni: vpn1.rnmcnm.com
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trj-ws
-      headers:
-        Host: vpn1.rnmcnm.com
-    udp: true
-  - name: 韩国-youtube@独立思维 219
-    type: trojan
-    server: 112.163.117.142
-    port: 30005
-    password: GKHWMe2R4qwNcNxu6l3KMkdd
-    sni: vpn1.rnmcnm.com
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trj-ws
-      headers:
-        Host: vpn1.rnmcnm.com
-    udp: true
-  - name: 韩国-youtube@独立思维 220
-    type: vless
-    server: 183.102.55.197
-    port: 10003
-    uuid: b2b62085-f202-4c49-9f19-a44676a3d76d
-    network: ws
-    servername: vpn2.rnmcnm.com
-    tls: true
-    ws-opts:
-      path: /ray
-    udp: true
-  - name: 韩国-youtube@独立思维 223
-    type: vless
-    server: 121.173.15.62
-    port: 20002
+    server: 211.221.8.71
+    port: 11300
     uuid: b2b62085-f202-4c49-9f19-a44676a3d76d
     network: ws
     servername: vpn2.rnmcnm.com
@@ -1090,115 +1349,101 @@ proxies:
       path: /ray
     udp: true
   - name: 美国-youtube@独立思维 01
-    type: ss
-    server: 47.79.144.115
-    port: 40003
-    cipher: aes-256-gcm
-    password: GTZI5AbjNAeWQG0oVNptvWJogHNKiiKA
-    udp: true
-  - name: 美国-youtube@独立思维 17
     type: vmess
-    server: 82.198.246.233
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: aes-128-gcm
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: 美国-youtube@独立思维 38
-    type: vless
-    server: 185.184.70.120
-    port: 443
-    uuid: 145adeb9-279d-4c1d-a97c-93fe28ca071e
-    servername: time.is
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: KUD5RiuqMRrhOoN6X2FcXpYZfoN_7z8BcviSBlyxOBw
-      short-id: cbd8f4
-    udp: true
-  - name: 美国-youtube@独立思维 46
-    type: vless
-    server: 2.27.63.99
-    port: 443
-    uuid: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
-    servername: download.spectrum.vu
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: sXC7sPCzHG_uYfvk3GSUdYQKfHAwirOVWMhO50Y9Pn8
-      short-id: ad8c7a6ace2f
-    udp: true
-  - name: 美国-youtube@独立思维 52
-    type: vless
-    server: cf.tencentapp.cn
-    port: 443
-    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-    network: ws
-    servername: tptpss.pages.dev
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /https://50.184.176.222:8090
-      headers:
-        Host: tptpss.pages.dev
-    udp: true
-  - name: 美国-youtube@独立思维 55
-    type: vmess
-    server: 103.127.243.49
-    port: 53224
-    uuid: 4f47e6cc-659d-4588-8155-21d2782f1b91
+    server: gtm-sg-cc54q7d1q01.365cloud0285.com
+    port: 6004
+    uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: 德国-youtube@独立思维 14
+  - name: 美国-youtube@独立思维 02
+    type: vmess
+    server: gtm-sg-cc54q7d1q01.365cloud0285.com
+    port: 6004
+    uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 美国-youtube@独立思维 03
+    type: vmess
+    server: gtm-sg-cc54q7d1q01.365cloud0285.com
+    port: 6001
+    uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 美国-youtube@独立思维 04
+    type: vmess
+    server: gtm-sg-cc54q7d1q01.365cloud0285.com
+    port: 6001
+    uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 美国-youtube@独立思维 06
     type: vless
-    server: frankfurt1.ap221.com
-    port: 443
-    uuid: 03491a57-f071-4c0c-84f2-f4ec9062ede1
-    servername: frankfurt.ap221.com
+    server: 85.234.114.53
+    port: 22231
+    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+    servername: r1.mizulina.top
     tls: true
     flow: xtls-rprx-vision
-    client-fingerprint: chrome
     udp: true
-  - name: 德国-youtube@独立思维 15
+  - name: 美国-youtube@独立思维 15
     type: vless
-    server: frankfurt1.ap221.com
-    port: 443
-    uuid: 03491a57-f071-4c0c-84f2-f4ec9062ede1
-    servername: frankfurt.ap221.com
+    server: r1.mizulina.top
+    port: 22231
+    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+    servername: r1.mizulina.top
     tls: true
-    flow: xtls-rprx-vision
     udp: true
-  - name: 英国-youtube@独立思维 13
-    type: vless
-    server: london1.ap221.com
-    port: 443
-    uuid: 3a1d7c1d-09c6-4c81-8e11-75dd4ab1ac07
-    servername: london.ap221.com
+  - name: 美国-youtube@独立思维 17
+    type: trojan
+    server: 43.206.155.159
+    port: 2702
+    password: BxceQaOe
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
     tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
     udp: true
-  - name: 俄罗斯-youtube@独立思维 05
-    type: vless
-    server: s28233.cdn.ngenix.net
-    port: 443
-    uuid: c3f112fc-1041-Fade-b85c-5ed478daeeb9
-    network: ws
-    servername: s28233.cdn.ngenix.net
+  - name: 美国-youtube@独立思维 20
+    type: trojan
+    server: 43.206.155.159
+    port: 2702
+    password: BxceQaOe
+    sni: 43.206.155.159
+    skip-cert-verify: true
     tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: s28233.cdn.ngenix.net
     udp: true
-  - name: 捷克-youtube@独立思维 01
+  - name: 美国-youtube@独立思维 22
+    type: vmess
+    server: 103.181.164.145
+    port: 51556
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 美国-youtube@独立思维 29
+    type: vmess
+    server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 美国-youtube@独立思维 31
     type: vmess
     server: 103.181.164.145
     port: 54022
@@ -1208,221 +1453,458 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
+  - name: 美国-youtube@独立思维 37
+    type: vless
+    server: 134.33.73.249
+    port: 54254
+    uuid: acba684c-4098-4eca-f519-828b09f96464
+    servername: apple.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: HFEz9fAOugljXea_ZVOUHMju08su8h0P9RANNcHP2y4
+      short-id: db35ffdc
+    udp: true
+  - name: 香港-youtube@独立思维 02
+    type: vmess
+    server: gtm-sg-cc54q7d1q01.365cloud0285.com
+    port: 6004
+    uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 香港-youtube@独立思维 03
+    type: vmess
+    server: gtm-sg-cc54q7d1q01.365cloud0285.com
+    port: 6001
+    uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 香港-youtube@独立思维 25
+    type: vless
+    server: 47.242.43.198
+    port: 47683
+    uuid: 3825a504-7b6c-4f34-bf4d-a5b86f4650dd
+    tls: false
+    udp: true
+  - name: 拉脱维亚-youtube@独立思维 01
+    type: vless
+    server: 193.163.203.76
+    port: 50573
+    uuid: d18a0f18-d5bd-43c1-bc08-e208473f30d8
+    servername: api-maps.yandex.ru
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: NcouT_UbeS3uAcbckd8QXzoTFpiFdlglgHOnhwy76Cg
+      short-id: 7b873acc934a727d
+    udp: true
+  - name: 拉脱维亚-youtube@独立思维 02
+    type: vless
+    server: 193.163.203.76
+    port: 50592
+    uuid: 439f353b-b52f-4355-93d8-26e0567d5308
+    servername: api-maps.yandex.ru
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: kATzSBDyNkm6Ee7p8Ad8iPD5CrJmkJ5n1T-l-LCRmXQ
+      short-id: b7ca855a4763a7ac
+    udp: true
+  - name: 伊朗-youtube@独立思维 01
+    type: vless
+    server: 193.151.135.64
+    port: 4438
+    uuid: 15f918a6-fa3c-45cd-9d54-2e4d2d830bf6
+    tls: false
+    udp: true
+  - name: 丹麦-youtube@独立思维 01
+    type: vless
+    server: 193.163.203.76
+    port: 50580
+    uuid: 3af11c26-c589-4a9c-b811-f068d741a877
+    servername: kinopoisk.ru
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: ot_qLvMZOPCyVWFt0w8pC-nZT9RRzkdqNFtRtGpB220
+      short-id: 93290645e01c92f4
+    udp: true
+  - name: 丹麦-youtube@独立思维 02
+    type: vless
+    server: dk01.kubservice.icu
+    port: 443
+    uuid: 44752a9d-08d9-448c-ad5b-d8da2b77f283
+    servername: dk01.kubservice.icu
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: qq
+    reality-opts:
+      public-key: z-TKWOWgZLfzQ-wNdwXQqVwaUgCmbchM2Xtrk1NGynU
+    udp: true
+  - name: 德国-youtube@独立思维 05
+    type: vless
+    server: 31.185.108.30
+    port: 8880
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+      headers:
+        Host: vms.lifetime23.workers.dev
+    udp: true
+  - name: 英国-youtube@独立思维 03
+    type: ss
+    server: 89.185.84.34
+    port: 31348
+    cipher: chacha20-ietf-poly1305
+    password: AQGAAMQLZoxMT4EUxNPuFwKImsAviZTHTEMmHFlRrDKJpMnS
+    udp: true
+  - name: 芬兰-youtube@独立思维 02
+    type: vless
+    server: node-fi.dostup-est.info
+    port: 8443
+    uuid: c931f737-cafe-4e4f-998a-a65517941256
+    servername: cdnjs.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: Ubibgn_MlW_zHo9LwjNH_b6SLNWwTJFwq7wW2ggLtUs
+      short-id: 88ce6b586fcaf681
+    udp: true
+  - name: 荷兰-youtube@独立思维 03
+    type: vless
+    server: sets.starservice.site
+    port: 13764
+    uuid: d9377513-7e6b-48f1-89e4-a21f855b1969
+    tls: false
+    udp: true
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 美国-youtube@独立思维 13
-      - 荷兰-youtube@独立思维 08
-      - 香港-youtube@独立思维 05
-      - 美国-youtube@独立思维 08
-      - 日本-youtube@独立思维 05
-      - 美国-youtube@独立思维 18
-      - 俄罗斯-youtube@独立思维 04
-      - 美国-youtube@独立思维 49
-      - 新加坡-youtube@独立思维 04
-      - 韩国-youtube@独立思维 151
-      - 日本-youtube@独立思维 02
-      - 立陶宛-youtube@独立思维 02
-      - 日本-youtube@独立思维 01
-      - 新加坡-youtube@独立思维 05
-      - 韩国-youtube@独立思维 154
-      - 韩国-youtube@独立思维 121
-      - 韩国-youtube@独立思维 21
-      - 韩国-youtube@独立思维 37
-      - 荷兰-youtube@独立思维 10
-      - 韩国-youtube@独立思维 74
-      - 韩国-youtube@独立思维 53
+      - 新加坡-youtube@独立思维 12
+      - 日本-youtube@独立思维 08
+      - 新加坡-youtube@独立思维 16
+      - 塞舌尔-youtube@独立思维 01
+      - 美国-youtube@独立思维 23
       - 香港-youtube@独立思维 06
-      - 韩国-youtube@独立思维 150
-      - 韩国-youtube@独立思维 139
-      - 韩国-youtube@独立思维 71
-      - 韩国-youtube@独立思维 146
-      - 韩国-youtube@独立思维 73
-      - 韩国-youtube@独立思维 16
-      - 韩国-youtube@独立思维 10
-      - 韩国-youtube@独立思维 85
-      - 韩国-youtube@独立思维 149
-      - 韩国-youtube@独立思维 25
+      - 香港-youtube@独立思维 16
+      - 新加坡-youtube@独立思维 13
+      - 香港-youtube@独立思维 04
+      - 香港-youtube@独立思维 05
       - 新加坡-youtube@独立思维 15
-      - 韩国-youtube@独立思维 141
-      - 韩国-youtube@独立思维 179
-      - 新加坡-youtube@独立思维 14
-      - 韩国-youtube@独立思维 182
-      - 印度-youtube@独立思维 01
-      - 韩国-youtube@独立思维 106
-      - 美国-youtube@独立思维 50
-      - 德国-youtube@独立思维 01
-      - 韩国-youtube@独立思维 207
-      - 韩国-youtube@独立思维 01
-      - 美国-youtube@独立思维 54
-      - 韩国-youtube@独立思维 12
-      - 美国-youtube@独立思维 44
-      - 韩国-youtube@独立思维 180
-      - 芬兰-youtube@独立思维 01
-      - 韩国-youtube@独立思维 136
-      - 新加坡-youtube@独立思维 02
-      - 韩国-youtube@独立思维 80
-      - 韩国-youtube@独立思维 168
-      - 美国-youtube@独立思维 41
-      - 韩国-youtube@独立思维 75
-      - 韩国-youtube@独立思维 99
-      - 韩国-youtube@独立思维 09
-      - 韩国-youtube@独立思维 98
-      - 韩国-youtube@独立思维 64
-      - 韩国-youtube@独立思维 89
-      - 美国-youtube@独立思维 47
-      - 荷兰-youtube@独立思维 05
-      - 韩国-youtube@独立思维风格化
-      - 美国-youtube@独立思维 15
-      - 韩国-youtube@独立思维
-      - 韩国-youtube@独立思维规划局给
-      - 韩国-youtube@独立思维 46
-      - 美国-youtube@独立思维 09
+      - 美国-youtube@独立思维 14
+      - 美国-youtube@独立思维 11
+      - 香港-youtube@独立思维 19
+      - 日本-youtube@独立思维 10
       - 新加坡-youtube@独立思维 20
-      - youtube@独立思维vvvv
+      - 日本-youtube@独立思维 11
+      - 日本-youtube@独立思维 09
+      - 香港-youtube@独立思维 20
       - 新加坡-youtube@独立思维 18
-      - 美国-youtube@独立思维 53
-      - 英国-youtube@独立思维 01
-      - 英国-youtube@独立思维 32
-      - 俄罗斯-youtube@独立思维 06
-      - 荷兰-youtube@独立思维 06
-      - 韩国-youtube@独立思维 41
-      - 英国-youtube@独立思维 24
-      - 英国-youtube@独立思维 31
-      - 英国-youtube@独立思维 36
-      - 香港-youtube@独立思维 03
-      - 香港-youtube@独立思维 07
-      - 日本-youtube@独立思维 03
       - 日本-youtube@独立思维 07
-      - 韩国-youtube@独立思维 35
-      - 韩国-youtube@独立思维 97
-      - 韩国-youtube@独立思维 123
-      - 韩国-youtube@独立思维 211
-      - 韩国-youtube@独立思维 215
-      - 韩国-youtube@独立思维 217
-      - 韩国-youtube@独立思维 219
-      - 韩国-youtube@独立思维 220
-      - 韩国-youtube@独立思维 223
-      - 美国-youtube@独立思维 01
-      - 美国-youtube@独立思维 17
-      - 美国-youtube@独立思维 38
-      - 美国-youtube@独立思维 46
-      - 美国-youtube@独立思维 52
-      - 美国-youtube@独立思维 55
-      - 德国-youtube@独立思维 14
-      - 德国-youtube@独立思维 15
-      - 英国-youtube@独立思维 13
+      - 日本-youtube@独立思维 12
+      - 日本-youtube@独立思维 02
+      - 新加坡-youtube@独立思维 14
+      - 美国-youtube@独立思维 27
+      - 加拿大-youtube@独立思维 03
+      - 加拿大-youtube@独立思维 06
+      - 新加坡-youtube@独立思维 17
+      - 新加坡-youtube@独立思维 19
+      - 香港-youtube@独立思维 17
+      - 加拿大-youtube@独立思维 03_1
+      - 日本-youtube@独立思维 03
+      - 印尼-youtube@独立思维 02
+      - 香港-youtube@独立思维 18
+      - 荷兰-youtube@独立思维 04
+      - 德国-youtube@独立思维 01
+      - 美国-youtube@独立思维 30
+      - 美国-youtube@独立思维 19
+      - 美国-youtube@独立思维 05
+      - 俄罗斯-youtube@独立思维 01
+      - 德国-youtube@独立思维 01_1
+      - 美国-youtube@独立思维 07
+      - 印尼-youtube@独立思维 01
+      - 英国-youtube@独立思维 01
+      - 印尼-youtube@独立思维 01_1
+      - 香港-youtube@独立思维 07
+      - 瑞典-youtube@独立思维 03
       - 俄罗斯-youtube@独立思维 05
-      - 捷克-youtube@独立思维 01
+      - 法国-youtube@独立思维 01
+      - 芬兰-youtube@独立思维 04
+      - 荷兰-youtube@独立思维 02
+      - 新加坡-youtube@独立思维 07
+      - 俄罗斯-youtube@独立思维 02
+      - 西班牙-youtube@独立思维 01
+      - 加拿大-youtube@独立思维 02
+      - 韩国-youtube@独立思维 08
+      - 奥地利-youtube@独立思维 01
+      - 美国-youtube@独立思维 21
+      - 爱沙尼亚-youtube@独立思维 01
+      - 新加坡-youtube@独立思维 08
+      - 韩国-youtube@独立思维 09
+      - 美国-youtube@独立思维 24
+      - 香港-youtube@独立思维 13
+      - 德国-youtube@独立思维 03
+      - 美国-youtube@独立思维 26
+      - 香港-youtube@独立思维 06_1
+      - 德国-youtube@独立思维 06
+      - 香港-youtube@独立思维 05_1
+      - 台湾-youtube@独立思维 04
+      - 马来-youtube@独立思维 01
+      - 香港-youtube@独立思维 21
+      - 瑞典-youtube@独立思维 01
+      - 英国-youtube@独立思维 02
+      - 马来-youtube@独立思维 02
+      - 韩国-youtube@独立思维 06
+      - 香港-youtube@独立思维 12
+      - 香港-youtube@独立思维 22
+      - 台湾-youtube@独立思维 02
+      - 台湾-youtube@独立思维 03
+      - 德国-youtube@独立思维 02
+      - 美国-youtube@独立思维 18
+      - 香港-youtube@独立思维 09
+      - 台湾-youtube@独立思维 05
+      - 俄罗斯-youtube@独立思维 10
+      - 荷兰-youtube@独立思维 05
+      - 香港-youtube@独立思维 14
+      - 英国-youtube@独立思维 07
+      - 新加坡-youtube@独立思维 09
+      - 加拿大-youtube@独立思维 04
+      - 荷兰-youtube@独立思维 01
+      - 土耳其-youtube@独立思维 01
+      - 土耳其-youtube@独立思维 02
+      - 加拿大-youtube@独立思维 01
+      - 日本-youtube@独立思维 04
+      - 新加坡-youtube@独立思维 05
+      - 韩国-youtube@独立思维 07
+      - 香港-youtube@独立思维 10
+      - 香港-youtube@独立思维 11
+      - 俄罗斯-youtube@独立思维 11
+      - 日本-youtube@独立思维 06
+      - 新加坡-youtube@独立思维 10
+      - 新加坡-youtube@独立思维 11
+      - 美国-youtube@独立思维 12
+      - 美国-youtube@独立思维 38
+      - 香港-youtube@独立思维 15
+      - 香港-youtube@独立思维 23
+      - 香港-youtube@独立思维 24
+      - 法国-youtube@独立思维 01_1
+      - 法国-youtube@独立思维 02
+      - 法国-youtube@独立思维 03
+      - 芬兰-youtube@独立思维 03
+      - 瑞士-youtube@独立思维 01
+      - 美国-youtube@独立思维 13
+      - 美国-youtube@独立思维 16
+      - 美国-youtube@独立思维 36
+      - 瑞典-youtube@独立思维 02
+      - 俄罗斯-youtube@独立思维 04
+      - 俄罗斯-youtube@独立思维 06
+      - 俄罗斯-youtube@独立思维 07
+      - 法国-youtube@独立思维 04
+      - 芬兰-youtube@独立思维 01
+      - 以色列-youtube@独立思维 01
+      - 斯洛文尼亚-youtube@独立思维 01
+      - 俄罗斯-youtube@独立思维 08
+      - 美国-youtube@独立思维 11_1
+      - 俄罗斯-youtube@独立思维 03
+      - 荷兰-youtube@独立思维 02_1
+      - 新加坡-youtube@独立思维 03
+      - 新加坡-youtube@独立思维 04
+      - 韩国-youtube@独立思维 01
+      - 美国-youtube@独立思维 01
+      - 美国-youtube@独立思维 02
+      - 美国-youtube@独立思维 03
+      - 美国-youtube@独立思维 04
+      - 美国-youtube@独立思维 06
+      - 美国-youtube@独立思维 15
+      - 美国-youtube@独立思维 17
+      - 美国-youtube@独立思维 20
+      - 美国-youtube@独立思维 22
+      - 美国-youtube@独立思维 29
+      - 美国-youtube@独立思维 31
+      - 美国-youtube@独立思维 37
+      - 香港-youtube@独立思维 02
+      - 香港-youtube@独立思维 03
+      - 香港-youtube@独立思维 25
+      - 拉脱维亚-youtube@独立思维 01
+      - 拉脱维亚-youtube@独立思维 02
+      - 伊朗-youtube@独立思维 01
+      - 丹麦-youtube@独立思维 01
+      - 丹麦-youtube@独立思维 02
+      - 德国-youtube@独立思维 05
+      - 英国-youtube@独立思维 03
+      - 芬兰-youtube@独立思维 02
+      - 荷兰-youtube@独立思维 03
   - name: ♻️ 自动选择
     type: url-test
     proxies:
-      - 美国-youtube@独立思维 13
-      - 荷兰-youtube@独立思维 08
-      - 香港-youtube@独立思维 05
-      - 美国-youtube@独立思维 08
-      - 日本-youtube@独立思维 05
-      - 美国-youtube@独立思维 18
-      - 俄罗斯-youtube@独立思维 04
-      - 美国-youtube@独立思维 49
-      - 新加坡-youtube@独立思维 04
-      - 韩国-youtube@独立思维 151
-      - 日本-youtube@独立思维 02
-      - 立陶宛-youtube@独立思维 02
-      - 日本-youtube@独立思维 01
-      - 新加坡-youtube@独立思维 05
-      - 韩国-youtube@独立思维 154
-      - 韩国-youtube@独立思维 121
-      - 韩国-youtube@独立思维 21
-      - 韩国-youtube@独立思维 37
-      - 荷兰-youtube@独立思维 10
-      - 韩国-youtube@独立思维 74
-      - 韩国-youtube@独立思维 53
+      - 新加坡-youtube@独立思维 12
+      - 日本-youtube@独立思维 08
+      - 新加坡-youtube@独立思维 16
+      - 塞舌尔-youtube@独立思维 01
+      - 美国-youtube@独立思维 23
       - 香港-youtube@独立思维 06
-      - 韩国-youtube@独立思维 150
-      - 韩国-youtube@独立思维 139
-      - 韩国-youtube@独立思维 71
-      - 韩国-youtube@独立思维 146
-      - 韩国-youtube@独立思维 73
-      - 韩国-youtube@独立思维 16
-      - 韩国-youtube@独立思维 10
-      - 韩国-youtube@独立思维 85
-      - 韩国-youtube@独立思维 149
-      - 韩国-youtube@独立思维 25
+      - 香港-youtube@独立思维 16
+      - 新加坡-youtube@独立思维 13
+      - 香港-youtube@独立思维 04
+      - 香港-youtube@独立思维 05
       - 新加坡-youtube@独立思维 15
-      - 韩国-youtube@独立思维 141
-      - 韩国-youtube@独立思维 179
-      - 新加坡-youtube@独立思维 14
-      - 韩国-youtube@独立思维 182
-      - 印度-youtube@独立思维 01
-      - 韩国-youtube@独立思维 106
-      - 美国-youtube@独立思维 50
-      - 德国-youtube@独立思维 01
-      - 韩国-youtube@独立思维 207
-      - 韩国-youtube@独立思维 01
-      - 美国-youtube@独立思维 54
-      - 韩国-youtube@独立思维 12
-      - 美国-youtube@独立思维 44
-      - 韩国-youtube@独立思维 180
-      - 芬兰-youtube@独立思维 01
-      - 韩国-youtube@独立思维 136
-      - 新加坡-youtube@独立思维 02
-      - 韩国-youtube@独立思维 80
-      - 韩国-youtube@独立思维 168
-      - 美国-youtube@独立思维 41
-      - 韩国-youtube@独立思维 75
-      - 韩国-youtube@独立思维 99
-      - 韩国-youtube@独立思维 09
-      - 韩国-youtube@独立思维 98
-      - 韩国-youtube@独立思维 64
-      - 韩国-youtube@独立思维 89
-      - 美国-youtube@独立思维 47
-      - 荷兰-youtube@独立思维 05
-      - 韩国-youtube@独立思维风格化
-      - 美国-youtube@独立思维 15
-      - 韩国-youtube@独立思维
-      - 韩国-youtube@独立思维规划局给
-      - 韩国-youtube@独立思维 46
-      - 美国-youtube@独立思维 09
+      - 美国-youtube@独立思维 14
+      - 美国-youtube@独立思维 11
+      - 香港-youtube@独立思维 19
+      - 日本-youtube@独立思维 10
       - 新加坡-youtube@独立思维 20
-      - youtube@独立思维vvvv
+      - 日本-youtube@独立思维 11
+      - 日本-youtube@独立思维 09
+      - 香港-youtube@独立思维 20
       - 新加坡-youtube@独立思维 18
-      - 美国-youtube@独立思维 53
-      - 英国-youtube@独立思维 01
-      - 英国-youtube@独立思维 32
-      - 俄罗斯-youtube@独立思维 06
-      - 荷兰-youtube@独立思维 06
-      - 韩国-youtube@独立思维 41
-      - 英国-youtube@独立思维 24
-      - 英国-youtube@独立思维 31
-      - 英国-youtube@独立思维 36
-      - 香港-youtube@独立思维 03
-      - 香港-youtube@独立思维 07
-      - 日本-youtube@独立思维 03
       - 日本-youtube@独立思维 07
-      - 韩国-youtube@独立思维 35
-      - 韩国-youtube@独立思维 97
-      - 韩国-youtube@独立思维 123
-      - 韩国-youtube@独立思维 211
-      - 韩国-youtube@独立思维 215
-      - 韩国-youtube@独立思维 217
-      - 韩国-youtube@独立思维 219
-      - 韩国-youtube@独立思维 220
-      - 韩国-youtube@独立思维 223
-      - 美国-youtube@独立思维 01
-      - 美国-youtube@独立思维 17
-      - 美国-youtube@独立思维 38
-      - 美国-youtube@独立思维 46
-      - 美国-youtube@独立思维 52
-      - 美国-youtube@独立思维 55
-      - 德国-youtube@独立思维 14
-      - 德国-youtube@独立思维 15
-      - 英国-youtube@独立思维 13
+      - 日本-youtube@独立思维 12
+      - 日本-youtube@独立思维 02
+      - 新加坡-youtube@独立思维 14
+      - 美国-youtube@独立思维 27
+      - 加拿大-youtube@独立思维 03
+      - 加拿大-youtube@独立思维 06
+      - 新加坡-youtube@独立思维 17
+      - 新加坡-youtube@独立思维 19
+      - 香港-youtube@独立思维 17
+      - 加拿大-youtube@独立思维 03_1
+      - 日本-youtube@独立思维 03
+      - 印尼-youtube@独立思维 02
+      - 香港-youtube@独立思维 18
+      - 荷兰-youtube@独立思维 04
+      - 德国-youtube@独立思维 01
+      - 美国-youtube@独立思维 30
+      - 美国-youtube@独立思维 19
+      - 美国-youtube@独立思维 05
+      - 俄罗斯-youtube@独立思维 01
+      - 德国-youtube@独立思维 01_1
+      - 美国-youtube@独立思维 07
+      - 印尼-youtube@独立思维 01
+      - 英国-youtube@独立思维 01
+      - 印尼-youtube@独立思维 01_1
+      - 香港-youtube@独立思维 07
+      - 瑞典-youtube@独立思维 03
       - 俄罗斯-youtube@独立思维 05
-      - 捷克-youtube@独立思维 01
+      - 法国-youtube@独立思维 01
+      - 芬兰-youtube@独立思维 04
+      - 荷兰-youtube@独立思维 02
+      - 新加坡-youtube@独立思维 07
+      - 俄罗斯-youtube@独立思维 02
+      - 西班牙-youtube@独立思维 01
+      - 加拿大-youtube@独立思维 02
+      - 韩国-youtube@独立思维 08
+      - 奥地利-youtube@独立思维 01
+      - 美国-youtube@独立思维 21
+      - 爱沙尼亚-youtube@独立思维 01
+      - 新加坡-youtube@独立思维 08
+      - 韩国-youtube@独立思维 09
+      - 美国-youtube@独立思维 24
+      - 香港-youtube@独立思维 13
+      - 德国-youtube@独立思维 03
+      - 美国-youtube@独立思维 26
+      - 香港-youtube@独立思维 06_1
+      - 德国-youtube@独立思维 06
+      - 香港-youtube@独立思维 05_1
+      - 台湾-youtube@独立思维 04
+      - 马来-youtube@独立思维 01
+      - 香港-youtube@独立思维 21
+      - 瑞典-youtube@独立思维 01
+      - 英国-youtube@独立思维 02
+      - 马来-youtube@独立思维 02
+      - 韩国-youtube@独立思维 06
+      - 香港-youtube@独立思维 12
+      - 香港-youtube@独立思维 22
+      - 台湾-youtube@独立思维 02
+      - 台湾-youtube@独立思维 03
+      - 德国-youtube@独立思维 02
+      - 美国-youtube@独立思维 18
+      - 香港-youtube@独立思维 09
+      - 台湾-youtube@独立思维 05
+      - 俄罗斯-youtube@独立思维 10
+      - 荷兰-youtube@独立思维 05
+      - 香港-youtube@独立思维 14
+      - 英国-youtube@独立思维 07
+      - 新加坡-youtube@独立思维 09
+      - 加拿大-youtube@独立思维 04
+      - 荷兰-youtube@独立思维 01
+      - 土耳其-youtube@独立思维 01
+      - 土耳其-youtube@独立思维 02
+      - 加拿大-youtube@独立思维 01
+      - 日本-youtube@独立思维 04
+      - 新加坡-youtube@独立思维 05
+      - 韩国-youtube@独立思维 07
+      - 香港-youtube@独立思维 10
+      - 香港-youtube@独立思维 11
+      - 俄罗斯-youtube@独立思维 11
+      - 日本-youtube@独立思维 06
+      - 新加坡-youtube@独立思维 10
+      - 新加坡-youtube@独立思维 11
+      - 美国-youtube@独立思维 12
+      - 美国-youtube@独立思维 38
+      - 香港-youtube@独立思维 15
+      - 香港-youtube@独立思维 23
+      - 香港-youtube@独立思维 24
+      - 法国-youtube@独立思维 01_1
+      - 法国-youtube@独立思维 02
+      - 法国-youtube@独立思维 03
+      - 芬兰-youtube@独立思维 03
+      - 瑞士-youtube@独立思维 01
+      - 美国-youtube@独立思维 13
+      - 美国-youtube@独立思维 16
+      - 美国-youtube@独立思维 36
+      - 瑞典-youtube@独立思维 02
+      - 俄罗斯-youtube@独立思维 04
+      - 俄罗斯-youtube@独立思维 06
+      - 俄罗斯-youtube@独立思维 07
+      - 法国-youtube@独立思维 04
+      - 芬兰-youtube@独立思维 01
+      - 以色列-youtube@独立思维 01
+      - 斯洛文尼亚-youtube@独立思维 01
+      - 俄罗斯-youtube@独立思维 08
+      - 美国-youtube@独立思维 11_1
+      - 俄罗斯-youtube@独立思维 03
+      - 荷兰-youtube@独立思维 02_1
+      - 新加坡-youtube@独立思维 03
+      - 新加坡-youtube@独立思维 04
+      - 韩国-youtube@独立思维 01
+      - 美国-youtube@独立思维 01
+      - 美国-youtube@独立思维 02
+      - 美国-youtube@独立思维 03
+      - 美国-youtube@独立思维 04
+      - 美国-youtube@独立思维 06
+      - 美国-youtube@独立思维 15
+      - 美国-youtube@独立思维 17
+      - 美国-youtube@独立思维 20
+      - 美国-youtube@独立思维 22
+      - 美国-youtube@独立思维 29
+      - 美国-youtube@独立思维 31
+      - 美国-youtube@独立思维 37
+      - 香港-youtube@独立思维 02
+      - 香港-youtube@独立思维 03
+      - 香港-youtube@独立思维 25
+      - 拉脱维亚-youtube@独立思维 01
+      - 拉脱维亚-youtube@独立思维 02
+      - 伊朗-youtube@独立思维 01
+      - 丹麦-youtube@独立思维 01
+      - 丹麦-youtube@独立思维 02
+      - 德国-youtube@独立思维 05
+      - 英国-youtube@独立思维 03
+      - 芬兰-youtube@独立思维 02
+      - 荷兰-youtube@独立思维 03
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
@@ -1432,433 +1914,637 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国-youtube@独立思维 13
-      - 荷兰-youtube@独立思维 08
-      - 香港-youtube@独立思维 05
-      - 美国-youtube@独立思维 08
-      - 日本-youtube@独立思维 05
-      - 美国-youtube@独立思维 18
-      - 俄罗斯-youtube@独立思维 04
-      - 美国-youtube@独立思维 49
-      - 新加坡-youtube@独立思维 04
-      - 韩国-youtube@独立思维 151
-      - 日本-youtube@独立思维 02
-      - 立陶宛-youtube@独立思维 02
-      - 日本-youtube@独立思维 01
-      - 新加坡-youtube@独立思维 05
-      - 韩国-youtube@独立思维 154
-      - 韩国-youtube@独立思维 121
-      - 韩国-youtube@独立思维 21
-      - 韩国-youtube@独立思维 37
-      - 荷兰-youtube@独立思维 10
-      - 韩国-youtube@独立思维 74
-      - 韩国-youtube@独立思维 53
+      - 新加坡-youtube@独立思维 12
+      - 日本-youtube@独立思维 08
+      - 新加坡-youtube@独立思维 16
+      - 塞舌尔-youtube@独立思维 01
+      - 美国-youtube@独立思维 23
       - 香港-youtube@独立思维 06
-      - 韩国-youtube@独立思维 150
-      - 韩国-youtube@独立思维 139
-      - 韩国-youtube@独立思维 71
-      - 韩国-youtube@独立思维 146
-      - 韩国-youtube@独立思维 73
-      - 韩国-youtube@独立思维 16
-      - 韩国-youtube@独立思维 10
-      - 韩国-youtube@独立思维 85
-      - 韩国-youtube@独立思维 149
-      - 韩国-youtube@独立思维 25
+      - 香港-youtube@独立思维 16
+      - 新加坡-youtube@独立思维 13
+      - 香港-youtube@独立思维 04
+      - 香港-youtube@独立思维 05
       - 新加坡-youtube@独立思维 15
-      - 韩国-youtube@独立思维 141
-      - 韩国-youtube@独立思维 179
-      - 新加坡-youtube@独立思维 14
-      - 韩国-youtube@独立思维 182
-      - 印度-youtube@独立思维 01
-      - 韩国-youtube@独立思维 106
-      - 美国-youtube@独立思维 50
-      - 德国-youtube@独立思维 01
-      - 韩国-youtube@独立思维 207
-      - 韩国-youtube@独立思维 01
-      - 美国-youtube@独立思维 54
-      - 韩国-youtube@独立思维 12
-      - 美国-youtube@独立思维 44
-      - 韩国-youtube@独立思维 180
-      - 芬兰-youtube@独立思维 01
-      - 韩国-youtube@独立思维 136
-      - 新加坡-youtube@独立思维 02
-      - 韩国-youtube@独立思维 80
-      - 韩国-youtube@独立思维 168
-      - 美国-youtube@独立思维 41
-      - 韩国-youtube@独立思维 75
-      - 韩国-youtube@独立思维 99
-      - 韩国-youtube@独立思维 09
-      - 韩国-youtube@独立思维 98
-      - 韩国-youtube@独立思维 64
-      - 韩国-youtube@独立思维 89
-      - 美国-youtube@独立思维 47
-      - 荷兰-youtube@独立思维 05
-      - 韩国-youtube@独立思维风格化
-      - 美国-youtube@独立思维 15
-      - 韩国-youtube@独立思维
-      - 韩国-youtube@独立思维规划局给
-      - 韩国-youtube@独立思维 46
-      - 美国-youtube@独立思维 09
+      - 美国-youtube@独立思维 14
+      - 美国-youtube@独立思维 11
+      - 香港-youtube@独立思维 19
+      - 日本-youtube@独立思维 10
       - 新加坡-youtube@独立思维 20
-      - youtube@独立思维vvvv
+      - 日本-youtube@独立思维 11
+      - 日本-youtube@独立思维 09
+      - 香港-youtube@独立思维 20
       - 新加坡-youtube@独立思维 18
-      - 美国-youtube@独立思维 53
-      - 英国-youtube@独立思维 01
-      - 英国-youtube@独立思维 32
-      - 俄罗斯-youtube@独立思维 06
-      - 荷兰-youtube@独立思维 06
-      - 韩国-youtube@独立思维 41
-      - 英国-youtube@独立思维 24
-      - 英国-youtube@独立思维 31
-      - 英国-youtube@独立思维 36
-      - 香港-youtube@独立思维 03
-      - 香港-youtube@独立思维 07
-      - 日本-youtube@独立思维 03
       - 日本-youtube@独立思维 07
-      - 韩国-youtube@独立思维 35
-      - 韩国-youtube@独立思维 97
-      - 韩国-youtube@独立思维 123
-      - 韩国-youtube@独立思维 211
-      - 韩国-youtube@独立思维 215
-      - 韩国-youtube@独立思维 217
-      - 韩国-youtube@独立思维 219
-      - 韩国-youtube@独立思维 220
-      - 韩国-youtube@独立思维 223
-      - 美国-youtube@独立思维 01
-      - 美国-youtube@独立思维 17
-      - 美国-youtube@独立思维 38
-      - 美国-youtube@独立思维 46
-      - 美国-youtube@独立思维 52
-      - 美国-youtube@独立思维 55
-      - 德国-youtube@独立思维 14
-      - 德国-youtube@独立思维 15
-      - 英国-youtube@独立思维 13
+      - 日本-youtube@独立思维 12
+      - 日本-youtube@独立思维 02
+      - 新加坡-youtube@独立思维 14
+      - 美国-youtube@独立思维 27
+      - 加拿大-youtube@独立思维 03
+      - 加拿大-youtube@独立思维 06
+      - 新加坡-youtube@独立思维 17
+      - 新加坡-youtube@独立思维 19
+      - 香港-youtube@独立思维 17
+      - 加拿大-youtube@独立思维 03_1
+      - 日本-youtube@独立思维 03
+      - 印尼-youtube@独立思维 02
+      - 香港-youtube@独立思维 18
+      - 荷兰-youtube@独立思维 04
+      - 德国-youtube@独立思维 01
+      - 美国-youtube@独立思维 30
+      - 美国-youtube@独立思维 19
+      - 美国-youtube@独立思维 05
+      - 俄罗斯-youtube@独立思维 01
+      - 德国-youtube@独立思维 01_1
+      - 美国-youtube@独立思维 07
+      - 印尼-youtube@独立思维 01
+      - 英国-youtube@独立思维 01
+      - 印尼-youtube@独立思维 01_1
+      - 香港-youtube@独立思维 07
+      - 瑞典-youtube@独立思维 03
       - 俄罗斯-youtube@独立思维 05
-      - 捷克-youtube@独立思维 01
+      - 法国-youtube@独立思维 01
+      - 芬兰-youtube@独立思维 04
+      - 荷兰-youtube@独立思维 02
+      - 新加坡-youtube@独立思维 07
+      - 俄罗斯-youtube@独立思维 02
+      - 西班牙-youtube@独立思维 01
+      - 加拿大-youtube@独立思维 02
+      - 韩国-youtube@独立思维 08
+      - 奥地利-youtube@独立思维 01
+      - 美国-youtube@独立思维 21
+      - 爱沙尼亚-youtube@独立思维 01
+      - 新加坡-youtube@独立思维 08
+      - 韩国-youtube@独立思维 09
+      - 美国-youtube@独立思维 24
+      - 香港-youtube@独立思维 13
+      - 德国-youtube@独立思维 03
+      - 美国-youtube@独立思维 26
+      - 香港-youtube@独立思维 06_1
+      - 德国-youtube@独立思维 06
+      - 香港-youtube@独立思维 05_1
+      - 台湾-youtube@独立思维 04
+      - 马来-youtube@独立思维 01
+      - 香港-youtube@独立思维 21
+      - 瑞典-youtube@独立思维 01
+      - 英国-youtube@独立思维 02
+      - 马来-youtube@独立思维 02
+      - 韩国-youtube@独立思维 06
+      - 香港-youtube@独立思维 12
+      - 香港-youtube@独立思维 22
+      - 台湾-youtube@独立思维 02
+      - 台湾-youtube@独立思维 03
+      - 德国-youtube@独立思维 02
+      - 美国-youtube@独立思维 18
+      - 香港-youtube@独立思维 09
+      - 台湾-youtube@独立思维 05
+      - 俄罗斯-youtube@独立思维 10
+      - 荷兰-youtube@独立思维 05
+      - 香港-youtube@独立思维 14
+      - 英国-youtube@独立思维 07
+      - 新加坡-youtube@独立思维 09
+      - 加拿大-youtube@独立思维 04
+      - 荷兰-youtube@独立思维 01
+      - 土耳其-youtube@独立思维 01
+      - 土耳其-youtube@独立思维 02
+      - 加拿大-youtube@独立思维 01
+      - 日本-youtube@独立思维 04
+      - 新加坡-youtube@独立思维 05
+      - 韩国-youtube@独立思维 07
+      - 香港-youtube@独立思维 10
+      - 香港-youtube@独立思维 11
+      - 俄罗斯-youtube@独立思维 11
+      - 日本-youtube@独立思维 06
+      - 新加坡-youtube@独立思维 10
+      - 新加坡-youtube@独立思维 11
+      - 美国-youtube@独立思维 12
+      - 美国-youtube@独立思维 38
+      - 香港-youtube@独立思维 15
+      - 香港-youtube@独立思维 23
+      - 香港-youtube@独立思维 24
+      - 法国-youtube@独立思维 01_1
+      - 法国-youtube@独立思维 02
+      - 法国-youtube@独立思维 03
+      - 芬兰-youtube@独立思维 03
+      - 瑞士-youtube@独立思维 01
+      - 美国-youtube@独立思维 13
+      - 美国-youtube@独立思维 16
+      - 美国-youtube@独立思维 36
+      - 瑞典-youtube@独立思维 02
+      - 俄罗斯-youtube@独立思维 04
+      - 俄罗斯-youtube@独立思维 06
+      - 俄罗斯-youtube@独立思维 07
+      - 法国-youtube@独立思维 04
+      - 芬兰-youtube@独立思维 01
+      - 以色列-youtube@独立思维 01
+      - 斯洛文尼亚-youtube@独立思维 01
+      - 俄罗斯-youtube@独立思维 08
+      - 美国-youtube@独立思维 11_1
+      - 俄罗斯-youtube@独立思维 03
+      - 荷兰-youtube@独立思维 02_1
+      - 新加坡-youtube@独立思维 03
+      - 新加坡-youtube@独立思维 04
+      - 韩国-youtube@独立思维 01
+      - 美国-youtube@独立思维 01
+      - 美国-youtube@独立思维 02
+      - 美国-youtube@独立思维 03
+      - 美国-youtube@独立思维 04
+      - 美国-youtube@独立思维 06
+      - 美国-youtube@独立思维 15
+      - 美国-youtube@独立思维 17
+      - 美国-youtube@独立思维 20
+      - 美国-youtube@独立思维 22
+      - 美国-youtube@独立思维 29
+      - 美国-youtube@独立思维 31
+      - 美国-youtube@独立思维 37
+      - 香港-youtube@独立思维 02
+      - 香港-youtube@独立思维 03
+      - 香港-youtube@独立思维 25
+      - 拉脱维亚-youtube@独立思维 01
+      - 拉脱维亚-youtube@独立思维 02
+      - 伊朗-youtube@独立思维 01
+      - 丹麦-youtube@独立思维 01
+      - 丹麦-youtube@独立思维 02
+      - 德国-youtube@独立思维 05
+      - 英国-youtube@独立思维 03
+      - 芬兰-youtube@独立思维 02
+      - 荷兰-youtube@独立思维 03
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 美国-youtube@独立思维 13
-      - 荷兰-youtube@独立思维 08
-      - 香港-youtube@独立思维 05
-      - 美国-youtube@独立思维 08
-      - 日本-youtube@独立思维 05
-      - 美国-youtube@独立思维 18
-      - 俄罗斯-youtube@独立思维 04
-      - 美国-youtube@独立思维 49
-      - 新加坡-youtube@独立思维 04
-      - 韩国-youtube@独立思维 151
-      - 日本-youtube@独立思维 02
-      - 立陶宛-youtube@独立思维 02
-      - 日本-youtube@独立思维 01
-      - 新加坡-youtube@独立思维 05
-      - 韩国-youtube@独立思维 154
-      - 韩国-youtube@独立思维 121
-      - 韩国-youtube@独立思维 21
-      - 韩国-youtube@独立思维 37
-      - 荷兰-youtube@独立思维 10
-      - 韩国-youtube@独立思维 74
-      - 韩国-youtube@独立思维 53
+      - 新加坡-youtube@独立思维 12
+      - 日本-youtube@独立思维 08
+      - 新加坡-youtube@独立思维 16
+      - 塞舌尔-youtube@独立思维 01
+      - 美国-youtube@独立思维 23
       - 香港-youtube@独立思维 06
-      - 韩国-youtube@独立思维 150
-      - 韩国-youtube@独立思维 139
-      - 韩国-youtube@独立思维 71
-      - 韩国-youtube@独立思维 146
-      - 韩国-youtube@独立思维 73
-      - 韩国-youtube@独立思维 16
-      - 韩国-youtube@独立思维 10
-      - 韩国-youtube@独立思维 85
-      - 韩国-youtube@独立思维 149
-      - 韩国-youtube@独立思维 25
+      - 香港-youtube@独立思维 16
+      - 新加坡-youtube@独立思维 13
+      - 香港-youtube@独立思维 04
+      - 香港-youtube@独立思维 05
       - 新加坡-youtube@独立思维 15
-      - 韩国-youtube@独立思维 141
-      - 韩国-youtube@独立思维 179
-      - 新加坡-youtube@独立思维 14
-      - 韩国-youtube@独立思维 182
-      - 印度-youtube@独立思维 01
-      - 韩国-youtube@独立思维 106
-      - 美国-youtube@独立思维 50
-      - 德国-youtube@独立思维 01
-      - 韩国-youtube@独立思维 207
-      - 韩国-youtube@独立思维 01
-      - 美国-youtube@独立思维 54
-      - 韩国-youtube@独立思维 12
-      - 美国-youtube@独立思维 44
-      - 韩国-youtube@独立思维 180
-      - 芬兰-youtube@独立思维 01
-      - 韩国-youtube@独立思维 136
-      - 新加坡-youtube@独立思维 02
-      - 韩国-youtube@独立思维 80
-      - 韩国-youtube@独立思维 168
-      - 美国-youtube@独立思维 41
-      - 韩国-youtube@独立思维 75
-      - 韩国-youtube@独立思维 99
-      - 韩国-youtube@独立思维 09
-      - 韩国-youtube@独立思维 98
-      - 韩国-youtube@独立思维 64
-      - 韩国-youtube@独立思维 89
-      - 美国-youtube@独立思维 47
-      - 荷兰-youtube@独立思维 05
-      - 韩国-youtube@独立思维风格化
-      - 美国-youtube@独立思维 15
-      - 韩国-youtube@独立思维
-      - 韩国-youtube@独立思维规划局给
-      - 韩国-youtube@独立思维 46
-      - 美国-youtube@独立思维 09
+      - 美国-youtube@独立思维 14
+      - 美国-youtube@独立思维 11
+      - 香港-youtube@独立思维 19
+      - 日本-youtube@独立思维 10
       - 新加坡-youtube@独立思维 20
-      - youtube@独立思维vvvv
+      - 日本-youtube@独立思维 11
+      - 日本-youtube@独立思维 09
+      - 香港-youtube@独立思维 20
       - 新加坡-youtube@独立思维 18
-      - 美国-youtube@独立思维 53
-      - 英国-youtube@独立思维 01
-      - 英国-youtube@独立思维 32
-      - 俄罗斯-youtube@独立思维 06
-      - 荷兰-youtube@独立思维 06
-      - 韩国-youtube@独立思维 41
-      - 英国-youtube@独立思维 24
-      - 英国-youtube@独立思维 31
-      - 英国-youtube@独立思维 36
-      - 香港-youtube@独立思维 03
-      - 香港-youtube@独立思维 07
-      - 日本-youtube@独立思维 03
       - 日本-youtube@独立思维 07
-      - 韩国-youtube@独立思维 35
-      - 韩国-youtube@独立思维 97
-      - 韩国-youtube@独立思维 123
-      - 韩国-youtube@独立思维 211
-      - 韩国-youtube@独立思维 215
-      - 韩国-youtube@独立思维 217
-      - 韩国-youtube@独立思维 219
-      - 韩国-youtube@独立思维 220
-      - 韩国-youtube@独立思维 223
-      - 美国-youtube@独立思维 01
-      - 美国-youtube@独立思维 17
-      - 美国-youtube@独立思维 38
-      - 美国-youtube@独立思维 46
-      - 美国-youtube@独立思维 52
-      - 美国-youtube@独立思维 55
-      - 德国-youtube@独立思维 14
-      - 德国-youtube@独立思维 15
-      - 英国-youtube@独立思维 13
+      - 日本-youtube@独立思维 12
+      - 日本-youtube@独立思维 02
+      - 新加坡-youtube@独立思维 14
+      - 美国-youtube@独立思维 27
+      - 加拿大-youtube@独立思维 03
+      - 加拿大-youtube@独立思维 06
+      - 新加坡-youtube@独立思维 17
+      - 新加坡-youtube@独立思维 19
+      - 香港-youtube@独立思维 17
+      - 加拿大-youtube@独立思维 03_1
+      - 日本-youtube@独立思维 03
+      - 印尼-youtube@独立思维 02
+      - 香港-youtube@独立思维 18
+      - 荷兰-youtube@独立思维 04
+      - 德国-youtube@独立思维 01
+      - 美国-youtube@独立思维 30
+      - 美国-youtube@独立思维 19
+      - 美国-youtube@独立思维 05
+      - 俄罗斯-youtube@独立思维 01
+      - 德国-youtube@独立思维 01_1
+      - 美国-youtube@独立思维 07
+      - 印尼-youtube@独立思维 01
+      - 英国-youtube@独立思维 01
+      - 印尼-youtube@独立思维 01_1
+      - 香港-youtube@独立思维 07
+      - 瑞典-youtube@独立思维 03
       - 俄罗斯-youtube@独立思维 05
-      - 捷克-youtube@独立思维 01
+      - 法国-youtube@独立思维 01
+      - 芬兰-youtube@独立思维 04
+      - 荷兰-youtube@独立思维 02
+      - 新加坡-youtube@独立思维 07
+      - 俄罗斯-youtube@独立思维 02
+      - 西班牙-youtube@独立思维 01
+      - 加拿大-youtube@独立思维 02
+      - 韩国-youtube@独立思维 08
+      - 奥地利-youtube@独立思维 01
+      - 美国-youtube@独立思维 21
+      - 爱沙尼亚-youtube@独立思维 01
+      - 新加坡-youtube@独立思维 08
+      - 韩国-youtube@独立思维 09
+      - 美国-youtube@独立思维 24
+      - 香港-youtube@独立思维 13
+      - 德国-youtube@独立思维 03
+      - 美国-youtube@独立思维 26
+      - 香港-youtube@独立思维 06_1
+      - 德国-youtube@独立思维 06
+      - 香港-youtube@独立思维 05_1
+      - 台湾-youtube@独立思维 04
+      - 马来-youtube@独立思维 01
+      - 香港-youtube@独立思维 21
+      - 瑞典-youtube@独立思维 01
+      - 英国-youtube@独立思维 02
+      - 马来-youtube@独立思维 02
+      - 韩国-youtube@独立思维 06
+      - 香港-youtube@独立思维 12
+      - 香港-youtube@独立思维 22
+      - 台湾-youtube@独立思维 02
+      - 台湾-youtube@独立思维 03
+      - 德国-youtube@独立思维 02
+      - 美国-youtube@独立思维 18
+      - 香港-youtube@独立思维 09
+      - 台湾-youtube@独立思维 05
+      - 俄罗斯-youtube@独立思维 10
+      - 荷兰-youtube@独立思维 05
+      - 香港-youtube@独立思维 14
+      - 英国-youtube@独立思维 07
+      - 新加坡-youtube@独立思维 09
+      - 加拿大-youtube@独立思维 04
+      - 荷兰-youtube@独立思维 01
+      - 土耳其-youtube@独立思维 01
+      - 土耳其-youtube@独立思维 02
+      - 加拿大-youtube@独立思维 01
+      - 日本-youtube@独立思维 04
+      - 新加坡-youtube@独立思维 05
+      - 韩国-youtube@独立思维 07
+      - 香港-youtube@独立思维 10
+      - 香港-youtube@独立思维 11
+      - 俄罗斯-youtube@独立思维 11
+      - 日本-youtube@独立思维 06
+      - 新加坡-youtube@独立思维 10
+      - 新加坡-youtube@独立思维 11
+      - 美国-youtube@独立思维 12
+      - 美国-youtube@独立思维 38
+      - 香港-youtube@独立思维 15
+      - 香港-youtube@独立思维 23
+      - 香港-youtube@独立思维 24
+      - 法国-youtube@独立思维 01_1
+      - 法国-youtube@独立思维 02
+      - 法国-youtube@独立思维 03
+      - 芬兰-youtube@独立思维 03
+      - 瑞士-youtube@独立思维 01
+      - 美国-youtube@独立思维 13
+      - 美国-youtube@独立思维 16
+      - 美国-youtube@独立思维 36
+      - 瑞典-youtube@独立思维 02
+      - 俄罗斯-youtube@独立思维 04
+      - 俄罗斯-youtube@独立思维 06
+      - 俄罗斯-youtube@独立思维 07
+      - 法国-youtube@独立思维 04
+      - 芬兰-youtube@独立思维 01
+      - 以色列-youtube@独立思维 01
+      - 斯洛文尼亚-youtube@独立思维 01
+      - 俄罗斯-youtube@独立思维 08
+      - 美国-youtube@独立思维 11_1
+      - 俄罗斯-youtube@独立思维 03
+      - 荷兰-youtube@独立思维 02_1
+      - 新加坡-youtube@独立思维 03
+      - 新加坡-youtube@独立思维 04
+      - 韩国-youtube@独立思维 01
+      - 美国-youtube@独立思维 01
+      - 美国-youtube@独立思维 02
+      - 美国-youtube@独立思维 03
+      - 美国-youtube@独立思维 04
+      - 美国-youtube@独立思维 06
+      - 美国-youtube@独立思维 15
+      - 美国-youtube@独立思维 17
+      - 美国-youtube@独立思维 20
+      - 美国-youtube@独立思维 22
+      - 美国-youtube@独立思维 29
+      - 美国-youtube@独立思维 31
+      - 美国-youtube@独立思维 37
+      - 香港-youtube@独立思维 02
+      - 香港-youtube@独立思维 03
+      - 香港-youtube@独立思维 25
+      - 拉脱维亚-youtube@独立思维 01
+      - 拉脱维亚-youtube@独立思维 02
+      - 伊朗-youtube@独立思维 01
+      - 丹麦-youtube@独立思维 01
+      - 丹麦-youtube@独立思维 02
+      - 德国-youtube@独立思维 05
+      - 英国-youtube@独立思维 03
+      - 芬兰-youtube@独立思维 02
+      - 荷兰-youtube@独立思维 03
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 美国-youtube@独立思维 13
-      - 荷兰-youtube@独立思维 08
-      - 香港-youtube@独立思维 05
-      - 美国-youtube@独立思维 08
-      - 日本-youtube@独立思维 05
-      - 美国-youtube@独立思维 18
-      - 俄罗斯-youtube@独立思维 04
-      - 美国-youtube@独立思维 49
-      - 新加坡-youtube@独立思维 04
-      - 韩国-youtube@独立思维 151
-      - 日本-youtube@独立思维 02
-      - 立陶宛-youtube@独立思维 02
-      - 日本-youtube@独立思维 01
-      - 新加坡-youtube@独立思维 05
-      - 韩国-youtube@独立思维 154
-      - 韩国-youtube@独立思维 121
-      - 韩国-youtube@独立思维 21
-      - 韩国-youtube@独立思维 37
-      - 荷兰-youtube@独立思维 10
-      - 韩国-youtube@独立思维 74
-      - 韩国-youtube@独立思维 53
+      - 新加坡-youtube@独立思维 12
+      - 日本-youtube@独立思维 08
+      - 新加坡-youtube@独立思维 16
+      - 塞舌尔-youtube@独立思维 01
+      - 美国-youtube@独立思维 23
       - 香港-youtube@独立思维 06
-      - 韩国-youtube@独立思维 150
-      - 韩国-youtube@独立思维 139
-      - 韩国-youtube@独立思维 71
-      - 韩国-youtube@独立思维 146
-      - 韩国-youtube@独立思维 73
-      - 韩国-youtube@独立思维 16
-      - 韩国-youtube@独立思维 10
-      - 韩国-youtube@独立思维 85
-      - 韩国-youtube@独立思维 149
-      - 韩国-youtube@独立思维 25
+      - 香港-youtube@独立思维 16
+      - 新加坡-youtube@独立思维 13
+      - 香港-youtube@独立思维 04
+      - 香港-youtube@独立思维 05
       - 新加坡-youtube@独立思维 15
-      - 韩国-youtube@独立思维 141
-      - 韩国-youtube@独立思维 179
-      - 新加坡-youtube@独立思维 14
-      - 韩国-youtube@独立思维 182
-      - 印度-youtube@独立思维 01
-      - 韩国-youtube@独立思维 106
-      - 美国-youtube@独立思维 50
-      - 德国-youtube@独立思维 01
-      - 韩国-youtube@独立思维 207
-      - 韩国-youtube@独立思维 01
-      - 美国-youtube@独立思维 54
-      - 韩国-youtube@独立思维 12
-      - 美国-youtube@独立思维 44
-      - 韩国-youtube@独立思维 180
-      - 芬兰-youtube@独立思维 01
-      - 韩国-youtube@独立思维 136
-      - 新加坡-youtube@独立思维 02
-      - 韩国-youtube@独立思维 80
-      - 韩国-youtube@独立思维 168
-      - 美国-youtube@独立思维 41
-      - 韩国-youtube@独立思维 75
-      - 韩国-youtube@独立思维 99
-      - 韩国-youtube@独立思维 09
-      - 韩国-youtube@独立思维 98
-      - 韩国-youtube@独立思维 64
-      - 韩国-youtube@独立思维 89
-      - 美国-youtube@独立思维 47
-      - 荷兰-youtube@独立思维 05
-      - 韩国-youtube@独立思维风格化
-      - 美国-youtube@独立思维 15
-      - 韩国-youtube@独立思维
-      - 韩国-youtube@独立思维规划局给
-      - 韩国-youtube@独立思维 46
-      - 美国-youtube@独立思维 09
+      - 美国-youtube@独立思维 14
+      - 美国-youtube@独立思维 11
+      - 香港-youtube@独立思维 19
+      - 日本-youtube@独立思维 10
       - 新加坡-youtube@独立思维 20
-      - youtube@独立思维vvvv
+      - 日本-youtube@独立思维 11
+      - 日本-youtube@独立思维 09
+      - 香港-youtube@独立思维 20
       - 新加坡-youtube@独立思维 18
-      - 美国-youtube@独立思维 53
-      - 英国-youtube@独立思维 01
-      - 英国-youtube@独立思维 32
-      - 俄罗斯-youtube@独立思维 06
-      - 荷兰-youtube@独立思维 06
-      - 韩国-youtube@独立思维 41
-      - 英国-youtube@独立思维 24
-      - 英国-youtube@独立思维 31
-      - 英国-youtube@独立思维 36
-      - 香港-youtube@独立思维 03
-      - 香港-youtube@独立思维 07
-      - 日本-youtube@独立思维 03
       - 日本-youtube@独立思维 07
-      - 韩国-youtube@独立思维 35
-      - 韩国-youtube@独立思维 97
-      - 韩国-youtube@独立思维 123
-      - 韩国-youtube@独立思维 211
-      - 韩国-youtube@独立思维 215
-      - 韩国-youtube@独立思维 217
-      - 韩国-youtube@独立思维 219
-      - 韩国-youtube@独立思维 220
-      - 韩国-youtube@独立思维 223
-      - 美国-youtube@独立思维 01
-      - 美国-youtube@独立思维 17
-      - 美国-youtube@独立思维 38
-      - 美国-youtube@独立思维 46
-      - 美国-youtube@独立思维 52
-      - 美国-youtube@独立思维 55
-      - 德国-youtube@独立思维 14
-      - 德国-youtube@独立思维 15
-      - 英国-youtube@独立思维 13
+      - 日本-youtube@独立思维 12
+      - 日本-youtube@独立思维 02
+      - 新加坡-youtube@独立思维 14
+      - 美国-youtube@独立思维 27
+      - 加拿大-youtube@独立思维 03
+      - 加拿大-youtube@独立思维 06
+      - 新加坡-youtube@独立思维 17
+      - 新加坡-youtube@独立思维 19
+      - 香港-youtube@独立思维 17
+      - 加拿大-youtube@独立思维 03_1
+      - 日本-youtube@独立思维 03
+      - 印尼-youtube@独立思维 02
+      - 香港-youtube@独立思维 18
+      - 荷兰-youtube@独立思维 04
+      - 德国-youtube@独立思维 01
+      - 美国-youtube@独立思维 30
+      - 美国-youtube@独立思维 19
+      - 美国-youtube@独立思维 05
+      - 俄罗斯-youtube@独立思维 01
+      - 德国-youtube@独立思维 01_1
+      - 美国-youtube@独立思维 07
+      - 印尼-youtube@独立思维 01
+      - 英国-youtube@独立思维 01
+      - 印尼-youtube@独立思维 01_1
+      - 香港-youtube@独立思维 07
+      - 瑞典-youtube@独立思维 03
       - 俄罗斯-youtube@独立思维 05
-      - 捷克-youtube@独立思维 01
+      - 法国-youtube@独立思维 01
+      - 芬兰-youtube@独立思维 04
+      - 荷兰-youtube@独立思维 02
+      - 新加坡-youtube@独立思维 07
+      - 俄罗斯-youtube@独立思维 02
+      - 西班牙-youtube@独立思维 01
+      - 加拿大-youtube@独立思维 02
+      - 韩国-youtube@独立思维 08
+      - 奥地利-youtube@独立思维 01
+      - 美国-youtube@独立思维 21
+      - 爱沙尼亚-youtube@独立思维 01
+      - 新加坡-youtube@独立思维 08
+      - 韩国-youtube@独立思维 09
+      - 美国-youtube@独立思维 24
+      - 香港-youtube@独立思维 13
+      - 德国-youtube@独立思维 03
+      - 美国-youtube@独立思维 26
+      - 香港-youtube@独立思维 06_1
+      - 德国-youtube@独立思维 06
+      - 香港-youtube@独立思维 05_1
+      - 台湾-youtube@独立思维 04
+      - 马来-youtube@独立思维 01
+      - 香港-youtube@独立思维 21
+      - 瑞典-youtube@独立思维 01
+      - 英国-youtube@独立思维 02
+      - 马来-youtube@独立思维 02
+      - 韩国-youtube@独立思维 06
+      - 香港-youtube@独立思维 12
+      - 香港-youtube@独立思维 22
+      - 台湾-youtube@独立思维 02
+      - 台湾-youtube@独立思维 03
+      - 德国-youtube@独立思维 02
+      - 美国-youtube@独立思维 18
+      - 香港-youtube@独立思维 09
+      - 台湾-youtube@独立思维 05
+      - 俄罗斯-youtube@独立思维 10
+      - 荷兰-youtube@独立思维 05
+      - 香港-youtube@独立思维 14
+      - 英国-youtube@独立思维 07
+      - 新加坡-youtube@独立思维 09
+      - 加拿大-youtube@独立思维 04
+      - 荷兰-youtube@独立思维 01
+      - 土耳其-youtube@独立思维 01
+      - 土耳其-youtube@独立思维 02
+      - 加拿大-youtube@独立思维 01
+      - 日本-youtube@独立思维 04
+      - 新加坡-youtube@独立思维 05
+      - 韩国-youtube@独立思维 07
+      - 香港-youtube@独立思维 10
+      - 香港-youtube@独立思维 11
+      - 俄罗斯-youtube@独立思维 11
+      - 日本-youtube@独立思维 06
+      - 新加坡-youtube@独立思维 10
+      - 新加坡-youtube@独立思维 11
+      - 美国-youtube@独立思维 12
+      - 美国-youtube@独立思维 38
+      - 香港-youtube@独立思维 15
+      - 香港-youtube@独立思维 23
+      - 香港-youtube@独立思维 24
+      - 法国-youtube@独立思维 01_1
+      - 法国-youtube@独立思维 02
+      - 法国-youtube@独立思维 03
+      - 芬兰-youtube@独立思维 03
+      - 瑞士-youtube@独立思维 01
+      - 美国-youtube@独立思维 13
+      - 美国-youtube@独立思维 16
+      - 美国-youtube@独立思维 36
+      - 瑞典-youtube@独立思维 02
+      - 俄罗斯-youtube@独立思维 04
+      - 俄罗斯-youtube@独立思维 06
+      - 俄罗斯-youtube@独立思维 07
+      - 法国-youtube@独立思维 04
+      - 芬兰-youtube@独立思维 01
+      - 以色列-youtube@独立思维 01
+      - 斯洛文尼亚-youtube@独立思维 01
+      - 俄罗斯-youtube@独立思维 08
+      - 美国-youtube@独立思维 11_1
+      - 俄罗斯-youtube@独立思维 03
+      - 荷兰-youtube@独立思维 02_1
+      - 新加坡-youtube@独立思维 03
+      - 新加坡-youtube@独立思维 04
+      - 韩国-youtube@独立思维 01
+      - 美国-youtube@独立思维 01
+      - 美国-youtube@独立思维 02
+      - 美国-youtube@独立思维 03
+      - 美国-youtube@独立思维 04
+      - 美国-youtube@独立思维 06
+      - 美国-youtube@独立思维 15
+      - 美国-youtube@独立思维 17
+      - 美国-youtube@独立思维 20
+      - 美国-youtube@独立思维 22
+      - 美国-youtube@独立思维 29
+      - 美国-youtube@独立思维 31
+      - 美国-youtube@独立思维 37
+      - 香港-youtube@独立思维 02
+      - 香港-youtube@独立思维 03
+      - 香港-youtube@独立思维 25
+      - 拉脱维亚-youtube@独立思维 01
+      - 拉脱维亚-youtube@独立思维 02
+      - 伊朗-youtube@独立思维 01
+      - 丹麦-youtube@独立思维 01
+      - 丹麦-youtube@独立思维 02
+      - 德国-youtube@独立思维 05
+      - 英国-youtube@独立思维 03
+      - 芬兰-youtube@独立思维 02
+      - 荷兰-youtube@独立思维 03
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 美国-youtube@独立思维 13
-      - 荷兰-youtube@独立思维 08
-      - 香港-youtube@独立思维 05
-      - 美国-youtube@独立思维 08
-      - 日本-youtube@独立思维 05
-      - 美国-youtube@独立思维 18
-      - 俄罗斯-youtube@独立思维 04
-      - 美国-youtube@独立思维 49
-      - 新加坡-youtube@独立思维 04
-      - 韩国-youtube@独立思维 151
-      - 日本-youtube@独立思维 02
-      - 立陶宛-youtube@独立思维 02
-      - 日本-youtube@独立思维 01
-      - 新加坡-youtube@独立思维 05
-      - 韩国-youtube@独立思维 154
-      - 韩国-youtube@独立思维 121
-      - 韩国-youtube@独立思维 21
-      - 韩国-youtube@独立思维 37
-      - 荷兰-youtube@独立思维 10
-      - 韩国-youtube@独立思维 74
-      - 韩国-youtube@独立思维 53
+      - 新加坡-youtube@独立思维 12
+      - 日本-youtube@独立思维 08
+      - 新加坡-youtube@独立思维 16
+      - 塞舌尔-youtube@独立思维 01
+      - 美国-youtube@独立思维 23
       - 香港-youtube@独立思维 06
-      - 韩国-youtube@独立思维 150
-      - 韩国-youtube@独立思维 139
-      - 韩国-youtube@独立思维 71
-      - 韩国-youtube@独立思维 146
-      - 韩国-youtube@独立思维 73
-      - 韩国-youtube@独立思维 16
-      - 韩国-youtube@独立思维 10
-      - 韩国-youtube@独立思维 85
-      - 韩国-youtube@独立思维 149
-      - 韩国-youtube@独立思维 25
+      - 香港-youtube@独立思维 16
+      - 新加坡-youtube@独立思维 13
+      - 香港-youtube@独立思维 04
+      - 香港-youtube@独立思维 05
       - 新加坡-youtube@独立思维 15
-      - 韩国-youtube@独立思维 141
-      - 韩国-youtube@独立思维 179
-      - 新加坡-youtube@独立思维 14
-      - 韩国-youtube@独立思维 182
-      - 印度-youtube@独立思维 01
-      - 韩国-youtube@独立思维 106
-      - 美国-youtube@独立思维 50
-      - 德国-youtube@独立思维 01
-      - 韩国-youtube@独立思维 207
-      - 韩国-youtube@独立思维 01
-      - 美国-youtube@独立思维 54
-      - 韩国-youtube@独立思维 12
-      - 美国-youtube@独立思维 44
-      - 韩国-youtube@独立思维 180
-      - 芬兰-youtube@独立思维 01
-      - 韩国-youtube@独立思维 136
-      - 新加坡-youtube@独立思维 02
-      - 韩国-youtube@独立思维 80
-      - 韩国-youtube@独立思维 168
-      - 美国-youtube@独立思维 41
-      - 韩国-youtube@独立思维 75
-      - 韩国-youtube@独立思维 99
-      - 韩国-youtube@独立思维 09
-      - 韩国-youtube@独立思维 98
-      - 韩国-youtube@独立思维 64
-      - 韩国-youtube@独立思维 89
-      - 美国-youtube@独立思维 47
-      - 荷兰-youtube@独立思维 05
-      - 韩国-youtube@独立思维风格化
-      - 美国-youtube@独立思维 15
-      - 韩国-youtube@独立思维
-      - 韩国-youtube@独立思维规划局给
-      - 韩国-youtube@独立思维 46
-      - 美国-youtube@独立思维 09
+      - 美国-youtube@独立思维 14
+      - 美国-youtube@独立思维 11
+      - 香港-youtube@独立思维 19
+      - 日本-youtube@独立思维 10
       - 新加坡-youtube@独立思维 20
-      - youtube@独立思维vvvv
+      - 日本-youtube@独立思维 11
+      - 日本-youtube@独立思维 09
+      - 香港-youtube@独立思维 20
       - 新加坡-youtube@独立思维 18
-      - 美国-youtube@独立思维 53
-      - 英国-youtube@独立思维 01
-      - 英国-youtube@独立思维 32
-      - 俄罗斯-youtube@独立思维 06
-      - 荷兰-youtube@独立思维 06
-      - 韩国-youtube@独立思维 41
-      - 英国-youtube@独立思维 24
-      - 英国-youtube@独立思维 31
-      - 英国-youtube@独立思维 36
-      - 香港-youtube@独立思维 03
-      - 香港-youtube@独立思维 07
-      - 日本-youtube@独立思维 03
       - 日本-youtube@独立思维 07
-      - 韩国-youtube@独立思维 35
-      - 韩国-youtube@独立思维 97
-      - 韩国-youtube@独立思维 123
-      - 韩国-youtube@独立思维 211
-      - 韩国-youtube@独立思维 215
-      - 韩国-youtube@独立思维 217
-      - 韩国-youtube@独立思维 219
-      - 韩国-youtube@独立思维 220
-      - 韩国-youtube@独立思维 223
-      - 美国-youtube@独立思维 01
-      - 美国-youtube@独立思维 17
-      - 美国-youtube@独立思维 38
-      - 美国-youtube@独立思维 46
-      - 美国-youtube@独立思维 52
-      - 美国-youtube@独立思维 55
-      - 德国-youtube@独立思维 14
-      - 德国-youtube@独立思维 15
-      - 英国-youtube@独立思维 13
+      - 日本-youtube@独立思维 12
+      - 日本-youtube@独立思维 02
+      - 新加坡-youtube@独立思维 14
+      - 美国-youtube@独立思维 27
+      - 加拿大-youtube@独立思维 03
+      - 加拿大-youtube@独立思维 06
+      - 新加坡-youtube@独立思维 17
+      - 新加坡-youtube@独立思维 19
+      - 香港-youtube@独立思维 17
+      - 加拿大-youtube@独立思维 03_1
+      - 日本-youtube@独立思维 03
+      - 印尼-youtube@独立思维 02
+      - 香港-youtube@独立思维 18
+      - 荷兰-youtube@独立思维 04
+      - 德国-youtube@独立思维 01
+      - 美国-youtube@独立思维 30
+      - 美国-youtube@独立思维 19
+      - 美国-youtube@独立思维 05
+      - 俄罗斯-youtube@独立思维 01
+      - 德国-youtube@独立思维 01_1
+      - 美国-youtube@独立思维 07
+      - 印尼-youtube@独立思维 01
+      - 英国-youtube@独立思维 01
+      - 印尼-youtube@独立思维 01_1
+      - 香港-youtube@独立思维 07
+      - 瑞典-youtube@独立思维 03
       - 俄罗斯-youtube@独立思维 05
-      - 捷克-youtube@独立思维 01
+      - 法国-youtube@独立思维 01
+      - 芬兰-youtube@独立思维 04
+      - 荷兰-youtube@独立思维 02
+      - 新加坡-youtube@独立思维 07
+      - 俄罗斯-youtube@独立思维 02
+      - 西班牙-youtube@独立思维 01
+      - 加拿大-youtube@独立思维 02
+      - 韩国-youtube@独立思维 08
+      - 奥地利-youtube@独立思维 01
+      - 美国-youtube@独立思维 21
+      - 爱沙尼亚-youtube@独立思维 01
+      - 新加坡-youtube@独立思维 08
+      - 韩国-youtube@独立思维 09
+      - 美国-youtube@独立思维 24
+      - 香港-youtube@独立思维 13
+      - 德国-youtube@独立思维 03
+      - 美国-youtube@独立思维 26
+      - 香港-youtube@独立思维 06_1
+      - 德国-youtube@独立思维 06
+      - 香港-youtube@独立思维 05_1
+      - 台湾-youtube@独立思维 04
+      - 马来-youtube@独立思维 01
+      - 香港-youtube@独立思维 21
+      - 瑞典-youtube@独立思维 01
+      - 英国-youtube@独立思维 02
+      - 马来-youtube@独立思维 02
+      - 韩国-youtube@独立思维 06
+      - 香港-youtube@独立思维 12
+      - 香港-youtube@独立思维 22
+      - 台湾-youtube@独立思维 02
+      - 台湾-youtube@独立思维 03
+      - 德国-youtube@独立思维 02
+      - 美国-youtube@独立思维 18
+      - 香港-youtube@独立思维 09
+      - 台湾-youtube@独立思维 05
+      - 俄罗斯-youtube@独立思维 10
+      - 荷兰-youtube@独立思维 05
+      - 香港-youtube@独立思维 14
+      - 英国-youtube@独立思维 07
+      - 新加坡-youtube@独立思维 09
+      - 加拿大-youtube@独立思维 04
+      - 荷兰-youtube@独立思维 01
+      - 土耳其-youtube@独立思维 01
+      - 土耳其-youtube@独立思维 02
+      - 加拿大-youtube@独立思维 01
+      - 日本-youtube@独立思维 04
+      - 新加坡-youtube@独立思维 05
+      - 韩国-youtube@独立思维 07
+      - 香港-youtube@独立思维 10
+      - 香港-youtube@独立思维 11
+      - 俄罗斯-youtube@独立思维 11
+      - 日本-youtube@独立思维 06
+      - 新加坡-youtube@独立思维 10
+      - 新加坡-youtube@独立思维 11
+      - 美国-youtube@独立思维 12
+      - 美国-youtube@独立思维 38
+      - 香港-youtube@独立思维 15
+      - 香港-youtube@独立思维 23
+      - 香港-youtube@独立思维 24
+      - 法国-youtube@独立思维 01_1
+      - 法国-youtube@独立思维 02
+      - 法国-youtube@独立思维 03
+      - 芬兰-youtube@独立思维 03
+      - 瑞士-youtube@独立思维 01
+      - 美国-youtube@独立思维 13
+      - 美国-youtube@独立思维 16
+      - 美国-youtube@独立思维 36
+      - 瑞典-youtube@独立思维 02
+      - 俄罗斯-youtube@独立思维 04
+      - 俄罗斯-youtube@独立思维 06
+      - 俄罗斯-youtube@独立思维 07
+      - 法国-youtube@独立思维 04
+      - 芬兰-youtube@独立思维 01
+      - 以色列-youtube@独立思维 01
+      - 斯洛文尼亚-youtube@独立思维 01
+      - 俄罗斯-youtube@独立思维 08
+      - 美国-youtube@独立思维 11_1
+      - 俄罗斯-youtube@独立思维 03
+      - 荷兰-youtube@独立思维 02_1
+      - 新加坡-youtube@独立思维 03
+      - 新加坡-youtube@独立思维 04
+      - 韩国-youtube@独立思维 01
+      - 美国-youtube@独立思维 01
+      - 美国-youtube@独立思维 02
+      - 美国-youtube@独立思维 03
+      - 美国-youtube@独立思维 04
+      - 美国-youtube@独立思维 06
+      - 美国-youtube@独立思维 15
+      - 美国-youtube@独立思维 17
+      - 美国-youtube@独立思维 20
+      - 美国-youtube@独立思维 22
+      - 美国-youtube@独立思维 29
+      - 美国-youtube@独立思维 31
+      - 美国-youtube@独立思维 37
+      - 香港-youtube@独立思维 02
+      - 香港-youtube@独立思维 03
+      - 香港-youtube@独立思维 25
+      - 拉脱维亚-youtube@独立思维 01
+      - 拉脱维亚-youtube@独立思维 02
+      - 伊朗-youtube@独立思维 01
+      - 丹麦-youtube@独立思维 01
+      - 丹麦-youtube@独立思维 02
+      - 德国-youtube@独立思维 05
+      - 英国-youtube@独立思维 03
+      - 芬兰-youtube@独立思维 02
+      - 荷兰-youtube@独立思维 03
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1881,109 +2567,160 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国-youtube@独立思维 13
-      - 荷兰-youtube@独立思维 08
-      - 香港-youtube@独立思维 05
-      - 美国-youtube@独立思维 08
-      - 日本-youtube@独立思维 05
-      - 美国-youtube@独立思维 18
-      - 俄罗斯-youtube@独立思维 04
-      - 美国-youtube@独立思维 49
-      - 新加坡-youtube@独立思维 04
-      - 韩国-youtube@独立思维 151
-      - 日本-youtube@独立思维 02
-      - 立陶宛-youtube@独立思维 02
-      - 日本-youtube@独立思维 01
-      - 新加坡-youtube@独立思维 05
-      - 韩国-youtube@独立思维 154
-      - 韩国-youtube@独立思维 121
-      - 韩国-youtube@独立思维 21
-      - 韩国-youtube@独立思维 37
-      - 荷兰-youtube@独立思维 10
-      - 韩国-youtube@独立思维 74
-      - 韩国-youtube@独立思维 53
+      - 新加坡-youtube@独立思维 12
+      - 日本-youtube@独立思维 08
+      - 新加坡-youtube@独立思维 16
+      - 塞舌尔-youtube@独立思维 01
+      - 美国-youtube@独立思维 23
       - 香港-youtube@独立思维 06
-      - 韩国-youtube@独立思维 150
-      - 韩国-youtube@独立思维 139
-      - 韩国-youtube@独立思维 71
-      - 韩国-youtube@独立思维 146
-      - 韩国-youtube@独立思维 73
-      - 韩国-youtube@独立思维 16
-      - 韩国-youtube@独立思维 10
-      - 韩国-youtube@独立思维 85
-      - 韩国-youtube@独立思维 149
-      - 韩国-youtube@独立思维 25
+      - 香港-youtube@独立思维 16
+      - 新加坡-youtube@独立思维 13
+      - 香港-youtube@独立思维 04
+      - 香港-youtube@独立思维 05
       - 新加坡-youtube@独立思维 15
-      - 韩国-youtube@独立思维 141
-      - 韩国-youtube@独立思维 179
-      - 新加坡-youtube@独立思维 14
-      - 韩国-youtube@独立思维 182
-      - 印度-youtube@独立思维 01
-      - 韩国-youtube@独立思维 106
-      - 美国-youtube@独立思维 50
-      - 德国-youtube@独立思维 01
-      - 韩国-youtube@独立思维 207
-      - 韩国-youtube@独立思维 01
-      - 美国-youtube@独立思维 54
-      - 韩国-youtube@独立思维 12
-      - 美国-youtube@独立思维 44
-      - 韩国-youtube@独立思维 180
-      - 芬兰-youtube@独立思维 01
-      - 韩国-youtube@独立思维 136
-      - 新加坡-youtube@独立思维 02
-      - 韩国-youtube@独立思维 80
-      - 韩国-youtube@独立思维 168
-      - 美国-youtube@独立思维 41
-      - 韩国-youtube@独立思维 75
-      - 韩国-youtube@独立思维 99
-      - 韩国-youtube@独立思维 09
-      - 韩国-youtube@独立思维 98
-      - 韩国-youtube@独立思维 64
-      - 韩国-youtube@独立思维 89
-      - 美国-youtube@独立思维 47
-      - 荷兰-youtube@独立思维 05
-      - 韩国-youtube@独立思维风格化
-      - 美国-youtube@独立思维 15
-      - 韩国-youtube@独立思维
-      - 韩国-youtube@独立思维规划局给
-      - 韩国-youtube@独立思维 46
-      - 美国-youtube@独立思维 09
+      - 美国-youtube@独立思维 14
+      - 美国-youtube@独立思维 11
+      - 香港-youtube@独立思维 19
+      - 日本-youtube@独立思维 10
       - 新加坡-youtube@独立思维 20
-      - youtube@独立思维vvvv
+      - 日本-youtube@独立思维 11
+      - 日本-youtube@独立思维 09
+      - 香港-youtube@独立思维 20
       - 新加坡-youtube@独立思维 18
-      - 美国-youtube@独立思维 53
-      - 英国-youtube@独立思维 01
-      - 英国-youtube@独立思维 32
-      - 俄罗斯-youtube@独立思维 06
-      - 荷兰-youtube@独立思维 06
-      - 韩国-youtube@独立思维 41
-      - 英国-youtube@独立思维 24
-      - 英国-youtube@独立思维 31
-      - 英国-youtube@独立思维 36
-      - 香港-youtube@独立思维 03
-      - 香港-youtube@独立思维 07
-      - 日本-youtube@独立思维 03
       - 日本-youtube@独立思维 07
-      - 韩国-youtube@独立思维 35
-      - 韩国-youtube@独立思维 97
-      - 韩国-youtube@独立思维 123
-      - 韩国-youtube@独立思维 211
-      - 韩国-youtube@独立思维 215
-      - 韩国-youtube@独立思维 217
-      - 韩国-youtube@独立思维 219
-      - 韩国-youtube@独立思维 220
-      - 韩国-youtube@独立思维 223
-      - 美国-youtube@独立思维 01
-      - 美国-youtube@独立思维 17
-      - 美国-youtube@独立思维 38
-      - 美国-youtube@独立思维 46
-      - 美国-youtube@独立思维 52
-      - 美国-youtube@独立思维 55
-      - 德国-youtube@独立思维 14
-      - 德国-youtube@独立思维 15
-      - 英国-youtube@独立思维 13
+      - 日本-youtube@独立思维 12
+      - 日本-youtube@独立思维 02
+      - 新加坡-youtube@独立思维 14
+      - 美国-youtube@独立思维 27
+      - 加拿大-youtube@独立思维 03
+      - 加拿大-youtube@独立思维 06
+      - 新加坡-youtube@独立思维 17
+      - 新加坡-youtube@独立思维 19
+      - 香港-youtube@独立思维 17
+      - 加拿大-youtube@独立思维 03_1
+      - 日本-youtube@独立思维 03
+      - 印尼-youtube@独立思维 02
+      - 香港-youtube@独立思维 18
+      - 荷兰-youtube@独立思维 04
+      - 德国-youtube@独立思维 01
+      - 美国-youtube@独立思维 30
+      - 美国-youtube@独立思维 19
+      - 美国-youtube@独立思维 05
+      - 俄罗斯-youtube@独立思维 01
+      - 德国-youtube@独立思维 01_1
+      - 美国-youtube@独立思维 07
+      - 印尼-youtube@独立思维 01
+      - 英国-youtube@独立思维 01
+      - 印尼-youtube@独立思维 01_1
+      - 香港-youtube@独立思维 07
+      - 瑞典-youtube@独立思维 03
       - 俄罗斯-youtube@独立思维 05
-      - 捷克-youtube@独立思维 01
+      - 法国-youtube@独立思维 01
+      - 芬兰-youtube@独立思维 04
+      - 荷兰-youtube@独立思维 02
+      - 新加坡-youtube@独立思维 07
+      - 俄罗斯-youtube@独立思维 02
+      - 西班牙-youtube@独立思维 01
+      - 加拿大-youtube@独立思维 02
+      - 韩国-youtube@独立思维 08
+      - 奥地利-youtube@独立思维 01
+      - 美国-youtube@独立思维 21
+      - 爱沙尼亚-youtube@独立思维 01
+      - 新加坡-youtube@独立思维 08
+      - 韩国-youtube@独立思维 09
+      - 美国-youtube@独立思维 24
+      - 香港-youtube@独立思维 13
+      - 德国-youtube@独立思维 03
+      - 美国-youtube@独立思维 26
+      - 香港-youtube@独立思维 06_1
+      - 德国-youtube@独立思维 06
+      - 香港-youtube@独立思维 05_1
+      - 台湾-youtube@独立思维 04
+      - 马来-youtube@独立思维 01
+      - 香港-youtube@独立思维 21
+      - 瑞典-youtube@独立思维 01
+      - 英国-youtube@独立思维 02
+      - 马来-youtube@独立思维 02
+      - 韩国-youtube@独立思维 06
+      - 香港-youtube@独立思维 12
+      - 香港-youtube@独立思维 22
+      - 台湾-youtube@独立思维 02
+      - 台湾-youtube@独立思维 03
+      - 德国-youtube@独立思维 02
+      - 美国-youtube@独立思维 18
+      - 香港-youtube@独立思维 09
+      - 台湾-youtube@独立思维 05
+      - 俄罗斯-youtube@独立思维 10
+      - 荷兰-youtube@独立思维 05
+      - 香港-youtube@独立思维 14
+      - 英国-youtube@独立思维 07
+      - 新加坡-youtube@独立思维 09
+      - 加拿大-youtube@独立思维 04
+      - 荷兰-youtube@独立思维 01
+      - 土耳其-youtube@独立思维 01
+      - 土耳其-youtube@独立思维 02
+      - 加拿大-youtube@独立思维 01
+      - 日本-youtube@独立思维 04
+      - 新加坡-youtube@独立思维 05
+      - 韩国-youtube@独立思维 07
+      - 香港-youtube@独立思维 10
+      - 香港-youtube@独立思维 11
+      - 俄罗斯-youtube@独立思维 11
+      - 日本-youtube@独立思维 06
+      - 新加坡-youtube@独立思维 10
+      - 新加坡-youtube@独立思维 11
+      - 美国-youtube@独立思维 12
+      - 美国-youtube@独立思维 38
+      - 香港-youtube@独立思维 15
+      - 香港-youtube@独立思维 23
+      - 香港-youtube@独立思维 24
+      - 法国-youtube@独立思维 01_1
+      - 法国-youtube@独立思维 02
+      - 法国-youtube@独立思维 03
+      - 芬兰-youtube@独立思维 03
+      - 瑞士-youtube@独立思维 01
+      - 美国-youtube@独立思维 13
+      - 美国-youtube@独立思维 16
+      - 美国-youtube@独立思维 36
+      - 瑞典-youtube@独立思维 02
+      - 俄罗斯-youtube@独立思维 04
+      - 俄罗斯-youtube@独立思维 06
+      - 俄罗斯-youtube@独立思维 07
+      - 法国-youtube@独立思维 04
+      - 芬兰-youtube@独立思维 01
+      - 以色列-youtube@独立思维 01
+      - 斯洛文尼亚-youtube@独立思维 01
+      - 俄罗斯-youtube@独立思维 08
+      - 美国-youtube@独立思维 11_1
+      - 俄罗斯-youtube@独立思维 03
+      - 荷兰-youtube@独立思维 02_1
+      - 新加坡-youtube@独立思维 03
+      - 新加坡-youtube@独立思维 04
+      - 韩国-youtube@独立思维 01
+      - 美国-youtube@独立思维 01
+      - 美国-youtube@独立思维 02
+      - 美国-youtube@独立思维 03
+      - 美国-youtube@独立思维 04
+      - 美国-youtube@独立思维 06
+      - 美国-youtube@独立思维 15
+      - 美国-youtube@独立思维 17
+      - 美国-youtube@独立思维 20
+      - 美国-youtube@独立思维 22
+      - 美国-youtube@独立思维 29
+      - 美国-youtube@独立思维 31
+      - 美国-youtube@独立思维 37
+      - 香港-youtube@独立思维 02
+      - 香港-youtube@独立思维 03
+      - 香港-youtube@独立思维 25
+      - 拉脱维亚-youtube@独立思维 01
+      - 拉脱维亚-youtube@独立思维 02
+      - 伊朗-youtube@独立思维 01
+      - 丹麦-youtube@独立思维 01
+      - 丹麦-youtube@独立思维 02
+      - 德国-youtube@独立思维 05
+      - 英国-youtube@独立思维 03
+      - 芬兰-youtube@独立思维 02
+      - 荷兰-youtube@独立思维 03
 rule-providers:
   LocalAreaNetwork:
     type: http
