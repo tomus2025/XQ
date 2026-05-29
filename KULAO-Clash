@@ -5,127 +5,130 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 🇺🇸 US 02
-    type: vmess
-    server: 82.198.246.9
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    udp: false
-    metadata:
-      originalName: US 02
-      cleanName: US 02
-      multiplier: 1
-      region: 美国
-      flag: 🇺🇸
-      tags: []
-  - name: 🇺🇸 US 03
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    udp: false
-    metadata:
-      originalName: US 03
-      cleanName: US 03
-      multiplier: 1
-      region: 美国
-      flag: 🇺🇸
-      tags: []
-  - name: 🇺🇸 US 04
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    udp: false
-    metadata:
-      originalName: US 04
-      cleanName: US 04
-      multiplier: 1
-      region: 美国
-      flag: 🇺🇸
-      tags: []
-  - name: 🇩🇪 DE 01
-    type: vmess
-    server: 82.198.246.233
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    udp: false
-    metadata:
-      originalName: DE 01
-      cleanName: DE 01
-      multiplier: 1
-      region: 德国
-      flag: 🇩🇪
-      tags: []
-  - name: 最低月付2元1000G
-    type: vmess
-    server: 82.198.246.37
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    udp: false
-    metadata:
-      originalName: DE 02
-      cleanName: DE 02
-      multiplier: 1
-      region: 德国
-      flag: 🇩🇪
-      tags: []
-    flow: ""
-  - name: 官网https://kelayun.notepin.co
-    type: vmess
-    server: vpnicp.xyc.hk.cn
-    port: 20001
-    uuid: 7f5f0705-3dfb-4f56-9657-c95cade2ba83
-    alterId: 0
-    cipher: auto
+  - name: '官网https://kelayun.notepin.co'
+    type: ss
+    server: 3.67.67.95
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
     udp: true
-    network: tcp
-    tls: false
-    flow: ""
+    skip-cert-verify: true
+    tfo: false
+  - name: '最低月付2块钱1000G'
+    type: ss
+    server: 18.195.95.15
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+  - name: '1'
+    type: ss
+    server: 3.76.99.252
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+  - name: '2'
+    type: ss
+    server: 15.222.60.36
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+  - name: '3'
+    type: ss
+    server: 35.183.96.211
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+  - name: '4'
+    type: ss
+    server: 16.52.154.170
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+  - name: '5'
+    type: ss
+    server: 15.157.68.13
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+  - name: '6'
+    type: ss
+    server: 35.183.129.131
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+  - name: '7'
+    type: ss
+    server: 89.185.84.34
+    port: 31348
+    cipher: chacha20-ietf-poly1305
+    password: AQGAAMQLZoxMT4EUxNPuFwKImsAviZTHTEMmHFlRrDKJpMnS
+    udp: true
+    skip-cert-verify: true
+    tfo: false
 proxy-groups:
   - name: Haita Cloud
     type: select
     proxies:
       - 自动选择
       - 故障转移
-      - 🇺🇸 US 02
-      - 🇺🇸 US 03
-      - 🇺🇸 US 04
-      - 🇩🇪 DE 01
-      - 最低月付2元1000G
-      - 官网https://kelayun.notepin.co
+      - '官网https://kelayun.notepin.co'
+      - '最低月付2块钱1000G'
+      - '1'
+      - '2'
+      - '3'
+      - '4'
+      - '5'
+      - '6'
+      - '7'
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 86400
     proxies:
-      - 🇺🇸 US 02
-      - 🇺🇸 US 03
-      - 🇺🇸 US 04
-      - 🇩🇪 DE 01
-      - 最低月付2元1000G
-      - 官网https://kelayun.notepin.co
+      - '官网https://kelayun.notepin.co'
+      - '最低月付2块钱1000G'
+      - '1'
+      - '2'
+      - '3'
+      - '4'
+      - '5'
+      - '6'
+      - '7'
   - name: 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 7200
     proxies:
-      - 🇺🇸 US 02
-      - 🇺🇸 US 03
-      - 🇺🇸 US 04
-      - 🇩🇪 DE 01
-      - 最低月付2元1000G
-      - 官网https://kelayun.notepin.co
+      - '官网https://kelayun.notepin.co'
+      - '最低月付2块钱1000G'
+      - '1'
+      - '2'
+      - '3'
+      - '4'
+      - '5'
+      - '6'
+      - '7'
 rules:
   - DOMAIN,su.bestyuns.com,DIRECT
   - DOMAIN-SUFFIX,services.googleapis.cn,Haita Cloud
