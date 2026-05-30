@@ -6,82 +6,10 @@ log-level: info
 external-controller: 127.0.0.1:9090
 unified-delay: true
 proxies:
-- name: 馃嚫馃嚞鏂板姞鍧G007 15.0MB/s涓€� TG@jcnode
-  server: a.twodnwnpoe.xyz
-  port: 33650
-  type: trojan
-  password: f58cd113-a3b1-319d-a993-331481731e82
-  sni: 1.lossyesterday.xyz
-  skip-cert-verify: true
-- type: vless
-  server: 23.141.52.105
-  port: 8443
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  flow: ''
-  network: ws
-  encryption: none
-  tls: true
-  servername: i8dxb.media-cdn-us.chinav.indevs.in
-  ws-opts:
-    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
-    headers:
-      Host: i8dxb.media-cdn-us.chinav.indevs.in
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  header-type: none
-  name: 馃嚟馃嚢棣欐腐HK004 10.4MB/s涓€� TG@jcnode
-- name: 馃嚟馃嚢棣欐腐HK015 7.4MB/s绾噣 TG@jcnode
-  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
-  port: 10021
-  type: vmess
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
-  alterId: 0
+- alterId: '0'
   cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-- name: 馃嚟馃嚢棣欐腐HK016 14.7MB/s绾噣 TG@jcnode
-  server: 1b267619c4812cc46ee281747884ca50.qos.onl
-  port: 10021
-  type: vmess
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-- name: 馃嚫馃嚞鏂板姞鍧G 012 3.5MB/s TG@jcnode
-  type: http
-  tls: true
-  server: 203.126.53.78
-  port: 443
-- name: 馃嚬馃嚰鍙版咕TW011 8.0MB/s绾噣 TG@jcnode
-  server: 1b267619c4812cc46ee281747884ca50.qos.onl
-  port: 10055
-  type: vmess
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-- name: 馃嚬馃嚰鍙版咕TW 012 5.8MB/s TG@jcnode
-  type: http
-  tls: true
-  server: 203.69.23.34
-  port: 443
-- alterId: 0
-  cipher: auto
-  name: 馃嚟馃嚢棣欐腐HK002 9.3MB/s涓€� TG@jcnode
+  name: 馃嚟馃嚢棣欐腐HK002 6.8MB/s涓€� TG@jcnode
+  network: tcp
   port: 6001
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   skip-cert-verify: false
@@ -96,130 +24,72 @@ proxies:
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
   alterId: 0
   cipher: auto
-  name: 馃嚟馃嚢棣欐腐HK003 9.2MB/s涓€� TG@jcnode
-- name: 馃嚟馃嚢棣欐腐HK001 10.3MB/s涓€� TG@jcnode
+  name: 馃嚟馃嚢棣欐腐HK003 9.5MB/s涓€� TG@jcnode
+- name: 馃嚟馃嚢棣欐腐HK001 9.8MB/s涓€� TG@jcnode
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   port: 6001
   type: vmess
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
   alterId: 0
   cipher: auto
-  skip-cert-verify: true
-  network: tcp
   tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: gtm-sg-cc54q7d1q01.365cloud0285.com
+  skip-cert-verify: true
+  udp: true
   client-fingerprint: chrome
-  udp: true
-- name: 馃嚬馃嚰鍙版咕TW001 1.2MB/s绾噣 TG@jcnode
-  type: hysteria2
-  server: vpn-tw-002.fastervpn.world
+  network: tcp
+- name: 馃嚥馃嚲椹潵瑗夸簹MY001 4.3MB/s涓€� TG@jcnode
+  password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
+  port: 31233
+  server: 64de4135-t9zts0-tasftf-duku.my.oshuawei.com
+  sni: 64de4135-t9zts0-tasftf-duku.my.oshuawei.com
+  tls: true
+  type: http
+  username: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
+- name: 馃嚡馃嚨鏃ユ湰JP007 3.5MB/s绾噣 TG@jcnode
+  password: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
   port: 443
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: vpn-tw-002.fastervpn.world
-  skip-cert-verify: true
+  server: e9b9c37c-t9zts0-tcw58g-1p0be.jp.oshuawei.com
+  sni: e9b9c37c-t9zts0-tcw58g-1p0be.jp.oshuawei.com
+  tls: true
+  type: http
+  username: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
+- name: 馃嚭馃嚫缇庡浗US047 5.5MB/s绾噣 TG@jcnode
+  server: t2.feiyue706.com
+  port: 46791
+  type: vless
+  uuid: efa569c6-c627-39d0-8d4f-6c5d730b5894
+  tls: true
+  servername: t2.feiyue706.com
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: ljfxz
   udp: true
-- name: 馃嚟馃嚢棣欐腐HK012 13.5MB/s绾噣 TG@jcnode
-  server: a.twodnwnpoe.xyz
-  port: 54651
-  type: trojan
-  password: f58cd113-a3b1-319d-a993-331481731e82
-  sni: 1.lossyesterday.xyz
-  skip-cert-verify: true
-- name: 馃嚟馃嚢棣欐腐HK011 14.1MB/s绾噣 TG@jcnode
-  server: a.twodnwnpoe.xyz
-  port: 45184
-  type: trojan
-  password: f58cd113-a3b1-319d-a993-331481731e82
-  sni: 1.lossyesterday.xyz
-  skip-cert-verify: true
-- name: 馃嚟馃嚢棣欐腐HK008 9.4MB/s绾噣 TG@jcnode
-  server: a.twodnwnpoe.xyz
-  port: 52225
-  type: trojan
-  password: f58cd113-a3b1-319d-a993-331481731e82
-  sni: i.comfortableyou.top
-  skip-cert-verify: true
-- name: 馃嚟馃嚢棣欐腐HK017 6.5MB/s绾噣 TG@jcnode
-  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
-  port: 10049
+- name: 馃嚫馃嚞鏂板姞鍧G002 5.8MB/s涓€� TG@jcnode
   type: vmess
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
+  network: tcp
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  port: 6004
+  skip-cert-verify: false
+  tls: false
+  udp: true
   alterId: 0
   cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-- name: 馃嚟馃嚢棣欐腐HK009 11.4MB/s涓€� TG@jcnode
-  server: a.twodnwnpoe.xyz
-  port: 40017
-  type: trojan
-  password: f58cd113-a3b1-319d-a993-331481731e82
-  sni: water.waittomorrow.top
-  skip-cert-verify: true
-- type: vless
-  server: 153.121.67.199
-  port: 8443
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  flow: ''
-  network: ws
-  encryption: none
-  tls: true
-  servername: i8dxb.media-cdn-us.chinav.indevs.in
-  ws-opts:
-    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
-    headers:
-      Host: i8dxb.media-cdn-us.chinav.indevs.in
   client-fingerprint: chrome
-  skip-cert-verify: true
-  header-type: none
-  name: 馃嚡馃嚨鏃ユ湰JP008 4.6MB/s涓€� TG@jcnode
+  packet-encoding: xudp
 - type: vmess
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   port: 6004
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
   alterId: 0
   cipher: auto
-  name: 馃嚫馃嚞鏂板姞鍧G003 8.5MB/s涓€� TG@jcnode
-- name: 馃嚬馃嚰鍙版咕TW006 0.4MB/s绾噣 TG@jcnode
-  server: a.twodnwnpoe.xyz
-  port: 55759
-  type: trojan
-  password: f58cd113-a3b1-319d-a993-331481731e82
-  sni: water.waittomorrow.top
-  skip-cert-verify: true
-- name: 馃嚬馃嚰鍙版咕TW007 11.7MB/s涓€� TG@jcnode
-  server: a.twodnwnpoe.xyz
-  port: 32544
-  type: trojan
-  password: f58cd113-a3b1-319d-a993-331481731e82
-  sni: water.waittomorrow.top
-  skip-cert-verify: true
-- name: 馃嚫馃嚞鏂板姞鍧G004 4.9MB/s涓€� TG@jcnode
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  port: 6004
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-  alterId: 0
+  name: 馃嚫馃嚞鏂板姞鍧G004 5.5MB/s涓€� TG@jcnode
+- alterId: '0'
   cipher: auto
-  skip-cert-verify: true
+  name: 馃嚫馃嚞鏂板姞鍧G003 5.6MB/s涓€� TG@jcnode
   network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: gtm-sg-cc54q7d1q01.365cloud0285.com
-  client-fingerprint: chrome
-  packet-encoding: xudp
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 馃嚫馃嚞鏂板姞鍧G002 4.9MB/s涓€� TG@jcnode
   port: 6004
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   skip-cert-verify: false
@@ -242,375 +112,69 @@ proxies:
   servername: www.microsoft.com
   grpc-opts:
     grpc-service-name: GrpcFuckRKN
+    grpc-mode: gun
   client-fingerprint: chrome
   header-type: none
-  name: 馃嚛馃嚜寰峰浗DE007 4.3MB/s涓€� TG@jcnode
-- name: 馃嚥馃嚲椹潵瑗夸簹MY001 3.1MB/s绾噣 TG@jcnode
-  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
-  port: 10056
-  type: vmess
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-- name: 馃嚡馃嚨鏃ユ湰JP006 7.4MB/s涓€� TG@jcnode
-  type: vmess
+  name: 馃嚛馃嚜寰峰浗DE003 3.1MB/s涓€� TG@jcnode
+- name: 馃嚡馃嚨鏃ユ湰JP004 5.2MB/s涓€� TG@jcnode
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   port: 6003
+  type: vmess
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
   alterId: 0
   cipher: auto
-  tls: false
-  skip-cert-verify: false
-  udp: true
-  client-fingerprint: chrome
+  skip-cert-verify: true
   network: tcp
-- name: 馃嚡馃嚨鏃ユ湰JP014 4.3MB/s涓€� TG@jcnode
-  server: y2-jp4.womanand.help
-  port: 443
-  type: hysteria2
-  password: f58cd113-a3b1-319d-a993-331481731e82
-  sni: y2-jp4.womanand.help
-  skip-cert-verify: false
-  obfs: salamander
-  obfs-password: guDGosgMNahkZ3ou
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: gtm-sg-cc54q7d1q01.365cloud0285.com
+  client-fingerprint: chrome
+  udp: true
 - type: vmess
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   port: 6003
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
   alterId: 0
   cipher: auto
-  name: 馃嚡馃嚨鏃ユ湰JP007 7.4MB/s涓€� TG@jcnode
-- name: 馃嚬馃嚰鍙版咕TW010 9.2MB/s绾噣 TG@jcnode
-  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
-  port: 10055
-  type: vmess
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
-  alterId: 0
+  name: 馃嚡馃嚨鏃ユ湰JP006 6.8MB/s涓€� TG@jcnode
+- alterId: '0'
   cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-- name: 馃嚡馃嚨鏃ユ湰JP015 4.9MB/s涓€� TG@jcnode
-  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
-  port: 10004
-  type: vmess
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-- name: 馃嚡馃嚨鏃ユ湰JP016 9.8MB/s涓€� TG@jcnode
-  server: 1b267619c4812cc46ee281747884ca50.qos.onl
-  port: 10004
-  type: vmess
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-- name: 馃嚡馃嚨鏃ユ湰JP017 7.7MB/s涓€� TG@jcnode
-  server: zzjp1.ainivp.com
-  port: 13102
-  type: vless
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
-    short-id: a1b2c3d4
-  servername: www.microsoft.com
-  client-fingerprint: chrome
+  name: 馃嚡馃嚨鏃ユ湰JP005 4.9MB/s涓€� TG@jcnode
   network: tcp
+  port: 6003
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-- name: 馃嚬馃嚰鍙版咕TW008 9.8MB/s绾噣 TG@jcnode
-  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
-  port: 10054
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+  packet-encoding: xudp
+- name: 馃嚡馃嚨鏃ユ湰JP009 5.5MB/s涓€� TG@jcnode
   type: vmess
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
+  server: 2a02:6ea0:d32f::f8fe:349b
+  port: 24202
+  uuid: b20a7042-70ff-4376-a79f-b68f9edb7519
   alterId: 0
   cipher: auto
   tls: false
+  skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /
+    path: /github.com/Alvin9999-newpac/fanqiang
     headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-- name: 馃嚭馃嚫缇庡浗US027 0.7MB/s涓€� TG@jcnode
-  server: 82.198.246.250
-  port: 180
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: trojan.burgerip.co.uk
-- name: 馃嚭馃嚫缇庡浗US026 0.2MB/s涓€� TG@jcnode
-  server: 82.198.246.250
-  port: 180
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-    headers:
-      Host: kfm-bn0.pages.dev
+      Host: 2a02:6ea0:d32f::f8fe:349b
   udp: true
-- name: 馃嚭馃嚫缇庡浗US031 0.2MB/s涓€� TG@jcnode
-  server: 82.198.246.250
-  port: 180
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: t.me%252Fripaojiedian
 - type: vmess
+  name: 馃嚭馃嚫缇庡浗US016 0.2MB/s鍗遍櫓 TG@jcnode
   server: 82.198.246.214
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  name: 馃嚭馃嚫缇庡浗US009 0.2MB/s涓€� TG@jcnode
-- type: vmess
-  name: 馃嚭馃嚫缇庡浗US040 0.2MB/s涓€� TG@jcnode
-  server: 82.198.246.37
   port: 180
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   alterId: '0'
-  cipher: aes-128-gcm
-  network: tcp
-- name: 馃嚭馃嚫缇庡浗US013 0.2MB/s涓€� TG@jcnode
-  server: 82.198.246.214
-  port: 180
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
   cipher: auto
-  skip-cert-verify: true
   network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: ads.x5.ru
-- alterId: '0'
-  cipher: auto
-  name: 馃嚭馃嚫缇庡浗US011 0.2MB/s涓€� TG@jcnode
-  network: tcp
-  port: 180
-  server: 82.198.246.214
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  packet-encoding: xudp
-- name: 馃嚭馃嚫缇庡浗US025 0.2MB/s涓€� TG@jcnode
-  server: 82.198.246.250
-  port: 180
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-- name: 馃嚭馃嚫缇庡浗US023 0.2MB/s涓€� TG@jcnode
-  type: vmess
-  network: tcp
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  server: 82.198.246.250
-  port: 180
-  skip-cert-verify: true
-  tls: false
-  udp: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    path: /
-    headers:
-      Host: 82.198.246.250
-  packet-encoding: xudp
-  client-fingerprint: chrome
-- client-fingerprint: chrome
-  encryption: none
-  name: 馃嚟馃嚢棣欐腐HK005 6.1MB/s鍗遍櫓 TG@jcnode
-  network: ws
-  port: 443
-  server: support.zoom.us.cyylr.eu.cc
-  servername: support.zoom.us.cyylr.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: cc752a3e-1537-4e86-bb50-1b897bf7b33c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.cyylr.eu.cc
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
-    path: /sg-melbi
-  packet-encoding: xudp
-- name: 馃嚡馃嚨鏃ユ湰JP012 6.1MB/s涓€� TG@jcnode
-  server: a.twodnwnpoe.xyz
-  port: 32657
-  type: trojan
-  password: f58cd113-a3b1-319d-a993-331481731e82
-  sni: water.waittomorrow.top
-  skip-cert-verify: true
-- name: 馃嚭馃嚫缇庡浗US019 0.2MB/s涓€� TG@jcnode
-  server: 82.198.246.214
-  port: 180
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: fra34.chasem2026sud.com
-- alterId: 0
-  cipher: auto
-  name: 馃嚭馃嚫缇庡浗US032 0.2MB/s涓€� TG@jcnode
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 馃嚭馃嚫缇庡浗US020 0.6MB/s涓€� TG@jcnode
-  server: 82.198.246.214
-  port: 180
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: fra33.chasem2026sud.com
-- name: 馃嚭馃嚫缇庡浗US017 0.2MB/s涓€� TG@jcnode
-  server: 82.198.246.214
-  port: 180
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-- name: 馃嚭馃嚫缇庡浗US016 0.2MB/s涓€� TG@jcnode
-  server: 82.198.246.214
-  port: 180
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-    headers:
-      Host: jp2-8sb.6121999.dpdns.org
-- name: 馃嚭馃嚫缇庡浗US035 0.8MB/s涓€� TG@jcnode
-  server: 82.198.246.37
-  port: 180
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: aes-128-gcm
-  tls: false
-  skip-cert-verify: false
-  udp: true
-- name: 馃嚭馃嚫缇庡浗US038 0.3MB/s涓€� TG@jcnode
-  server: 82.198.246.37
-  port: 180
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: jp2-8sb.6121999.dpdns.org
-- name: 馃嚭馃嚫缇庡浗US024 0.2MB/s涓€� TG@jcnode
-  server: 82.198.246.250
-  port: 180
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: epge.muarua.filegear-sg.me
-- name: 馃嚛馃嚜寰峰浗DE 001 0.2MB/s TG@jcnode
-  server: 82.198.246.250
-  port: 180
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
-    headers:
-      Host: 0b0c6db6-t70f40-tbe46y-1la7v.hkt.gotochinatown.net
-- name: 馃嚭馃嚫缇庡浗US008 0.2MB/s涓€� TG@jcnode
+- name: 馃嚭馃嚫缇庡浗US012 0.6MB/s鍗遍櫓 TG@jcnode
   type: vmess
   server: 82.198.246.214
   port: 180
@@ -623,415 +187,40 @@ proxies:
   network: tcp
 - alterId: '0'
   cipher: auto
-  name: 馃嚭馃嚫缇庡浗US034 0.2MB/s涓€� TG@jcnode
+  name: 馃嚭馃嚫缇庡浗US015 0.2MB/s鍗遍櫓 TG@jcnode
   network: tcp
   port: 180
-  server: 82.198.246.250
+  server: 82.198.246.214
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   packet-encoding: xudp
-- name: 馃嚭馃嚫缇庡浗US015 0.2MB/s涓€� TG@jcnode
+- type: vmess
+  name: 馃嚭馃嚫缇庡浗US017 0.3MB/s鍗遍櫓 TG@jcnode
   server: 82.198.246.214
   port: 180
-  type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: epge.muarua.filegear-sg.me
-- name: 馃嚭馃嚫缇庡浗US036 1.4MB/s涓€� TG@jcnode
-  type: vmess
-  network: tcp
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  server: 82.198.246.37
-  servername: <nil>
-  port: 180
-  skip-cert-verify: false
-  tls: false
-  udp: true
   alterId: '0'
-  cipher: auto
-  packet-encoding: xudp
-- name: 馃嚭馃嚫缇庡浗US021 0.6MB/s涓€� TG@jcnode
-  server: 82.198.246.214
-  port: 180
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: fra35.chasem2026sud.com
-- name: 馃嚭馃嚫缇庡浗US037 0.3MB/s涓€� TG@jcnode
-  server: 82.198.246.37
-  port: 180
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: ads.x5.ru
-- name: 馃嚡馃嚨鏃ユ湰JP013 9.2MB/s涓€� TG@jcnode
-  server: a.twodnwnpoe.xyz
-  port: 41666
-  type: trojan
-  password: f58cd113-a3b1-319d-a993-331481731e82
-  sni: water.waittomorrow.top
-  skip-cert-verify: true
-- name: 馃嚭馃嚫缇庡浗US061 6.8MB/s绾噣 TG@jcnode
-  server: 38.80.188.69
-  port: 50997
-  type: vmess
-  uuid: 7350d615-d1a5-4a5b-a004-18aafee8e1d8
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /ABCDE
-- alterId: '0'
   cipher: aes-128-gcm
-  name: 馃嚭馃嚫缇庡浗US010 0.2MB/s涓€� TG@jcnode
   network: tcp
-  port: 180
-  server: 82.198.246.214
-  skip-cert-verify: false
-  tls: false
+- name: 馃嚭馃嚫缇庡浗US013 0.4MB/s鍗遍櫓 TG@jcnode
   type: vmess
-  udp: true
+  network: tcp
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  packet-encoding: xudp
-- name: 馃嚭馃嚫缇庡浗US028 1.3MB/s涓€� TG@jcnode
-  server: 82.198.246.250
-  port: 180
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: t.me%2Fripaojiedian
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 馃嚭馃嚫缇庡浗US060 0.3MB/s绾噣 TG@jcnode
-  network: tcp
-  port: 11130
-  server: dotu-usv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-  packet-encoding: xudp
-- name: 馃嚛馃嚜寰峰浗DE 002 0.3MB/s TG@jcnode
-  server: 82.198.246.250
-  port: 180
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: ads.x5.ru
-- name: 馃嚛馃嚜寰峰浗DE 003 0.2MB/s TG@jcnode
-  server: 82.198.246.250
-  port: 180
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-- name: 馃嚭馃嚫缇庡浗US029 0.2MB/s涓€� TG@jcnode
-  server: 82.198.246.250
-  port: 180
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: fra35.chasem2026sud.com
-- name: 馃嚭馃嚫缇庡浗US014 0.2MB/s涓€� TG@jcnode
   server: 82.198.246.214
   port: 180
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  skip-cert-verify: true
+  tls: false
+  udp: true
   alterId: 0
   cipher: auto
-  skip-cert-verify: true
-  network: tcp
-  tls: false
   ws-opts:
     path: /
     headers:
-      Host: node33.ourfast.asia
-- type: vmess
-  name: 馃嚭馃嚫缇庡浗US039 0.3MB/s涓€� TG@jcnode
-  server: 82.198.246.37
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- type: vmess
-  name: 馃嚭馃嚫缇庡浗US033 0.2MB/s涓€� TG@jcnode
-  server: 82.198.246.250
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- type: vmess
-  name: 馃嚭馃嚫缇庡浗US022 0.2MB/s涓€� TG@jcnode
-  server: 82.198.246.214
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- name: 馃嚭馃嚫缇庡浗US012 0.4MB/s涓€� TG@jcnode
-  server: 82.198.246.214
-  port: 180
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /trTelegram馃嚚馃嚦@WangCai2
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-  udp: true
-- name: 馃嚫馃嚜鐟炲吀SE003 1.2MB/s涓€� TG@jcnode
-  server: 78.40.116.149
-  type: ss
-  port: 33292
-  password: IeOS3A4HfwVt1Itk0n3K3H
-  cipher: chacha20-ietf-poly1305
-- name: 馃嚬馃嚰鍙版咕TW002 6.1MB/s绾噣 TG@jcnode
-  type: vmess
-  server: dotu-twv1.kunlun03dns.com
-  port: 11114
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  udp: true
+      Host: 82.198.246.214
   client-fingerprint: chrome
-  network: tcp
-- type: vless
-  server: 221.156.190.19
-  port: 10443
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  flow: ''
-  network: ws
-  encryption: none
-  tls: true
-  servername: i8dxb.media-cdn-us.chinav.indevs.in
-  ws-opts:
-    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
-    headers:
-      Host: i8dxb.media-cdn-us.chinav.indevs.in
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  header-type: none
-  name: 馃嚢馃嚪闊╁浗KR001 1.7MB/s涓€� TG@jcnode
-- name: 馃嚟馃嚢棣欐腐HK014 2.8MB/s涓€� TG@jcnode
-  server: 1b267619c4812cc46ee281747884ca50.qos.onl
-  port: 10020
-  type: vmess
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-- name: 馃嚭馃嚫缇庡浗US018 0.2MB/s涓€� TG@jcnode
-  server: 82.198.246.214
-  port: 180
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 3416cbe57b7c52733721859d4e23be39.mobgslb.tbcache.com
-- name: 馃嚭馃嚫缇庡浗US030 0.2MB/s涓€� TG@jcnode
-  server: 82.198.246.250
-  port: 180
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /usavm
-    headers:
-      Host: usaapp2.jisuyun.top
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 馃嚬馃嚰鍙版咕TW003 0.2MB/s绾噣 TG@jcnode
-  network: tcp
-  port: 11113
-  server: dotu-twv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-  packet-encoding: xudp
-- name: 馃嚢馃嚪闊╁浗KR 004 1.4MB/s TG@jcnode
-  type: http
-  server: testkr3.ssv.vc
-  port: 30446
-  password: test.+
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  sni: testkr3.ssv.vc
-  username: test
-- name: 馃嚡馃嚨鏃ユ湰JP009 0.2MB/s绾噣 TG@jcnode
-  type: vmess
-  server: dotu-jpv1.kunlun03dns.com
-  port: 11121
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  udp: true
-  client-fingerprint: chrome
-  network: tcp
-- name: 馃嚫馃嚞鏂板姞鍧G009 4.9MB/s绾噣 TG@jcnode
-  server: 1b267619c4812cc46ee281747884ca50.qos.onl
-  port: 10123
-  type: vmess
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-- name: 馃嚬馃嚰鍙版咕TW009 9.2MB/s绾噣 TG@jcnode
-  server: 1b267619c4812cc46ee281747884ca50.qos.onl
-  port: 10054
-  type: vmess
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-- name: 馃嚫馃嚞鏂板姞鍧G008 11.1MB/s绾噣 TG@jcnode
-  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
-  port: 10123
-  type: vmess
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-- name: 馃嚛馃嚜寰峰浗DE010 3.1MB/s涓€� TG@jcnode
-  type: ss
-  server: 35.159.110.250
-  port: 443
-  password: amazonskr05
-  cipher: aes-256-cfb
-- type: hysteria2
-  server: 163.172.126.108
-  port: 41227
-  password: github.com/Alvin9999-newpac/fanqiang
-  sni: www.microsoft.com
-  skip-cert-verify: true
-  name: 馃嚭馃嚫缇庡浗US056 2.4MB/s涓€� TG@jcnode
-- name: 馃嚫馃嚞鏂板姞鍧G010 12.3MB/s绾噣 TG@jcnode
-  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
-  port: 10034
-  type: vmess
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-- name: 馃嚭馃嚫缇庡浗US059 0.4MB/s绾噣 TG@jcnode
-  server: dotu-usv1.kunlun03dns.com
-  port: 11130
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  udp: true
-  client-fingerprint: chrome
-  network: tcp
 - type: vless
   server: 78.17.100.107.blanesik.space
   port: 443
@@ -1047,161 +236,167 @@ proxies:
   alpn:
   - h2
   client-fingerprint: chrome
-  name: 馃嚛馃嚜寰峰浗DE 006 3.1MB/s TG@jcnode
-- name: 馃嚭馃嚫缇庡浗US057 0.4MB/s绾噣 TG@jcnode
-  server: dotu-usv1.kunlun03dns.com
-  port: 11129
+  name: 馃嚛馃嚜寰峰浗DE006 2.5MB/s涓€� TG@jcnode
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 馃嚭馃嚫缇庡浗US024 4.9MB/s涓€� TG@jcnode
+  network: tcp
+  port: 180
+  server: 82.198.246.37
+  servername: <nil>
+  skip-cert-verify: false
+  tls: false
   type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  packet-encoding: xudp
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 馃嚭馃嚫缇庡浗US028 5.3MB/s涓€� TG@jcnode
+  network: tcp
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  servername: <nil>
+  packet-encoding: xudp
+- alterId: 0
+  cipher: auto
+  name: 馃嚭馃嚫缇庡浗US025 0.2MB/s涓€� TG@jcnode
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  packet-encoding: xudp
+- alterId: '0'
+  cipher: aes-128-gcm
+  name: 馃嚭馃嚫缇庡浗US014 0.2MB/s鍗遍櫓 TG@jcnode
+  network: tcp
+  port: 180
+  server: 82.198.246.214
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  packet-encoding: xudp
+- type: vmess
+  name: 馃嚭馃嚫缇庡浗US019 4.9MB/s涓€� TG@jcnode
+  server: 82.198.246.250
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: '0'
+  cipher: auto
+  network: tcp
+- type: vmess
+  server: 82.198.246.250
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   alterId: 0
   cipher: auto
+  name: 馃嚭馃嚫缇庡浗US018 0.3MB/s涓€� TG@jcnode
+- name: 馃嚭馃嚫缇庡浗US027 0.2MB/s涓€� TG@jcnode
+  server: 82.198.246.37
+  port: 180
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: aes-128-gcm
   tls: false
   skip-cert-verify: false
   udp: true
-  client-fingerprint: chrome
+- type: vmess
+  server: 82.198.246.37
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  name: 馃嚭馃嚫缇庡浗US026 4.6MB/s涓€� TG@jcnode
+- type: vmess
+  name: 馃嚡馃嚨鏃ユ湰JP008 6.1MB/s涓€� TG@jcnode
+  ws-opts:
+    path: /github.com/Alvin9999-newpac/fanqiang
+    headers:
+      host: 2a02:6ea0:d32f::f8fe:349b
+  server: 2a02:6ea0:d32f::f8fe:349b
+  port: 24202
+  uuid: b20a7042-70ff-4376-a79f-b68f9edb7519
+  alterId: '0'
+  cipher: auto
+  network: ws
+- alterId: 0
+  cipher: auto
+  name: 馃嚞馃嚙鑻卞浗GB 001 1.8MB/s TG@jcnode
   network: tcp
-- name: 馃嚫馃嚞鏂板姞鍧G006 4.3MB/s涓€� TG@jcnode
-  server: zzjp1.ainivp.com
-  port: 13402
+  port: 180
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- type: vless
+  server: 85.234.114.53
+  port: 22231
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  flow: xtls-rprx-vision-udp443
+  network: tcp
+  tls: true
+  servername: r1.mizulina.top
+  client-fingerprint: edge
+  skip-cert-verify: false
+  name: 馃嚭馃嚫缇庡浗US041 1.8MB/s绾噣 TG@jcnode
+- name: 馃嚭馃嚫缇庡浗US037 4.9MB/s绾噣 TG@jcnode
+  server: 85.234.114.53
+  port: 443
   type: vless
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  tls: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
   flow: xtls-rprx-vision
-  reality-opts:
-    public-key: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
-    short-id: a1b2c3d4
-  servername: www.microsoft.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: 馃嚟馃嚢棣欐腐HK006 2.5MB/s涓€� TG@jcnode
-  server: 140.235.141.167
-  port: 443
-  type: hysteria2
-  password: 2ab35342-d78e-4bff-bf6c-2f0b97b84e14
-  sni: www.bing.com
-  skip-cert-verify: true
-- type: vless
-  server: 104.17.121.129
-  port: 2096
-  uuid: 6992f972-39ab-41e3-9d2e-39efc00ced3d
-  flow: ''
-  network: grpc
-  encryption: none
   tls: true
-  servername: aRTfuL-eXCHAnGed81Ihi4YWX.carbONblAckBMW.ir
-  grpc-opts:
-    grpc-service-name: alalamtv.net.jamejamonline.ir.iribnews.ir.alef.ir.eghtesadonline.com.rajanews.com.khabaronline.ir
-  alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 馃嚛馃嚜寰峰浗DE004 1.8MB/s涓€� TG@jcnode
-- name: 馃嚪馃嚭淇勭綏鏂疪U003 2.2MB/s涓€� TG@jcnode
-  server: 5.42.104.94
-  type: ss
-  port: 2060
-  password: UAnLGpxm0a48ANms_Da3Tg
-  cipher: chacha20-ietf-poly1305
-- name: 馃嚛馃嚜寰峰浗DE008 6.1MB/s涓€� TG@jcnode
-  server: 18.195.213.130
-  type: ss
-  port: 443
-  udp: true
-  password: amazonskr05
-  cipher: aes-256-cfb
-- type: vless
-  server: 104.17.121.71
-  port: 2096
-  uuid: 5154b274-cbfa-44f6-8b64-22f169d66cc5
-  flow: ''
-  network: grpc
-  encryption: none
-  tls: true
-  servername: DEft-peakABGj64vrj3.CaRbonblACKbmw.ir
-  grpc-opts:
-    grpc-service-name: mizanonline.com.farsnews.ir.sharghdaily.com.donya-e-eqtesad.com.tehrantimes.com.sharghdaily.com.en.mehrnews.com
-    grpc-mode: gun
-  alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
   skip-cert-verify: false
-  name: 馃嚛馃嚜寰峰浗DE013 2.5MB/s涓€� TG@jcnode
-- name: 馃嚭馃嚫缇庡浗US001 6.1MB/s涓€� TG@jcnode
-  type: ss
-  server: 23.80.80.22
-  port: 80
-  password: YTE1ZWU4ZTEyZjc3YmEzZA==:Y2JhZTU3ODYtZjg3MC00NA==
+  client-fingerprint: edge
+  servername: r1.mizulina.top
   udp: true
-  cipher: 2022-blake3-aes-128-gcm
-  plugin: gost-plugin
-  plugin-opts:
-    host: one.local
-    mode: websocket
-    mux: true
-    path: /ws
-    tls: false
-- name: 馃嚫馃嚞鏂板姞鍧G011 12.3MB/s绾噣 TG@jcnode
-  server: 1b267619c4812cc46ee281747884ca50.qos.onl
-  port: 10034
+  encryption: none
+  network: tcp
+  tfo: false
+- name: 馃嚭馃嚫缇庡浗US044 0.2MB/s绾噣 TG@jcnode
+  server: 38.80.188.69
+  port: 50997
   type: vmess
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
+  uuid: 7350d615-d1a5-4a5b-a004-18aafee8e1d8
   alterId: 0
   cipher: auto
   tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-- name: 馃嚟馃嚢棣欐腐HK013 8.0MB/s涓€� TG@jcnode
-  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
-  port: 10020
-  type: vmess
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-- name: 馃嚭馃嚫缇庡浗US005 4.9MB/s涓€� TG@jcnode
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+- name: 馃嚭馃嚫缇庡浗US005 5.5MB/s涓€� TG@jcnode
   type: ss
   server: www.syfe.com
   port: 80
   cipher: 2022-blake3-aes-128-gcm
-  password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA==
+  password: YTE1ZWU4ZTEyZjc3YmEzZA==:YTgyZmZlMTAtZGYwYS00ZQ==
   udp: true
   plugin: gost-plugin
   plugin-opts:
     mode: websocket
-    host: ous9.337777777.xyz
+    host: ous7.337777777.xyz
     path: /api/v1/stream
     tls: false
     mux: true
-- name: 馃嚟馃嚢棣欐腐HK018 12.1MB/s绾噣 TG@jcnode
-  server: 1b267619c4812cc46ee281747884ca50.qos.onl
-  port: 10049
-  type: vmess
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-- name: 馃嚭馃嚘涔屽厠鍏癠A001 1.2MB/s涓€� TG@jcnode
-  server: 130.0.233.100
-  type: ss
-  port: 33610
-  password: GnzWRAJLiobpt0BiiEPLST
-  cipher: chacha20-ietf-poly1305
-- name: 馃嚟馃嚢棣欐腐HK007 0.8MB/s涓€� TG@jcnode
+- name: 馃嚟馃嚢棣欐腐HK007 7.4MB/s涓€� TG@jcnode
   server: yd3.ainivp.com
   port: 33408
   type: vmess
@@ -1215,9 +410,124 @@ proxies:
     path: /ray
     headers:
       Host: yd3.ainivp.com
-- name: 馃嚭馃嚫缇庡浗US003 3.7MB/s涓€� TG@jcnode
+- type: vless
+  server: cdn-a9027cc2.glomedia-cdn.com
+  port: 2053
+  uuid: 0dc3fe97-73e3-4cc2-89a7-331e66540365
+  flow: ''
+  network: grpc
+  encryption: none
+  tls: true
+  reality-opts:
+    public-key: sOTlswV3fg3MBJSiQek_a2fMs824tGNRFNRdQVYu1R8
+    short-id: ef96a8323b38a60e
+  servername: www.apple.com
+  grpc-opts:
+    grpc-service-name: grpc
+  client-fingerprint: chrome
+  header-type: none
+  name: 馃嚛馃嚜寰峰浗DE005 2.5MB/s涓€� TG@jcnode
+- name: 馃嚭馃嚫缇庡浗US011 3.7MB/s涓€� TG@jcnode
   type: ss
-  server: 104.128.72.119
+  server: cdn.shopify.com
+  port: 80
+  cipher: 2022-blake3-aes-128-gcm
+  password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA==
+  udp: true
+  plugin: gost-plugin
+  plugin-opts:
+    mode: websocket
+    host: ous.337777777.xyz
+    path: /ws
+    tls: false
+    mux: true
+- name: 馃嚭馃嚫缇庡浗US033 6.1MB/s绾噣 TG@jcnode
+  server: r1.mizulina.top
+  port: 22231
+  type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  flow: xtls-rprx-vision-udp443
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: edge
+  servername: r1.mizulina.top
+  udp: true
+  encryption: none
+  network: tcp
+- name: 馃嚭馃嚫缇庡浗US006 5.5MB/s涓€� TG@jcnode
+  type: ss
+  server: www.syfe.com
+  port: 80
+  cipher: 2022-blake3-aes-128-gcm
+  password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA==
+  udp: true
+  plugin: gost-plugin
+  plugin-opts:
+    mode: websocket
+    host: ous7.337777777.xyz
+    path: /api/v1/stream
+    tls: false
+    mux: true
+- name: 馃嚟馃嚢棣欐腐HK004 4.2MB/s涓€� TG@jcnode
+  server: zzhk4.ainivp.com
+  port: 13413
+  type: vless
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
+    short-id: a1b2c3d4
+  servername: www.microsoft.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+  encryption: none
+  header-type: none
+  skip-cert-verify: true
+- type: vless
+  server: 85.234.114.53
+  port: 443
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  flow: xtls-rprx-vision-udp443
+  encryption: none
+  tls: true
+  servername: r1.mizulina.top
+  client-fingerprint: edge
+  header-type: none
+  name: 馃嚭馃嚫缇庡浗US034 5.5MB/s绾噣 TG@jcnode
+- type: vless
+  server: g10.steptofsvo.com
+  port: 443
+  uuid: 279828c6-13f2-439c-9a4e-ea7d4f470fa4
+  flow: xtls-rprx-vision
+  network: tcp
+  encryption: none
+  tls: true
+  reality-opts:
+    public-key: ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk
+    short-id: "6d6f13013d3e1d0c"
+  servername: g10.steptofsvo.com
+  client-fingerprint: randomized
+  header-type: none
+  name: 馃嚦馃嚤鑽峰叞NL002 6.8MB/s涓€� TG@jcnode
+- name: 馃嚭馃嚫缇庡浗US004 5.9MB/s涓€� TG@jcnode
+  type: ss
+  server: www.syfe.com
+  port: 80
+  cipher: 2022-blake3-aes-128-gcm
+  password: YTE1ZWU4ZTEyZjc3YmEzZA==:YTgyZmZlMTAtZGYwYS00ZQ==
+  udp: true
+  plugin: gost-plugin
+  plugin-opts:
+    mode: websocket
+    host: ccus3.337777777.xyz
+    path: /api/v1/stream
+    tls: false
+    mux: true
+- name: 馃嚭馃嚫缇庡浗US001 4.4MB/s涓€� TG@jcnode
+  type: ss
+  server: 23.80.80.22
   port: 80
   cipher: 2022-blake3-aes-128-gcm
   password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA==
@@ -1229,64 +539,19 @@ proxies:
     path: /ws
     tls: false
     mux: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 馃嚭馃嚫缇庡浗US058 0.5MB/s绾噣 TG@jcnode
-  network: tcp
-  port: 11129
-  server: dotu-usv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-  packet-encoding: xudp
-- type: vless
-  name: 馃嚭馃嚫缇庡浗US045 8.0MB/s绾噣 TG@jcnode
-  server: r1.mizulina.top
-  port: 22231
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision-udp443
-  client-fingerprint: edge
-  skip-cert-verify: false
-  encryption: none
-  packet-encoding: xudp
-  header-type: none
-  network: tcp
-  servername: r1.mizulina.top
-- type: vless
-  name: 馃嚭馃嚫缇庡浗US050 4.7MB/s绾噣 TG@jcnode
-  server: 85.234.114.53
-  port: 443
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-  udp: true
-  tls: true
+- client-fingerprint: edge
   flow: xtls-rprx-vision
-  client-fingerprint: edge
-  skip-cert-verify: false
-  network: tcp
-  encryption: none
-  packet-encoding: xudp
+  name: 馃嚭馃嚫缇庡浗US043 7.4MB/s绾噣 TG@jcnode
+  port: 22231
+  server: 85.234.114.53
   servername: r1.mizulina.top
-- name: 馃嚡馃嚨鏃ユ湰JP011 2.5MB/s涓€� TG@jcnode
-  type: vmess
-  server: 2a02:6ea0:d32f::f8fe:349b
-  port: 24202
-  uuid: b20a7042-70ff-4376-a79f-b68f9edb7519
-  alterId: 0
-  cipher: auto
-  tls: false
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /github.com/Alvin9999-newpac/fanqiang
-    headers:
-      Host: 2a02:6ea0:d32f::f8fe:349b
+  tls: true
+  type: vless
   udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  encryption: none
+  network: tcp
 - type: vless
   server: 85.234.114.53
   port: 443
@@ -1294,267 +559,11 @@ proxies:
   flow: xtls-rprx-vision-udp443-udp443
   network: tcp
   tls: true
-  client-fingerprint: edge
-  skip-cert-verify: false
-  name: 馃嚭馃嚫缇庡浗US049 5.5MB/s绾噣 TG@jcnode
-  servername: r1.mizulina.top
-- name: 馃嚭馃嚫缇庡浗US004 4.3MB/s涓€� TG@jcnode
-  type: ss
-  server: 104.128.72.119
-  port: 80
-  password: YTE1ZWU4ZTEyZjc3YmEzZA==:Y2JhZTU3ODYtZjg3MC00NA==
-  udp: true
-  cipher: 2022-blake3-aes-128-gcm
-  plugin: gost-plugin
-  plugin-opts:
-    host: one.local
-    mode: websocket
-    mux: true
-    path: /ws
-    tls: false
-- name: 馃嚭馃嚫缇庡浗US063 0.1MB/s绾噣 TG@jcnode
-  server: www.ilovezhenjiu.top
-  port: 20338
-  type: hysteria2
-  password: 8bb33012
-  sni: www.ilovezhenjiu.top
-  skip-cert-verify: false
-  obfs: salamander
-  obfs-password: Jasonwu1224
-- type: vless
-  server: 85.234.114.53
-  port: 443
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-  flow: xtls-rprx-vision
-  encryption: none
-  tls: true
   servername: r1.mizulina.top
   client-fingerprint: edge
-  header-type: none
-  name: 馃嚭馃嚫缇庡浗US051 6.8MB/s绾噣 TG@jcnode
-- type: vless
-  server: g2.steptofreedom.one
-  port: 443
-  uuid: 279828c6-13f2-439c-9a4e-ea7d4f470fa4
-  flow: xtls-rprx-vision
-  network: tcp
-  encryption: none
-  tls: true
-  reality-opts:
-    public-key: ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk
-    short-id: "6d6f13013d3e1d0c"
-  servername: g2.steptofreedom.one
-  client-fingerprint: randomized
-  header-type: none
-  name: 馃嚦馃嚤鑽峰叞NL002 4.9MB/s涓€� TG@jcnode
-- name: 馃嚭馃嚫缇庡浗US002 3.7MB/s涓€� TG@jcnode
-  type: ss
-  server: 104.128.72.119
-  port: 80
-  cipher: 2022-blake3-aes-128-gcm
-  password: YTE1ZWU4ZTEyZjc3YmEzZA==:YTgyZmZlMTAtZGYwYS00ZQ==
-  udp: true
-  plugin: gost-plugin
-  plugin-opts:
-    mode: websocket
-    host: one.local
-    path: /ws
-    tls: false
-    mux: true
-- name: 馃嚬馃嚰鍙版咕TW004 6.6MB/s绾噣 TG@jcnode
-  server: yd3.ainivp.com
-  port: 33404
-  type: vmess
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: yd3.ainivp.com
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: yd3.ainivp.com
-- name: 馃嚭馃嚫缇庡浗US067 1.7MB/s绾噣 TG@jcnode
-  server: 1b267619c4812cc46ee281747884ca50.qos.onl
-  port: 10013
-  type: vmess
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-- name: 馃嚭馃嚫缇庡浗US068 2.5MB/s绾噣 TG@jcnode
-  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
-  port: 10011
-  type: vmess
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-- type: vless
-  server: g3.steptofreedom.one
-  port: 443
-  uuid: 279828c6-13f2-439c-9a4e-ea7d4f470fa4
-  flow: xtls-rprx-vision
-  network: tcp
-  encryption: none
-  tls: true
-  reality-opts:
-    public-key: ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk
-    short-id: "6d6f13013d3e1d0c"
-  servername: g3.steptofreedom.one
-  client-fingerprint: randomized
-  header-type: none
-  name: 馃嚦馃嚤鑽峰叞NL 003 7.4MB/s TG@jcnode
-- name: 馃嚭馃嚫缇庡浗US042 2.5MB/s涓€� TG@jcnode
-  server: zzjp1.ainivp.com
-  port: 13403
-  type: vless
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
-    short-id: a1b2c3d4
-  servername: www.microsoft.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-  encryption: none
-  header-type: none
-  skip-cert-verify: true
-- name: 馃嚭馃嚫缇庡浗US048 5.5MB/s绾噣 TG@jcnode
-  server: 85.234.114.53
-  port: 443
-  type: vless
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-  flow: xtls-rprx-vision-udp443
-  tls: true
   skip-cert-verify: false
-  client-fingerprint: edge
-  udp: true
-  encryption: none
-  header-type: none
-  network: tcp
-  packet-encoding: xudp
-  servername: r1.mizulina.top
-- type: vless
-  server: 85.234.114.53
-  port: 443
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-  flow: xtls-rprx-vision-udp443
-  encryption: none
-  tls: true
-  servername: r1.mizulina.top
-  client-fingerprint: edge
-  header-type: none
-  name: 馃嚭馃嚫缇庡浗US047 6.8MB/s绾噣 TG@jcnode
-- name: 馃嚭馃嚫缇庡浗US052 1.8MB/s涓€� TG@jcnode
-  type: vmess
-  server: planb.mojcn.com
-  port: 16648
-  uuid: 24e37e6e-7e01-4f68-afea-28fb14a47aef
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 08071ec6f38bfb263ee89b1bb0c3ca1b.mobgslb.tbcache.com
-  udp: true
-- name: 馃嚭馃嚫缇庡浗US062 3.1MB/s绾噣 TG@jcnode
-  server: 216.167.3.209
-  port: 59773
-  type: vmess
-  uuid: b37a254e-c11a-4d8d-ba10-bf7f0dc13f7a
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /ABCDE
-- name: 馃嚥馃嚲椹潵瑗夸簹MY002 6.5MB/s绾噣 TG@jcnode
-  server: 1b267619c4812cc46ee281747884ca50.qos.onl
-  port: 10056
-  type: vmess
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-- name: 馃嚛馃嚜寰峰浗DE009 3.7MB/s绾噣 TG@jcnode
-  server: 5.230.184.16
-  type: ss
-  port: 443
-  password: 453u6Gcei04NyXbrWLKa0M
-  cipher: chacha20-ietf-poly1305
-- type: vless
-  server: pl.prostosetup.org
-  port: 443
-  uuid: 1b43419a-b711-40d4-a0ee-eb5c73e60c92
-  flow: xtls-rprx-vision
-  network: tcp
-  encryption: none
-  tls: true
-  reality-opts:
-    public-key: ps7eCLLKAqgSGPFRQl1-R1PhzUeO1Z1EwNl02Ac63UA
-    short-id: "514d02a2addd6476"
-  servername: pl.prostosetup.org
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  header-type: none
-  name: 馃嚥馃嚛鎽╁皵澶氱摝MD001 0.6MB/s涓€� TG@jcnode
-- name: 馃嚬馃嚰鍙版咕TW005 5.0MB/s绾噣 TG@jcnode
-  server: zzhk5.ainivp.com
-  port: 13404
-  type: vless
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
-    short-id: a1b2c3d4
-  servername: www.microsoft.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 馃嚭馃嚫缇庡浗US043 8.0MB/s绾噣 TG@jcnode
-  port: 22231
-  server: r1.mizulina.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-  packet-encoding: xudp
-- name: 馃嚞馃嚙鑻卞浗GB002 1.0MB/s涓€� TG@jcnode
-  server: a.twodnwnpoe.xyz
-  port: 31445
-  type: trojan
-  password: f58cd113-a3b1-319d-a993-331481731e82
-  sni: water.waittomorrow.top
-  skip-cert-verify: true
-- name: 馃嚭馃嚫缇庡浗US055 1.9MB/s绾噣 TG@jcnode
+  name: 馃嚭馃嚫缇庡浗US036 6.8MB/s绾噣 TG@jcnode
+- name: 馃嚭馃嚫缇庡浗US042 8.6MB/s绾噣 TG@jcnode
   type: vless
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
   server: 85.234.114.53
@@ -1571,88 +580,241 @@ proxies:
   encryption: none
   flow: xtls-rprx-vision
   packet-encoding: xudp
-- name: 馃嚭馃嚫缇庡浗US 066 3.1MB/s TG@jcnode
-  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
-  port: 10013
-  type: vmess
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
-  alterId: 0
-  cipher: auto
-  tls: false
+- type: vless
+  server: rus.scroogethebest.com
+  port: 443
+  uuid: 31969cf4-c1bb-4a3e-b42b-574dfb271c73
+  flow: xtls-rprx-vision
+  network: tcp
+  encryption: none
+  tls: true
+  reality-opts:
+    public-key: sbvKAdRy_0h33iRxgGwHAD1HC62WGwlkWwj0S5ptJEU
+    short-id: "9c2378562188c3cb"
+  servername: rus.scroogethebest.com
+  client-fingerprint: chrome
+  name: 馃嚪馃嚭淇勭綏鏂疪U001 4.5MB/s涓€� TG@jcnode
+- type: vless
+  server: de.sbrf-cdn342.ru
+  port: 443
+  uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
+  flow: xtls-rprx-vision
+  network: tcp
+  encryption: none
+  tls: true
+  servername: sub.sbrf-cdn342.ru
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  skip-cert-verify: false
+  header-type: none
+  name: 馃嚛馃嚜寰峰浗DE 002 1.9MB/s TG@jcnode
+- type: trojan
+  server: 104.17.121.9
+  port: 443
+  password: Mitivpn
+  sni: my.hitgram.ir
+  network: ws
+  ws-opts:
+    path: /?ed=mitivpn
+    headers:
+      Host: my.hitgram.ir
+  skip-cert-verify: false
+  name: 馃嚭馃嚫缇庡浗US022 5.5MB/s涓€� TG@jcnode
+- name: 馃嚬馃嚟娉板浗TH001 2.7MB/s涓€� TG@jcnode
+  server: t1.feiyue706.com
+  port: 36792
+  type: vless
+  uuid: efa569c6-c627-39d0-8d4f-6c5d730b5894
+  tls: true
+  servername: t1.feiyue706.com
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: ljfxz
+  udp: true
+- type: vless
+  server: 204.11.2.30
+  port: 7443
+  uuid: 4350fd8e-9f5d-47e7-a5f6-6161e0f7db9b
+  flow: xtls-rprx-vision
+  network: tcp
+  encryption: none
+  tls: true
+  reality-opts:
+    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
+    short-id: be0ce047
+  servername: stackoverflow.com
+  client-fingerprint: firefox
+  header-type: none
+  name: 馃嚛馃嚜寰峰浗DE007 3.1MB/s绾噣 TG@jcnode
+- name: 馃嚟馃嚢棣欐腐HK005 0.5MB/s绾噣 TG@jcnode
+  password: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
+  port: 5228
+  server: e7ab8a8f-t9zts0-tcw58g-1p0be.cm4.oshuawei.com
+  sni: e7ab8a8f-t9zts0-tcw58g-1p0be.cm4.oshuawei.com
+  tls: true
+  type: http
+  username: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 馃嚚馃嚲濉炴郸璺柉CY001 6.4MB/s绾噣 TG@jcnode
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: A9jwrodyycJJV-apFQ91_rrh1vfJ_hSzZGNP9GBPGCM
+    short-id: "92d0c4089b6c1da3"
+  server: 132.243.231.122
+  servername: io.ozone.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7625adbb-52f7-4ff4-95f8-677471071a77
+  packet-encoding: xudp
+- type: trojan
+  server: 5.10.214.56
+  port: 443
+  password: Mitivpn
+  sni: www.hitgram.ir
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-- name: 馃嚭馃嚫缇庡浗US053 7.4MB/s绾噣 TG@jcnode
-  type: vless
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-  server: 85.234.114.53
-  port: 22231
+      Host: www.hitgram.ir
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 馃嚭馃嚫缇庡浗US039 5.5MB/s涓€� TG@jcnode
+- type: http
+  server: fc26ffd1-t9zts0-tfpsin-1q3dm.cm4.oshuawei.com
+  port: 5228
+  username: c1785de0-212f-11ef-92aa-f23c9164ca5d
+  password: c1785de0-212f-11ef-92aa-f23c9164ca5d
   tls: true
+  name: 馃嚟馃嚢棣欐腐HK006 1.2MB/s绾噣 TG@jcnode
+- name: 馃嚭馃嚫缇庡浗US007 1.2MB/s涓€� TG@jcnode
+  type: ss
+  server: 172.96.161.152
+  port: 20091
+  cipher: 2022-blake3-aes-128-gcm
+  password: YTE1ZWU4ZTEyZjc3YmEzZA==:YTgyZmZlMTAtZGYwYS00ZQ==
   udp: true
-  http-opts:
-    path:
-    - /
-  client-fingerprint: edge
-  flow: xtls-rprx-vision-udp443
-  encryption: none
-  packet-encoding: xudp
-  network: tcp
-  servername: r1.mizulina.top
-  skip-cert-verify: false
-- type: vless
-  name: 馃嚚馃嚲濉炴郸璺柉CY001 6.1MB/s绾噣 TG@jcnode
-  server: 132.243.231.122
-  port: 8443
-  uuid: 7625adbb-52f7-4ff4-95f8-677471071a77
-  udp: true
+  plugin: gost-plugin
+  plugin-opts:
+    mode: websocket
+    host: one.local
+    path: /ws
+    tls: false
+    mux: true
+- name: 馃嚛馃嚜寰峰浗DE009 2.4MB/s涓€� TG@jcnode
+  type: vless
+  server: 87.120.93.69
+  port: 443
+  uuid: 2001daf3-5c56-4bef-8ea6-8dd0493c5a4c
+  servername: www.deepl.com
   tls: true
   flow: xtls-rprx-vision
   client-fingerprint: chrome
-  skip-cert-verify: false
   reality-opts:
-    public-key: A9jwrodyycJJV-apFQ91_rrh1vfJ_hSzZGNP9GBPGCM
-    short-id: "92d0c4089b6c1da3"
-  network: tcp
-  encryption: none
-  packet-encoding: xudp
-  servername: io.ozone.ru
-- alterId: 0
-  cipher: auto
-  name: 馃嚢馃嚪闊╁浗KR002 5.5MB/s涓€� TG@jcnode
-  network: ws
-  port: 33204
-  server: yd4.ainivp.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
+    public-key: ZHEMPjSWslk6_qD2JNQzd5enUPz8nY9mYRRuM6NkZmU
   udp: true
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+- type: trojan
+  server: 104.17.121.37
+  port: 443
+  password: Mitivpn
+  sni: my.hitgram.ir
+  network: ws
   ws-opts:
+    path: /?ed=mitivpn
     headers:
-      Host: yd4.ainivp.com
-    path: /ray
-  servername: yd4.ainivp.com
-- type: vless
-  server: 45.130.125.76
-  port: 2096
-  uuid: da703b27-62f2-451a-993f-99224c53f12b
-  flow: ''
-  network: grpc
-  encryption: none
-  tls: true
-  servername: MOOdY-facE1ob4n437nt.caRBonbLacKBMw.Ir
-  grpc-opts:
-    grpc-service-name: alalamtv.net.entekhab.ir.donya-e-eqtesad.com.hamshahrionline.ir.alalamtv.net.irdiplomacy.ir.snn.ir
-    grpc-mode: gun
-  alpn:
+      Host: my.hitgram.ir
+  skip-cert-verify: false
+  name: 馃嚭馃嚫缇庡浗US020 5.8MB/s涓€� TG@jcnode
+- alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  skip-cert-verify: false
-  name: 馃嚛馃嚜寰峰浗DE014 2.3MB/s涓€� TG@jcnode
-- name: 馃嚭馃嚫缇庡浗US044 6.8MB/s绾噣 TG@jcnode
+  name: 馃嚭馃嚫缇庡浗US021 6.1MB/s涓€� TG@jcnode
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: 104.17.121.37
+  skip-cert-verify: true
+  sni: my.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    path: /?ed=mitivpn
+- name: 馃嚭馃嚫缇庡浗US045 3.2MB/s绾噣 TG@jcnode
+  server: 216.167.3.209
+  port: 59773
+  type: vmess
+  uuid: b37a254e-c11a-4d8d-ba10-bf7f0dc13f7a
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 馃嚭馃嚫缇庡浗US030 4.9MB/s涓€� TG@jcnode
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: 165.215.250.160
+  skip-cert-verify: true
+  sni: panel.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /?ed=mitivpn
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 馃嚭馃嚫缇庡浗US023 5.9MB/s涓€� TG@jcnode
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: 104.17.121.9
+  skip-cert-verify: true
+  sni: my.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /?ed=mitivpn
+- name: 馃嚭馃嚫缇庡浗US003 2.0MB/s涓€� TG@jcnode
+  type: ss
+  server: 104.128.72.119
+  port: 80
+  password: YTE1ZWU4ZTEyZjc3YmEzZA==:Y2JhZTU3ODYtZjg3MC00NA==
+  udp: true
+  cipher: 2022-blake3-aes-128-gcm
+  plugin: gost-plugin
+  plugin-opts:
+    host: one.local
+    mode: websocket
+    mux: true
+    path: /ws
+    tls: false
+- name: 馃嚭馃嚫缇庡浗US032 6.2MB/s绾噣 TG@jcnode
   server: r1.mizulina.top
   port: 22231
   type: vless
@@ -1666,21 +828,35 @@ proxies:
   skip-cert-verify: false
   encryption: none
   packet-encoding: xudp
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 馃嚡馃嚨鏃ユ湰JP010 0.2MB/s绾噣 TG@jcnode
-  network: tcp
-  port: 11121
-  server: dotu-jpv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- name: 馃嚭馃嚫缇庡浗US002 1.6MB/s涓€� TG@jcnode
+  type: ss
+  server: 23.80.80.22
+  port: 80
+  password: YTE1ZWU4ZTEyZjc3YmEzZA==:Y2JhZTU3ODYtZjg3MC00NA==
   udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-  packet-encoding: xudp
-- name: 馃嚭馃嚫缇庡浗US007 2.9MB/s涓€� TG@jcnode
+  cipher: 2022-blake3-aes-128-gcm
+  plugin: gost-plugin
+  plugin-opts:
+    host: one.local
+    mode: websocket
+    mux: true
+    path: /ws
+    tls: false
+- name: 馃嚭馃嚫缇庡浗US 008 1.1MB/s TG@jcnode
+  type: ss
+  server: 172.96.161.152
+  port: 20091
+  cipher: 2022-blake3-aes-128-gcm
+  password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA==
+  udp: true
+  plugin: gost-plugin
+  plugin-opts:
+    mode: websocket
+    host: one.local
+    path: /ws
+    tls: false
+    mux: true
+- name: 馃嚭馃嚫缇庡浗US010 5.8MB/s涓€� TG@jcnode
   type: ss
   server: 172.96.161.152
   port: 20092
@@ -1694,28 +870,36 @@ proxies:
     path: /ws
     tls: false
     mux: true
-- name: 馃嚝馃嚪娉曞浗FR004 0.9MB/s涓€� TG@jcnode
-  server: 45.91.171.108
-  type: ss
-  port: 158
-  password: -jd43ayn1mxzQ4t6dEI7OQ
-  cipher: chacha20-ietf-poly1305
-- type: vless
-  server: max5r.skystreamgame.com
-  port: 8443
-  uuid: f2ec0e70-61e6-40f2-97bd-982f610d8b11
-  flow: xtls-rprx-vision
-  network: tcp
-  encryption: none
+- name: 馃嚬馃嚟娉板浗TH002 2.8MB/s涓€� TG@jcnode
+  server: t1.feiyue706.com
+  port: 36793
+  type: vless
+  uuid: efa569c6-c627-39d0-8d4f-6c5d730b5894
   tls: true
-  reality-opts:
-    public-key: XBePIY00JetBf0pbmcx-Dvu8XsZ-l079GiHf93HhS0Y
-    short-id: "6d6f13013d3e1d0c"
-  servername: max5r.skystreamgame.com
-  client-fingerprint: randomized
-  header-type: none
-  name: 馃嚨馃嚤娉㈠叞PL002 3.7MB/s涓€� TG@jcnode
-- name: 馃嚚馃嚟鐟炲＋CH001 1.9MB/s涓€� TG@jcnode
+  servername: t1.feiyue706.com
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: ljfxz
+  udp: true
+- type: trojan
+  server: 165.215.250.160
+  port: 443
+  password: Mitivpn
+  sni: panel.hitgram.ir
+  network: ws
+  ws-opts:
+    path: /?ed=mitivpn
+    headers:
+      Host: panel.hitgram.ir
+  skip-cert-verify: true
+  alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 馃嚭馃嚫缇庡浗US031 4.9MB/s涓€� TG@jcnode
+- name: 馃嚚馃嚟鐟炲＋CH002 1.8MB/s涓€� TG@jcnode
   type: vless
   network: http
   uuid: monacoVPN
@@ -1727,91 +911,20 @@ proxies:
     - /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
   encryption: none
   packet-encoding: xudp
-  tls: false
-- name: 馃嚚馃嚟鐟炲＋CH002 1.2MB/s涓€� TG@jcnode
-  server: a.twodnwnpoe.xyz
-  port: 53217
-  type: trojan
-  password: f58cd113-a3b1-319d-a993-331481731e82
-  sni: 1.lossyesterday.xyz
-  skip-cert-verify: true
-- name: 馃嚭馃嚫缇庡浗US054 7.4MB/s绾噣 TG@jcnode
-  server: 85.234.114.53
-  port: 22231
+- encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
+  name: 馃嚚馃嚟鐟炲＋CH001 1.8MB/s涓€� TG@jcnode
+  network: http
+  port: 22
+  server: 172.65.111.43
   type: vless
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: edge
-  network: tcp
   udp: true
-  encryption: none
-  header-type: none
-  skip-cert-verify: true
+  uuid: monacoVPN
   packet-encoding: xudp
-  servername: r1.mizulina.top
-- name: 馃嚤馃嚬绔嬮櫠瀹汱T001 0.8MB/s涓€� TG@jcnode
-  server: 80.208.229.172
-  type: ss
-  port: 443
-  password: 4LuSQluWs3meAy5vOo7ikZ
-  cipher: chacha20-ietf-poly1305
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 馃嚢馃嚪闊╁浗KR003 0.1MB/s涓€� TG@jcnode
-  network: tcp
-  port: 11143
-  server: dotu-krv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-  packet-encoding: xudp
-- name: 馃嚟馃嚢棣欐腐HK010 3.7MB/s涓€� TG@jcnode
-  server: a.twodnwnpoe.xyz
-  port: 40015
-  type: trojan
-  password: f58cd113-a3b1-319d-a993-331481731e82
-  sni: 1.lossyesterday.xyz
-  skip-cert-verify: true
-- type: vless
-  server: s1.ws.dvzh.net
-  port: 443
-  uuid: 0505fbc7-9df1-0320-bfa8-320008d4d46b
-  flow: ''
-  network: ws
-  encryption: none
-  tls: true
-  servername: s1.ws.dvzh.net
-  ws-opts:
-    path: /upload/session
-    headers:
-      Host: s1.ws.dvzh.net
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  header-type: none
-  name: 馃嚪馃嚭淇勭綏鏂疪U001 4.9MB/s涓€� TG@jcnode
-- type: vless
-  server: 72.56.59.177
-  port: 22231
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-  flow: xtls-rprx-vision-udp443
-  network: tcp
-  encryption: none
-  tls: true
-  servername: r1.mizulina.top
-  alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  header-type: none
-  name: 馃嚭馃嚫缇庡浗US041 8.6MB/s绾噣 TG@jcnode
-- name: 馃嚭馃嚫缇庡浗US006 1.0MB/s涓€� TG@jcnode
+- name: 馃嚭馃嚫缇庡浗US 009 0.6MB/s TG@jcnode
   type: ss
   server: 172.96.161.152
   port: 20092
@@ -1825,367 +938,218 @@ proxies:
     path: /ws
     tls: false
     mux: true
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 056 6.2MB/s TG@jcnode
-  type: http
-  server: 193.176.84.39
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- name: 馃嚭馃嚫缇庡浗US065 4.3MB/s涓€� TG@jcnode
-  server: a.twodnwnpoe.xyz
-  port: 23655
-  type: trojan
-  password: f58cd113-a3b1-319d-a993-331481731e82
-  sni: water.waittomorrow.top
-  skip-cert-verify: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 馃嚭馃嚫缇庡浗US046 5.3MB/s涓€� TG@jcnode
-  network: tcp
-  port: 12443
-  reality-opts:
-    public-key: D3bNJPmy4YJqhWQ3Xv1Fu3Z1danrTzswShytnkkG9Q4
-    short-id: ca4a1317e03791b3
-  server: 31.58.87.71
-  servername: sun6-21.userapi.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ea484535-0170-4ec8-bb3c-a9dbaa7412d7
-  packet-encoding: xudp
-- client-fingerprint: randomized
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 馃嚪馃嚭淇勭綏鏂疪U002 4.6MB/s涓€� TG@jcnode
-  network: tcp
+- name: 馃嚭馃嚫缇庡浗US035 6.8MB/s绾噣 TG@jcnode
+  server: 85.234.114.53
   port: 443
-  reality-opts:
-    public-key: APwi9yR-ezZtFU6xj2a3SBoXvEoWOoiRuZSit0N9xWI
-  server: 185.139.214.254
-  servername: cloudcdn-m9-15.cdn.yandex.net
-  tls: true
   type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  flow: xtls-rprx-vision-udp443
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: edge
+  servername: r1.mizulina.top
   udp: true
-  uuid: c55a51d9-48bd-11f1-941f-54db13ea7d40
-  packet-encoding: xudp
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 060 5.5MB/s TG@jcnode
-  type: http
-  server: 193.176.84.31
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 031 3.1MB/s TG@jcnode
-  type: http
-  server: 84.239.49.53
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- type: vless
-  server: 217.179.6.84
-  port: 443
-  uuid: d78c12c4-6927-40b8-8550-ed9be00334da
-  flow: xtls-rprx-vision
   network: tcp
   encryption: none
-  tls: true
-  reality-opts:
-    public-key: UJSYKOEr3a3V1P_obd9zNBq4Pr3Vbd_a2nHE7-rstRk
-    short-id: "6089640857a72237"
-  servername: France1cxc.chickenkiller.com
+  packet-encoding: xudp
+- alpn:
+  - h2
+  - http/1.1
   client-fingerprint: chrome
-  name: 馃嚞馃嚙鑻卞浗GB001 1.0MB/s绾噣 TG@jcnode
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 051 3.1MB/s TG@jcnode
+  name: 馃嚭馃嚫缇庡浗US029 2.8MB/s涓€� TG@jcnode
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: 165.215.250.160
+  skip-cert-verify: true
+  sni: my.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /?ed=mitivpn
+- name: 馃嚭馃嚫缇庡浗US046 4.3MB/s涓€� TG@jcnode
+  server: zzus5.ainivp.com
+  port: 13405
+  type: vless
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
+    short-id: a1b2c3d4
+  servername: www.microsoft.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 009 5.5MB/s TG@jcnode
+  type: http
+  server: 193.176.84.34
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 055 4.3MB/s TG@jcnode
   type: http
   server: 193.176.84.32
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: 馃嚭馃嚫缇庡浗US069 4.9MB/s涓€� TG@jcnode
-  server: cf.scpnb.top
-  type: vmess
-  port: 443
-  uuid: d5357318-c9b4-435b-a424-acc206dd82c3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  skip-cert-verify: true
-  ws-opts:
-    path: /d5357318-c9b4-435b-a424-acc206dd82c3-vm
-    headers:
-      HOST: lcd-rachel-wrapping-cindy.trycloudflare.com
-  servername: lcd-rachel-wrapping-cindy.trycloudflare.com
-- name: 馃嚫馃嚞鏂板姞鍧G005 0.5MB/s涓€� TG@jcnode
-  type: vmess
-  server: yd3.ainivp.com
-  port: 33402
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: yd3.ainivp.com
-  udp: true
-  servername: yd3.ainivp.com
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  encryption: none
-  name: 馃嚦馃嚤鑽峰叞NL001 2.5MB/s绾噣 TG@jcnode
-  network: xhttp
-  port: 443
-  server: dey.lnmarketplace.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
-  xhttp-opts:
-    host: dey.lnmarketplace.net
-    mode: stream-one
-    path: /kavir
-  packet-encoding: xudp
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 046 4.9MB/s TG@jcnode
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 063 1.2MB/s TG@jcnode
   type: http
-  server: 84.239.49.208
+  server: 193.176.84.31
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 066 3.7MB/s TG@jcnode
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 060 5.5MB/s TG@jcnode
   type: http
-  server: 84.239.49.160
+  server: 193.176.84.22
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 010 3.1MB/s TG@jcnode
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 028 3.1MB/s TG@jcnode
   type: http
-  server: 84.239.49.212
+  server: 84.239.49.58
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 052 4.0MB/s TG@jcnode
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 044 2.4MB/s TG@jcnode
   type: http
-  server: 84.239.49.215
+  server: 84.239.49.238
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: 馃嚛馃嚜寰峰浗DE011 2.5MB/s绾噣 TG@jcnode
-  type: vless
-  network: tcp
-  uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
-  server: 5.178.101.149
-  servername: sub.sbrf-cdn342.ru
-  port: 443
-  tls: true
-  udp: true
-  http-opts:
-    path:
-    - /
-  client-fingerprint: qq
-  flow: xtls-rprx-vision-udp443
-  packet-encoding: xudp
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 065 5.5MB/s TG@jcnode
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 048 4.3MB/s TG@jcnode
   type: http
-  server: 84.239.49.40
+  server: 193.176.84.17
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
 - type: vless
-  server: berocd.herumhas.shop
-  port: 9443
-  uuid: e7902151-e2e1-4d29-a84b-86f0d5d91b65
+  server: 5.23.48.135
+  port: 443
+  uuid: 69a2af58-d74a-44ca-864a-e09b493f4274
+  flow: xtls-rprx-vision
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: bMdCj0kTMpTngZhGEQ-fbfcDlbn-j8Jm2NXdnfis6g8
+    short-id: "9b551b69"
+  servername: www.ya.ru
+  client-fingerprint: chrome
+  name: 馃嚫馃嚘娌欑壒SA001 4.4MB/s涓€� TG@jcnode
+- type: vless
+  server: 64.188.76.249
+  port: 8443
+  uuid: ee54566f-b7f2-4fb3-b4a0-8802d516759a
   flow: xtls-rprx-vision
   network: tcp
   encryption: none
   tls: true
-  servername: berocd.herumhas.shop
-  client-fingerprint: chrome
-  name: 馃嚛馃嚜寰峰浗DE005 3.5MB/s涓€� TG@jcnode
-- name: 馃嚭馃嚫缇庡浗US064 3.5MB/s涓€� TG@jcnode
-  server: a.twodnwnpoe.xyz
-  port: 35147
-  type: trojan
-  password: f58cd113-a3b1-319d-a993-331481731e82
-  sni: i.comfortableyou.top
+  reality-opts:
+    public-key: GzQr6fDhigtRAr0n2Y7Nk3snhdytYyOvaYo9zYe1Xn4
+    short-id: b3a1cc510a2001c6
+  servername: www.kinopoisk.ru
+  client-fingerprint: safari
   skip-cert-verify: true
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 045 3.1MB/s TG@jcnode
+  header-type: none
+  name: 馃嚝馃嚠鑺叞FI001 3.7MB/s涓€� TG@jcnode
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 030 5.5MB/s TG@jcnode
   type: http
-  server: 84.239.49.207
+  server: 84.239.49.178
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 068 5.5MB/s TG@jcnode
+  type: http
+  server: 84.239.49.245
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
 - type: vless
-  server: max4r.skystreamgame.com
-  port: 8080
-  uuid: f2ec0e70-61e6-40f2-97bd-982f610d8b11
-  flow: ''
-  network: xhttp
-  encryption: none
+  server: 31.58.87.71
+  port: 12443
+  uuid: ea484535-0170-4ec8-bb3c-a9dbaa7412d7
+  flow: xtls-rprx-vision
+  network: tcp
   tls: true
   reality-opts:
-    public-key: XBePIY00JetBf0pbmcx-Dvu8XsZ-l079GiHf93HhS0Y
-    short-id: "6d6f13013d3e1d0c"
-  servername: ozon.ru
-  xhttp-opts:
-    path: /
-    mode: auto
+    public-key: D3bNJPmy4YJqhWQ3Xv1Fu3Z1danrTzswShytnkkG9Q4
+    short-id: ca4a1317e03791b3
+  servername: sun6-21.userapi.com
   client-fingerprint: chrome
-  name: 馃嚨馃嚤娉㈠叞PL001 6.2MB/s涓€� TG@jcnode
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 026 5.5MB/s TG@jcnode
+  name: 馃嚭馃嚫缇庡浗US038 0.3MB/s涓€� TG@jcnode
+- type: http
+  server: 84.239.49.198
+  port: 9002
+  tls: true
+  name: 馃嚪馃嚧缃楅┈灏间簹RO 021 6.2MB/s TG@jcnode
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 001 5.5MB/s TG@jcnode
+  port: 9002
+  server: 84.239.49.201
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 067 4.9MB/s TG@jcnode
+  type: http
+  server: 84.239.49.241
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 045 3.1MB/s TG@jcnode
+  type: http
+  server: 84.239.49.156
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 020 4.9MB/s TG@jcnode
   type: http
   server: 84.239.49.162
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 068 3.6MB/s TG@jcnode
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 047 5.5MB/s TG@jcnode
   type: http
-  server: 84.239.49.170
+  server: 193.176.84.36
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 004 4.9MB/s TG@jcnode
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 053 5.5MB/s TG@jcnode
   type: http
-  server: 84.239.49.159
+  server: 84.239.49.39
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 017 4.3MB/s TG@jcnode
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 032 4.9MB/s TG@jcnode
   type: http
-  server: 84.239.49.157
+  server: 84.239.49.196
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 061 4.9MB/s TG@jcnode
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 019 3.1MB/s TG@jcnode
   type: http
-  server: 84.239.49.199
+  server: 84.239.49.233
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 006 5.5MB/s TG@jcnode
-  type: http
-  server: 84.239.49.176
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 019 5.5MB/s TG@jcnode
-  type: http
-  server: 84.239.49.184
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- name: 馃嚡馃嚨鏃ユ湰JP003 3.6MB/s绾噣 TG@jcnode
-  type: ss
-  server: www.shopify.com
-  port: 80
-  cipher: 2022-blake3-aes-128-gcm
-  password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA==
-  udp: true
-  plugin: gost-plugin
-  plugin-opts:
-    mode: websocket
-    host: leajp1.337777777.xyz
-    path: /api/v1/stream2
-    tls: false
-    mux: true
-- name: 馃嚡馃嚨鏃ユ湰JP004 3.7MB/s绾噣 TG@jcnode
-  type: ss
-  server: www.shopify.com
-  port: 80
-  cipher: 2022-blake3-aes-128-gcm
-  password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA==
-  udp: true
-  plugin: gost-plugin
-  plugin-opts:
-    mode: websocket
-    host: leajp2.337777777.xyz
-    path: /api/v1/stream
-    tls: false
-    mux: true
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 037 6.2MB/s TG@jcnode
-  type: http
-  server: 84.239.49.223
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 036 4.9MB/s TG@jcnode
-  type: http
-  server: 84.239.49.37
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 038 3.3MB/s TG@jcnode
-  type: http
-  server: 84.239.49.42
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 035 3.1MB/s TG@jcnode
-  type: http
-  server: 84.239.49.202
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 043 6.1MB/s TG@jcnode
-  type: http
-  server: 84.239.49.161
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 070 5.5MB/s TG@jcnode
-  type: http
-  server: 84.239.49.220
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 022 3.1MB/s TG@jcnode
-  type: http
-  server: 84.239.49.247
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 027 5.5MB/s TG@jcnode
-  type: http
-  server: 84.239.49.55
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 029 2.2MB/s TG@jcnode
-  type: http
-  server: 84.239.14.159
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- name: 馃嚡馃嚨鏃ユ湰JP 001 1.1MB/s TG@jcnode
+- name: 馃嚡馃嚨鏃ユ湰JP 001 1.2MB/s TG@jcnode
   type: ss
   server: www.shopify.com
   port: 80
@@ -2199,70 +1163,30 @@ proxies:
     path: /api/v1/stream2
     tls: false
     mux: true
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 011 5.5MB/s TG@jcnode
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 017 4.9MB/s TG@jcnode
   type: http
-  server: 84.239.49.168
+  server: 84.239.49.231
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: 馃嚘馃嚤ALAL 001 0.6MB/s TG@jcnode
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 056 5.5MB/s TG@jcnode
   type: http
-  tls: true
-  server: 134.0.63.185
-  port: 443
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 023 3.2MB/s TG@jcnode
-  type: http
-  server: 84.239.14.149
+  server: 84.239.49.215
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 014 3.2MB/s TG@jcnode
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 038 5.5MB/s TG@jcnode
   type: http
-  server: 84.239.49.185
+  server: 84.239.49.180
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 062 3.7MB/s TG@jcnode
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 052 3.1MB/s TG@jcnode
   type: http
-  server: 84.239.49.253
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 047 5.5MB/s TG@jcnode
-  type: http
-  server: 84.239.49.39
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 040 2.8MB/s TG@jcnode
-  type: http
-  server: 84.239.14.154
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 003 2.6MB/s TG@jcnode
-  type: http
-  server: 84.239.49.238
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 024 5.5MB/s TG@jcnode
-  type: http
-  server: 84.239.49.57
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 009 4.9MB/s TG@jcnode
-  type: http
-  server: 84.239.49.204
+  server: 84.239.49.208
   port: 9002
   skip-cert-verify: true
   tls: true
@@ -2272,7 +1196,49 @@ proxies:
   server: www.shopify.com
   port: 80
   cipher: 2022-blake3-aes-128-gcm
-  password: YTE1ZWU4ZTEyZjc3YmEzZA==:YTgyZmZlMTAtZGYwYS00ZQ==
+  password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA==
+  udp: true
+  plugin: gost-plugin
+  plugin-opts:
+    mode: websocket
+    host: leajp1.337777777.xyz
+    path: /api/v1/stream2
+    tls: false
+    mux: true
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 012 6.8MB/s TG@jcnode
+  type: http
+  server: 84.239.49.185
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 024 3.1MB/s TG@jcnode
+  type: http
+  server: 84.239.49.227
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 010 5.5MB/s TG@jcnode
+  type: http
+  server: 84.239.49.211
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 025 4.9MB/s TG@jcnode
+  type: http
+  server: 84.239.49.168
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 馃嚡馃嚨鏃ユ湰JP003 3.7MB/s绾噣 TG@jcnode
+  type: ss
+  server: www.shopify.com
+  port: 80
+  cipher: 2022-blake3-aes-128-gcm
+  password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA==
   udp: true
   plugin: gost-plugin
   plugin-opts:
@@ -2281,125 +1247,286 @@ proxies:
     path: /api/v1/stream
     tls: false
     mux: true
-- name: 馃嚜馃嚜鐖辨矙灏间簹EE002 3.1MB/s涓€� TG@jcnode
-  server: 95.85.228.146
-  port: 8443
-  type: vless
-  uuid: a67e3045-626c-42c9-8cc0-a5afa6b18b05
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  servername: io.ozone.ru
-  reality-opts:
-    public-key: A9jwrodyycJJV-apFQ91_rrh1vfJ_hSzZGNP9GBPGCM
-    short-id: "92d0c4089b6c1da3"
-  udp: true
-  encryption: none
-  header-type: none
-- name: 馃嚛馃嚜寰峰浗DE012 2.5MB/s绾噣 TG@jcnode
-  type: vless
-  server: 5.178.101.149
-  port: 443
-  uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
-  servername: sub.sbrf-cdn342.ru
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: qq
-  udp: true
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 064 4.9MB/s TG@jcnode
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 054 5.5MB/s TG@jcnode
   type: http
-  server: 84.239.49.241
+  server: 193.176.84.25
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 001 6.1MB/s TG@jcnode
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 035 2.5MB/s TG@jcnode
   type: http
-  server: 84.239.49.164
+  server: 84.239.49.244
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 030 6.5MB/s TG@jcnode
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 037 4.9MB/s TG@jcnode
+  type: http
+  server: 84.239.49.189
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 039 3.1MB/s TG@jcnode
   type: http
   server: 84.239.49.166
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 063 3.1MB/s TG@jcnode
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 006 6.2MB/s TG@jcnode
   type: http
-  server: 84.239.14.157
+  server: 84.239.49.157
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 020 3.1MB/s TG@jcnode
-  type: http
-  server: 84.239.14.147
-  port: 9002
-  skip-cert-verify: true
+- type: vless
+  server: 5.129.209.148
+  port: 443
+  uuid: 0294d19d-5b1c-4ac6-8bf9-b14be79f3db3
+  flow: xtls-rprx-vision
+  network: tcp
+  encryption: none
   tls: true
-  sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 057 5.5MB/s TG@jcnode
-  type: http
-  server: 84.239.49.231
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 007 3.2MB/s TG@jcnode
-  type: http
-  server: 84.239.14.158
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 015 5.5MB/s TG@jcnode
-  type: http
-  server: 84.239.49.235
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 041 3.2MB/s TG@jcnode
-  type: http
-  server: 84.239.49.182
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 071 5.5MB/s TG@jcnode
-  type: http
-  server: 84.239.49.171
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 034 6.8MB/s TG@jcnode
+  reality-opts:
+    public-key: oGbQE8hz8cTrij4h9ystmsYa02Z70tbkes_CitR27Rc
+  servername: dl.google.com
+  client-fingerprint: chrome
+  header-type: none
+  name: 馃嚦馃嚤鑽峰叞NL001 0.2MB/s涓€� TG@jcnode
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 004 3.6MB/s TG@jcnode
   type: http
   server: 84.239.49.214
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 021 6.2MB/s TG@jcnode
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 014 5.5MB/s TG@jcnode
+  type: http
+  server: 84.239.49.202
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 馃嚜馃嚜鐖辨矙灏间簹EE001 1.2MB/s涓€� TG@jcnode
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: A9jwrodyycJJV-apFQ91_rrh1vfJ_hSzZGNP9GBPGCM
+    short-id: "92d0c4089b6c1da3"
+  server: 95.85.228.146
+  servername: io.ozone.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: a67e3045-626c-42c9-8cc0-a5afa6b18b05
+  packet-encoding: xudp
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 018 3.1MB/s TG@jcnode
+  type: http
+  server: 84.239.14.146
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 066 4.9MB/s TG@jcnode
+  type: http
+  server: 84.239.14.157
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 015 4.3MB/s TG@jcnode
+  type: http
+  server: 84.239.49.212
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 013 2.8MB/s TG@jcnode
+  type: http
+  server: 84.239.49.242
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 027 4.9MB/s TG@jcnode
+  type: http
+  server: 84.239.49.192
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- type: vless
+  server: 204.168.234.22
+  port: 80
+  uuid: 997b5119-c015-4203-b402-0eb0f60b77c3
+  flow: ''
+  network: ws
+  encryption: none
+  ws-opts:
+    path: /ws
+    headers:
+      Host: nobody.fastspeed.ir
+  name: 馃嚛馃嚜寰峰浗DE001 0.2MB/s涓€� TG@jcnode
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 002 3.2MB/s TG@jcnode
+  type: http
+  server: 84.239.49.55
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 011 5.5MB/s TG@jcnode
+  type: http
+  server: 84.239.49.42
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 003 3.1MB/s TG@jcnode
+  type: http
+  server: 84.239.49.163
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- type: vless
+  server: 45.43.75.81
+  port: 443
+  uuid: 8b866022-ce00-47a1-8322-5c04a77436b7
+  flow: xtls-rprx-vision
+  encryption: none
+  tls: true
+  reality-opts:
+    public-key: tgA0PBzh7ziFWEOoHw2c14m2p4VzZQt0MlJYnQBwE1U
+  servername: rebellion.global
+  client-fingerprint: chrome
+  header-type: none
+  name: 馃嚞馃嚙鑻卞浗GB002 0.4MB/s绾噣 TG@jcnode
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 040 3.5MB/s TG@jcnode
+  type: http
+  server: 84.239.49.173
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 061 6.2MB/s TG@jcnode
+  type: http
+  server: 193.176.84.35
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 033 4.9MB/s TG@jcnode
+  type: http
+  server: 84.239.14.147
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 023 6.2MB/s TG@jcnode
+  type: http
+  server: 84.239.49.219
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 072 3.1MB/s TG@jcnode
+  type: http
+  server: 84.239.49.171
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 069 3.2MB/s TG@jcnode
+  type: http
+  server: 84.239.49.160
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 034 3.1MB/s TG@jcnode
   type: http
   server: 84.239.49.249
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 012 4.9MB/s TG@jcnode
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 005 0.6MB/s TG@jcnode
   type: http
-  server: 84.239.49.58
+  server: 193.176.84.20
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: 馃嚫馃嚜鐟炲吀SE002 0.6MB/s绾噣 TG@jcnode
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 031 3.1MB/s TG@jcnode
+  type: http
+  server: 84.239.49.176
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 049 6.2MB/s TG@jcnode
+  type: http
+  server: 84.239.49.207
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 065 4.9MB/s TG@jcnode
+  type: http
+  server: 84.239.49.253
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 007 6.1MB/s TG@jcnode
+  type: http
+  server: 84.239.49.183
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 036 3.1MB/s TG@jcnode
+  type: http
+  server: 84.239.49.57
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 022 3.7MB/s TG@jcnode
+  type: http
+  server: 84.239.49.254
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 064 3.6MB/s TG@jcnode
+  type: http
+  server: 84.239.49.199
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 062 3.7MB/s TG@jcnode
+  type: http
+  server: 193.176.84.30
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 071 2.9MB/s TG@jcnode
+  type: http
+  server: 84.239.49.220
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 馃嚫馃嚜鐟炲吀SE002 0.2MB/s绾噣 TG@jcnode
   type: vless
   network: tcp
   uuid: 980231fb-4372-5c81-b696-20aa34d33af0
@@ -2419,41 +1546,114 @@ proxies:
   flow: xtls-rprx-vision
   packet-encoding: xudp
   encryption: none
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 067 3.1MB/s TG@jcnode
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 041 5.5MB/s TG@jcnode
   type: http
-  server: 84.239.49.239
+  server: 84.239.49.154
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 018 6.8MB/s TG@jcnode
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 043 6.0MB/s TG@jcnode
   type: http
-  server: 84.239.14.148
+  server: 84.239.49.54
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- type: vless
-  server: 151.101.118.95
-  port: 443
-  uuid: eae7e64e-0dfe-4694-8a1d-f8f656f3e2f1
-  flow: ''
-  network: xhttp
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 026 5.5MB/s TG@jcnode
+  type: http
+  server: 84.239.49.175
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- client-fingerprint: chrome
   encryption: none
+  flow: xtls-rprx-vision
+  name: 馃嚚馃嚲濉炴郸璺柉CY002 1.8MB/s涓€� TG@jcnode
+  network: tcp
+  port: 1443
+  reality-opts:
+    public-key: Ej_PPr2iomuIl23svqB6FgWf2Sw6FMC6ipavO5w5OXY
+    short-id: "099755ac7b731e9e"
+  server: lu.vles.space
+  servername: botapi.max.ru
+  skip-cert-verify: false
   tls: true
-  servername: 127.0.0.1
-  xhttp-opts:
-    path: /
-    host: ovh13.global.ssl.fastly.net
-  alpn:
-  - h3
-  client-fingerprint: chrome
+  type: vless
+  udp: true
+  uuid: 8cddd533-9611-4fc4-adda-7d629743b4b2
+  packet-encoding: xudp
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 050 5.5MB/s TG@jcnode
+  type: http
+  server: 193.176.84.38
+  port: 9002
   skip-cert-verify: true
-  header-type: none
-  name: 馃嚝馃嚪娉曞浗FR002 4.3MB/s涓€� TG@jcnode
-- name: 馃嚡馃嚨鏃ユ湰JP005 1.1MB/s涓€� TG@jcnode
+  tls: true
+  sni: www.bing.com
+- name: 馃嚫馃嚜鐟炲吀SE001 3.7MB/s绾噣 TG@jcnode
+  type: vless
+  server: swe-8t.freeonline.pro
+  port: 443
+  uuid: '8546145579'
+  servername: www.microsoft.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 978-Yxgtd3AWTVfiXEQqCstdwrT1qgsgleGPIRGQDl8
+    short-id: bdac121c7debdaba
+  udp: true
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 070 2.5MB/s TG@jcnode
+  type: http
+  server: 193.176.84.23
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- type: http
+  server: 84.239.49.224
+  port: 9002
+  tls: true
+  name: 馃嚪馃嚧缃楅┈灏间簹RO 016 3.1MB/s TG@jcnode
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 042 3.7MB/s TG@jcnode
+  type: http
+  server: 84.239.49.223
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 046 3.1MB/s TG@jcnode
+  type: http
+  server: 84.239.49.161
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 029 6.1MB/s TG@jcnode
+  type: http
+  server: 84.239.49.235
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 058 4.8MB/s TG@jcnode
+  type: http
+  server: 193.176.84.24
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 008 6.2MB/s TG@jcnode
+  type: http
+  server: 193.176.84.39
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 馃嚘馃嚬濂ュ湴鍒〢T002 3.7MB/s涓€� TG@jcnode
   type: ss
-  server: www.shopify.com
+  server: www.syfe.com
   port: 80
   cipher: 2022-blake3-aes-128-gcm
   password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA==
@@ -2461,228 +1661,44 @@ proxies:
   plugin: gost-plugin
   plugin-opts:
     mode: websocket
-    host: leajp1.337777777.xyz
-    path: /api/v1/stream4
-    tls: false
-    mux: true
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 025 5.5MB/s TG@jcnode
-  type: http
-  server: 84.239.49.38
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 059 3.6MB/s TG@jcnode
-  type: http
-  server: 193.176.84.30
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 028 5.5MB/s TG@jcnode
-  type: http
-  server: 84.239.49.183
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 016 2.5MB/s TG@jcnode
-  type: http
-  server: 84.239.49.187
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 002 4.9MB/s TG@jcnode
-  type: http
-  server: 84.239.49.225
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 008 5.8MB/s TG@jcnode
-  type: http
-  server: 84.239.49.227
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 033 3.1MB/s TG@jcnode
-  type: http
-  server: 84.239.49.173
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 050 5.5MB/s TG@jcnode
-  type: http
-  server: 193.176.84.37
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 048 3.1MB/s TG@jcnode
-  type: http
-  server: 84.239.49.211
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 005 2.8MB/s TG@jcnode
-  type: http
-  server: 84.239.49.196
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 013 2.5MB/s TG@jcnode
-  type: http
-  server: 84.239.14.146
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 039 3.1MB/s TG@jcnode
-  type: http
-  server: 84.239.49.54
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 042 3.1MB/s TG@jcnode
-  type: http
-  server: 84.239.49.156
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 044 6.1MB/s TG@jcnode
-  type: http
-  server: 193.176.84.17
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 馃嚥馃嚛鎽╁皵澶氱摝MD002 0.6MB/s涓€� TG@jcnode
-  network: tcp
-  port: 1443
-  reality-opts:
-    public-key: Ej_PPr2iomuIl23svqB6FgWf2Sw6FMC6ipavO5w5OXY
-    short-id: "099755ac7b731e9e"
-  server: api.chat.video.cdn.vles.space
-  servername: botapi.max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8cddd533-9611-4fc4-adda-7d629743b4b2
-  packet-encoding: xudp
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 032 5.5MB/s TG@jcnode
-  type: http
-  server: 84.239.49.254
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- name: 馃嚫馃嚞鏂板姞鍧G 001 3.3MB/s TG@jcnode
-  type: ss
-  server: www.shopify.com
-  port: 80
-  cipher: 2022-blake3-aes-128-gcm
-  password: YTE1ZWU4ZTEyZjc3YmEzZA==:YTgyZmZlMTAtZGYwYS00ZQ==
-  udp: true
-  plugin: gost-plugin
-  plugin-opts:
-    mode: websocket
-    host: sg.337777777.xyz
+    host: arm.337777777.xyz
     path: /api/v1/stream
     tls: false
     mux: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 馃嚜馃嚜鐖辨矙灏间簹EE001 4.9MB/s涓€� TG@jcnode
-  port: 8443
-  reality-opts:
-    public-key: A9jwrodyycJJV-apFQ91_rrh1vfJ_hSzZGNP9GBPGCM
-    short-id: "92d0c4089b6c1da3"
-  server: 95.85.228.146
-  servername: io.ozone.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: a67e3045-626c-42c9-8cc0-a5afa6b18b05
-  packet-encoding: xudp
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 054 3.1MB/s TG@jcnode
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 059 2.5MB/s TG@jcnode
   type: http
-  server: 193.176.84.34
+  server: 193.176.84.27
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 055 3.7MB/s TG@jcnode
-  type: http
-  server: 193.176.84.24
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 069 0.3MB/s TG@jcnode
-  type: http
-  server: 193.176.84.23
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 049 1.8MB/s TG@jcnode
-  type: http
-  server: 193.176.84.25
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- type: vless
-  server: 95.182.97.249
-  port: 443
-  uuid: a2b81a67-3cd2-42c7-a3f9-fd47ac27d4a1
-  flow: ''
+- alterId: 0
+  cipher: chacha20-poly1305
+  name: 馃嚛馃嚜寰峰浗DE004 3.1MB/s涓€� TG@jcnode
   network: ws
-  encryption: none
+  port: 80
+  server: speedtest.org
+  type: vmess
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
   ws-opts:
-    path: /
-  name: 馃嚝馃嚪娉曞浗FR001 0.2MB/s涓€� TG@jcnode
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 053 6.1MB/s TG@jcnode
+    headers:
+      Host: de2.ping-game.ir
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 057 5.5MB/s TG@jcnode
   type: http
   server: 193.176.84.21
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: 馃嚫馃嚜鐟炲吀SE001 3.7MB/s绾噣 TG@jcnode
-  server: swe-8t.freeonline.pro
-  port: 443
-  type: vless
-  uuid: 980231fb-4372-5c81-b696-20aa34d33af0
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  servername: www.microsoft.com
-  reality-opts:
-    public-key: 978-Yxgtd3AWTVfiXEQqCstdwrT1qgsgleGPIRGQDl8
-    short-id: bdac121c7debdaba
-  udp: true
-  encryption: none
-  network: tcp
-- name: 馃嚛馃嚜寰峰浗DE015 3.1MB/s绾噣 TG@jcnode
+- name: 馃嚛馃嚜寰峰浗DE011 3.8MB/s绾噣 TG@jcnode
   type: vless
   server: 2a14:7584:d097::a
   port: 11330
   uuid: 53d74aab-6471-4c1b-ace7-fac837d1bfbd
   encryption: none
   tls: true
+  servername: toarumajutsunoindex.fandom.com
   skip-cert-verify: false
   client-fingerprint: chrome
   network: xhttp
@@ -2696,57 +1712,72 @@ proxies:
     spider-x: /
   xhttp-opts:
     path: /alvin9999.com
-  servername: toarumajutsunoindex.fandom.com
-- name: 馃嚡馃嚨鏃ユ湰JP 018 0.5MB/s TG@jcnode
+- name: 馃嚫馃嚞鏂板姞鍧G 001 0.6MB/s TG@jcnode
+  type: ss
+  server: www.shopify.com
+  port: 80
+  cipher: 2022-blake3-aes-128-gcm
+  password: YTE1ZWU4ZTEyZjc3YmEzZA==:YTgyZmZlMTAtZGYwYS00ZQ==
+  udp: true
+  plugin: gost-plugin
+  plugin-opts:
+    mode: websocket
+    host: sg.337777777.xyz
+    path: /api/v1/stream
+    tls: false
+    mux: true
+- name: 馃嚘馃嚬濂ュ湴鍒〢T001 3.3MB/s涓€� TG@jcnode
+  type: ss
+  server: www.syfe.com
+  port: 80
+  cipher: 2022-blake3-aes-128-gcm
+  password: YTE1ZWU4ZTEyZjc3YmEzZA==:YTgyZmZlMTAtZGYwYS00ZQ==
+  udp: true
+  plugin: gost-plugin
+  plugin-opts:
+    mode: websocket
+    host: arm.337777777.xyz
+    path: /api/v1/stream
+    tls: false
+    mux: true
+- name: 馃嚪馃嚧缃楅┈灏间簹RO 051 2.1MB/s TG@jcnode
   type: http
-  tls: true
-  server: 133.9.6.10
-  port: 443
-- name: 馃嚪馃嚧缃楅┈灏间簹RO 058 4.3MB/s TG@jcnode
-  type: http
-  server: 193.176.84.35
+  server: 193.176.84.26
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- type: vless
-  server: 151.101.118.95
+- client-fingerprint: chrome
+  name: 馃嚭馃嚫缇庡浗US040 2.5MB/s涓€� TG@jcnode
+  network: ws
   port: 443
-  uuid: eae7e64e-0dfe-4694-8a1d-f8f656f3e2f1
-  flow: ''
-  network: xhttp
-  encryption: none
+  server: 172.67.195.79
+  skip-cert-verify: true
   tls: true
-  servername: 127.0.0.1
-  xhttp-opts:
-    path: /
-    host: ovh54.global.ssl.fastly.net
+  type: vless
+  udp: true
+  uuid: 30980fc4-8789-42df-80d1-0c8e5cd26881
+  ws-opts:
+    headers:
+      Host: cdn.veilvpn.fans
+    path: /vpnhu
+    v2ray-http-upgrade: true
+  servername: cdn.veilvpn.fans
+  packet-encoding: xudp
+- name: 馃嚛馃嚜寰峰浗DE008 2.5MB/s绾噣 TG@jcnode
+  server: 5.83.129.90
+  port: 54177
+  type: hysteria
+  auth-str: dongtaiwang.com
+  up: 500
+  down: 1000
+  protocol: udp
+  sni: apple.com
+  skip-cert-verify: true
   alpn:
   - h3
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  header-type: none
-  name: 馃嚝馃嚪娉曞浗FR003 6.8MB/s涓€� TG@jcnode
-- type: vless
-  server: 91.186.216.62
-  port: 443
-  uuid: eae7e64e-0dfe-4694-8a1d-f8f656f3e2f1
-  flow: ''
-  network: ws
-  encryption: none
-  tls: true
-  servername: polsha.ajajajajqj2qedvekq.online
-  ws-opts:
-    path: /
-    headers:
-      Host: polsha.ajajajajqj2qedvekq.online
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  header-type: none
-  name: 馃嚨馃嚤娉㈠叞PL003 0.7MB/s涓€� TG@jcnode
-- name: 馃嚛馃嚜寰峰浗DE016 3.0MB/s绾噣 TG@jcnode
+  udp: true
+- name: 馃嚛馃嚜寰峰浗DE010 3.1MB/s绾噣 TG@jcnode
   type: hysteria
   server: 2a14:7584:d097::a
   port: 54177
@@ -2758,22 +1789,6 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- type: trojan
-  server: 45.154.96.35
-  port: 14456
-  password: Tel:Arshiacomplus
-  sni: oof.acp.us.ci
-  network: ws
-  ws-opts:
-    path: /jdjsjeje
-    headers:
-      Host: oof.acp.us.ci
-  skip-cert-verify: true
-  alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  name: 馃嚙馃嚜姣斿埄鏃禕E001 0.2MB/s涓€� TG@jcnode
 proxy-groups:
 - name: 鈽侊笍 浠ｇ悊閫夋嫨
   type: select
@@ -2790,513 +1805,349 @@ proxy-groups:
 - name: 馃敯 鎵嬪姩閫夋嫨
   type: select
   proxies:
-  - 馃嚫馃嚞鏂板姞鍧G007 15.0MB/s涓€� TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK004 10.4MB/s涓€� TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK015 7.4MB/s绾噣 TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK016 14.7MB/s绾噣 TG@jcnode
-  - 馃嚫馃嚞鏂板姞鍧G 012 3.5MB/s TG@jcnode
-  - 馃嚬馃嚰鍙版咕TW011 8.0MB/s绾噣 TG@jcnode
-  - 馃嚬馃嚰鍙版咕TW 012 5.8MB/s TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK002 9.3MB/s涓€� TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK003 9.2MB/s涓€� TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK001 10.3MB/s涓€� TG@jcnode
-  - 馃嚬馃嚰鍙版咕TW001 1.2MB/s绾噣 TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK012 13.5MB/s绾噣 TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK011 14.1MB/s绾噣 TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK008 9.4MB/s绾噣 TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK017 6.5MB/s绾噣 TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK009 11.4MB/s涓€� TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP008 4.6MB/s涓€� TG@jcnode
-  - 馃嚫馃嚞鏂板姞鍧G003 8.5MB/s涓€� TG@jcnode
-  - 馃嚬馃嚰鍙版咕TW006 0.4MB/s绾噣 TG@jcnode
-  - 馃嚬馃嚰鍙版咕TW007 11.7MB/s涓€� TG@jcnode
-  - 馃嚫馃嚞鏂板姞鍧G004 4.9MB/s涓€� TG@jcnode
-  - 馃嚫馃嚞鏂板姞鍧G002 4.9MB/s涓€� TG@jcnode
-  - 馃嚛馃嚜寰峰浗DE007 4.3MB/s涓€� TG@jcnode
-  - 馃嚥馃嚲椹潵瑗夸簹MY001 3.1MB/s绾噣 TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP006 7.4MB/s涓€� TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP014 4.3MB/s涓€� TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP007 7.4MB/s涓€� TG@jcnode
-  - 馃嚬馃嚰鍙版咕TW010 9.2MB/s绾噣 TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP015 4.9MB/s涓€� TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP016 9.8MB/s涓€� TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP017 7.7MB/s涓€� TG@jcnode
-  - 馃嚬馃嚰鍙版咕TW008 9.8MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US027 0.7MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US026 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US031 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US009 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US040 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US013 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US011 0.2MB/s涓€� TG@jcnode
+  - 馃嚟馃嚢棣欐腐HK002 6.8MB/s涓€� TG@jcnode
+  - 馃嚟馃嚢棣欐腐HK003 9.5MB/s涓€� TG@jcnode
+  - 馃嚟馃嚢棣欐腐HK001 9.8MB/s涓€� TG@jcnode
+  - 馃嚥馃嚲椹潵瑗夸簹MY001 4.3MB/s涓€� TG@jcnode
+  - 馃嚡馃嚨鏃ユ湰JP007 3.5MB/s绾噣 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US047 5.5MB/s绾噣 TG@jcnode
+  - 馃嚫馃嚞鏂板姞鍧G002 5.8MB/s涓€� TG@jcnode
+  - 馃嚫馃嚞鏂板姞鍧G004 5.5MB/s涓€� TG@jcnode
+  - 馃嚫馃嚞鏂板姞鍧G003 5.6MB/s涓€� TG@jcnode
+  - 馃嚛馃嚜寰峰浗DE003 3.1MB/s涓€� TG@jcnode
+  - 馃嚡馃嚨鏃ユ湰JP004 5.2MB/s涓€� TG@jcnode
+  - 馃嚡馃嚨鏃ユ湰JP006 6.8MB/s涓€� TG@jcnode
+  - 馃嚡馃嚨鏃ユ湰JP005 4.9MB/s涓€� TG@jcnode
+  - 馃嚡馃嚨鏃ユ湰JP009 5.5MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US016 0.2MB/s鍗遍櫓 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US012 0.6MB/s鍗遍櫓 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US015 0.2MB/s鍗遍櫓 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US017 0.3MB/s鍗遍櫓 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US013 0.4MB/s鍗遍櫓 TG@jcnode
+  - 馃嚛馃嚜寰峰浗DE006 2.5MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US024 4.9MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US028 5.3MB/s涓€� TG@jcnode
   - 馃嚭馃嚫缇庡浗US025 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US023 0.2MB/s涓€� TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK005 6.1MB/s鍗遍櫓 TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP012 6.1MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US019 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US032 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US020 0.6MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US017 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US016 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US035 0.8MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US038 0.3MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US024 0.2MB/s涓€� TG@jcnode
-  - 馃嚛馃嚜寰峰浗DE 001 0.2MB/s TG@jcnode
-  - 馃嚭馃嚫缇庡浗US008 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US034 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US015 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US036 1.4MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US021 0.6MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US037 0.3MB/s涓€� TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP013 9.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US061 6.8MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US010 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US028 1.3MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US060 0.3MB/s绾噣 TG@jcnode
-  - 馃嚛馃嚜寰峰浗DE 002 0.3MB/s TG@jcnode
-  - 馃嚛馃嚜寰峰浗DE 003 0.2MB/s TG@jcnode
-  - 馃嚭馃嚫缇庡浗US029 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US014 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US039 0.3MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US033 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US022 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US012 0.4MB/s涓€� TG@jcnode
-  - 馃嚫馃嚜鐟炲吀SE003 1.2MB/s涓€� TG@jcnode
-  - 馃嚬馃嚰鍙版咕TW002 6.1MB/s绾噣 TG@jcnode
-  - 馃嚢馃嚪闊╁浗KR001 1.7MB/s涓€� TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK014 2.8MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US018 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US030 0.2MB/s涓€� TG@jcnode
-  - 馃嚬馃嚰鍙版咕TW003 0.2MB/s绾噣 TG@jcnode
-  - 馃嚢馃嚪闊╁浗KR 004 1.4MB/s TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP009 0.2MB/s绾噣 TG@jcnode
-  - 馃嚫馃嚞鏂板姞鍧G009 4.9MB/s绾噣 TG@jcnode
-  - 馃嚬馃嚰鍙版咕TW009 9.2MB/s绾噣 TG@jcnode
-  - 馃嚫馃嚞鏂板姞鍧G008 11.1MB/s绾噣 TG@jcnode
-  - 馃嚛馃嚜寰峰浗DE010 3.1MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US056 2.4MB/s涓€� TG@jcnode
-  - 馃嚫馃嚞鏂板姞鍧G010 12.3MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US059 0.4MB/s绾噣 TG@jcnode
-  - 馃嚛馃嚜寰峰浗DE 006 3.1MB/s TG@jcnode
-  - 馃嚭馃嚫缇庡浗US057 0.4MB/s绾噣 TG@jcnode
-  - 馃嚫馃嚞鏂板姞鍧G006 4.3MB/s涓€� TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK006 2.5MB/s涓€� TG@jcnode
-  - 馃嚛馃嚜寰峰浗DE004 1.8MB/s涓€� TG@jcnode
-  - 馃嚪馃嚭淇勭綏鏂疪U003 2.2MB/s涓€� TG@jcnode
-  - 馃嚛馃嚜寰峰浗DE008 6.1MB/s涓€� TG@jcnode
-  - 馃嚛馃嚜寰峰浗DE013 2.5MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US001 6.1MB/s涓€� TG@jcnode
-  - 馃嚫馃嚞鏂板姞鍧G011 12.3MB/s绾噣 TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK013 8.0MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US005 4.9MB/s涓€� TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK018 12.1MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚘涔屽厠鍏癠A001 1.2MB/s涓€� TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK007 0.8MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US003 3.7MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US058 0.5MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US045 8.0MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US050 4.7MB/s绾噣 TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP011 2.5MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US049 5.5MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US004 4.3MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US063 0.1MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US051 6.8MB/s绾噣 TG@jcnode
-  - 馃嚦馃嚤鑽峰叞NL002 4.9MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US002 3.7MB/s涓€� TG@jcnode
-  - 馃嚬馃嚰鍙版咕TW004 6.6MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US067 1.7MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US068 2.5MB/s绾噣 TG@jcnode
-  - 馃嚦馃嚤鑽峰叞NL 003 7.4MB/s TG@jcnode
-  - 馃嚭馃嚫缇庡浗US042 2.5MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US048 5.5MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US047 6.8MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US052 1.8MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US062 3.1MB/s绾噣 TG@jcnode
-  - 馃嚥馃嚲椹潵瑗夸簹MY002 6.5MB/s绾噣 TG@jcnode
-  - 馃嚛馃嚜寰峰浗DE009 3.7MB/s绾噣 TG@jcnode
-  - 馃嚥馃嚛鎽╁皵澶氱摝MD001 0.6MB/s涓€� TG@jcnode
-  - 馃嚬馃嚰鍙版咕TW005 5.0MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US043 8.0MB/s绾噣 TG@jcnode
-  - 馃嚞馃嚙鑻卞浗GB002 1.0MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US055 1.9MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US 066 3.1MB/s TG@jcnode
-  - 馃嚭馃嚫缇庡浗US053 7.4MB/s绾噣 TG@jcnode
-  - 馃嚚馃嚲濉炴郸璺柉CY001 6.1MB/s绾噣 TG@jcnode
-  - 馃嚢馃嚪闊╁浗KR002 5.5MB/s涓€� TG@jcnode
-  - 馃嚛馃嚜寰峰浗DE014 2.3MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US044 6.8MB/s绾噣 TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP010 0.2MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US007 2.9MB/s涓€� TG@jcnode
-  - 馃嚝馃嚪娉曞浗FR004 0.9MB/s涓€� TG@jcnode
-  - 馃嚨馃嚤娉㈠叞PL002 3.7MB/s涓€� TG@jcnode
-  - 馃嚚馃嚟鐟炲＋CH001 1.9MB/s涓€� TG@jcnode
-  - 馃嚚馃嚟鐟炲＋CH002 1.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US054 7.4MB/s绾噣 TG@jcnode
-  - 馃嚤馃嚬绔嬮櫠瀹汱T001 0.8MB/s涓€� TG@jcnode
-  - 馃嚢馃嚪闊╁浗KR003 0.1MB/s涓€� TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK010 3.7MB/s涓€� TG@jcnode
-  - 馃嚪馃嚭淇勭綏鏂疪U001 4.9MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US041 8.6MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US006 1.0MB/s涓€� TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 056 6.2MB/s TG@jcnode
-  - 馃嚭馃嚫缇庡浗US065 4.3MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US046 5.3MB/s涓€� TG@jcnode
-  - 馃嚪馃嚭淇勭綏鏂疪U002 4.6MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US014 0.2MB/s鍗遍櫓 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US019 4.9MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US018 0.3MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US027 0.2MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US026 4.6MB/s涓€� TG@jcnode
+  - 馃嚡馃嚨鏃ユ湰JP008 6.1MB/s涓€� TG@jcnode
+  - 馃嚞馃嚙鑻卞浗GB 001 1.8MB/s TG@jcnode
+  - 馃嚭馃嚫缇庡浗US041 1.8MB/s绾噣 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US037 4.9MB/s绾噣 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US044 0.2MB/s绾噣 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US005 5.5MB/s涓€� TG@jcnode
+  - 馃嚟馃嚢棣欐腐HK007 7.4MB/s涓€� TG@jcnode
+  - 馃嚛馃嚜寰峰浗DE005 2.5MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US011 3.7MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US033 6.1MB/s绾噣 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US006 5.5MB/s涓€� TG@jcnode
+  - 馃嚟馃嚢棣欐腐HK004 4.2MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US034 5.5MB/s绾噣 TG@jcnode
+  - 馃嚦馃嚤鑽峰叞NL002 6.8MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US004 5.9MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US001 4.4MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US043 7.4MB/s绾噣 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US036 6.8MB/s绾噣 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US042 8.6MB/s绾噣 TG@jcnode
+  - 馃嚪馃嚭淇勭綏鏂疪U001 4.5MB/s涓€� TG@jcnode
+  - 馃嚛馃嚜寰峰浗DE 002 1.9MB/s TG@jcnode
+  - 馃嚭馃嚫缇庡浗US022 5.5MB/s涓€� TG@jcnode
+  - 馃嚬馃嚟娉板浗TH001 2.7MB/s涓€� TG@jcnode
+  - 馃嚛馃嚜寰峰浗DE007 3.1MB/s绾噣 TG@jcnode
+  - 馃嚟馃嚢棣欐腐HK005 0.5MB/s绾噣 TG@jcnode
+  - 馃嚚馃嚲濉炴郸璺柉CY001 6.4MB/s绾噣 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US039 5.5MB/s涓€� TG@jcnode
+  - 馃嚟馃嚢棣欐腐HK006 1.2MB/s绾噣 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US007 1.2MB/s涓€� TG@jcnode
+  - 馃嚛馃嚜寰峰浗DE009 2.4MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US020 5.8MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US021 6.1MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US045 3.2MB/s绾噣 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US030 4.9MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US023 5.9MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US003 2.0MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US032 6.2MB/s绾噣 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US002 1.6MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US 008 1.1MB/s TG@jcnode
+  - 馃嚭馃嚫缇庡浗US010 5.8MB/s涓€� TG@jcnode
+  - 馃嚬馃嚟娉板浗TH002 2.8MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US031 4.9MB/s涓€� TG@jcnode
+  - 馃嚚馃嚟鐟炲＋CH002 1.8MB/s涓€� TG@jcnode
+  - 馃嚚馃嚟鐟炲＋CH001 1.8MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US 009 0.6MB/s TG@jcnode
+  - 馃嚭馃嚫缇庡浗US035 6.8MB/s绾噣 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US029 2.8MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US046 4.3MB/s涓€� TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 009 5.5MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 055 4.3MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 063 1.2MB/s TG@jcnode
   - 馃嚪馃嚧缃楅┈灏间簹RO 060 5.5MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 031 3.1MB/s TG@jcnode
-  - 馃嚞馃嚙鑻卞浗GB001 1.0MB/s绾噣 TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 051 3.1MB/s TG@jcnode
-  - 馃嚭馃嚫缇庡浗US069 4.9MB/s涓€� TG@jcnode
-  - 馃嚫馃嚞鏂板姞鍧G005 0.5MB/s涓€� TG@jcnode
-  - 馃嚦馃嚤鑽峰叞NL001 2.5MB/s绾噣 TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 046 4.9MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 066 3.7MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 010 3.1MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 052 4.0MB/s TG@jcnode
-  - 馃嚛馃嚜寰峰浗DE011 2.5MB/s绾噣 TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 065 5.5MB/s TG@jcnode
-  - 馃嚛馃嚜寰峰浗DE005 3.5MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US064 3.5MB/s涓€� TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 045 3.1MB/s TG@jcnode
-  - 馃嚨馃嚤娉㈠叞PL001 6.2MB/s涓€� TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 026 5.5MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 068 3.6MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 004 4.9MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 017 4.3MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 061 4.9MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 006 5.5MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 019 5.5MB/s TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP003 3.6MB/s绾噣 TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP004 3.7MB/s绾噣 TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 037 6.2MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 036 4.9MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 038 3.3MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 035 3.1MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 043 6.1MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 070 5.5MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 022 3.1MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 027 5.5MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 029 2.2MB/s TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP 001 1.1MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 011 5.5MB/s TG@jcnode
-  - 馃嚘馃嚤ALAL 001 0.6MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 023 3.2MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 014 3.2MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 062 3.7MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 047 5.5MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 040 2.8MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 003 2.6MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 024 5.5MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 009 4.9MB/s TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP002 3.7MB/s绾噣 TG@jcnode
-  - 馃嚜馃嚜鐖辨矙灏间簹EE002 3.1MB/s涓€� TG@jcnode
-  - 馃嚛馃嚜寰峰浗DE012 2.5MB/s绾噣 TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 064 4.9MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 001 6.1MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 030 6.5MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 063 3.1MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 020 3.1MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 057 5.5MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 007 3.2MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 015 5.5MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 041 3.2MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 071 5.5MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 034 6.8MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 028 3.1MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 044 2.4MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 048 4.3MB/s TG@jcnode
+  - 馃嚫馃嚘娌欑壒SA001 4.4MB/s涓€� TG@jcnode
+  - 馃嚝馃嚠鑺叞FI001 3.7MB/s涓€� TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 030 5.5MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 068 5.5MB/s TG@jcnode
+  - 馃嚭馃嚫缇庡浗US038 0.3MB/s涓€� TG@jcnode
   - 馃嚪馃嚧缃楅┈灏间簹RO 021 6.2MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 012 4.9MB/s TG@jcnode
-  - 馃嚫馃嚜鐟炲吀SE002 0.6MB/s绾噣 TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 067 3.1MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 018 6.8MB/s TG@jcnode
-  - 馃嚝馃嚪娉曞浗FR002 4.3MB/s涓€� TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP005 1.1MB/s涓€� TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 025 5.5MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 059 3.6MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 028 5.5MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 016 2.5MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 002 4.9MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 008 5.8MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 033 3.1MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 050 5.5MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 048 3.1MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 005 2.8MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 013 2.5MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 001 5.5MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 067 4.9MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 045 3.1MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 020 4.9MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 047 5.5MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 053 5.5MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 032 4.9MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 019 3.1MB/s TG@jcnode
+  - 馃嚡馃嚨鏃ユ湰JP 001 1.2MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 017 4.9MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 056 5.5MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 038 5.5MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 052 3.1MB/s TG@jcnode
+  - 馃嚡馃嚨鏃ユ湰JP002 3.7MB/s绾噣 TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 012 6.8MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 024 3.1MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 010 5.5MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 025 4.9MB/s TG@jcnode
+  - 馃嚡馃嚨鏃ユ湰JP003 3.7MB/s绾噣 TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 054 5.5MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 035 2.5MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 037 4.9MB/s TG@jcnode
   - 馃嚪馃嚧缃楅┈灏间簹RO 039 3.1MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 042 3.1MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 044 6.1MB/s TG@jcnode
-  - 馃嚥馃嚛鎽╁皵澶氱摝MD002 0.6MB/s涓€� TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 032 5.5MB/s TG@jcnode
-  - 馃嚫馃嚞鏂板姞鍧G 001 3.3MB/s TG@jcnode
-  - 馃嚜馃嚜鐖辨矙灏间簹EE001 4.9MB/s涓€� TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 054 3.1MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 055 3.7MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 069 0.3MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 049 1.8MB/s TG@jcnode
-  - 馃嚝馃嚪娉曞浗FR001 0.2MB/s涓€� TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 053 6.1MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 006 6.2MB/s TG@jcnode
+  - 馃嚦馃嚤鑽峰叞NL001 0.2MB/s涓€� TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 004 3.6MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 014 5.5MB/s TG@jcnode
+  - 馃嚜馃嚜鐖辨矙灏间簹EE001 1.2MB/s涓€� TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 018 3.1MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 066 4.9MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 015 4.3MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 013 2.8MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 027 4.9MB/s TG@jcnode
+  - 馃嚛馃嚜寰峰浗DE001 0.2MB/s涓€� TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 002 3.2MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 011 5.5MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 003 3.1MB/s TG@jcnode
+  - 馃嚞馃嚙鑻卞浗GB002 0.4MB/s绾噣 TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 040 3.5MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 061 6.2MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 033 4.9MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 023 6.2MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 072 3.1MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 069 3.2MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 034 3.1MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 005 0.6MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 031 3.1MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 049 6.2MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 065 4.9MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 007 6.1MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 036 3.1MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 022 3.7MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 064 3.6MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 062 3.7MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 071 2.9MB/s TG@jcnode
+  - 馃嚫馃嚜鐟炲吀SE002 0.2MB/s绾噣 TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 041 5.5MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 043 6.0MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 026 5.5MB/s TG@jcnode
+  - 馃嚚馃嚲濉炴郸璺柉CY002 1.8MB/s涓€� TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 050 5.5MB/s TG@jcnode
   - 馃嚫馃嚜鐟炲吀SE001 3.7MB/s绾噣 TG@jcnode
-  - 馃嚛馃嚜寰峰浗DE015 3.1MB/s绾噣 TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP 018 0.5MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 058 4.3MB/s TG@jcnode
-  - 馃嚝馃嚪娉曞浗FR003 6.8MB/s涓€� TG@jcnode
-  - 馃嚨馃嚤娉㈠叞PL003 0.7MB/s涓€� TG@jcnode
-  - 馃嚛馃嚜寰峰浗DE016 3.0MB/s绾噣 TG@jcnode
-  - 馃嚙馃嚜姣斿埄鏃禕E001 0.2MB/s涓€� TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 070 2.5MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 016 3.1MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 042 3.7MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 046 3.1MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 029 6.1MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 058 4.8MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 008 6.2MB/s TG@jcnode
+  - 馃嚘馃嚬濂ュ湴鍒〢T002 3.7MB/s涓€� TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 059 2.5MB/s TG@jcnode
+  - 馃嚛馃嚜寰峰浗DE004 3.1MB/s涓€� TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 057 5.5MB/s TG@jcnode
+  - 馃嚛馃嚜寰峰浗DE011 3.8MB/s绾噣 TG@jcnode
+  - 馃嚫馃嚞鏂板姞鍧G 001 0.6MB/s TG@jcnode
+  - 馃嚘馃嚬濂ュ湴鍒〢T001 3.3MB/s涓€� TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 051 2.1MB/s TG@jcnode
+  - 馃嚭馃嚫缇庡浗US040 2.5MB/s涓€� TG@jcnode
+  - 馃嚛馃嚜寰峰浗DE008 2.5MB/s绾噣 TG@jcnode
+  - 馃嚛馃嚜寰峰浗DE010 3.1MB/s绾噣 TG@jcnode
 - name: 鈾伙笍 鑷姩閫夋嫨
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 馃嚫馃嚞鏂板姞鍧G007 15.0MB/s涓€� TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK004 10.4MB/s涓€� TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK015 7.4MB/s绾噣 TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK016 14.7MB/s绾噣 TG@jcnode
-  - 馃嚫馃嚞鏂板姞鍧G 012 3.5MB/s TG@jcnode
-  - 馃嚬馃嚰鍙版咕TW011 8.0MB/s绾噣 TG@jcnode
-  - 馃嚬馃嚰鍙版咕TW 012 5.8MB/s TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK002 9.3MB/s涓€� TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK003 9.2MB/s涓€� TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK001 10.3MB/s涓€� TG@jcnode
-  - 馃嚬馃嚰鍙版咕TW001 1.2MB/s绾噣 TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK012 13.5MB/s绾噣 TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK011 14.1MB/s绾噣 TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK008 9.4MB/s绾噣 TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK017 6.5MB/s绾噣 TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK009 11.4MB/s涓€� TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP008 4.6MB/s涓€� TG@jcnode
-  - 馃嚫馃嚞鏂板姞鍧G003 8.5MB/s涓€� TG@jcnode
-  - 馃嚬馃嚰鍙版咕TW006 0.4MB/s绾噣 TG@jcnode
-  - 馃嚬馃嚰鍙版咕TW007 11.7MB/s涓€� TG@jcnode
-  - 馃嚫馃嚞鏂板姞鍧G004 4.9MB/s涓€� TG@jcnode
-  - 馃嚫馃嚞鏂板姞鍧G002 4.9MB/s涓€� TG@jcnode
-  - 馃嚛馃嚜寰峰浗DE007 4.3MB/s涓€� TG@jcnode
-  - 馃嚥馃嚲椹潵瑗夸簹MY001 3.1MB/s绾噣 TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP006 7.4MB/s涓€� TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP014 4.3MB/s涓€� TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP007 7.4MB/s涓€� TG@jcnode
-  - 馃嚬馃嚰鍙版咕TW010 9.2MB/s绾噣 TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP015 4.9MB/s涓€� TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP016 9.8MB/s涓€� TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP017 7.7MB/s涓€� TG@jcnode
-  - 馃嚬馃嚰鍙版咕TW008 9.8MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US027 0.7MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US026 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US031 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US009 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US040 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US013 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US011 0.2MB/s涓€� TG@jcnode
+  - 馃嚟馃嚢棣欐腐HK002 6.8MB/s涓€� TG@jcnode
+  - 馃嚟馃嚢棣欐腐HK003 9.5MB/s涓€� TG@jcnode
+  - 馃嚟馃嚢棣欐腐HK001 9.8MB/s涓€� TG@jcnode
+  - 馃嚥馃嚲椹潵瑗夸簹MY001 4.3MB/s涓€� TG@jcnode
+  - 馃嚡馃嚨鏃ユ湰JP007 3.5MB/s绾噣 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US047 5.5MB/s绾噣 TG@jcnode
+  - 馃嚫馃嚞鏂板姞鍧G002 5.8MB/s涓€� TG@jcnode
+  - 馃嚫馃嚞鏂板姞鍧G004 5.5MB/s涓€� TG@jcnode
+  - 馃嚫馃嚞鏂板姞鍧G003 5.6MB/s涓€� TG@jcnode
+  - 馃嚛馃嚜寰峰浗DE003 3.1MB/s涓€� TG@jcnode
+  - 馃嚡馃嚨鏃ユ湰JP004 5.2MB/s涓€� TG@jcnode
+  - 馃嚡馃嚨鏃ユ湰JP006 6.8MB/s涓€� TG@jcnode
+  - 馃嚡馃嚨鏃ユ湰JP005 4.9MB/s涓€� TG@jcnode
+  - 馃嚡馃嚨鏃ユ湰JP009 5.5MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US016 0.2MB/s鍗遍櫓 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US012 0.6MB/s鍗遍櫓 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US015 0.2MB/s鍗遍櫓 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US017 0.3MB/s鍗遍櫓 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US013 0.4MB/s鍗遍櫓 TG@jcnode
+  - 馃嚛馃嚜寰峰浗DE006 2.5MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US024 4.9MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US028 5.3MB/s涓€� TG@jcnode
   - 馃嚭馃嚫缇庡浗US025 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US023 0.2MB/s涓€� TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK005 6.1MB/s鍗遍櫓 TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP012 6.1MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US019 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US032 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US020 0.6MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US017 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US016 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US035 0.8MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US038 0.3MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US024 0.2MB/s涓€� TG@jcnode
-  - 馃嚛馃嚜寰峰浗DE 001 0.2MB/s TG@jcnode
-  - 馃嚭馃嚫缇庡浗US008 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US034 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US015 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US036 1.4MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US021 0.6MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US037 0.3MB/s涓€� TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP013 9.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US061 6.8MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US010 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US028 1.3MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US060 0.3MB/s绾噣 TG@jcnode
-  - 馃嚛馃嚜寰峰浗DE 002 0.3MB/s TG@jcnode
-  - 馃嚛馃嚜寰峰浗DE 003 0.2MB/s TG@jcnode
-  - 馃嚭馃嚫缇庡浗US029 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US014 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US039 0.3MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US033 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US022 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US012 0.4MB/s涓€� TG@jcnode
-  - 馃嚫馃嚜鐟炲吀SE003 1.2MB/s涓€� TG@jcnode
-  - 馃嚬馃嚰鍙版咕TW002 6.1MB/s绾噣 TG@jcnode
-  - 馃嚢馃嚪闊╁浗KR001 1.7MB/s涓€� TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK014 2.8MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US018 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US030 0.2MB/s涓€� TG@jcnode
-  - 馃嚬馃嚰鍙版咕TW003 0.2MB/s绾噣 TG@jcnode
-  - 馃嚢馃嚪闊╁浗KR 004 1.4MB/s TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP009 0.2MB/s绾噣 TG@jcnode
-  - 馃嚫馃嚞鏂板姞鍧G009 4.9MB/s绾噣 TG@jcnode
-  - 馃嚬馃嚰鍙版咕TW009 9.2MB/s绾噣 TG@jcnode
-  - 馃嚫馃嚞鏂板姞鍧G008 11.1MB/s绾噣 TG@jcnode
-  - 馃嚛馃嚜寰峰浗DE010 3.1MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US056 2.4MB/s涓€� TG@jcnode
-  - 馃嚫馃嚞鏂板姞鍧G010 12.3MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US059 0.4MB/s绾噣 TG@jcnode
-  - 馃嚛馃嚜寰峰浗DE 006 3.1MB/s TG@jcnode
-  - 馃嚭馃嚫缇庡浗US057 0.4MB/s绾噣 TG@jcnode
-  - 馃嚫馃嚞鏂板姞鍧G006 4.3MB/s涓€� TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK006 2.5MB/s涓€� TG@jcnode
-  - 馃嚛馃嚜寰峰浗DE004 1.8MB/s涓€� TG@jcnode
-  - 馃嚪馃嚭淇勭綏鏂疪U003 2.2MB/s涓€� TG@jcnode
-  - 馃嚛馃嚜寰峰浗DE008 6.1MB/s涓€� TG@jcnode
-  - 馃嚛馃嚜寰峰浗DE013 2.5MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US001 6.1MB/s涓€� TG@jcnode
-  - 馃嚫馃嚞鏂板姞鍧G011 12.3MB/s绾噣 TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK013 8.0MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US005 4.9MB/s涓€� TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK018 12.1MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚘涔屽厠鍏癠A001 1.2MB/s涓€� TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK007 0.8MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US003 3.7MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US058 0.5MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US045 8.0MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US050 4.7MB/s绾噣 TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP011 2.5MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US049 5.5MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US004 4.3MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US063 0.1MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US051 6.8MB/s绾噣 TG@jcnode
-  - 馃嚦馃嚤鑽峰叞NL002 4.9MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US002 3.7MB/s涓€� TG@jcnode
-  - 馃嚬馃嚰鍙版咕TW004 6.6MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US067 1.7MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US068 2.5MB/s绾噣 TG@jcnode
-  - 馃嚦馃嚤鑽峰叞NL 003 7.4MB/s TG@jcnode
-  - 馃嚭馃嚫缇庡浗US042 2.5MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US048 5.5MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US047 6.8MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US052 1.8MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US062 3.1MB/s绾噣 TG@jcnode
-  - 馃嚥馃嚲椹潵瑗夸簹MY002 6.5MB/s绾噣 TG@jcnode
-  - 馃嚛馃嚜寰峰浗DE009 3.7MB/s绾噣 TG@jcnode
-  - 馃嚥馃嚛鎽╁皵澶氱摝MD001 0.6MB/s涓€� TG@jcnode
-  - 馃嚬馃嚰鍙版咕TW005 5.0MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US043 8.0MB/s绾噣 TG@jcnode
-  - 馃嚞馃嚙鑻卞浗GB002 1.0MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US055 1.9MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US 066 3.1MB/s TG@jcnode
-  - 馃嚭馃嚫缇庡浗US053 7.4MB/s绾噣 TG@jcnode
-  - 馃嚚馃嚲濉炴郸璺柉CY001 6.1MB/s绾噣 TG@jcnode
-  - 馃嚢馃嚪闊╁浗KR002 5.5MB/s涓€� TG@jcnode
-  - 馃嚛馃嚜寰峰浗DE014 2.3MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US044 6.8MB/s绾噣 TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP010 0.2MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US007 2.9MB/s涓€� TG@jcnode
-  - 馃嚝馃嚪娉曞浗FR004 0.9MB/s涓€� TG@jcnode
-  - 馃嚨馃嚤娉㈠叞PL002 3.7MB/s涓€� TG@jcnode
-  - 馃嚚馃嚟鐟炲＋CH001 1.9MB/s涓€� TG@jcnode
-  - 馃嚚馃嚟鐟炲＋CH002 1.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US054 7.4MB/s绾噣 TG@jcnode
-  - 馃嚤馃嚬绔嬮櫠瀹汱T001 0.8MB/s涓€� TG@jcnode
-  - 馃嚢馃嚪闊╁浗KR003 0.1MB/s涓€� TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK010 3.7MB/s涓€� TG@jcnode
-  - 馃嚪馃嚭淇勭綏鏂疪U001 4.9MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US041 8.6MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US006 1.0MB/s涓€� TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 056 6.2MB/s TG@jcnode
-  - 馃嚭馃嚫缇庡浗US065 4.3MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US046 5.3MB/s涓€� TG@jcnode
-  - 馃嚪馃嚭淇勭綏鏂疪U002 4.6MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US014 0.2MB/s鍗遍櫓 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US019 4.9MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US018 0.3MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US027 0.2MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US026 4.6MB/s涓€� TG@jcnode
+  - 馃嚡馃嚨鏃ユ湰JP008 6.1MB/s涓€� TG@jcnode
+  - 馃嚞馃嚙鑻卞浗GB 001 1.8MB/s TG@jcnode
+  - 馃嚭馃嚫缇庡浗US041 1.8MB/s绾噣 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US037 4.9MB/s绾噣 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US044 0.2MB/s绾噣 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US005 5.5MB/s涓€� TG@jcnode
+  - 馃嚟馃嚢棣欐腐HK007 7.4MB/s涓€� TG@jcnode
+  - 馃嚛馃嚜寰峰浗DE005 2.5MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US011 3.7MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US033 6.1MB/s绾噣 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US006 5.5MB/s涓€� TG@jcnode
+  - 馃嚟馃嚢棣欐腐HK004 4.2MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US034 5.5MB/s绾噣 TG@jcnode
+  - 馃嚦馃嚤鑽峰叞NL002 6.8MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US004 5.9MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US001 4.4MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US043 7.4MB/s绾噣 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US036 6.8MB/s绾噣 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US042 8.6MB/s绾噣 TG@jcnode
+  - 馃嚪馃嚭淇勭綏鏂疪U001 4.5MB/s涓€� TG@jcnode
+  - 馃嚛馃嚜寰峰浗DE 002 1.9MB/s TG@jcnode
+  - 馃嚭馃嚫缇庡浗US022 5.5MB/s涓€� TG@jcnode
+  - 馃嚬馃嚟娉板浗TH001 2.7MB/s涓€� TG@jcnode
+  - 馃嚛馃嚜寰峰浗DE007 3.1MB/s绾噣 TG@jcnode
+  - 馃嚟馃嚢棣欐腐HK005 0.5MB/s绾噣 TG@jcnode
+  - 馃嚚馃嚲濉炴郸璺柉CY001 6.4MB/s绾噣 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US039 5.5MB/s涓€� TG@jcnode
+  - 馃嚟馃嚢棣欐腐HK006 1.2MB/s绾噣 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US007 1.2MB/s涓€� TG@jcnode
+  - 馃嚛馃嚜寰峰浗DE009 2.4MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US020 5.8MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US021 6.1MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US045 3.2MB/s绾噣 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US030 4.9MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US023 5.9MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US003 2.0MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US032 6.2MB/s绾噣 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US002 1.6MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US 008 1.1MB/s TG@jcnode
+  - 馃嚭馃嚫缇庡浗US010 5.8MB/s涓€� TG@jcnode
+  - 馃嚬馃嚟娉板浗TH002 2.8MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US031 4.9MB/s涓€� TG@jcnode
+  - 馃嚚馃嚟鐟炲＋CH002 1.8MB/s涓€� TG@jcnode
+  - 馃嚚馃嚟鐟炲＋CH001 1.8MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US 009 0.6MB/s TG@jcnode
+  - 馃嚭馃嚫缇庡浗US035 6.8MB/s绾噣 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US029 2.8MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US046 4.3MB/s涓€� TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 009 5.5MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 055 4.3MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 063 1.2MB/s TG@jcnode
   - 馃嚪馃嚧缃楅┈灏间簹RO 060 5.5MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 031 3.1MB/s TG@jcnode
-  - 馃嚞馃嚙鑻卞浗GB001 1.0MB/s绾噣 TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 051 3.1MB/s TG@jcnode
-  - 馃嚭馃嚫缇庡浗US069 4.9MB/s涓€� TG@jcnode
-  - 馃嚫馃嚞鏂板姞鍧G005 0.5MB/s涓€� TG@jcnode
-  - 馃嚦馃嚤鑽峰叞NL001 2.5MB/s绾噣 TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 046 4.9MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 066 3.7MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 010 3.1MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 052 4.0MB/s TG@jcnode
-  - 馃嚛馃嚜寰峰浗DE011 2.5MB/s绾噣 TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 065 5.5MB/s TG@jcnode
-  - 馃嚛馃嚜寰峰浗DE005 3.5MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US064 3.5MB/s涓€� TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 045 3.1MB/s TG@jcnode
-  - 馃嚨馃嚤娉㈠叞PL001 6.2MB/s涓€� TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 026 5.5MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 068 3.6MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 004 4.9MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 017 4.3MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 061 4.9MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 006 5.5MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 019 5.5MB/s TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP003 3.6MB/s绾噣 TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP004 3.7MB/s绾噣 TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 037 6.2MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 036 4.9MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 038 3.3MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 035 3.1MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 043 6.1MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 070 5.5MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 022 3.1MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 027 5.5MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 029 2.2MB/s TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP 001 1.1MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 011 5.5MB/s TG@jcnode
-  - 馃嚘馃嚤ALAL 001 0.6MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 023 3.2MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 014 3.2MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 062 3.7MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 047 5.5MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 040 2.8MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 003 2.6MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 024 5.5MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 009 4.9MB/s TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP002 3.7MB/s绾噣 TG@jcnode
-  - 馃嚜馃嚜鐖辨矙灏间簹EE002 3.1MB/s涓€� TG@jcnode
-  - 馃嚛馃嚜寰峰浗DE012 2.5MB/s绾噣 TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 064 4.9MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 001 6.1MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 030 6.5MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 063 3.1MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 020 3.1MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 057 5.5MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 007 3.2MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 015 5.5MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 041 3.2MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 071 5.5MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 034 6.8MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 028 3.1MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 044 2.4MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 048 4.3MB/s TG@jcnode
+  - 馃嚫馃嚘娌欑壒SA001 4.4MB/s涓€� TG@jcnode
+  - 馃嚝馃嚠鑺叞FI001 3.7MB/s涓€� TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 030 5.5MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 068 5.5MB/s TG@jcnode
+  - 馃嚭馃嚫缇庡浗US038 0.3MB/s涓€� TG@jcnode
   - 馃嚪馃嚧缃楅┈灏间簹RO 021 6.2MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 012 4.9MB/s TG@jcnode
-  - 馃嚫馃嚜鐟炲吀SE002 0.6MB/s绾噣 TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 067 3.1MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 018 6.8MB/s TG@jcnode
-  - 馃嚝馃嚪娉曞浗FR002 4.3MB/s涓€� TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP005 1.1MB/s涓€� TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 025 5.5MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 059 3.6MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 028 5.5MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 016 2.5MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 002 4.9MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 008 5.8MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 033 3.1MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 050 5.5MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 048 3.1MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 005 2.8MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 013 2.5MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 001 5.5MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 067 4.9MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 045 3.1MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 020 4.9MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 047 5.5MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 053 5.5MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 032 4.9MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 019 3.1MB/s TG@jcnode
+  - 馃嚡馃嚨鏃ユ湰JP 001 1.2MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 017 4.9MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 056 5.5MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 038 5.5MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 052 3.1MB/s TG@jcnode
+  - 馃嚡馃嚨鏃ユ湰JP002 3.7MB/s绾噣 TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 012 6.8MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 024 3.1MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 010 5.5MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 025 4.9MB/s TG@jcnode
+  - 馃嚡馃嚨鏃ユ湰JP003 3.7MB/s绾噣 TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 054 5.5MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 035 2.5MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 037 4.9MB/s TG@jcnode
   - 馃嚪馃嚧缃楅┈灏间簹RO 039 3.1MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 042 3.1MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 044 6.1MB/s TG@jcnode
-  - 馃嚥馃嚛鎽╁皵澶氱摝MD002 0.6MB/s涓€� TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 032 5.5MB/s TG@jcnode
-  - 馃嚫馃嚞鏂板姞鍧G 001 3.3MB/s TG@jcnode
-  - 馃嚜馃嚜鐖辨矙灏间簹EE001 4.9MB/s涓€� TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 054 3.1MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 055 3.7MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 069 0.3MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 049 1.8MB/s TG@jcnode
-  - 馃嚝馃嚪娉曞浗FR001 0.2MB/s涓€� TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 053 6.1MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 006 6.2MB/s TG@jcnode
+  - 馃嚦馃嚤鑽峰叞NL001 0.2MB/s涓€� TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 004 3.6MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 014 5.5MB/s TG@jcnode
+  - 馃嚜馃嚜鐖辨矙灏间簹EE001 1.2MB/s涓€� TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 018 3.1MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 066 4.9MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 015 4.3MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 013 2.8MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 027 4.9MB/s TG@jcnode
+  - 馃嚛馃嚜寰峰浗DE001 0.2MB/s涓€� TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 002 3.2MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 011 5.5MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 003 3.1MB/s TG@jcnode
+  - 馃嚞馃嚙鑻卞浗GB002 0.4MB/s绾噣 TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 040 3.5MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 061 6.2MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 033 4.9MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 023 6.2MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 072 3.1MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 069 3.2MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 034 3.1MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 005 0.6MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 031 3.1MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 049 6.2MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 065 4.9MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 007 6.1MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 036 3.1MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 022 3.7MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 064 3.6MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 062 3.7MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 071 2.9MB/s TG@jcnode
+  - 馃嚫馃嚜鐟炲吀SE002 0.2MB/s绾噣 TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 041 5.5MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 043 6.0MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 026 5.5MB/s TG@jcnode
+  - 馃嚚馃嚲濉炴郸璺柉CY002 1.8MB/s涓€� TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 050 5.5MB/s TG@jcnode
   - 馃嚫馃嚜鐟炲吀SE001 3.7MB/s绾噣 TG@jcnode
-  - 馃嚛馃嚜寰峰浗DE015 3.1MB/s绾噣 TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP 018 0.5MB/s TG@jcnode
-  - 馃嚪馃嚧缃楅┈灏间簹RO 058 4.3MB/s TG@jcnode
-  - 馃嚝馃嚪娉曞浗FR003 6.8MB/s涓€� TG@jcnode
-  - 馃嚨馃嚤娉㈠叞PL003 0.7MB/s涓€� TG@jcnode
-  - 馃嚛馃嚜寰峰浗DE016 3.0MB/s绾噣 TG@jcnode
-  - 馃嚙馃嚜姣斿埄鏃禕E001 0.2MB/s涓€� TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 070 2.5MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 016 3.1MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 042 3.7MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 046 3.1MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 029 6.1MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 058 4.8MB/s TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 008 6.2MB/s TG@jcnode
+  - 馃嚘馃嚬濂ュ湴鍒〢T002 3.7MB/s涓€� TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 059 2.5MB/s TG@jcnode
+  - 馃嚛馃嚜寰峰浗DE004 3.1MB/s涓€� TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 057 5.5MB/s TG@jcnode
+  - 馃嚛馃嚜寰峰浗DE011 3.8MB/s绾噣 TG@jcnode
+  - 馃嚫馃嚞鏂板姞鍧G 001 0.6MB/s TG@jcnode
+  - 馃嚘馃嚬濂ュ湴鍒〢T001 3.3MB/s涓€� TG@jcnode
+  - 馃嚪馃嚧缃楅┈灏间簹RO 051 2.1MB/s TG@jcnode
+  - 馃嚭馃嚫缇庡浗US040 2.5MB/s涓€� TG@jcnode
+  - 馃嚛馃嚜寰峰浗DE008 2.5MB/s绾噣 TG@jcnode
+  - 馃嚛馃嚜寰峰浗DE010 3.1MB/s绾噣 TG@jcnode
 - name: 馃摴 YouTube
   type: select
   proxies:
@@ -3361,169 +2212,105 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - 馃嚟馃嚢棣欐腐HK004 10.4MB/s涓€� TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK015 7.4MB/s绾噣 TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK016 14.7MB/s绾噣 TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK002 9.3MB/s涓€� TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK003 9.2MB/s涓€� TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK001 10.3MB/s涓€� TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK012 13.5MB/s绾噣 TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK011 14.1MB/s绾噣 TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK008 9.4MB/s绾噣 TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK017 6.5MB/s绾噣 TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK009 11.4MB/s涓€� TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK005 6.1MB/s鍗遍櫓 TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK014 2.8MB/s涓€� TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK006 2.5MB/s涓€� TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK013 8.0MB/s涓€� TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK018 12.1MB/s绾噣 TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK007 0.8MB/s涓€� TG@jcnode
-  - 馃嚟馃嚢棣欐腐HK010 3.7MB/s涓€� TG@jcnode
+  - 馃嚟馃嚢棣欐腐HK002 6.8MB/s涓€� TG@jcnode
+  - 馃嚟馃嚢棣欐腐HK003 9.5MB/s涓€� TG@jcnode
+  - 馃嚟馃嚢棣欐腐HK001 9.8MB/s涓€� TG@jcnode
+  - 馃嚟馃嚢棣欐腐HK007 7.4MB/s涓€� TG@jcnode
+  - 馃嚟馃嚢棣欐腐HK004 4.2MB/s涓€� TG@jcnode
+  - 馃嚟馃嚢棣欐腐HK005 0.5MB/s绾噣 TG@jcnode
+  - 馃嚟馃嚢棣欐腐HK006 1.2MB/s绾噣 TG@jcnode
 - name: 馃嚬馃嚰 鍙版咕鑷姩
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - 馃嚬馃嚰鍙版咕TW011 8.0MB/s绾噣 TG@jcnode
-  - 馃嚬馃嚰鍙版咕TW 012 5.8MB/s TG@jcnode
-  - 馃嚬馃嚰鍙版咕TW001 1.2MB/s绾噣 TG@jcnode
-  - 馃嚬馃嚰鍙版咕TW006 0.4MB/s绾噣 TG@jcnode
-  - 馃嚬馃嚰鍙版咕TW007 11.7MB/s涓€� TG@jcnode
-  - 馃嚬馃嚰鍙版咕TW010 9.2MB/s绾噣 TG@jcnode
-  - 馃嚬馃嚰鍙版咕TW008 9.8MB/s绾噣 TG@jcnode
-  - 馃嚬馃嚰鍙版咕TW002 6.1MB/s绾噣 TG@jcnode
-  - 馃嚬馃嚰鍙版咕TW003 0.2MB/s绾噣 TG@jcnode
-  - 馃嚬馃嚰鍙版咕TW009 9.2MB/s绾噣 TG@jcnode
-  - 馃嚬馃嚰鍙版咕TW004 6.6MB/s绾噣 TG@jcnode
-  - 馃嚬馃嚰鍙版咕TW005 5.0MB/s绾噣 TG@jcnode
+  - DIRECT
 - name: 馃嚫馃嚞 鏂板姞鍧¤嚜鍔�
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - 馃嚫馃嚞鏂板姞鍧G007 15.0MB/s涓€� TG@jcnode
-  - 馃嚫馃嚞鏂板姞鍧G 012 3.5MB/s TG@jcnode
-  - 馃嚫馃嚞鏂板姞鍧G003 8.5MB/s涓€� TG@jcnode
-  - 馃嚫馃嚞鏂板姞鍧G004 4.9MB/s涓€� TG@jcnode
-  - 馃嚫馃嚞鏂板姞鍧G002 4.9MB/s涓€� TG@jcnode
-  - 馃嚫馃嚞鏂板姞鍧G009 4.9MB/s绾噣 TG@jcnode
-  - 馃嚫馃嚞鏂板姞鍧G008 11.1MB/s绾噣 TG@jcnode
-  - 馃嚫馃嚞鏂板姞鍧G010 12.3MB/s绾噣 TG@jcnode
-  - 馃嚫馃嚞鏂板姞鍧G006 4.3MB/s涓€� TG@jcnode
-  - 馃嚫馃嚞鏂板姞鍧G011 12.3MB/s绾噣 TG@jcnode
-  - 馃嚫馃嚞鏂板姞鍧G005 0.5MB/s涓€� TG@jcnode
-  - 馃嚫馃嚞鏂板姞鍧G 001 3.3MB/s TG@jcnode
+  - 馃嚫馃嚞鏂板姞鍧G002 5.8MB/s涓€� TG@jcnode
+  - 馃嚫馃嚞鏂板姞鍧G004 5.5MB/s涓€� TG@jcnode
+  - 馃嚫馃嚞鏂板姞鍧G003 5.6MB/s涓€� TG@jcnode
+  - 馃嚫馃嚞鏂板姞鍧G 001 0.6MB/s TG@jcnode
 - name: 馃嚡馃嚨 鏃ユ湰鑷姩
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - 馃嚡馃嚨鏃ユ湰JP008 4.6MB/s涓€� TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP006 7.4MB/s涓€� TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP014 4.3MB/s涓€� TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP007 7.4MB/s涓€� TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP015 4.9MB/s涓€� TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP016 9.8MB/s涓€� TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP017 7.7MB/s涓€� TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP012 6.1MB/s涓€� TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP013 9.2MB/s涓€� TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP009 0.2MB/s绾噣 TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP011 2.5MB/s涓€� TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP010 0.2MB/s绾噣 TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP003 3.6MB/s绾噣 TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP004 3.7MB/s绾噣 TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP 001 1.1MB/s TG@jcnode
+  - 馃嚡馃嚨鏃ユ湰JP007 3.5MB/s绾噣 TG@jcnode
+  - 馃嚡馃嚨鏃ユ湰JP004 5.2MB/s涓€� TG@jcnode
+  - 馃嚡馃嚨鏃ユ湰JP006 6.8MB/s涓€� TG@jcnode
+  - 馃嚡馃嚨鏃ユ湰JP005 4.9MB/s涓€� TG@jcnode
+  - 馃嚡馃嚨鏃ユ湰JP009 5.5MB/s涓€� TG@jcnode
+  - 馃嚡馃嚨鏃ユ湰JP008 6.1MB/s涓€� TG@jcnode
+  - 馃嚡馃嚨鏃ユ湰JP 001 1.2MB/s TG@jcnode
   - 馃嚡馃嚨鏃ユ湰JP002 3.7MB/s绾噣 TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP005 1.1MB/s涓€� TG@jcnode
-  - 馃嚡馃嚨鏃ユ湰JP 018 0.5MB/s TG@jcnode
+  - 馃嚡馃嚨鏃ユ湰JP003 3.7MB/s绾噣 TG@jcnode
 - name: 馃嚭馃嚫 缇庡浗鑷姩
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - 馃嚭馃嚫缇庡浗US027 0.7MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US026 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US031 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US009 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US040 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US013 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US011 0.2MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US047 5.5MB/s绾噣 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US016 0.2MB/s鍗遍櫓 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US012 0.6MB/s鍗遍櫓 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US015 0.2MB/s鍗遍櫓 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US017 0.3MB/s鍗遍櫓 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US013 0.4MB/s鍗遍櫓 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US024 4.9MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US028 5.3MB/s涓€� TG@jcnode
   - 馃嚭馃嚫缇庡浗US025 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US023 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US019 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US032 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US020 0.6MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US017 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US016 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US035 0.8MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US014 0.2MB/s鍗遍櫓 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US019 4.9MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US018 0.3MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US027 0.2MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US026 4.6MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US041 1.8MB/s绾噣 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US037 4.9MB/s绾噣 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US044 0.2MB/s绾噣 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US005 5.5MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US011 3.7MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US033 6.1MB/s绾噣 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US006 5.5MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US034 5.5MB/s绾噣 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US004 5.9MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US001 4.4MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US043 7.4MB/s绾噣 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US036 6.8MB/s绾噣 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US042 8.6MB/s绾噣 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US022 5.5MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US039 5.5MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US007 1.2MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US020 5.8MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US021 6.1MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US045 3.2MB/s绾噣 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US030 4.9MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US023 5.9MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US003 2.0MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US032 6.2MB/s绾噣 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US002 1.6MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US 008 1.1MB/s TG@jcnode
+  - 馃嚭馃嚫缇庡浗US010 5.8MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US031 4.9MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US 009 0.6MB/s TG@jcnode
+  - 馃嚭馃嚫缇庡浗US035 6.8MB/s绾噣 TG@jcnode
+  - 馃嚭馃嚫缇庡浗US029 2.8MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US046 4.3MB/s涓€� TG@jcnode
   - 馃嚭馃嚫缇庡浗US038 0.3MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US024 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US008 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US034 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US015 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US036 1.4MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US021 0.6MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US037 0.3MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US061 6.8MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US010 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US028 1.3MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US060 0.3MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US029 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US014 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US039 0.3MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US033 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US022 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US012 0.4MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US018 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US030 0.2MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US056 2.4MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US059 0.4MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US057 0.4MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US001 6.1MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US005 4.9MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US003 3.7MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US058 0.5MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US045 8.0MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US050 4.7MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US049 5.5MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US004 4.3MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US063 0.1MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US051 6.8MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US002 3.7MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US067 1.7MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US068 2.5MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US042 2.5MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US048 5.5MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US047 6.8MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US052 1.8MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US062 3.1MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US043 8.0MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US055 1.9MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US 066 3.1MB/s TG@jcnode
-  - 馃嚭馃嚫缇庡浗US053 7.4MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US044 6.8MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US007 2.9MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US054 7.4MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US041 8.6MB/s绾噣 TG@jcnode
-  - 馃嚭馃嚫缇庡浗US006 1.0MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US065 4.3MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US046 5.3MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US069 4.9MB/s涓€� TG@jcnode
-  - 馃嚭馃嚫缇庡浗US064 3.5MB/s涓€� TG@jcnode
+  - 馃嚭馃嚫缇庡浗US040 2.5MB/s涓€� TG@jcnode
 - name: 馃嚢馃嚪 闊╁浗鑷姩
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 馃嚢馃嚪闊╁浗KR001 1.7MB/s涓€� TG@jcnode
-  - 馃嚢馃嚪闊╁浗KR 004 1.4MB/s TG@jcnode
-  - 馃嚢馃嚪闊╁浗KR002 5.5MB/s涓€� TG@jcnode
-  - 馃嚢馃嚪闊╁浗KR003 0.1MB/s涓€� TG@jcnode
+  - DIRECT
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,鈽侊笍 浠ｇ悊閫夋嫨
 - DOMAIN-SUFFIX,services.googleapis.cn,鈽侊笍 浠ｇ悊閫夋嫨
