@@ -5,130 +5,110 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: '官网https://kelayun.notepin.co'
-    type: ss
-    server: 3.67.67.95
+  - name: 🇷🇺 俄罗斯 | RUS
+    type: vless
+    server: 85.234.114.53
+    port: 22231
+    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    flow: xtls-rprx-vision
+    tls: true
+    sni: r1.mizulina.top
+    servername: r1.mizulina.top
+    client-fingerprint: edge
+    network: tcp
+  - name: 🇷🇺 俄罗斯 | RUS_1
+    type: vless
+    server: r1.mizulina.top
+    port: 22231
+    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    flow: xtls-rprx-vision
+    tls: true
+    sni: r1.mizulina.top
+    servername: r1.mizulina.top
+    client-fingerprint: edge
+    network: tcp
+  - name: 🇷🇺 俄罗斯 | RUS_2
+    type: vless
+    server: 85.234.114.53
     port: 443
-    cipher: aes-256-cfb
-    password: amazonskr05
+    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+    encryption: none
     udp: true
-    skip-cert-verify: true
+    skip-cert-verify: false
     tfo: false
-  - name: '最低月付2块钱1000G'
-    type: ss
-    server: 18.195.95.15
-    port: 443
-    cipher: aes-256-cfb
-    password: amazonskr05
+    flow: xtls-rprx-vision
+    tls: true
+    sni: r1.mizulina.top
+    servername: r1.mizulina.top
+    client-fingerprint: edge
+    network: tcp
+  - name: 月付2块钱1000G
+    type: vmess
+    server: gtm-sg-cc54q7d1q01.365cloud0285.com
+    port: 6004
+    uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
     udp: true
-    skip-cert-verify: true
+    network: tcp
+    aead: true
     tfo: false
-  - name: '1'
-    type: ss
-    server: 3.76.99.252
-    port: 443
-    cipher: aes-256-cfb
-    password: amazonskr05
+    flow: ""
+  - name: 官网https://kelayun.notepin.co
+    type: vmess
+    server: gtm-sg-cc54q7d1q01.365cloud0285.com
+    port: 6001
+    uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
     udp: true
-    skip-cert-verify: true
+    network: tcp
+    aead: true
     tfo: false
-  - name: '2'
-    type: ss
-    server: 15.222.60.36
-    port: 443
-    cipher: aes-256-cfb
-    password: amazonskr05
-    udp: true
-    skip-cert-verify: true
-    tfo: false
-  - name: '3'
-    type: ss
-    server: 35.183.96.211
-    port: 443
-    cipher: aes-256-cfb
-    password: amazonskr05
-    udp: true
-    skip-cert-verify: true
-    tfo: false
-  - name: '4'
-    type: ss
-    server: 16.52.154.170
-    port: 443
-    cipher: aes-256-cfb
-    password: amazonskr05
-    udp: true
-    skip-cert-verify: true
-    tfo: false
-  - name: '5'
-    type: ss
-    server: 15.157.68.13
-    port: 443
-    cipher: aes-256-cfb
-    password: amazonskr05
-    udp: true
-    skip-cert-verify: true
-    tfo: false
-  - name: '6'
-    type: ss
-    server: 35.183.129.131
-    port: 443
-    cipher: aes-256-cfb
-    password: amazonskr05
-    udp: true
-    skip-cert-verify: true
-    tfo: false
-  - name: '7'
-    type: ss
-    server: 89.185.84.34
-    port: 31348
-    cipher: chacha20-ietf-poly1305
-    password: AQGAAMQLZoxMT4EUxNPuFwKImsAviZTHTEMmHFlRrDKJpMnS
-    udp: true
-    skip-cert-verify: true
-    tfo: false
+    flow: ""
 proxy-groups:
   - name: Haita Cloud
     type: select
     proxies:
       - 自动选择
       - 故障转移
-      - '官网https://kelayun.notepin.co'
-      - '最低月付2块钱1000G'
-      - '1'
-      - '2'
-      - '3'
-      - '4'
-      - '5'
-      - '6'
-      - '7'
+      - 🇷🇺 俄罗斯 | RUS
+      - 🇷🇺 俄罗斯 | RUS_1
+      - 🇷🇺 俄罗斯 | RUS_2
+      - 月付2块钱1000G
+      - 官网https://kelayun.notepin.co
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 86400
     proxies:
-      - '官网https://kelayun.notepin.co'
-      - '最低月付2块钱1000G'
-      - '1'
-      - '2'
-      - '3'
-      - '4'
-      - '5'
-      - '6'
-      - '7'
+      - 🇷🇺 俄罗斯 | RUS
+      - 🇷🇺 俄罗斯 | RUS_1
+      - 🇷🇺 俄罗斯 | RUS_2
+      - 月付2块钱1000G
+      - 官网https://kelayun.notepin.co
   - name: 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 7200
     proxies:
-      - '官网https://kelayun.notepin.co'
-      - '最低月付2块钱1000G'
-      - '1'
-      - '2'
-      - '3'
-      - '4'
-      - '5'
-      - '6'
-      - '7'
+      - 🇷🇺 俄罗斯 | RUS
+      - 🇷🇺 俄罗斯 | RUS_1
+      - 🇷🇺 俄罗斯 | RUS_2
+      - 月付2块钱1000G
+      - 官网https://kelayun.notepin.co
 rules:
   - DOMAIN,su.bestyuns.com,DIRECT
   - DOMAIN-SUFFIX,services.googleapis.cn,Haita Cloud
