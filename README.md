@@ -1,3 +1,7 @@
+tj600
+
+https://raw.githubusercontent.com/tomus2025/XQ/refs/heads/main/tj600
+
 XQ2026
 
 https://raw.githubusercontent.com/tomus2025/XQ/refs/heads/main/XQ2026
